@@ -19,6 +19,7 @@ from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 SOURCE_URLS = [
+    "https://box5.xinwu.de5.net/Cheng617/sub?name=CFBox",
     "https://wild-cloud-9893.heleimail.workers.dev",
     "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/by-country/v2ray-base64-TW.txt",
     "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/all.txt",
@@ -722,7 +723,7 @@ def format_node_group(nodes_list, res_tag_force=False):
         
         is_res = item["is_residential"] or res_tag_force
         tag = " (家宽)" if is_res else ""
-        node_name = f"{flag} {c_name} {idx:02d}{tag} - xiaohe"
+        node_name = f"{flag} {c_name} {idx:02d}{tag} - chefdon"
         
         new_proxy = dict(item["clash_proxy"])
         new_proxy["name"] = node_name
