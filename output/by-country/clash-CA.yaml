@@ -6,28 +6,12 @@ log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - chefdon
   type: ss
-  server: 51.79.85.185
-  port: 8118
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
+  server: ca225.vpnbook.com
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 3ssumf2
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 02 - chefdon
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 03 - chefdon
-  type: ss
-  server: 149.22.95.183
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 04 - chefdon
   type: vmess
   server: 23.162.200.198
   port: 18000
@@ -37,51 +21,38 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 05 - chefdon
-  type: ss
-  server: 51.222.141.125
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
+- name: 🇨🇦 加拿大 (Canada) 03 - chefdon
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 06 - chefdon
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 04 - chefdon
+  type: ss
+  server: 51.79.85.185
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 05 - chefdon
   type: ss
   server: 51.222.200.165
   port: 5000
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
+- name: 🇨🇦 加拿大 (Canada) 06 - chefdon
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
 - name: 🇨🇦 加拿大 (Canada) 07 - chefdon
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 08 - chefdon
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 09 - chefdon
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 10 - chefdon
   type: vless
   server: 66.70.179.198
   port: 2053
@@ -93,14 +64,16 @@ proxies:
     public-key: wA5Vklw2gN0kMwC7JEmudiPbsKyTeSfbZNvpLiDUBEU
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇨🇦 加拿大 (Canada) 11 - chefdon
-  type: ss
-  server: 51.222.155.113
-  port: 5601
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+- name: 🇨🇦 加拿大 (Canada) 08 - chefdon
+  type: vless
+  server: 184.107.106.68
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 12 - chefdon
+  tls: true
+  skip-cert-verify: true
+  servername: lizca2.footballfantasyforum.com
+- name: 🇨🇦 加拿大 (Canada) 09 - chefdon
   type: vless
   server: 66.70.179.198
   port: 2053
@@ -111,113 +84,127 @@ proxies:
   reality-opts:
     public-key: wA5Vklw2gN0kMwC7JEmudiPbsKyTeSfbZNvpLiDUBEU
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: firefox
+- name: 🇨🇦 加拿大 (Canada) 10 - chefdon
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 11 - chefdon
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 12 - chefdon
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
 - name: 🇨🇦 加拿大 (Canada) 13 - chefdon
-  type: vless
-  server: xn--b6gac.eu.org
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇨🇦 加拿大 (Canada) 14 - chefdon
-  type: vless
-  server: cloudflare-ip.mofashi.ltd
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇦 加拿大 (Canada) 15 - chefdon
-  type: vless
-  server: fn.130519.xyz
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇦 加拿大 (Canada) 16 - chefdon
-  type: ss
-  server: ca225.vpnbook.com
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 3ssumf2
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 17 - chefdon
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cfvvv-ev1.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cfvvv-ev1.pages.dev
-- name: 🇨🇦 加拿大 (Canada) 18 - chefdon
-  type: vless
-  server: cf.0sm.com
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇦 加拿大 (Canada) 19 - chefdon
-  type: ss
-  server: 15.235.75.71
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: FD3rCuOsxOay
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 20 - chefdon
-  type: vless
-  server: lizca2.footballfantasyforum.com
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 21 - chefdon
   type: ss
   server: 51.79.64.198
   port: 8119
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 22 - chefdon
+- name: 🇨🇦 加拿大 (Canada) 15 - chefdon
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 16 - chefdon
+  type: vless
+  server: 66.154.127.137
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇦 加拿大 (Canada) 17 - chefdon
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 18 - chefdon
   type: ss
   server: 51.222.12.127
   port: 445
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 19 - chefdon
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 20 - chefdon
+  type: vless
+  server: 66.70.179.198
+  port: 2053
+  uuid: d165fa7e-fa7a-414f-8c75-15f18bce5105
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: wA5Vklw2gN0kMwC7JEmudiPbsKyTeSfbZNvpLiDUBEU
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇦 加拿大 (Canada) 21 - chefdon
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 22 - chefdon
+  type: ss
+  server: 51.222.155.113
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 23 - chefdon
   type: vmess
@@ -230,120 +217,15 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 24 - chefdon
-  type: ss
-  server: 51.222.155.113
-  port: 5601
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  type: vless
+  server: 184.107.106.68
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lizca2.footballfantasyforum.com
 - name: 🇨🇦 加拿大 (Canada) 25 - chefdon
-  type: ss
-  server: 51.222.155.32
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 26 - chefdon
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 27 - chefdon
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 28 - chefdon
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 29 - chefdon
-  type: ss
-  server: 149.22.95.183
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 30 - chefdon
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 31 - chefdon
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 32 - chefdon
-  type: ss
-  server: 15.235.75.71
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: FD3rCuOsxOay
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 33 - chefdon
-  type: vless
-  server: 129.146.231.203
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇦 加拿大 (Canada) 34 - chefdon
-  type: vless
-  server: 107.175.79.48
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇦 加拿大 (Canada) 35 - chefdon
-  type: vless
-  server: 130.94.115.231
-  port: 2087
-  uuid: 8a51f3d9-30cc-44e6-8d31-700211a29066
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /721740e567c7
-    headers:
-      Host: 130.94.115.231
-- name: 🇨🇦 加拿大 (Canada) 36 - chefdon
   type: vless
   server: 130.94.115.231
   port: 2087
@@ -386,17 +268,6 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 23 - chefdon
   - 🇨🇦 加拿大 (Canada) 24 - chefdon
   - 🇨🇦 加拿大 (Canada) 25 - chefdon
-  - 🇨🇦 加拿大 (Canada) 26 - chefdon
-  - 🇨🇦 加拿大 (Canada) 27 - chefdon
-  - 🇨🇦 加拿大 (Canada) 28 - chefdon
-  - 🇨🇦 加拿大 (Canada) 29 - chefdon
-  - 🇨🇦 加拿大 (Canada) 30 - chefdon
-  - 🇨🇦 加拿大 (Canada) 31 - chefdon
-  - 🇨🇦 加拿大 (Canada) 32 - chefdon
-  - 🇨🇦 加拿大 (Canada) 33 - chefdon
-  - 🇨🇦 加拿大 (Canada) 34 - chefdon
-  - 🇨🇦 加拿大 (Canada) 35 - chefdon
-  - 🇨🇦 加拿大 (Canada) 36 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -427,16 +298,5 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 23 - chefdon
   - 🇨🇦 加拿大 (Canada) 24 - chefdon
   - 🇨🇦 加拿大 (Canada) 25 - chefdon
-  - 🇨🇦 加拿大 (Canada) 26 - chefdon
-  - 🇨🇦 加拿大 (Canada) 27 - chefdon
-  - 🇨🇦 加拿大 (Canada) 28 - chefdon
-  - 🇨🇦 加拿大 (Canada) 29 - chefdon
-  - 🇨🇦 加拿大 (Canada) 30 - chefdon
-  - 🇨🇦 加拿大 (Canada) 31 - chefdon
-  - 🇨🇦 加拿大 (Canada) 32 - chefdon
-  - 🇨🇦 加拿大 (Canada) 33 - chefdon
-  - 🇨🇦 加拿大 (Canada) 34 - chefdon
-  - 🇨🇦 加拿大 (Canada) 35 - chefdon
-  - 🇨🇦 加拿大 (Canada) 36 - chefdon
 rules:
 - MATCH,PROXIES

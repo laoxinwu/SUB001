@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇳🇱 荷兰 (Netherlands) 01 - chefdon
   type: vless
-  server: 134.122.56.133
-  port: 443
+  server: 85.190.102.23
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -20,7 +20,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 02 - chefdon
   type: vless
-  server: 147.90.89.68
+  server: 144.31.182.130
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -34,35 +34,35 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 03 - chefdon
   type: ss
-  server: 193.29.139.129
+  server: 193.29.139.151
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 04 - chefdon
   type: vless
-  server: 144.31.79.143
+  server: 151.242.2.81
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: cf9.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /cdn/v3/live
     headers:
-      Host: box5.xinwu.de5.net
+      Host: cf9.rumedia-cdn.com
 - name: 🇳🇱 荷兰 (Netherlands) 05 - chefdon
   type: ss
-  server: 193.29.139.230
+  server: 82.38.31.202
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 06 - chefdon
   type: vless
-  server: 107.189.18.255
+  server: 179.198.50.202
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -76,8 +76,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 07 - chefdon
   type: vless
-  server: 107.189.23.204
-  port: 443
+  server: 94.103.1.30
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -89,36 +89,22 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 08 - chefdon
-  type: vless
-  server: 158.173.195.74
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 193.29.139.234
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 09 - chefdon
-  type: vless
-  server: 146.185.157.119
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 82.38.31.13
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 10 - chefdon
   type: vless
-  server: 213.226.71.16
+  server: 82.196.14.60
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -132,15 +118,15 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 11 - chefdon
   type: ss
-  server: 193.29.139.235
+  server: 193.29.139.180
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 12 - chefdon
   type: vless
-  server: 82.196.8.45
-  port: 443
+  server: 185.133.173.128
+  port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -153,8 +139,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 13 - chefdon
   type: vless
-  server: 188.164.248.130
-  port: 2087
+  server: 109.71.241.47
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -166,71 +152,50 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 14 - chefdon
-  type: vless
-  server: 138.124.3.59
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 15 - chefdon
-  type: vless
-  server: 37.139.13.26
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 16 - chefdon
-  type: vless
-  server: 188.226.180.239
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 17 - chefdon
   type: ss
-  server: 193.29.139.167
-  port: 8080
+  server: 193.29.139.129
+  port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 15 - chefdon
+  type: ss
+  server: 82.38.31.42
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 16 - chefdon
+  type: ss
+  server: 82.38.31.162
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 17 - chefdon
+  type: vless
+  server: 2.27.169.105
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 18 - chefdon
   type: ss
-  server: 82.38.31.35
+  server: 82.38.31.215
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 19 - chefdon
-  type: ss
-  server: 193.29.139.204
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 20 - chefdon
   type: vless
-  server: 174.138.13.217
+  server: 144.31.135.223
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -242,9 +207,16 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 20 - chefdon
+  type: ss
+  server: 108.181.126.122
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
+  udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 21 - chefdon
   type: vless
-  server: 174.138.8.141
+  server: 82.196.5.73
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -258,14 +230,14 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 22 - chefdon
   type: ss
-  server: 193.29.139.249
+  server: 82.38.31.190
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 23 - chefdon
   type: vless
-  server: 212.118.43.137
+  server: 146.185.162.204
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -279,118 +251,19 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 24 - chefdon
   type: vless
-  server: 31.76.76.28
-  port: 8443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  server: 46.21.83.76
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth4.lckdwn.ru
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 25 - chefdon
-  type: ss
-  server: 82.38.31.18
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 26 - chefdon
-  type: vless
-  server: 95.85.47.161
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 27 - chefdon
-  type: vless
-  server: 144.124.232.187
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 28 - chefdon
-  type: ss
-  server: 82.38.31.207
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 29 - chefdon
-  type: vless
-  server: 45.91.168.91
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 30 - chefdon
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 31 - chefdon
-  type: vless
-  server: 193.23.194.167
-  port: 443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 193.23.194.167
-- name: 🇳🇱 荷兰 (Netherlands) 32 - chefdon
-  type: vless
-  server: 87.58.201.229
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 33 - chefdon
-  type: ss
-  server: 193.29.139.225
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 34 - chefdon
-  type: ss
-  server: 82.38.31.36
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 35 - chefdon
   type: vless
   server: 163.172.214.188
   port: 80
@@ -403,30 +276,37 @@ proxies:
     path: /vless/
     headers:
       Host: SC-TheNetherlands1.09vpn.com
-- name: 🇳🇱 荷兰 (Netherlands) 36 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 26 - chefdon
   type: ss
-  server: 82.38.31.181
+  server: 193.29.139.249
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 27 - chefdon
+  type: ss
+  server: 82.38.31.219
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 37 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 28 - chefdon
   type: ss
-  server: 193.29.139.147
+  server: 82.38.31.218
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 38 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 29 - chefdon
   type: ss
-  server: 82.38.31.186
+  server: 82.38.31.155
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 39 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 30 - chefdon
   type: vless
-  server: 146.185.141.14
+  server: 202.148.52.85
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -438,87 +318,163 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 31 - chefdon
+  type: vless
+  server: 188.164.248.190
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 32 - chefdon
+  type: ss
+  server: 82.38.31.195
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 33 - chefdon
+  type: ss
+  server: 82.38.31.175
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 34 - chefdon
+  type: ss
+  server: 82.38.31.192
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 35 - chefdon
+  type: ss
+  server: 82.38.31.42
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 36 - chefdon
+  type: vless
+  server: 80.71.227.44
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 37 - chefdon
+  type: ss
+  server: 193.29.139.230
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 38 - chefdon
+  type: ss
+  server: 82.38.31.205
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 39 - chefdon
+  type: ss
+  server: 82.38.31.207
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 40 - chefdon
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  type: vless
+  server: 65.108.217.253
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 41 - chefdon
+  type: vless
+  server: 147.90.229.194
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 42 - chefdon
   type: ss
-  server: 193.29.139.188
+  server: 82.38.31.200
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 43 - chefdon
+  type: ss
+  server: 82.38.31.39
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 42 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 44 - chefdon
+  type: ss
+  server: 92.112.126.90
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 45 - chefdon
   type: ss
   server: 193.29.139.132
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 43 - chefdon
-  type: vless
-  server: 51.158.241.182
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: 51.158.241.182
-- name: 🇳🇱 荷兰 (Netherlands) 44 - chefdon
-  type: ss
-  server: 82.38.31.66
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 45 - chefdon
-  type: ss
-  server: 82.38.31.61
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 46 - chefdon
-  type: vless
-  server: 31.76.56.239
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 82.38.31.201
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 47 - chefdon
-  type: vless
-  server: 31.76.76.28
-  port: 8443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  type: ss
+  server: 82.38.31.216
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth4.lckdwn.ru
 - name: 🇳🇱 荷兰 (Netherlands) 48 - chefdon
   type: ss
-  server: 82.38.31.29
-  port: 443
+  server: 82.38.31.179
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 49 - chefdon
   type: vless
-  server: 146.185.178.69
+  server: 188.226.183.76
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -532,117 +488,137 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 50 - chefdon
   type: vless
-  server: 46.249.44.249
+  server: 31.76.76.28
   port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: neth4.lckdwn.ru
+- name: 🇳🇱 荷兰 (Netherlands) 51 - chefdon
+  type: vless
+  server: 31.76.76.28
+  port: 443
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 51 - chefdon
-  type: ss
-  server: switcher-nick-croquet.freesocks.work
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: wwzVn2ZnHfqYa6l8EWh3eY
-  udp: true
+      Host: 31.76.76.28
 - name: 🇳🇱 荷兰 (Netherlands) 52 - chefdon
-  type: ss
-  server: 158.173.20.208
+  type: vless
+  server: 31.76.76.28
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 31.76.76.28
 - name: 🇳🇱 荷兰 (Netherlands) 53 - chefdon
   type: vless
-  server: 78.111.89.171
+  server: 31.76.76.28
   port: 443
-  uuid: 0370b162-baff-4757-86cc-cce4bf07f6f1
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇳🇱 荷兰 (Netherlands) 54 - chefdon
-  type: ss
-  server: 82.38.31.203
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 55 - chefdon
-  type: vless
-  server: 147.90.89.146
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 56 - chefdon
+      Host: 31.76.76.28
+- name: 🇳🇱 荷兰 (Netherlands) 54 - chefdon
+  type: vless
+  server: 51.15.57.139
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 51.15.57.139
+- name: 🇳🇱 荷兰 (Netherlands) 55 - chefdon
   type: ss
-  server: 82.38.31.48
-  port: 443
+  server: 193.29.139.225
+  port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 57 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 56 - chefdon
   type: ss
-  server: 82.38.31.214
-  port: 8080
+  server: 188.116.23.244
+  port: 8388
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: eVC634QvVk5l
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 58 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 57 - chefdon
   type: vless
-  server: 193.23.194.167
-  port: 8443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  server: 195.123.218.110
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth.lckdwn.ru
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 58 - chefdon
+  type: vless
+  server: 195.133.38.112
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 59 - chefdon
   type: vless
-  server: 193.23.194.167
+  server: 72.56.92.49
   port: 443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: 193.23.194.167
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 60 - chefdon
   type: vless
-  server: 193.23.194.167
-  port: 443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  server: 51.15.56.211
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: 193.23.194.167
+      Host: 51.15.56.211
 - name: 🇳🇱 荷兰 (Netherlands) 61 - chefdon
   type: vless
-  server: 46.151.29.64
+  server: 45.87.107.63
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -655,50 +631,31 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 62 - chefdon
+  type: ss
+  server: 82.38.31.69
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 63 - chefdon
   type: vless
-  server: 159.223.224.134
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 193.23.194.167
+  port: 8443
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 63 - chefdon
-  type: ss
-  server: 82.38.31.182
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
+  servername: neth.lckdwn.ru
 - name: 🇳🇱 荷兰 (Netherlands) 64 - chefdon
   type: ss
-  server: 82.38.31.199
+  server: 82.38.31.198
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 65 - chefdon
-  type: ss
-  server: 193.29.139.230
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 66 - chefdon
-  type: ss
-  server: 82.38.31.28
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 67 - chefdon
   type: vless
-  server: 146.103.96.164
+  server: 188.226.171.232
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -710,9 +667,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 66 - chefdon
+  type: ss
+  server: 82.38.31.186
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 67 - chefdon
+  type: ss
+  server: 82.38.31.183
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 68 - chefdon
   type: vless
-  server: 174.138.14.179
+  server: 91.223.119.197
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -725,8 +696,22 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 69 - chefdon
+  type: ss
+  server: 82.38.31.36
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 70 - chefdon
+  type: ss
+  server: 82.38.31.47
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 71 - chefdon
   type: vless
-  server: 144.31.245.91
+  server: 5.129.238.238
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -738,23 +723,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 70 - chefdon
-  type: ss
-  server: 82.38.31.191
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 71 - chefdon
-  type: ss
-  server: 82.38.31.10
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 72 - chefdon
   type: vless
-  server: 186.190.213.227
+  server: 103.90.72.71
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -768,29 +739,15 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 73 - chefdon
   type: ss
-  server: 82.38.31.205
+  server: 82.38.31.9
   port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 74 - chefdon
-  type: ss
-  server: 82.38.31.183
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 75 - chefdon
-  type: ss
-  server: 193.29.139.235
-  port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 76 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 74 - chefdon
   type: vless
-  server: 185.18.52.254
-  port: 8443
+  server: 72.56.96.230
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -801,175 +758,210 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 77 - chefdon
-  type: ss
-  server: 82.38.31.175
+- name: 🇳🇱 荷兰 (Netherlands) 75 - chefdon
+  type: vless
+  server: 107.189.23.204
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 78 - chefdon
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 76 - chefdon
   type: ss
-  server: 82.38.31.175
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: 158.173.20.208
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 77 - chefdon
+  type: vless
+  server: 82.196.8.45
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 78 - chefdon
+  type: vless
+  server: 192.210.175.185
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 79 - chefdon
   type: ss
-  server: 193.29.139.129
-  port: 443
+  server: 82.38.31.214
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 80 - chefdon
   type: ss
-  server: 193.29.139.168
-  port: 8080
+  server: 82.38.31.29
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 81 - chefdon
   type: ss
-  server: 82.38.31.149
-  port: 8080
+  server: 193.29.139.230
+  port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 82 - chefdon
   type: ss
-  server: 92.112.126.90
-  port: 443
+  server: 193.29.139.235
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: wwzVn2ZnHfqYa6l8EWh3eY
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 83 - chefdon
   type: ss
-  server: 193.29.139.165
+  server: 193.29.139.197
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 84 - chefdon
   type: ss
-  server: 82.38.31.32
-  port: 443
+  server: 193.29.139.167
+  port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 85 - chefdon
-  type: vless
-  server: 89.110.112.225
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 86 - chefdon
-  type: vless
-  server: 31.76.42.41
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 87 - chefdon
   type: ss
-  server: 82.38.31.180
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 88 - chefdon
-  type: ss
-  server: 193.29.139.238
+  server: 82.38.31.28
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 89 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 86 - chefdon
   type: ss
-  server: 82.38.31.189
+  server: 82.38.31.11
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 87 - chefdon
+  type: vless
+  server: 80.74.25.110
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 88 - chefdon
+  type: vless
+  server: 142.93.131.113
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 89 - chefdon
+  type: vless
+  server: 2.59.183.167
+  port: 443
+  uuid: 301d514e-4aa0-47b0-ba44-a0cb891cd52f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4
+  servername: www.samsung.com
+  client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 90 - chefdon
   type: vless
-  server: 193.23.194.167
+  server: 194.146.223.110
   port: 443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: 193.23.194.167
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 91 - chefdon
-  type: vless
-  server: 5.129.227.239
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 92 - chefdon
-  type: vless
-  server: 95.85.12.92
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 93 - chefdon
-  type: vless
-  server: 193.23.194.167
-  port: 443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 193.23.194.167
-- name: 🇳🇱 荷兰 (Netherlands) 94 - chefdon
   type: ss
-  server: 82.38.31.218
+  server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 92 - chefdon
+  type: ss
+  server: 82.38.31.16
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 93 - chefdon
+  type: vless
+  server: 144.31.79.63
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 94 - chefdon
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: e5c5c006-facc-45be-99bc-20d772372d5c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    headers:
+      Host: pane3.global.ssl.fastly.net
 - name: 🇳🇱 荷兰 (Netherlands) 95 - chefdon
   type: vless
-  server: 2.56.90.233
+  server: 198.211.120.58
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -983,69 +975,55 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 96 - chefdon
   type: ss
-  server: 82.38.31.42
-  port: 8080
+  server: 82.38.31.149
+  port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 97 - chefdon
   type: vless
-  server: 51.15.56.211
+  server: 45.91.236.80
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 98 - chefdon
+  type: ss
+  server: 82.38.31.66
   port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 99 - chefdon
+  type: ss
+  server: 193.29.139.238
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 100 - chefdon
+  type: vless
+  server: 163.172.214.188
+  port: 80
+  uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /vless/
     headers:
-      Host: 51.15.56.211
-- name: 🇳🇱 荷兰 (Netherlands) 98 - chefdon
-  type: vless
-  server: 144.31.185.206
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 99 - chefdon
-  type: vless
-  server: 82.196.8.228
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 100 - chefdon
-  type: ss
-  server: 82.38.31.82
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
+      Host: 163.172.214.188
 - name: 🇳🇱 荷兰 (Netherlands) 101 - chefdon
-  type: ss
-  server: 82.38.31.217
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 102 - chefdon
   type: vless
-  server: 216.57.110.152
+  server: 188.164.248.19
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1057,141 +1035,166 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 103 - chefdon
-  type: ss
-  server: 193.29.139.202
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 104 - chefdon
-  type: ss
-  server: 108.181.58.239
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 105 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 102 - chefdon
   type: ss
   server: 82.38.31.46
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 106 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 103 - chefdon
   type: ss
-  server: 92.112.126.90
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 107 - chefdon
-  type: vless
-  server: 31.76.76.28
-  port: 443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 31.76.76.28
-- name: 🇳🇱 荷兰 (Netherlands) 108 - chefdon
-  type: ss
-  server: 108.181.58.239
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 109 - chefdon
-  type: vless
-  server: 31.76.76.28
-  port: 443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 31.76.76.28
-- name: 🇳🇱 荷兰 (Netherlands) 110 - chefdon
-  type: ss
-  server: 193.29.139.197
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 111 - chefdon
-  type: ss
-  server: 82.38.31.156
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 112 - chefdon
-  type: vless
-  server: 193.233.127.31
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 113 - chefdon
-  type: ss
-  server: 82.38.31.57
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 114 - chefdon
-  type: ss
-  server: 82.38.31.200
+  server: 82.38.31.182
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 104 - chefdon
+  type: vless
+  server: 144.31.123.30
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 105 - chefdon
+  type: vless
+  server: 138.124.126.116
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 106 - chefdon
+  type: ss
+  server: 82.38.31.194
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 107 - chefdon
+  type: ss
+  server: switcher-nick-croquet.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 108 - chefdon
+  type: vless
+  server: 31.56.222.122
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 109 - chefdon
+  type: vmess
+  server: 159.223.13.109
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇳🇱 荷兰 (Netherlands) 110 - chefdon
+  type: vless
+  server: 72.56.83.190
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 111 - chefdon
+  type: vless
+  server: 2.26.72.190
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 112 - chefdon
+  type: ss
+  server: 82.38.31.212
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 113 - chefdon
+  type: vless
+  server: 31.15.18.35
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 114 - chefdon
+  type: vless
+  server: 5.129.210.63
+  port: 8443
+  uuid: c80a96e8-d4a6-4785-b53b-a475b252c4ed
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Z5WItgtmxxL_umUUIPO72kSTBGjlGg3sUPigtTG6wlI
+  servername: sun6-21.userapi.com
+  client-fingerprint: edge
 - name: 🇳🇱 荷兰 (Netherlands) 115 - chefdon
-  type: vless
-  server: 185.155.220.96
+  type: ss
+  server: 82.38.31.174
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 116 - chefdon
-  type: vless
-  server: 37.139.7.140
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 193.29.139.198
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 117 - chefdon
   type: vless
-  server: 188.164.248.72
-  port: 8443
+  server: 31.59.93.211
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1203,64 +1206,50 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 118 - chefdon
-  type: vless
-  server: 217.60.96.67
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 82.38.31.184
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 119 - chefdon
   type: ss
-  server: 82.38.31.210
+  server: 82.38.31.149
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 120 - chefdon
-  type: ss
-  server: 82.38.31.190
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 121 - chefdon
   type: ss
   server: 82.38.31.185
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 122 - chefdon
-  type: vless
-  server: 85.115.209.165
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 123 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 121 - chefdon
   type: ss
-  server: 82.38.31.202
+  server: 82.38.31.181
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 122 - chefdon
+  type: ss
+  server: 108.181.126.122
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 123 - chefdon
+  type: ss
+  server: 82.38.31.35
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 124 - chefdon
   type: vless
-  server: 95.85.39.45
+  server: 91.149.241.140
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1273,50 +1262,51 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 125 - chefdon
+  type: ss
+  server: 193.29.139.168
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 126 - chefdon
   type: vless
-  server: 151.242.2.81
+  server: 185.165.240.89
   port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cf9.rumedia-cdn.com
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /cdn/v3/live
+    path: /?ed=2048
     headers:
-      Host: cf9.rumedia-cdn.com
-- name: 🇳🇱 荷兰 (Netherlands) 126 - chefdon
-  type: vless
-  server: 51.158.238.49
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 51.158.238.49
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 127 - chefdon
   type: ss
-  server: 82.38.31.193
+  server: 82.38.31.62
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 128 - chefdon
-  type: ss
-  server: 193.29.139.198
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  type: vless
+  server: 175.110.114.20
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 129 - chefdon
   type: vless
-  server: 5.2.75.247
-  port: 443
+  server: 188.164.248.147
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1329,49 +1319,28 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 130 - chefdon
   type: ss
-  server: 82.38.31.39
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 131 - chefdon
-  type: ss
-  server: 82.38.31.47
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 132 - chefdon
-  type: ss
-  server: 193.29.139.180
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 133 - chefdon
-  type: ss
-  server: 82.38.31.49
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 134 - chefdon
-  type: ss
-  server: 82.38.31.3
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 135 - chefdon
-  type: ss
-  server: 82.38.31.201
+  server: 82.38.31.193
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 136 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 131 - chefdon
   type: vless
-  server: 147.45.232.165
+  server: 45.159.189.26
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 132 - chefdon
+  type: vless
+  server: 95.85.55.131
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1383,9 +1352,51 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 133 - chefdon
+  type: vless
+  server: 69.46.46.126
+  port: 443
+  uuid: 1bb24e02-ab65-741a-ee0e-01c0ddd3f318
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: x4gkingx4g-production-bb72.up.railway.app
+  network: ws
+  ws-opts:
+    path: /ws/1bb24e02-ab65-741a-ee0e-01c0ddd3f318
+    headers:
+      Host: x4gkingx4g-production-bb72.up.railway.app
+- name: 🇳🇱 荷兰 (Netherlands) 134 - chefdon
+  type: ss
+  server: 82.38.31.204
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 135 - chefdon
+  type: vless
+  server: 177.3.212.122
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 136 - chefdon
+  type: ss
+  server: 193.29.139.249
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 137 - chefdon
   type: vless
-  server: 64.227.73.74
+  server: 188.137.253.253
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1399,606 +1410,40 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 138 - chefdon
   type: ss
-  server: 108.181.126.122
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 139 - chefdon
-  type: ss
-  server: 92.112.126.90
+  server: 82.38.31.164
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: RFK38Cg7APneSB5cWDcpbm
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 139 - chefdon
+  type: vless
+  server: 95.81.98.234
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 140 - chefdon
   type: ss
-  server: 82.38.31.13
+  server: 82.38.31.180
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 141 - chefdon
   type: ss
-  server: 82.38.31.162
-  port: 443
+  server: 193.29.139.147
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 142 - chefdon
-  type: vless
-  server: 2.26.77.191
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 143 - chefdon
-  type: vless
-  server: 72.56.21.244
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 144 - chefdon
-  type: ss
-  server: 82.38.31.155
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 145 - chefdon
-  type: ss
-  server: 82.38.31.216
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 146 - chefdon
-  type: vless
-  server: 178.173.255.177
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 147 - chefdon
-  type: ss
-  server: 82.38.31.26
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 148 - chefdon
-  type: ss
-  server: 193.29.139.225
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 149 - chefdon
-  type: ss
-  server: 82.38.31.26
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 150 - chefdon
-  type: vless
-  server: 2.27.122.117
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 151 - chefdon
-  type: vless
-  server: 147.45.145.127
-  port: 443
-  uuid: 534cbbe2-cc36-4f2d-8fb0-90410e7148c9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 152 - chefdon
-  type: ss
-  server: 82.38.31.17
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 153 - chefdon
-  type: ss
-  server: 82.38.31.16
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 154 - chefdon
-  type: ss
-  server: 82.38.31.213
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 155 - chefdon
-  type: ss
-  server: 82.38.31.192
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 156 - chefdon
-  type: ss
-  server: 193.29.139.223
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 157 - chefdon
-  type: ss
-  server: 82.38.31.208
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 158 - chefdon
-  type: ss
-  server: 82.38.31.206
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 159 - chefdon
-  type: vless
-  server: 95.85.40.160
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 160 - chefdon
-  type: vless
-  server: 179.198.51.87
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 161 - chefdon
-  type: ss
-  server: 82.38.31.2
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 162 - chefdon
-  type: ss
-  server: 82.38.31.179
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 163 - chefdon
-  type: ss
-  server: switcher-nick-croquet.freesocks.work
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 164 - chefdon
-  type: ss
-  server: 82.38.31.215
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 165 - chefdon
-  type: vless
-  server: toto.logiteek.lol
-  port: 443
-  uuid: 30dce5b2-7878-44db-b178-5baf8455bc13
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: toto.logiteek.lol
-  network: ws
-  ws-opts:
-    path: /api/v2/stream
-    headers:
-      Host: toto.logiteek.lol
-- name: 🇳🇱 荷兰 (Netherlands) 166 - chefdon
-  type: vless
-  server: 217.60.24.23
-  port: 8443
-  uuid: 758f49d3-5f5f-47e7-bfa4-4ce96faf800d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: NI5Rkfn6zO_gF-UC1nuvJwu4SDakCXh3ygJOKU1EITU
-  servername: cdn.shopify.com
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 167 - chefdon
-  type: ss
-  server: 82.38.31.9
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 168 - chefdon
-  type: vless
-  server: 193.23.194.167
-  port: 8443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth.lckdwn.ru
-- name: 🇳🇱 荷兰 (Netherlands) 169 - chefdon
-  type: vless
-  server: 208.92.227.236
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 170 - chefdon
-  type: vless
-  server: 193.23.194.167
-  port: 443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 193.23.194.167
-- name: 🇳🇱 荷兰 (Netherlands) 171 - chefdon
-  type: vless
-  server: 31.76.76.28
-  port: 443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 31.76.76.28
-- name: 🇳🇱 荷兰 (Netherlands) 172 - chefdon
-  type: vless
-  server: 95.85.36.27
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 173 - chefdon
-  type: vless
-  server: 2.56.212.172
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 174 - chefdon
-  type: vless
-  server: 31.76.76.28
-  port: 443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 31.76.76.28
-- name: 🇳🇱 荷兰 (Netherlands) 175 - chefdon
-  type: vless
-  server: 158.173.195.191
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 176 - chefdon
-  type: vless
-  server: 31.76.76.28
-  port: 8443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth4.lckdwn.ru
-- name: 🇳🇱 荷兰 (Netherlands) 177 - chefdon
-  type: vless
-  server: 193.23.194.167
-  port: 443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 193.23.194.167
-- name: 🇳🇱 荷兰 (Netherlands) 178 - chefdon
-  type: ss
-  server: 82.38.31.176
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 179 - chefdon
-  type: ss
-  server: 82.38.31.42
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 180 - chefdon
-  type: ss
-  server: 82.38.31.184
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 181 - chefdon
-  type: vless
-  server: 78.159.131.165
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 182 - chefdon
-  type: vless
-  server: 185.216.85.114
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 183 - chefdon
-  type: ss
-  server: 82.38.31.11
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 184 - chefdon
-  type: vless
-  server: 51.158.238.49
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: 51.158.238.49
-- name: 🇳🇱 荷兰 (Netherlands) 185 - chefdon
-  type: vless
-  server: 81.31.244.213
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 186 - chefdon
-  type: vless
-  server: 46.21.83.76
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 187 - chefdon
-  type: vless
-  server: 185.229.32.21
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 188 - chefdon
-  type: vless
-  server: 185.214.10.72
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 189 - chefdon
-  type: vless
-  server: 144.31.67.127
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 190 - chefdon
-  type: vless
-  server: 147.90.229.158
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 191 - chefdon
-  type: vless
-  server: 2.26.70.229
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 192 - chefdon
-  type: ss
-  server: 82.38.31.204
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 193 - chefdon
-  type: ss
-  server: 108.181.126.122
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 194 - chefdon
-  type: ss
-  server: 82.38.31.149
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 195 - chefdon
-  type: vmess
-  server: 159.223.13.109
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇳🇱 荷兰 (Netherlands) 196 - chefdon
-  type: ss
-  server: 82.38.31.174
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 197 - chefdon
   type: vless
   server: 151.242.2.81
   port: 443
@@ -2012,9 +1457,594 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf9.rumedia-cdn.com
+- name: 🇳🇱 荷兰 (Netherlands) 143 - chefdon
+  type: vless
+  server: 185.159.75.51
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 144 - chefdon
+  type: ss
+  server: 82.38.31.189
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 145 - chefdon
+  type: vless
+  server: 5.129.216.208
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 146 - chefdon
+  type: vless
+  server: 147.45.225.134
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 147 - chefdon
+  type: ss
+  server: switcher-nick-croquet.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: RFK38Cg7APneSB5cWDcpbm
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 148 - chefdon
+  type: vless
+  server: 72.56.21.244
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 149 - chefdon
+  type: ss
+  server: 193.29.139.223
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 150 - chefdon
+  type: ss
+  server: 82.38.31.48
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 151 - chefdon
+  type: vless
+  server: 188.226.178.60
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 152 - chefdon
+  type: ss
+  server: 82.38.31.156
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 153 - chefdon
+  type: ss
+  server: 82.38.31.210
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 154 - chefdon
+  type: ss
+  server: 82.38.31.82
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 155 - chefdon
+  type: vless
+  server: 92.118.8.248
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 156 - chefdon
+  type: vless
+  server: 109.104.153.94
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 157 - chefdon
+  type: vless
+  server: 62.60.255.12
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 158 - chefdon
+  type: vless
+  server: 146.185.180.209
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 159 - chefdon
+  type: ss
+  server: 193.29.139.129
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 160 - chefdon
+  type: ss
+  server: 82.38.31.203
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 161 - chefdon
+  type: vless
+  server: 195.200.28.88
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 162 - chefdon
+  type: vless
+  server: 51.158.238.49
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 51.158.238.49
+- name: 🇳🇱 荷兰 (Netherlands) 163 - chefdon
+  type: vless
+  server: 188.226.131.251
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 164 - chefdon
+  type: ss
+  server: 158.173.20.171
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 165 - chefdon
+  type: ss
+  server: 82.38.31.26
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 166 - chefdon
+  type: vless
+  server: 146.185.156.206
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 167 - chefdon
+  type: ss
+  server: 82.38.31.176
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 168 - chefdon
+  type: ss
+  server: 193.29.139.202
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 169 - chefdon
+  type: vless
+  server: 188.164.248.169
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 170 - chefdon
+  type: ss
+  server: 158.173.20.208
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 171 - chefdon
+  type: vless
+  server: 85.17.145.65
+  port: 12068
+  uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 85.17.145.65
+- name: 🇳🇱 荷兰 (Netherlands) 172 - chefdon
+  type: vless
+  server: 91.235.137.117
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 173 - chefdon
+  type: ss
+  server: 82.38.31.49
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 174 - chefdon
+  type: vless
+  server: 178.236.248.224
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 175 - chefdon
+  type: vless
+  server: 147.45.225.134
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 176 - chefdon
+  type: ss
+  server: 82.38.31.7
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 177 - chefdon
+  type: ss
+  server: 82.38.31.17
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 178 - chefdon
+  type: vless
+  server: 158.173.195.219
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 179 - chefdon
+  type: ss
+  server: 82.38.31.3
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 180 - chefdon
+  type: ss
+  server: 82.38.31.34
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 181 - chefdon
+  type: ss
+  server: 82.38.31.2
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 182 - chefdon
+  type: ss
+  server: 193.29.139.159
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 183 - chefdon
+  type: ss
+  server: 82.38.31.18
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 184 - chefdon
+  type: vless
+  server: 51.158.241.182
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 51.158.241.182
+- name: 🇳🇱 荷兰 (Netherlands) 185 - chefdon
+  type: vless
+  server: 89.125.17.216
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 186 - chefdon
+  type: vless
+  server: 149.210.243.176
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 187 - chefdon
+  type: vless
+  server: 185.253.219.161
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 188 - chefdon
+  type: vless
+  server: 146.190.30.107
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 189 - chefdon
+  type: ss
+  server: 193.29.139.212
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 190 - chefdon
+  type: vless
+  server: 188.164.248.23
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 191 - chefdon
+  type: ss
+  server: 82.38.31.61
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 192 - chefdon
+  type: vless
+  server: 82.196.4.173
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 193 - chefdon
+  type: vless
+  server: 85.155.124.148
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 194 - chefdon
+  type: vless
+  server: 85.17.145.65
+  port: 12068
+  uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mypanel.unixzone.us
+- name: 🇳🇱 荷兰 (Netherlands) 195 - chefdon
+  type: vless
+  server: 85.17.145.65
+  port: 12068
+  uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mypanel.unixzone.us
+- name: 🇳🇱 荷兰 (Netherlands) 196 - chefdon
+  type: ss
+  server: 82.38.31.174
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 197 - chefdon
+  type: vless
+  server: 72.56.18.20
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 198 - chefdon
   type: vless
-  server: 146.185.163.6
+  server: 185.14.184.54
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2028,14 +2058,14 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 199 - chefdon
   type: ss
-  server: 82.38.31.36
-  port: 443
+  server: 82.38.31.26
+  port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 200 - chefdon
   type: vless
-  server: 79.137.199.181
+  server: 45.195.250.26
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2048,96 +2078,77 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 201 - chefdon
-  type: vless
-  server: 77.91.70.83
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 82.38.31.206
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 202 - chefdon
   type: vless
-  server: 31.56.180.15
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 51.158.241.182
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: box5.xinwu.de5.net
+      Host: 51.158.241.182
 - name: 🇳🇱 荷兰 (Netherlands) 203 - chefdon
-  type: vless
-  server: 188.253.24.224
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 204 - chefdon
-  type: vmess
-  server: 45.90.106.24
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇳🇱 荷兰 (Netherlands) 205 - chefdon
-  type: vless
-  server: 82.196.4.168
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 206 - chefdon
-  type: vless
-  server: 2.26.158.78
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 207 - chefdon
   type: ss
-  server: 82.38.31.48
+  server: 108.181.58.239
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 204 - chefdon
+  type: vless
+  server: 167.71.76.154
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 205 - chefdon
+  type: ss
+  server: 82.38.31.10
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 206 - chefdon
+  type: ss
+  server: 193.29.139.204
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 207 - chefdon
+  type: vless
+  server: 178.173.252.233
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 208 - chefdon
   type: vless
-  server: 31.210.173.226
+  server: 89.19.214.117
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2150,8 +2161,15 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 209 - chefdon
+  type: ss
+  server: 82.38.31.48
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 210 - chefdon
   type: vless
-  server: 185.230.67.133
+  server: 31.76.76.194
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2163,76 +2181,101 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 210 - chefdon
-  type: vless
-  server: 31.76.76.28
-  port: 8443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth4.lckdwn.ru
 - name: 🇳🇱 荷兰 (Netherlands) 211 - chefdon
-  type: vless
-  server: 31.76.76.28
-  port: 8443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth4.lckdwn.ru
-- name: 🇳🇱 荷兰 (Netherlands) 212 - chefdon
-  type: ss
-  server: 193.29.139.234
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 213 - chefdon
-  type: ss
-  server: 193.29.139.234
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 214 - chefdon
   type: ss
   server: 82.38.31.211
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 215 - chefdon
-  type: ss
-  server: 82.38.31.34
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 212 - chefdon
+  type: vless
+  server: 31.76.42.72
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 213 - chefdon
+  type: vless
+  server: 193.23.194.167
+  port: 443
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 193.23.194.167
+- name: 🇳🇱 荷兰 (Netherlands) 214 - chefdon
+  type: vless
+  server: 193.23.194.167
+  port: 8443
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth.lckdwn.ru
+- name: 🇳🇱 荷兰 (Netherlands) 215 - chefdon
+  type: vless
+  server: 188.226.150.228
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 216 - chefdon
   type: vless
-  server: 2.27.208.19
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 193.23.194.167
+  port: 8443
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: neth.lckdwn.ru
+- name: 🇳🇱 荷兰 (Netherlands) 217 - chefdon
+  type: vless
+  server: 193.23.194.167
+  port: 443
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 217 - chefdon
-  type: ss
-  server: 193.29.139.151
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
+      Host: 193.23.194.167
 - name: 🇳🇱 荷兰 (Netherlands) 218 - chefdon
   type: vless
-  server: 94.142.136.50
+  server: 193.23.194.167
+  port: 443
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 193.23.194.167
+- name: 🇳🇱 荷兰 (Netherlands) 219 - chefdon
+  type: vless
+  server: 185.133.173.33
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2244,63 +2287,46 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 219 - chefdon
-  type: ss
-  server: 82.38.31.174
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 220 - chefdon
   type: vless
-  server: 104.248.193.241
+  server: 193.23.194.167
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 193.23.194.167
+- name: 🇳🇱 荷兰 (Netherlands) 221 - chefdon
+  type: vless
+  server: 193.23.194.167
+  port: 8443
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 221 - chefdon
+  servername: neth.lckdwn.ru
+- name: 🇳🇱 荷兰 (Netherlands) 222 - chefdon
   type: ss
-  server: 82.38.31.7
-  port: 8080
+  server: 82.38.31.32
+  port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 222 - chefdon
-  type: vmess
-  server: 159.223.13.109
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
 - name: 🇳🇱 荷兰 (Netherlands) 223 - chefdon
-  type: vless
-  server: 153.76.117.221
+  type: ss
+  server: 92.112.126.90
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  cipher: chacha20-ietf-poly1305
+  password: 9tqhMdIrTkgQ46PvhyAtMH
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 224 - chefdon
   type: vless
-  server: 103.80.86.172
-  port: 8443
+  server: 95.85.7.75
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -2313,159 +2339,19 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 225 - chefdon
   type: vless
-  server: 193.23.194.167
-  port: 8443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  server: 147.45.238.252
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth.lckdwn.ru
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 226 - chefdon
-  type: vless
-  server: 195.133.38.102
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 227 - chefdon
-  type: vless
-  server: 147.90.89.135
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 228 - chefdon
-  type: vless
-  server: 193.124.49.35
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 229 - chefdon
-  type: vless
-  server: 77.81.101.207
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 230 - chefdon
-  type: vless
-  server: 193.23.194.167
-  port: 8443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth.lckdwn.ru
-- name: 🇳🇱 荷兰 (Netherlands) 231 - chefdon
-  type: vless
-  server: 5.35.32.238
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 232 - chefdon
-  type: vless
-  server: 94.103.95.115
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 233 - chefdon
-  type: vless
-  server: 172.233.46.239
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 234 - chefdon
-  type: vless
-  server: 5.129.210.63
-  port: 8443
-  uuid: c80a96e8-d4a6-4785-b53b-a475b252c4ed
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Z5WItgtmxxL_umUUIPO72kSTBGjlGg3sUPigtTG6wlI
-  servername: sun6-21.userapi.com
-  client-fingerprint: edge
-- name: 🇳🇱 荷兰 (Netherlands) 235 - chefdon
-  type: vless
-  server: 147.45.145.127
-  port: 443
-  uuid: 534cbbe2-cc36-4f2d-8fb0-90410e7148c9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 236 - chefdon
-  type: ss
-  server: 82.38.31.212
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 237 - chefdon
-  type: ss
-  server: 82.38.31.35
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 238 - chefdon
   type: vless
   server: mypanel.unixzone.us
   port: 12068
@@ -2478,9 +2364,134 @@ proxies:
     path: /
     headers:
       Host: mypanel.unixzone.us
+- name: 🇳🇱 荷兰 (Netherlands) 227 - chefdon
+  type: vless
+  server: 188.164.248.123
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 228 - chefdon
+  type: ss
+  server: 82.38.31.36
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 229 - chefdon
+  type: vless
+  server: 5.129.236.228
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 230 - chefdon
+  type: ss
+  server: 82.38.31.208
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 231 - chefdon
+  type: vless
+  server: 167.172.32.216
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 232 - chefdon
+  type: ss
+  server: 193.29.139.235
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 233 - chefdon
+  type: vless
+  server: 85.17.145.65
+  port: 12068
+  uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 85.17.145.65
+- name: 🇳🇱 荷兰 (Netherlands) 234 - chefdon
+  type: ss
+  server: 193.29.139.234
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 235 - chefdon
+  type: vless
+  server: 31.76.58.184
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 236 - chefdon
+  type: ss
+  server: 158.173.20.171
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 237 - chefdon
+  type: ss
+  server: 82.38.31.191
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 238 - chefdon
+  type: vless
+  server: 95.85.56.135
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 239 - chefdon
   type: vless
-  server: 158.173.195.51
+  server: 143.244.218.122
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2493,22 +2504,15 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 240 - chefdon
-  type: vless
-  server: 94.249.184.162
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 82.38.31.187
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 241 - chefdon
   type: vless
-  server: 2.27.51.214
+  server: 2.26.72.80
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2522,7 +2526,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 242 - chefdon
   type: vless
-  server: 188.166.54.176
+  server: 5.253.189.224
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2536,7 +2540,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 243 - chefdon
   type: vless
-  server: 146.190.233.213
+  server: 146.185.166.99
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2550,65 +2554,54 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 244 - chefdon
   type: vless
-  server: 134.209.136.197
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 51.158.236.122
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: box5.xinwu.de5.net
+      Host: 51.158.236.122
 - name: 🇳🇱 荷兰 (Netherlands) 245 - chefdon
-  type: ss
-  server: 82.38.31.219
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  type: vless
+  server: 163.172.213.174
+  port: 80
+  uuid: e73df646-1f62-41bf-8c50-653497d603d0
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: SC-TheNetherlands2.09vpn.com
 - name: 🇳🇱 荷兰 (Netherlands) 246 - chefdon
   type: ss
-  server: switcher-nick-croquet.freesocks.work
+  server: 82.38.31.175
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: RFK38Cg7APneSB5cWDcpbm
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 247 - chefdon
   type: ss
-  server: 188.116.23.244
-  port: 8388
+  server: 193.29.139.225
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: eVC634QvVk5l
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 248 - chefdon
-  type: vless
-  server: 195.211.124.245
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 193.29.139.188
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 249 - chefdon
   type: vless
-  server: 31.76.76.28
-  port: 8443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth4.lckdwn.ru
-- name: 🇳🇱 荷兰 (Netherlands) 250 - chefdon
-  type: vless
-  server: 95.85.18.16
+  server: 150.241.86.68
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2620,18 +2613,30 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇳🇱 荷兰 (Netherlands) 250 - chefdon
+  type: ss
+  server: 82.38.31.164
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 251 - chefdon
   type: vless
-  server: 31.76.76.28
-  port: 8443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  server: 178.253.22.205
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth4.lckdwn.ru
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 252 - chefdon
   type: vless
-  server: 72.56.89.214
+  server: 109.172.93.59
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2645,21 +2650,19 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 253 - chefdon
   type: vless
-  server: 132.243.115.239
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 147.45.145.127
+  port: 443
+  uuid: 534cbbe2-cc36-4f2d-8fb0-90410e7148c9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
+  reality-opts:
+    public-key: tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc
+  servername: yahoo.com
+  client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 254 - chefdon
   type: vless
-  server: 46.17.102.250
+  server: 82.25.60.219
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2672,98 +2675,17 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇳🇱 荷兰 (Netherlands) 255 - chefdon
-  type: vless
-  server: 188.164.248.132
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 256 - chefdon
   type: ss
-  server: 193.29.139.249
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 257 - chefdon
-  type: vless
-  server: 163.172.214.188
-  port: 80
-  uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: SC-TheNetherlands1.09vpn.com
-- name: 🇳🇱 荷兰 (Netherlands) 258 - chefdon
-  type: vless
-  server: 212.43.154.187
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇳🇱 荷兰 (Netherlands) 259 - chefdon
-  type: vless
-  server: 193.23.194.167
-  port: 443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 193.23.194.167
-- name: 🇳🇱 荷兰 (Netherlands) 260 - chefdon
-  type: vless
-  server: 193.23.194.167
-  port: 443
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 193.23.194.167
-- name: 🇳🇱 荷兰 (Netherlands) 261 - chefdon
-  type: ss
-  server: 193.29.139.212
+  server: 82.38.31.213
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 262 - chefdon
-  type: ss
-  server: 82.38.31.164
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 263 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 256 - chefdon
   type: vless
-  server: 31.76.76.28
+  server: 193.23.194.167
   port: 443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936
   udp: true
   tls: false
   skip-cert-verify: true
@@ -2771,8 +2693,42 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 31.76.76.28
-- name: 🇳🇱 荷兰 (Netherlands) 264 - chefdon
+      Host: 193.23.194.167
+- name: 🇳🇱 荷兰 (Netherlands) 257 - chefdon
+  type: ss
+  server: 82.38.31.199
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 258 - chefdon
+  type: vless
+  server: 31.76.76.28
+  port: 8443
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth4.lckdwn.ru
+- name: 🇳🇱 荷兰 (Netherlands) 259 - chefdon
+  type: vless
+  server: 31.76.76.28
+  port: 8443
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth4.lckdwn.ru
+- name: 🇳🇱 荷兰 (Netherlands) 260 - chefdon
+  type: vless
+  server: 31.76.76.28
+  port: 8443
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth4.lckdwn.ru
+- name: 🇳🇱 荷兰 (Netherlands) 261 - chefdon
   type: vless
   server: 31.76.76.28
   port: 443
@@ -3051,9 +3007,6 @@ proxy-groups:
   - 🇳🇱 荷兰 (Netherlands) 259 - chefdon
   - 🇳🇱 荷兰 (Netherlands) 260 - chefdon
   - 🇳🇱 荷兰 (Netherlands) 261 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 262 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 263 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 264 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -3320,8 +3273,5 @@ proxy-groups:
   - 🇳🇱 荷兰 (Netherlands) 259 - chefdon
   - 🇳🇱 荷兰 (Netherlands) 260 - chefdon
   - 🇳🇱 荷兰 (Netherlands) 261 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 262 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 263 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 264 - chefdon
 rules:
 - MATCH,PROXIES
