@@ -16,8 +16,35 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: pl2.lckdwn.ru
+      Host: 94.183.209.58
 - name: 🇵🇱 PL 02 - chefdon
+  type: vless
+  server: 94.183.209.43
+  port: 443
+  uuid: 5e7ecc47-e424-4653-876e-c7515a2c82b4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.209.43
+- name: 🇵🇱 PL 03 - chefdon
+  type: ss
+  server: 64.176.73.160
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: VJtsgllDDJfNmaTe
+  udp: true
+- name: 🇵🇱 PL 04 - chefdon
+  type: ss
+  server: 194.61.121.93
+  port: 7538
+  cipher: chacha20-ietf-poly1305
+  password: U9YAoqBgg5VyGBc6vQv1sN
+  udp: true
+- name: 🇵🇱 PL 05 - chefdon
   type: vless
   server: 94.183.209.59
   port: 443
@@ -30,39 +57,6 @@ proxies:
     path: /
     headers:
       Host: 94.183.209.59
-- name: 🇵🇱 PL 03 - chefdon
-  type: ss
-  server: 194.61.121.93
-  port: 7538
-  cipher: chacha20-ietf-poly1305
-  password: U9YAoqBgg5VyGBc6vQv1sN
-  udp: true
-- name: 🇵🇱 PL 04 - chefdon
-  type: vless
-  server: 94.183.209.58
-  port: 443
-  uuid: 78791f9e-fe09-4d4f-88ec-895764bae0d6
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pl2.lckdwn.ru
-- name: 🇵🇱 PL 05 - chefdon
-  type: vless
-  server: 94.183.209.58
-  port: 443
-  uuid: 78791f9e-fe09-4d4f-88ec-895764bae0d6
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pl2.lckdwn.ru
 - name: 🇵🇱 PL 06 - chefdon
   type: vless
   server: 94.183.209.59
@@ -103,12 +97,18 @@ proxies:
     headers:
       Host: pl2.lckdwn.ru
 - name: 🇵🇱 PL 09 - chefdon
-  type: ss
-  server: 64.176.73.160
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: VJtsgllDDJfNmaTe
+  type: vless
+  server: 94.183.209.58
+  port: 443
+  uuid: 78791f9e-fe09-4d4f-88ec-895764bae0d6
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pl2.lckdwn.ru
 - name: 🇵🇱 PL 10 - chefdon
   type: vless
   server: 2.26.224.233
@@ -121,19 +121,6 @@ proxies:
     public-key: NI5Rkfn6zO_gF-UC1nuvJwu4SDakCXh3ygJOKU1EITU
   servername: cdn.shopify.com
   client-fingerprint: firefox
-- name: 🇵🇱 PL 11 - chefdon
-  type: vless
-  server: 94.183.209.43
-  port: 443
-  uuid: 5e7ecc47-e424-4653-876e-c7515a2c82b4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.209.43
 proxy-groups:
 - name: PROXIES
   type: select
@@ -149,7 +136,6 @@ proxy-groups:
   - 🇵🇱 PL 08 - chefdon
   - 🇵🇱 PL 09 - chefdon
   - 🇵🇱 PL 10 - chefdon
-  - 🇵🇱 PL 11 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -165,6 +151,5 @@ proxy-groups:
   - 🇵🇱 PL 08 - chefdon
   - 🇵🇱 PL 09 - chefdon
   - 🇵🇱 PL 10 - chefdon
-  - 🇵🇱 PL 11 - chefdon
 rules:
 - MATCH,PROXIES
