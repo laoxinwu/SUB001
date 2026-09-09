@@ -4,10 +4,17 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇸 IS 01 - chefdon
+- name: 🇷🇴 RO 01 - chefdon
+  type: ss
+  server: 154.46.31.106
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  udp: true
+- name: 🇷🇴 RO 02 - chefdon
   type: vless
-  server: 185.246.190.195
-  port: 8443
+  server: 185.193.126.248
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -23,12 +30,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇸 IS 01 - chefdon
+  - 🇷🇴 RO 01 - chefdon
+  - 🇷🇴 RO 02 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇸 IS 01 - chefdon
+  - 🇷🇴 RO 01 - chefdon
+  - 🇷🇴 RO 02 - chefdon
 rules:
 - MATCH,PROXIES

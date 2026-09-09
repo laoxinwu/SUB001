@@ -18,6 +18,18 @@ proxies:
   client-fingerprint: chrome
 - name: 🇨🇾 CY 02 - chefdon
   type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇨🇾 CY 03 - chefdon
+  type: vless
   server: 45.9.2.171
   port: 8443
   uuid: 167610e4-bcaf-4074-bc2d-0c08dc4ea294
@@ -25,7 +37,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: torr.wlrus.cfd
-- name: 🇨🇾 CY 03 - chefdon
+- name: 🇨🇾 CY 04 - chefdon
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -37,7 +49,43 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: firefox
-- name: 🇨🇾 CY 04 - chefdon
+- name: 🇨🇾 CY 05 - chefdon
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 06 - chefdon
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: firefox
+- name: 🇨🇾 CY 07 - chefdon
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 08 - chefdon
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -58,6 +106,10 @@ proxy-groups:
   - 🇨🇾 CY 02 - chefdon
   - 🇨🇾 CY 03 - chefdon
   - 🇨🇾 CY 04 - chefdon
+  - 🇨🇾 CY 05 - chefdon
+  - 🇨🇾 CY 06 - chefdon
+  - 🇨🇾 CY 07 - chefdon
+  - 🇨🇾 CY 08 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -67,5 +119,9 @@ proxy-groups:
   - 🇨🇾 CY 02 - chefdon
   - 🇨🇾 CY 03 - chefdon
   - 🇨🇾 CY 04 - chefdon
+  - 🇨🇾 CY 05 - chefdon
+  - 🇨🇾 CY 06 - chefdon
+  - 🇨🇾 CY 07 - chefdon
+  - 🇨🇾 CY 08 - chefdon
 rules:
 - MATCH,PROXIES
