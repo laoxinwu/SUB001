@@ -4,7 +4,49 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇨 SC 01 - xiaohe
+- name: 🇸🇨 SC 01 - chefdon
+  type: vless
+  server: 156.253.5.219
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 02 - chefdon
+  type: vless
+  server: 45.202.243.88
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 03 - chefdon
+  type: vless
+  server: 196.196.5.28
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 04 - chefdon
   type: vmess
   server: 156.226.183.181
   port: 54321
@@ -14,33 +56,39 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇨 SC 02 - xiaohe
+- name: 🇸🇨 SC 05 - chefdon
   type: vless
-  server: 188.114.97.1
-  port: 2053
-  uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
+  server: 45.192.204.72
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bold-term-4edd.mbigspot.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: bold-term-4edd.mbigspot.workers.dev
+      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇨 SC 01 - xiaohe
-  - 🇸🇨 SC 02 - xiaohe
+  - 🇸🇨 SC 01 - chefdon
+  - 🇸🇨 SC 02 - chefdon
+  - 🇸🇨 SC 03 - chefdon
+  - 🇸🇨 SC 04 - chefdon
+  - 🇸🇨 SC 05 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇨 SC 01 - xiaohe
-  - 🇸🇨 SC 02 - xiaohe
+  - 🇸🇨 SC 01 - chefdon
+  - 🇸🇨 SC 02 - chefdon
+  - 🇸🇨 SC 03 - chefdon
+  - 🇸🇨 SC 04 - chefdon
+  - 🇸🇨 SC 05 - chefdon
 rules:
 - MATCH,PROXIES
