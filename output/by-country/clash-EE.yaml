@@ -16,6 +16,15 @@ proxies:
 - name: 🇪🇪 EE 02 - chefdon
   type: vless
   server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 03 - chefdon
+  type: vless
+  server: 94.183.170.135
   port: 443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
@@ -26,15 +35,6 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.135
-- name: 🇪🇪 EE 03 - chefdon
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 04 - chefdon
   type: vless
   server: 94.183.170.135
@@ -47,6 +47,15 @@ proxies:
 - name: 🇪🇪 EE 05 - chefdon
   type: vless
   server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 06 - chefdon
+  type: vless
+  server: 94.183.170.135
   port: 443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
@@ -57,6 +66,20 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.135
+- name: 🇪🇪 EE 07 - chefdon
+  type: vless
+  server: 87.121.86.26
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -67,6 +90,8 @@ proxy-groups:
   - 🇪🇪 EE 03 - chefdon
   - 🇪🇪 EE 04 - chefdon
   - 🇪🇪 EE 05 - chefdon
+  - 🇪🇪 EE 06 - chefdon
+  - 🇪🇪 EE 07 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -77,5 +102,7 @@ proxy-groups:
   - 🇪🇪 EE 03 - chefdon
   - 🇪🇪 EE 04 - chefdon
   - 🇪🇪 EE 05 - chefdon
+  - 🇪🇪 EE 06 - chefdon
+  - 🇪🇪 EE 07 - chefdon
 rules:
 - MATCH,PROXIES

@@ -14,6 +14,20 @@ proxies:
   skip-cert-verify: true
 - name: 🇹🇷 土耳其 (Turkey) 02 - chefdon
   type: vless
+  server: 31.58.244.176
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇷 土耳其 (Turkey) 03 - chefdon
+  type: vless
   server: 195.162.69.203
   port: 8443
   uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
@@ -21,6 +35,13 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 195-162-69-203.sslip.io
+- name: 🇹🇷 土耳其 (Turkey) 04 - chefdon
+  type: ss
+  server: 188.132.232.85
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: rSeYcig_XBy8q3k33NpK3A
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -28,6 +49,8 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - chefdon
   - 🇹🇷 土耳其 (Turkey) 02 - chefdon
+  - 🇹🇷 土耳其 (Turkey) 03 - chefdon
+  - 🇹🇷 土耳其 (Turkey) 04 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -35,5 +58,7 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - chefdon
   - 🇹🇷 土耳其 (Turkey) 02 - chefdon
+  - 🇹🇷 土耳其 (Turkey) 03 - chefdon
+  - 🇹🇷 土耳其 (Turkey) 04 - chefdon
 rules:
 - MATCH,PROXIES
