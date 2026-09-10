@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - chefdon
   type: vless
-  server: 178.105.113.205
-  port: 8443
+  server: 5.75.220.97
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 02 - chefdon
   type: vless
-  server: 148.251.148.186
-  port: 443
+  server: 193.124.226.2
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -34,8 +34,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 03 - chefdon
   type: vless
-  server: 178.105.192.198
-  port: 8443
+  server: 95.182.95.75
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -48,7 +48,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 04 - chefdon
   type: vless
-  server: 46.8.179.79
+  server: 91.107.189.32
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -62,8 +62,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 05 - chefdon
   type: vless
-  server: 136.243.86.85
-  port: 2053
+  server: 95.182.95.178
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -76,21 +76,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 06 - chefdon
   type: vless
-  server: 46.8.96.75
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇿 CZ 07 - chefdon
-  type: vless
-  server: 167.233.79.84
+  server: 95.85.233.82
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -113,7 +99,6 @@ proxy-groups:
   - 🇨🇿 CZ 04 - chefdon
   - 🇨🇿 CZ 05 - chefdon
   - 🇨🇿 CZ 06 - chefdon
-  - 🇨🇿 CZ 07 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -125,6 +110,5 @@ proxy-groups:
   - 🇨🇿 CZ 04 - chefdon
   - 🇨🇿 CZ 05 - chefdon
   - 🇨🇿 CZ 06 - chefdon
-  - 🇨🇿 CZ 07 - chefdon
 rules:
 - MATCH,PROXIES

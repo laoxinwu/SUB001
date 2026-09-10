@@ -6,13 +6,18 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - chefdon
   type: vless
-  server: 192.145.31.5
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  server: 62.171.228.60
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth9.lunariai.ru
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇧🇬 BG 02 - chefdon
   type: vless
   server: 192.145.31.5
@@ -24,13 +29,17 @@ proxies:
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 03 - chefdon
   type: vless
-  server: neth9.lunariai.ru
-  port: 8443
+  server: 192.145.31.5
+  port: 443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: neth9.lunariai.ru
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: neth9.lunariai.ru
 - name: 🇧🇬 BG 04 - chefdon
   type: vless
   server: 192.145.31.5
@@ -47,16 +56,12 @@ proxies:
 - name: 🇧🇬 BG 05 - chefdon
   type: vless
   server: 192.145.31.5
-  port: 443
+  port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: neth9.lunariai.ru
+  servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 06 - chefdon
   type: vless
   server: 192.145.31.5
@@ -65,7 +70,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 192.145.31.5
+  servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 07 - chefdon
   type: vless
   server: 192.145.31.5
@@ -76,6 +81,46 @@ proxies:
   skip-cert-verify: true
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 08 - chefdon
+  type: vless
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 09 - chefdon
+  type: vless
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 192.145.31.5
+- name: 🇧🇬 BG 10 - chefdon
+  type: vless
+  server: 192.145.31.5
+  port: 443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 192.145.31.5
+- name: 🇧🇬 BG 11 - chefdon
+  type: vless
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 192.145.31.5
+- name: 🇧🇬 BG 12 - chefdon
   type: vless
   server: 192.145.31.5
   port: 443
@@ -101,6 +146,10 @@ proxy-groups:
   - 🇧🇬 BG 06 - chefdon
   - 🇧🇬 BG 07 - chefdon
   - 🇧🇬 BG 08 - chefdon
+  - 🇧🇬 BG 09 - chefdon
+  - 🇧🇬 BG 10 - chefdon
+  - 🇧🇬 BG 11 - chefdon
+  - 🇧🇬 BG 12 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -114,5 +163,9 @@ proxy-groups:
   - 🇧🇬 BG 06 - chefdon
   - 🇧🇬 BG 07 - chefdon
   - 🇧🇬 BG 08 - chefdon
+  - 🇧🇬 BG 09 - chefdon
+  - 🇧🇬 BG 10 - chefdon
+  - 🇧🇬 BG 11 - chefdon
+  - 🇧🇬 BG 12 - chefdon
 rules:
 - MATCH,PROXIES

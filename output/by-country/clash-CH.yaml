@@ -6,20 +6,21 @@ log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - chefdon
   type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: bd9ff08b-d042-3650-48e4-c4b400000000
+  server: 138.124.6.162
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    path: /?ed=2048
     headers:
-      Host: netlivpn2950.bbxff.workers.dev
+      Host: box5.xinwu.de5.net
 - name: 🇨🇭 CH 02 - chefdon
   type: vless
-  server: 138.124.231.159
+  server: 138.124.80.13
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -33,8 +34,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇭 CH 03 - chefdon
   type: vless
-  server: 138.124.38.244
-  port: 443
+  server: 138.124.9.233
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -45,48 +46,6 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇨🇭 CH 04 - chefdon
-  type: vless
-  server: 138.124.244.182
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇭 CH 05 - chefdon
-  type: vless
-  server: 138.124.244.40
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇭 CH 06 - chefdon
-  type: vless
-  server: 104.18.28.234
-  port: 443
-  uuid: f6b5a6a3-f3e1-63ca-bb68-bdc400000000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: netlivpn5505.ffffdsaaa.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: netlivpn5505.ffffdsaaa.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -95,9 +54,6 @@ proxy-groups:
   - 🇨🇭 CH 01 - chefdon
   - 🇨🇭 CH 02 - chefdon
   - 🇨🇭 CH 03 - chefdon
-  - 🇨🇭 CH 04 - chefdon
-  - 🇨🇭 CH 05 - chefdon
-  - 🇨🇭 CH 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -106,8 +62,5 @@ proxy-groups:
   - 🇨🇭 CH 01 - chefdon
   - 🇨🇭 CH 02 - chefdon
   - 🇨🇭 CH 03 - chefdon
-  - 🇨🇭 CH 04 - chefdon
-  - 🇨🇭 CH 05 - chefdon
-  - 🇨🇭 CH 06 - chefdon
 rules:
 - MATCH,PROXIES
