@@ -19,13 +19,18 @@ proxies:
       Host: 94.183.170.135
 - name: 🇪🇪 EE 02 - chefdon
   type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  server: 104.24.30.89
+  port: 443
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.nastaran.dpdns.org
 - name: 🇪🇪 EE 03 - chefdon
   type: vless
   server: 94.183.170.135
@@ -48,6 +53,24 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.135
+- name: 🇪🇪 EE 05 - chefdon
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 06 - chefdon
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,6 +80,8 @@ proxy-groups:
   - 🇪🇪 EE 02 - chefdon
   - 🇪🇪 EE 03 - chefdon
   - 🇪🇪 EE 04 - chefdon
+  - 🇪🇪 EE 05 - chefdon
+  - 🇪🇪 EE 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -66,5 +91,7 @@ proxy-groups:
   - 🇪🇪 EE 02 - chefdon
   - 🇪🇪 EE 03 - chefdon
   - 🇪🇪 EE 04 - chefdon
+  - 🇪🇪 EE 05 - chefdon
+  - 🇪🇪 EE 06 - chefdon
 rules:
 - MATCH,PROXIES

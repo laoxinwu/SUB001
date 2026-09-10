@@ -5,6 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - chefdon
+  type: vmess
+  server: 156.226.183.181
+  port: 54321
+  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇨 SC 02 - chefdon
+  type: vless
+  server: 45.203.217.25
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 03 - chefdon
   type: vless
   server: 154.198.12.10
   port: 443
@@ -18,7 +42,63 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇨 SC 02 - chefdon
+- name: 🇸🇨 SC 04 - chefdon
+  type: vless
+  server: 188.114.96.7
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: o94yv7lIF0-AnXiSd9EFeHVVS7mxn6Bh.z-ULe-IKA-d-e-Ne-k-E.WORKERs.DEv
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+- name: 🇸🇨 SC 05 - chefdon
+  type: vless
+  server: 104.17.147.22
+  port: 443
+  uuid: 518de0d4-6ce8-4404-80db-23c4a8806128
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ez-5faafb.esmaoi.workers.dev
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiQkFLTnhqM2tZTSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: ez-5faafb.esmaoi.workers.dev
+- name: 🇸🇨 SC 06 - chefdon
+  type: vless
+  server: 104.19.87.194
+  port: 443
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ld.223350.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ld.223350.xyz
+- name: 🇸🇨 SC 07 - chefdon
+  type: vless
+  server: 45.130.125.96
+  port: 443
+  uuid: 28607fa7-db30-47d6-942a-f5744e4be9ad
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dfsuporte.garena.com.ex33r.eu.cc
+  network: ws
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: dfsuporte.garena.com.ex33r.eu.cc
+- name: 🇸🇨 SC 08 - chefdon
   type: vmess
   server: 156.226.183.181
   port: 54321
@@ -28,20 +108,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇨 SC 03 - chefdon
-  type: vless
-  server: 154.81.37.31
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -50,6 +116,11 @@ proxy-groups:
   - 🇸🇨 SC 01 - chefdon
   - 🇸🇨 SC 02 - chefdon
   - 🇸🇨 SC 03 - chefdon
+  - 🇸🇨 SC 04 - chefdon
+  - 🇸🇨 SC 05 - chefdon
+  - 🇸🇨 SC 06 - chefdon
+  - 🇸🇨 SC 07 - chefdon
+  - 🇸🇨 SC 08 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -58,5 +129,10 @@ proxy-groups:
   - 🇸🇨 SC 01 - chefdon
   - 🇸🇨 SC 02 - chefdon
   - 🇸🇨 SC 03 - chefdon
+  - 🇸🇨 SC 04 - chefdon
+  - 🇸🇨 SC 05 - chefdon
+  - 🇸🇨 SC 06 - chefdon
+  - 🇸🇨 SC 07 - chefdon
+  - 🇸🇨 SC 08 - chefdon
 rules:
 - MATCH,PROXIES

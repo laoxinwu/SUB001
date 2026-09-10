@@ -5,15 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇴 NO 01 - chefdon
-  type: ss
-  server: 185.213.23.63
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  type: vless
+  server: 151.242.168.125
+  port: 390
+  uuid: 7b363f9c-3df9-4b60-a789-9cd36be0bdfe
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
+  servername: bowandbead.com
+  client-fingerprint: qq
 - name: 🇳🇴 NO 02 - chefdon
   type: vless
-  server: 80.78.31.117
+  server: 80.78.27.134
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -36,19 +41,21 @@ proxies:
   reality-opts:
     public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
   servername: bowandbead.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇳🇴 NO 04 - chefdon
   type: vless
-  server: 151.242.168.125
-  port: 390
-  uuid: 7b363f9c-3df9-4b60-a789-9cd36be0bdfe
+  server: 80.78.30.157
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
-  servername: bowandbead.com
-  client-fingerprint: edge
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇳🇴 NO 05 - chefdon
   type: ss
   server: 185.213.23.63
@@ -67,7 +74,7 @@ proxies:
   reality-opts:
     public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
   servername: bowandbead.com
-  client-fingerprint: qq
+  client-fingerprint: edge
 - name: 🇳🇴 NO 07 - chefdon
   type: vless
   server: 151.242.168.125
@@ -79,19 +86,7 @@ proxies:
   reality-opts:
     public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
   servername: bowandbead.com
-  client-fingerprint: qq
-- name: 🇳🇴 NO 08 - chefdon
-  type: vless
-  server: 151.242.168.125
-  port: 390
-  uuid: b02ff150-ee30-46e0-9ea1-adbfd7762a06
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
-  servername: bowandbead.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -104,7 +99,6 @@ proxy-groups:
   - 🇳🇴 NO 05 - chefdon
   - 🇳🇴 NO 06 - chefdon
   - 🇳🇴 NO 07 - chefdon
-  - 🇳🇴 NO 08 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -117,6 +111,5 @@ proxy-groups:
   - 🇳🇴 NO 05 - chefdon
   - 🇳🇴 NO 06 - chefdon
   - 🇳🇴 NO 07 - chefdon
-  - 🇳🇴 NO 08 - chefdon
 rules:
 - MATCH,PROXIES
