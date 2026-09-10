@@ -19,6 +19,62 @@ proxies:
       Host: netlivpn2950.bbxff.workers.dev
 - name: 🇨🇭 CH 02 - chefdon
   type: vless
+  server: 138.124.231.159
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇭 CH 03 - chefdon
+  type: vless
+  server: 138.124.38.244
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇭 CH 04 - chefdon
+  type: vless
+  server: 138.124.244.182
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇭 CH 05 - chefdon
+  type: vless
+  server: 138.124.244.40
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇭 CH 06 - chefdon
+  type: vless
   server: 104.18.28.234
   port: 443
   uuid: f6b5a6a3-f3e1-63ca-bb68-bdc400000000
@@ -38,6 +94,10 @@ proxy-groups:
   - AUTO
   - 🇨🇭 CH 01 - chefdon
   - 🇨🇭 CH 02 - chefdon
+  - 🇨🇭 CH 03 - chefdon
+  - 🇨🇭 CH 04 - chefdon
+  - 🇨🇭 CH 05 - chefdon
+  - 🇨🇭 CH 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -45,5 +105,9 @@ proxy-groups:
   proxies:
   - 🇨🇭 CH 01 - chefdon
   - 🇨🇭 CH 02 - chefdon
+  - 🇨🇭 CH 03 - chefdon
+  - 🇨🇭 CH 04 - chefdon
+  - 🇨🇭 CH 05 - chefdon
+  - 🇨🇭 CH 06 - chefdon
 rules:
 - MATCH,PROXIES

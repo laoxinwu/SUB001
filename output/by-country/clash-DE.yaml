@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - chefdon
   type: vless
-  server: 82.39.212.230
+  server: 165.232.79.147
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -20,22 +20,35 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 02 - chefdon
   type: vless
-  server: 155.117.234.131
-  port: 42638
-  uuid: 40fa5575-7649-428d-8859-2426dd69056c
+  server: 217.144.187.27
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 03 - chefdon
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
+  type: vless
+  server: 152.53.229.84
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 04 - chefdon
   type: vless
-  server: 212.113.116.93
+  server: 82.117.84.74
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -49,7 +62,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 05 - chefdon
   type: vless
-  server: 45.145.13.146
+  server: 46.101.238.160
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -63,36 +76,36 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 06 - chefdon
   type: vless
-  server: 172.67.215.39
-  port: 443
-  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
+  server: 104.21.3.133
+  port: 2083
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: muddy-math-c1fc.tmpnriqueau89.workers.dev
+  servername: fans.liverpool.qzz.io
   network: ws
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: muddy-math-c1fc.tmpnriqueau89.workers.dev
+      Host: fans.liverpool.qzz.io
 - name: 🇩🇪 德国 (Germany) 07 - chefdon
   type: vless
-  server: www.speedtest.net
+  server: 144.31.214.124
   port: 443
-  uuid: 513beae3-56e7-4954-a17e-930e06237b27
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: CfOI-2FX16g3-8rY2kdXmCJ.WJeSv2ILA3rXbUhpC2NSugRAchGaWK.WOrkeRs.DEV
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /vl/3wSAeuGJbrGHwJ45DA6ircvHC6?ed=2560
+    path: /?ed=2048
     headers:
-      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
+      Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 08 - chefdon
   type: vless
-  server: 136.243.86.74
-  port: 2053
+  server: 62.60.153.23
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -105,7 +118,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 09 - chefdon
   type: vless
-  server: 85.192.25.171
+  server: 77.221.142.139
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -119,21 +132,20 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 10 - chefdon
   type: vless
-  server: 94.159.98.226
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /29c8fed7ca22
     headers:
-      Host: box5.xinwu.de5.net
+      Host: 163.8.195.241
 - name: 🇩🇪 德国 (Germany) 11 - chefdon
   type: vless
-  server: 94.159.108.54
+  server: 134.122.75.164
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -147,22 +159,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 12 - chefdon
   type: vless
-  server: 201.24.119.124
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 172.67.130.187
+  port: 2083
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: fans.liverpool.qzz.io
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: box5.xinwu.de5.net
+      Host: fans.liverpool.qzz.io
 - name: 🇩🇪 德国 (Germany) 13 - chefdon
   type: vless
-  server: 94.72.141.85
-  port: 2053
+  server: 77.110.121.151
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -175,215 +187,18 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 14 - chefdon
   type: vless
-  server: 195.133.23.123
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 91.107.190.63
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: box5.xinwu.de5.net
+      Host: 91.107.190.63
 - name: 🇩🇪 德国 (Germany) 15 - chefdon
-  type: vless
-  server: 62.60.152.187
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 16 - chefdon
-  type: vless
-  server: 63.141.128.22
-  port: 443
-  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
-- name: 🇩🇪 德国 (Germany) 17 - chefdon
-  type: vless
-  server: 5.175.236.53
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 18 - chefdon
-  type: vless
-  server: 77.221.141.1
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 19 - chefdon
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: d8c14c5c-a80a-4f6f-a5fb-52071849c443
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZTFWRGJFS0NUd2F2NkRmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
-    headers:
-      Host: cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev
-- name: 🇩🇪 德国 (Germany) 20 - chefdon
-  type: vless
-  server: 5.187.4.168
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 21 - chefdon
-  type: vless
-  server: 164.90.166.120
-  port: 443
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: damp-dawn-3a96.alvlirm123.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: damp-dawn-3a96.alvlirm123.workers.dev
-- name: 🇩🇪 德国 (Germany) 22 - chefdon
-  type: ss
-  server: 209.46.102.22
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-  udp: true
-- name: 🇩🇪 德国 (Germany) 23 - chefdon
-  type: vless
-  server: 212.113.103.148
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 24 - chefdon
-  type: ss
-  server: 2.58.81.221
-  port: 443
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-  udp: true
-- name: 🇩🇪 德国 (Germany) 25 - chefdon
-  type: vless
-  server: 172.67.130.187
-  port: 2053
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: FaNs.livErpoOl.qZZ.io
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZXlpMnFWRURmWkp5ZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: fans.liverpool.qzz.io
-- name: 🇩🇪 德国 (Germany) 26 - chefdon
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: d9abc6e3-83bf-4c28-ae68-72465e2abe39
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/xQhNe7rLrdM0emZlaW5LMsNwcoIgnT?ed=2560
-    headers:
-      Host: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-- name: 🇩🇪 德国 (Germany) 27 - chefdon
-  type: vless
-  server: 194.195.240.213
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 28 - chefdon
-  type: vless
-  server: 148.253.209.114
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 29 - chefdon
-  type: vless
-  server: 79.133.51.180
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 30 - chefdon
   type: vless
   server: 164.90.176.31
   port: 8443
@@ -397,9 +212,9 @@ proxies:
     path: /
     headers:
       Host: summer-hall-8b23.asddsaasan.workers.dev
-- name: 🇩🇪 德国 (Germany) 31 - chefdon
+- name: 🇩🇪 德国 (Germany) 16 - chefdon
   type: vless
-  server: 94.16.104.34
+  server: 195.54.32.163
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -411,9 +226,22 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 32 - chefdon
+- name: 🇩🇪 德国 (Germany) 17 - chefdon
   type: vless
-  server: 147.90.229.217
+  server: 91.107.190.175
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Telegram-Leviko_v2ray
+- name: 🇩🇪 德国 (Germany) 18 - chefdon
+  type: vless
+  server: 31.57.241.28
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -425,23 +253,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 33 - chefdon
+- name: 🇩🇪 德国 (Germany) 19 - chefdon
   type: vless
-  server: 217.144.190.222
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 34 - chefdon
-  type: vless
-  server: 95.163.153.43
+  server: 94.156.232.232
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -453,7 +267,35 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 35 - chefdon
+- name: 🇩🇪 德国 (Germany) 20 - chefdon
+  type: vless
+  server: 213.21.233.128
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 21 - chefdon
+  type: vless
+  server: 89.169.33.161
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 22 - chefdon
   type: vless
   server: 62.60.151.202
   port: 443
@@ -467,6 +309,181 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 23 - chefdon
+  type: ss
+  server: 213.202.208.199
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇩🇪 德国 (Germany) 24 - chefdon
+  type: vless
+  server: 140.99.101.63
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 25 - chefdon
+  type: vless
+  server: 209.38.221.121
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 26 - chefdon
+  type: vless
+  server: 45.80.228.175
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 27 - chefdon
+  type: vless
+  server: 77.110.97.7
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 28 - chefdon
+  type: vless
+  server: 91.108.243.39
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 29 - chefdon
+  type: vless
+  server: 89.22.232.138
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 30 - chefdon
+  type: vless
+  server: 85.192.37.61
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 31 - chefdon
+  type: vless
+  server: 5.175.236.53
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 32 - chefdon
+  type: vless
+  server: 45.145.14.168
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 33 - chefdon
+  type: vless
+  server: 108.165.236.6
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 34 - chefdon
+  type: vless
+  server: 89.22.230.89
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 35 - chefdon
+  type: vless
+  server: 104.21.70.223
+  port: 443
+  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/ERYN0G44hia16zhR
+    headers:
+      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
 - name: 🇩🇪 德国 (Germany) 36 - chefdon
   type: vless
   server: 138.124.26.41
@@ -483,7 +500,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 37 - chefdon
   type: vless
-  server: 84.22.148.196
+  server: 46.101.155.181
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -497,8 +514,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 38 - chefdon
   type: vless
-  server: 94.159.98.164
-  port: 443
+  server: 45.155.71.182
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -511,8 +528,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 39 - chefdon
   type: vless
-  server: 172.104.250.185
-  port: 443
+  server: 46.101.152.226
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -524,973 +541,6 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇩🇪 德国 (Germany) 40 - chefdon
-  type: vless
-  server: 165.227.169.66
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 41 - chefdon
-  type: vless
-  server: 91.107.179.8
-  port: 15003
-  uuid: 69d8dc73-20ff-4241-bdd8-a9d6d07553b6
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 42 - chefdon
-  type: vless
-  server: 83.147.192.82
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 43 - chefdon
-  type: vless
-  server: 193.29.224.210
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 44 - chefdon
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 45 - chefdon
-  type: vless
-  server: 91.107.154.19
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 91.107.154.19
-- name: 🇩🇪 德国 (Germany) 46 - chefdon
-  type: vless
-  server: 46.101.143.59
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 47 - chefdon
-  type: vless
-  server: 172.67.155.231
-  port: 2053
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇩🇪 德国 (Germany) 48 - chefdon
-  type: vless
-  server: 31.58.179.7
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 49 - chefdon
-  type: vless
-  server: 185.125.101.174
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 50 - chefdon
-  type: vless
-  server: 46.101.253.244
-  port: 2083
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edge.yzkvm.top
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edge.yzkvm.top
-- name: 🇩🇪 德国 (Germany) 51 - chefdon
-  type: vless
-  server: 109.120.184.94
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 52 - chefdon
-  type: vless
-  server: 104.248.142.217
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 53 - chefdon
-  type: vless
-  server: 2.26.61.126
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 54 - chefdon
-  type: vless
-  server: vnet.korluma.ir
-  port: 2087
-  uuid: fa80d79a-0410-4e1c-8bc1-1f855e794860
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: -TYsz4fk-n5bQw9DW0fPxhXiwnXFq61rSFkSpjcLrVY
-  servername: play.google.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 55 - chefdon
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
-    headers:
-      Host: elenaaaaaaaaaa.cloudns.pro
-- name: 🇩🇪 德国 (Germany) 56 - chefdon
-  type: vless
-  server: 77.110.96.142
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 57 - chefdon
-  type: ss
-  server: 51.195.126.38
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 2YdE4lFOid5a
-  udp: true
-- name: 🇩🇪 德国 (Germany) 58 - chefdon
-  type: vless
-  server: 193.148.253.186
-  port: 49188
-  uuid: 4ce7fa65-37ee-48ef-b7a3-902caf592e81
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 59 - chefdon
-  type: vless
-  server: 51.195.91.135
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 60 - chefdon
-  type: vless
-  server: 206.189.56.164
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 61 - chefdon
-  type: vless
-  server: 172.67.203.158
-  port: 443
-  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/YCNmDFbqMu7cgTzgsfEWGtBD8kR
-    headers:
-      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-- name: 🇩🇪 德国 (Germany) 62 - chefdon
-  type: vless
-  server: 138.124.99.166
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 63 - chefdon
-  type: vless
-  server: 172.67.214.25
-  port: 2053
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇩🇪 德国 (Germany) 64 - chefdon
-  type: vless
-  server: 193.148.253.186
-  port: 49188
-  uuid: 4ce7fa65-37ee-48ef-b7a3-902caf592e81
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 65 - chefdon
-  type: vless
-  server: 35.157.240.237
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇩🇪 德国 (Germany) 66 - chefdon
-  type: vless
-  server: 57.129.41.216
-  port: 80
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 67 - chefdon
-  type: vless
-  server: 212.95.34.195
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 68 - chefdon
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇩🇪 德国 (Germany) 69 - chefdon
-  type: vless
-  server: 91.107.190.175
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 91.107.190.175
-- name: 🇩🇪 德国 (Germany) 70 - chefdon
-  type: vless
-  server: 35.157.240.237
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇩🇪 德国 (Germany) 71 - chefdon
-  type: vless
-  server: 84.118.33.161
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 72 - chefdon
-  type: vless
-  server: 172.67.140.37
-  port: 443
-  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/ERYN0G44hia16zhR
-    headers:
-      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-- name: 🇩🇪 德国 (Germany) 73 - chefdon
-  type: vless
-  server: 77.239.121.70
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 74 - chefdon
-  type: vless
-  server: 89.124.251.218
-  port: 20110
-  uuid: e2f46341-0eea-4c34-9175-312db4d0cc57
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 75 - chefdon
-  type: vless
-  server: 144.31.73.222
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 76 - chefdon
-  type: vless
-  server: 138.124.93.143
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 77 - chefdon
-  type: vless
-  server: 89.208.103.136
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 78 - chefdon
-  type: vless
-  server: 158.180.49.11
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 79 - chefdon
-  type: vless
-  server: 109.120.135.55
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 80 - chefdon
-  type: vless
-  server: 91.149.223.184
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 81 - chefdon
-  type: vless
-  server: 109.172.94.111
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 82 - chefdon
-  type: vless
-  server: 144.31.65.40
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 83 - chefdon
-  type: vless
-  server: 104.21.69.37
-  port: 443
-  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/uWq9DFRgj8BwQiSXmZ46
-    headers:
-      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-- name: 🇩🇪 德国 (Germany) 84 - chefdon
-  type: vless
-  server: 138.3.254.178
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 85 - chefdon
-  type: vless
-  server: 104.21.51.145
-  port: 8443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇩🇪 德国 (Germany) 86 - chefdon
-  type: vless
-  server: 138.68.87.68
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 87 - chefdon
-  type: vless
-  server: 83.147.254.70
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 88 - chefdon
-  type: vless
-  server: 188.114.98.112
-  port: 80
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
-    headers:
-      Host: elenaaaaaaaaaa.cloudns.pro.
-- name: 🇩🇪 德国 (Germany) 89 - chefdon
-  type: vless
-  server: 8.6.112.9
-  port: 443
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
-- name: 🇩🇪 德国 (Germany) 90 - chefdon
-  type: vless
-  server: 178.104.88.132
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 91 - chefdon
-  type: vless
-  server: 64.188.126.205
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 92 - chefdon
-  type: vless
-  server: 139.59.151.232
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 93 - chefdon
-  type: vless
-  server: 45.130.125.126
-  port: 443
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-- name: 🇩🇪 德国 (Germany) 94 - chefdon
-  type: vless
-  server: 8.47.69.9
-  port: 443
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
-- name: 🇩🇪 德国 (Germany) 95 - chefdon
-  type: vless
-  server: 31.58.85.103
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 96 - chefdon
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 97 - chefdon
-  type: vless
-  server: 188.114.98.134
-  port: 443
-  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-- name: 🇩🇪 德国 (Germany) 98 - chefdon
-  type: vless
-  server: 89.22.224.219
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 99 - chefdon
-  type: vless
-  server: 77.221.143.197
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 100 - chefdon
-  type: vless
-  server: 185.168.193.237
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 101 - chefdon
-  type: vless
-  server: 109.120.134.216
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 102 - chefdon
-  type: vless
-  server: 193.188.22.47
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 103 - chefdon
-  type: vless
-  server: 195.248.241.192
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 104 - chefdon
-  type: vless
-  server: 163.8.195.241
-  port: 2087
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /29c8fed7ca22
-    headers:
-      Host: 163.8.195.241
-- name: 🇩🇪 德国 (Germany) 105 - chefdon
-  type: vless
-  server: 83.147.216.8
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 106 - chefdon
-  type: vless
-  server: 62.60.151.191
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 107 - chefdon
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 108 - chefdon
-  type: vless
-  server: 153.52.92.239
-  port: 11437
-  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-  servername: amp-api-edge.apps.apple.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 109 - chefdon
-  type: vless
-  server: 62.60.228.84
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 110 - chefdon
-  type: vless
-  server: 89.22.230.89
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 111 - chefdon
-  type: vless
-  server: 159.100.9.225
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 112 - chefdon
-  type: vless
-  server: 116.202.8.39
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 113 - chefdon
   type: vless
   server: 104.21.53.160
   port: 443
@@ -1504,23 +554,9 @@ proxies:
     path: /
     headers:
       Host: muddy-math-c1fc.tmpnriqueau89.workers.dev
-- name: 🇩🇪 德国 (Germany) 114 - chefdon
+- name: 🇩🇪 德国 (Germany) 41 - chefdon
   type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 8f53fce2-6c17-4e37-9ae9-d969fd85117c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: api-hub-c9a393.alimirzai539-484.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/Wp4FqWLcoYNYXCovu4?ed=2560
-    headers:
-      Host: api-hub-c9a393.alimirzai539-484.workers.dev
-- name: 🇩🇪 德国 (Germany) 115 - chefdon
-  type: vless
-  server: 93.185.156.62
+  server: 94.159.107.49
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1532,9 +568,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 116 - chefdon
+- name: 🇩🇪 德国 (Germany) 42 - chefdon
   type: vless
-  server: 164.90.166.97
+  server: 5.182.87.164
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1546,144 +582,16 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 117 - chefdon
-  type: vless
-  server: 46.101.239.26
+- name: 🇩🇪 德国 (Germany) 43 - chefdon
+  type: ss
+  server: 2.58.81.221
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 118 - chefdon
+- name: 🇩🇪 德国 (Germany) 44 - chefdon
   type: vless
-  server: 138.124.118.113
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 119 - chefdon
-  type: vless
-  server: 151.242.17.99
-  port: 8443
-  uuid: a04814d9-d006-4e7b-ae20-8ab304b3b429
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 6Yskxg5U0WxPGtuCAAGH9uD57T4U8LeGrErTBNvIrwM
-  servername: de.emvservice.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 120 - chefdon
-  type: vless
-  server: 147.90.229.225
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 121 - chefdon
-  type: vless
-  server: 153.52.92.100
-  port: 8443
-  uuid: 8db3a1ab-f739-41f2-ae46-4fb72d9134f8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 9PxwbCMskvn1WA7ieKvvgJ3tvYU-u0r9wms__WU8URU
-  servername: amp-api-edge.apps.apple.com
-  client-fingerprint: qq
-- name: 🇩🇪 德国 (Germany) 122 - chefdon
-  type: vless
-  server: 91.107.190.63
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: 91.107.190.63
-- name: 🇩🇪 德国 (Germany) 123 - chefdon
-  type: vless
-  server: 89.22.236.205
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 124 - chefdon
-  type: vless
-  server: 152.89.106.156
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 125 - chefdon
-  type: vless
-  server: 147.90.229.212
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 126 - chefdon
-  type: vless
-  server: 109.120.134.243
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 127 - chefdon
-  type: vless
-  server: 89.58.9.133
+  server: 139.162.173.194
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1695,796 +603,77 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 128 - chefdon
+- name: 🇩🇪 德国 (Germany) 45 - chefdon
   type: vless
-  server: 172.67.158.34
-  port: 443
-  uuid: 07821f66-cdb7-4c70-9de6-e230cffac470
+  server: 194.48.250.61
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /vl/Li1khIHH3DNItJyzraemsPBQvu
+    path: /?ed=2048
     headers:
-      Host: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
-- name: 🇩🇪 德国 (Germany) 129 - chefdon
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 46 - chefdon
+  type: vless
+  server: 138.197.190.75
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 47 - chefdon
+  type: vless
+  server: 2.26.16.67
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 48 - chefdon
+  type: vless
+  server: 213.21.242.34
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 49 - chefdon
   type: vless
   server: 188.114.97.6
   port: 443
-  uuid: d9abc6e3-83bf-4c28-ae68-72465e2abe39
+  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
+  servername: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
   network: ws
   ws-opts:
-    path: /vl/xQhNe7rLrdM0emZlaW5LMsNwcoIgnT?ed=2560
+    path: /vl/zM8ELyqEIYeZ3ijacV9kuK?ed
     headers:
-      Host: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-- name: 🇩🇪 德国 (Germany) 130 - chefdon
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇩🇪 德国 (Germany) 131 - chefdon
-  type: vless
-  server: 185.103.101.70
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 132 - chefdon
-  type: vless
-  server: 46.101.196.101
-  port: 2096
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucky-sky-0104.alvlirm444.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-sky-0104.alvlirm444.workers.dev
-- name: 🇩🇪 德国 (Germany) 133 - chefdon
-  type: vless
-  server: 209.38.193.157
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 134 - chefdon
-  type: vless
-  server: 94.159.103.67
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 135 - chefdon
-  type: vless
-  server: 87.251.86.247
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 136 - chefdon
-  type: vless
-  server: 104.21.12.63
-  port: 8443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇩🇪 德国 (Germany) 137 - chefdon
-  type: vless
-  server: 130.17.12.35
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 138 - chefdon
-  type: vless
-  server: 94.228.168.161
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 139 - chefdon
-  type: ss
-  server: 8.209.74.72
-  port: 20001
-  cipher: chacha20-ietf-poly1305
-  password: PWpjPo3tqhPN4yRZ
-  udp: true
-- name: 🇩🇪 德国 (Germany) 140 - chefdon
-  type: vless
-  server: 62.60.237.4
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 141 - chefdon
-  type: vless
-  server: 167.172.165.106
-  port: 2083
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edge.yzkvm.top
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edge.yzkvm.top
-- name: 🇩🇪 德国 (Germany) 142 - chefdon
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: auto-scale-238b2b.infra-core-1630dd.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
-    headers:
-      Host: auto-scale-238b2b.infra-core-1630dd.workers.dev
-- name: 🇩🇪 德国 (Germany) 143 - chefdon
-  type: vless
-  server: 66.81.247.155
-  port: 2083
-  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: testmikonim.hydrymhmdamyn7.workers.dev
-  network: ws
-  ws-opts:
-    path: /OAZko425kNFF0PpQ
-    headers:
-      Host: testmikonim.hydrymhmdamyn7.workers.dev
-- name: 🇩🇪 德国 (Germany) 144 - chefdon
-  type: vless
-  server: 104.21.22.180
-  port: 443
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: auto-scale-238b2b.infra-core-1630dd.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
-    headers:
-      Host: auto-scale-238b2b.infra-core-1630dd.workers.dev
-- name: 🇩🇪 德国 (Germany) 145 - chefdon
-  type: vless
-  server: 178.128.203.128
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 146 - chefdon
-  type: vless
-  server: 172.67.145.21
-  port: 443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇩🇪 德国 (Germany) 147 - chefdon
-  type: vless
-  server: 109.120.185.227
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 148 - chefdon
-  type: vless
-  server: 62.60.148.46
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 149 - chefdon
-  type: vless
-  server: 138.124.37.47
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 150 - chefdon
-  type: vless
-  server: 142.93.170.157
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 151 - chefdon
-  type: vless
-  server: 134.122.69.115
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 152 - chefdon
-  type: vless
-  server: 45.11.229.116
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 153 - chefdon
-  type: vless
-  server: 45.9.117.121
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 154 - chefdon
-  type: vless
-  server: 206.81.17.2
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 155 - chefdon
-  type: vless
-  server: 45.131.109.6
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 156 - chefdon
-  type: vless
-  server: 62.60.151.236
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 157 - chefdon
-  type: vless
-  server: 164.90.217.130
-  port: 443
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: white-forest-2c01.alvlirm222.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: white-forest-2c01.alvlirm222.workers.dev
-- name: 🇩🇪 德国 (Germany) 158 - chefdon
-  type: vless
-  server: 176.124.207.1
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 159 - chefdon
-  type: vless
-  server: 147.90.229.163
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 160 - chefdon
-  type: vless
-  server: 78.47.240.23
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 161 - chefdon
-  type: vless
-  server: 172.67.170.140
-  port: 2053
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇩🇪 德国 (Germany) 162 - chefdon
-  type: vless
-  server: 113.30.190.30
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 163 - chefdon
-  type: vless
-  server: 176.124.206.42
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 164 - chefdon
-  type: vless
-  server: 77.239.122.229
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 165 - chefdon
-  type: vless
-  server: 139.162.174.56
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 166 - chefdon
-  type: vless
-  server: 161.35.18.70
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 167 - chefdon
-  type: vless
-  server: 213.21.229.15
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 168 - chefdon
-  type: vless
-  server: 77.110.100.89
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 169 - chefdon
-  type: vless
-  server: 138.124.49.157
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 170 - chefdon
-  type: vless
-  server: 159.195.69.211
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 171 - chefdon
-  type: vless
-  server: 57.129.41.216
-  port: 80
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 172 - chefdon
-  type: vless
-  server: 172.67.130.187
-  port: 2083
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fans.liverpool.qzz.io
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: fans.liverpool.qzz.io
-- name: 🇩🇪 德国 (Germany) 173 - chefdon
-  type: vless
-  server: 138.124.59.252
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 174 - chefdon
-  type: vless
-  server: 31.76.14.22
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 175 - chefdon
-  type: vless
-  server: 93.115.19.98
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 176 - chefdon
-  type: vless
-  server: 64.188.118.137
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 177 - chefdon
-  type: vless
-  server: 195.133.65.83
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 178 - chefdon
-  type: vless
-  server: 81.200.156.6
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 179 - chefdon
-  type: vless
-  server: 149.248.199.173
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 180 - chefdon
-  type: vless
-  server: 5.175.236.14
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 181 - chefdon
-  type: vless
-  server: 95.85.250.214
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 182 - chefdon
-  type: vless
-  server: 138.124.99.90
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 183 - chefdon
-  type: vless
-  server: 62.60.235.91
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 184 - chefdon
-  type: vless
-  server: 82.24.203.20
-  port: 2087
-  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fd5ba98a3970
-    headers:
-      Host: 82.24.203.20
-- name: 🇩🇪 德国 (Germany) 185 - chefdon
+      Host: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
+- name: 🇩🇪 德国 (Germany) 50 - chefdon
   type: vless
   server: 213.21.229.240
   port: 443
@@ -2498,64 +687,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 186 - chefdon
+- name: 🇩🇪 德国 (Germany) 51 - chefdon
   type: vless
-  server: 68.183.65.82
-  port: 2083
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucky-sky-0104.alvlirm444.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-sky-0104.alvlirm444.workers.dev
-- name: 🇩🇪 德国 (Germany) 187 - chefdon
-  type: vless
-  server: 191.40.4.107
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 188 - chefdon
-  type: vless
-  server: 57.129.41.216
-  port: 80
-  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 189 - chefdon
-  type: vless
-  server: 109.120.187.173
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 190 - chefdon
-  type: vless
-  server: 68.183.77.91
+  server: 2.27.39.98
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2567,9 +701,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 191 - chefdon
+- name: 🇩🇪 德国 (Germany) 52 - chefdon
   type: vless
-  server: 81.95.4.189
+  server: 35.157.240.237
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
@@ -2581,9 +715,9 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇩🇪 德国 (Germany) 192 - chefdon
+- name: 🇩🇪 德国 (Germany) 53 - chefdon
   type: vless
-  server: 85.121.52.127
+  server: 91.184.240.196
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2595,20 +729,354 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 193 - chefdon
+- name: 🇩🇪 德国 (Germany) 54 - chefdon
   type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
+  server: 45.80.231.71
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 55 - chefdon
+  type: vless
+  server: 185.242.113.75
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 56 - chefdon
+  type: vless
+  server: 82.24.203.20
+  port: 2087
+  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    path: /fd5ba98a3970
     headers:
-      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-- name: 🇩🇪 德国 (Germany) 194 - chefdon
+      Host: 82.24.203.20
+- name: 🇩🇪 德国 (Germany) 57 - chefdon
+  type: vless
+  server: 91.184.241.109
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 58 - chefdon
+  type: vless
+  server: 139.162.166.6
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 59 - chefdon
+  type: vless
+  server: 193.233.254.47
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 60 - chefdon
+  type: ss
+  server: 209.46.102.22
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
+  udp: true
+- name: 🇩🇪 德国 (Germany) 61 - chefdon
+  type: vless
+  server: 2.27.36.159
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 62 - chefdon
+  type: vless
+  server: 176.124.205.77
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 63 - chefdon
+  type: vless
+  server: 139.162.190.215
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 64 - chefdon
+  type: vless
+  server: 45.80.229.48
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 65 - chefdon
+  type: vless
+  server: 77.221.138.243
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 66 - chefdon
+  type: vless
+  server: 193.23.219.57
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 67 - chefdon
+  type: vless
+  server: 207.154.241.250
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 68 - chefdon
+  type: vless
+  server: 94.159.103.71
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 69 - chefdon
+  type: vless
+  server: 154.91.170.141
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 70 - chefdon
+  type: vless
+  server: 46.226.160.232
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 71 - chefdon
+  type: vless
+  server: vnet.korluma.ir
+  port: 2087
+  uuid: fa80d79a-0410-4e1c-8bc1-1f855e794860
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: -TYsz4fk-n5bQw9DW0fPxhXiwnXFq61rSFkSpjcLrVY
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 72 - chefdon
+  type: vless
+  server: 77.110.96.14
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 73 - chefdon
+  type: vless
+  server: 178.128.203.165
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 74 - chefdon
+  type: vless
+  server: 194.31.223.51
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 75 - chefdon
+  type: ss
+  server: 51.195.126.38
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 2YdE4lFOid5a
+  udp: true
+- name: 🇩🇪 德国 (Germany) 76 - chefdon
+  type: vless
+  server: 178.105.70.222
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 77 - chefdon
+  type: vless
+  server: 46.224.227.141
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 78 - chefdon
+  type: vless
+  server: 46.38.235.18
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 79 - chefdon
+  type: vless
+  server: 185.103.103.234
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 80 - chefdon
   type: vless
   server: 163.8.195.241
   port: 2087
@@ -2621,135 +1089,9 @@ proxies:
     path: /29c8fed7ca22
     headers:
       Host: 163.8.195.241
-- name: 🇩🇪 德国 (Germany) 195 - chefdon
+- name: 🇩🇪 德国 (Germany) 81 - chefdon
   type: vless
-  server: 87.251.86.238
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 196 - chefdon
-  type: vless
-  server: 138.124.18.207
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 197 - chefdon
-  type: vless
-  server: 83.147.254.132
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 198 - chefdon
-  type: vless
-  server: 104.21.96.1
-  port: 443
-  uuid: 0836463b-214f-4af6-aa85-85a56a62388e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev
-- name: 🇩🇪 德国 (Germany) 199 - chefdon
-  type: vless
-  server: 89.208.106.239
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 200 - chefdon
-  type: vless
-  server: 213.21.229.104
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 201 - chefdon
-  type: vless
-  server: 85.192.37.61
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 202 - chefdon
-  type: vless
-  server: 147.90.229.158
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 203 - chefdon
-  type: vless
-  server: 94.159.97.247
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 204 - chefdon
-  type: vless
-  server: 91.107.190.175
+  server: 91.107.190.63
   port: 8080
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
@@ -2757,26 +1099,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: Telegram-Leviko_v2ray
-- name: 🇩🇪 德国 (Germany) 205 - chefdon
+      Host: 91.107.190.63
+- name: 🇩🇪 德国 (Germany) 82 - chefdon
   type: vless
-  server: 104.24.237.67
-  port: 443
-  uuid: 91875754-7fcc-5ba9-9573-5a43215dfd0f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: node-8966333989-b9acc5.dsjvhbsdcjy.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: node-8966333989-b9acc5.dsjvhbsdcjy.workers.dev
-- name: 🇩🇪 德国 (Germany) 206 - chefdon
-  type: vless
-  server: 94.156.122.243
+  server: 83.147.254.63
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2788,101 +1116,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 207 - chefdon
+- name: 🇩🇪 德国 (Germany) 83 - chefdon
   type: vless
-  server: 91.107.179.8
-  port: 15003
-  uuid: 69d8dc73-20ff-4241-bdd8-a9d6d07553b6
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 208 - chefdon
-  type: vless
-  server: 83.147.253.155
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 209 - chefdon
-  type: vless
-  server: 46.203.233.226
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 210 - chefdon
-  type: vless
-  server: 45.136.29.99
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 211 - chefdon
-  type: vless
-  server: 46.101.196.101
-  port: 2096
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucky-sky-0104.alvlirm444.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-sky-0104.alvlirm444.workers.dev
-- name: 🇩🇪 德国 (Germany) 212 - chefdon
-  type: vless
-  server: 159.195.218.169
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 213 - chefdon
-  type: vless
-  server: 194.87.58.247
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 214 - chefdon
-  type: vless
-  server: 89.22.226.202
+  server: 37.120.171.102
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2894,37 +1130,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 215 - chefdon
+- name: 🇩🇪 德国 (Germany) 84 - chefdon
   type: vless
-  server: 172.67.131.112
-  port: 443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇩🇪 德国 (Germany) 216 - chefdon
-  type: vless
-  server: 85.192.37.138
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 217 - chefdon
-  type: vless
-  server: 130.17.4.73
+  server: 94.16.108.235
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2936,9 +1144,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 218 - chefdon
+- name: 🇩🇪 德国 (Germany) 85 - chefdon
   type: vless
-  server: 157.230.107.203
+  server: 77.221.141.103
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2950,9 +1158,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 219 - chefdon
+- name: 🇩🇪 德国 (Germany) 86 - chefdon
   type: vless
-  server: 46.128.3.61
+  server: 213.165.36.13
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2964,9 +1172,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 220 - chefdon
+- name: 🇩🇪 德国 (Germany) 87 - chefdon
   type: vless
-  server: 45.129.126.241
+  server: 213.165.32.245
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2978,9 +1186,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 221 - chefdon
+- name: 🇩🇪 德国 (Germany) 88 - chefdon
   type: vless
-  server: 89.22.234.194
+  server: 212.113.100.176
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2992,9 +1200,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 222 - chefdon
+- name: 🇩🇪 德国 (Germany) 89 - chefdon
   type: vless
-  server: 176.124.205.119
+  server: 207.154.246.53
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3006,49 +1214,63 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 223 - chefdon
+- name: 🇩🇪 德国 (Germany) 90 - chefdon
   type: vless
-  server: 68.183.65.82
-  port: 2083
+  server: 31.59.44.177
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 91 - chefdon
+  type: vless
+  server: 164.90.217.130
+  port: 443
   uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucky-sky-0104.alvlirm444.workers.dev
+  servername: white-forest-2c01.alvlirm222.workers.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: lucky-sky-0104.alvlirm444.workers.dev
-- name: 🇩🇪 德国 (Germany) 224 - chefdon
+      Host: white-forest-2c01.alvlirm222.workers.dev
+- name: 🇩🇪 德国 (Germany) 92 - chefdon
   type: vless
-  server: 104.21.64.250
-  port: 2053
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  server: 178.105.218.159
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: index.arcane509.workers.dev
-- name: 🇩🇪 德国 (Germany) 225 - chefdon
-  type: vless
-  server: 45.131.66.247
-  port: 20002
-  uuid: 74f67dcd-4d40-4af1-b8e7-8af849bb2444
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 93 - chefdon
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇩🇪 德国 (Germany) 226 - chefdon
+- name: 🇩🇪 德国 (Germany) 94 - chefdon
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 95 - chefdon
   type: vless
   server: 82.24.203.20
   port: 2087
@@ -3061,23 +1283,9 @@ proxies:
     path: /fd5ba98a3970
     headers:
       Host: 82.24.203.20
-- name: 🇩🇪 德国 (Germany) 227 - chefdon
+- name: 🇩🇪 德国 (Germany) 96 - chefdon
   type: vless
-  server: 104.17.148.22
-  port: 443
-  uuid: 4ccf70f9-7632-4b5a-9557-10d2dd347bb2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/G4J8aNAVZt9KdOjjcfZDFDRI1Obr5E0?ed=2560
-    headers:
-      Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
-- name: 🇩🇪 德国 (Germany) 228 - chefdon
-  type: vless
-  server: 89.22.229.253
+  server: 89.169.34.141
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3089,9 +1297,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 229 - chefdon
+- name: 🇩🇪 德国 (Germany) 97 - chefdon
   type: vless
-  server: 172.104.129.34
+  server: 150.241.108.1
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3103,9 +1311,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 230 - chefdon
+- name: 🇩🇪 德国 (Germany) 98 - chefdon
   type: vless
-  server: 5.175.236.48
+  server: 93.177.64.118
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 99 - chefdon
+  type: vless
+  server: 79.137.199.181
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3117,22 +1339,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 231 - chefdon
+- name: 🇩🇪 德国 (Germany) 100 - chefdon
   type: vless
-  server: 82.24.203.20
-  port: 2087
-  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
+  server: 188.114.97.8
+  port: 8443
+  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
   network: ws
   ws-opts:
-    path: /fd5ba98a3970
+    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: 82.24.203.20
-- name: 🇩🇪 德国 (Germany) 232 - chefdon
+      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
+- name: 🇩🇪 德国 (Germany) 101 - chefdon
   type: vless
-  server: 147.90.229.233
+  server: 138.124.110.110
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3144,23 +1367,37 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 233 - chefdon
+- name: 🇩🇪 德国 (Germany) 102 - chefdon
   type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 4b5de9a4-3543-4f04-af6e-5c20141520ce
+  server: 89.22.224.236
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: summer-sky-0522.sfpoijsofw207gefs.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiWnM2b1ZnRlpNRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ==
+    path: /?ed=2048
     headers:
-      Host: summer-sky-0522.sfpoijsofw207gefs.workers.dev
-- name: 🇩🇪 德国 (Germany) 234 - chefdon
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 103 - chefdon
   type: vless
-  server: 167.172.189.43
+  server: 35.157.240.237
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇩🇪 德国 (Germany) 104 - chefdon
+  type: vless
+  server: 64.226.96.188
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3172,9 +1409,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 235 - chefdon
+- name: 🇩🇪 德国 (Germany) 105 - chefdon
   type: vless
-  server: 147.90.229.162
+  server: 193.23.202.92
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3186,7 +1423,35 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 236 - chefdon
+- name: 🇩🇪 德国 (Germany) 106 - chefdon
+  type: vless
+  server: 144.31.199.60
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 107 - chefdon
+  type: vless
+  server: 152.53.187.214
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 108 - chefdon
   type: vless
   server: 89.22.229.170
   port: 2053
@@ -3200,23 +1465,37 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 237 - chefdon
+- name: 🇩🇪 德国 (Germany) 109 - chefdon
   type: vless
-  server: 188.114.97.8
+  server: 94.156.232.254
   port: 443
-  uuid: 513beae3-56e7-4954-a17e-930e06237b27
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cFOi-2fX16G3-8ry2KDxMcJ.wjESV2IlA3rXBuhpC2NsUgrAChGAWk.wOrKerS.DEv
+  servername: cf6.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /vl/FuJlzLUhMmosE6ySAHYtJDUq6XlF?ed=2560
+    path: /cdn/v3/live
     headers:
-      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
-- name: 🇩🇪 德国 (Germany) 238 - chefdon
+      Host: cf6.rumedia-cdn.com
+- name: 🇩🇪 德国 (Germany) 110 - chefdon
   type: vless
-  server: 167.233.25.100
+  server: 63.141.128.22
+  port: 443
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+- name: 🇩🇪 德国 (Germany) 111 - chefdon
+  type: vless
+  server: 2.27.16.177
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3228,7 +1507,490 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 239 - chefdon
+- name: 🇩🇪 德国 (Germany) 112 - chefdon
+  type: vless
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇩🇪 德国 (Germany) 113 - chefdon
+  type: ss
+  server: 2.58.81.221
+  port: 80
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+  udp: true
+- name: 🇩🇪 德国 (Germany) 114 - chefdon
+  type: vless
+  server: 213.176.72.38
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 115 - chefdon
+  type: vless
+  server: 201.10.72.67
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 116 - chefdon
+  type: vless
+  server: 185.218.137.69
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 117 - chefdon
+  type: vless
+  server: 159.69.145.239
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 118 - chefdon
+  type: vless
+  server: 89.22.224.219
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 119 - chefdon
+  type: vless
+  server: 204.168.248.5
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 120 - chefdon
+  type: vless
+  server: 82.21.117.200
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 121 - chefdon
+  type: vless
+  server: 213.176.64.88
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 122 - chefdon
+  type: vless
+  server: 151.245.160.2
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 123 - chefdon
+  type: vless
+  server: 185.230.44.62
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 124 - chefdon
+  type: vless
+  server: 92.246.136.120
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 125 - chefdon
+  type: vless
+  server: 188.137.230.106
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 126 - chefdon
+  type: vless
+  server: 151.242.17.99
+  port: 8443
+  uuid: a04814d9-d006-4e7b-ae20-8ab304b3b429
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6Yskxg5U0WxPGtuCAAGH9uD57T4U8LeGrErTBNvIrwM
+  servername: de.emvservice.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 127 - chefdon
+  type: vless
+  server: 138.124.18.134
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 128 - chefdon
+  type: vless
+  server: 45.131.71.168
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 129 - chefdon
+  type: vless
+  server: 109.120.132.115
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 130 - chefdon
+  type: vless
+  server: 94.249.203.75
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 131 - chefdon
+  type: vless
+  server: 85.192.40.176
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 132 - chefdon
+  type: vless
+  server: 68.183.66.94
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 133 - chefdon
+  type: vless
+  server: 193.188.22.47
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 134 - chefdon
+  type: vless
+  server: 134.122.94.19
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 135 - chefdon
+  type: vless
+  server: 45.80.230.2
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 136 - chefdon
+  type: vless
+  server: 57.129.41.216
+  port: 80
+  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 137 - chefdon
+  type: vless
+  server: 193.32.8.95
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 138 - chefdon
+  type: vless
+  server: 94.237.80.56
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 139 - chefdon
+  type: vmess
+  server: 51.89.41.22
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇩🇪 德国 (Germany) 140 - chefdon
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vl/zM8ELyqEIYeZ3ijacV9kuK?ed
+    headers:
+      Host: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
+- name: 🇩🇪 德国 (Germany) 141 - chefdon
+  type: ss
+  server: 8.209.74.72
+  port: 20001
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+  udp: true
+- name: 🇩🇪 德国 (Germany) 142 - chefdon
+  type: vless
+  server: 144.31.154.198
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 143 - chefdon
+  type: vless
+  server: 83.147.254.102
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 144 - chefdon
+  type: vless
+  server: 193.23.211.197
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 145 - chefdon
+  type: vless
+  server: 159.195.227.70
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 146 - chefdon
+  type: vless
+  server: 46.226.160.92
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 147 - chefdon
+  type: vless
+  server: 77.239.125.172
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 148 - chefdon
   type: vless
   server: 172.66.44.124
   port: 8443
@@ -3242,24 +2004,10 @@ proxies:
     path: /
     headers:
       Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-- name: 🇩🇪 德国 (Germany) 240 - chefdon
+- name: 🇩🇪 德国 (Germany) 149 - chefdon
   type: vless
-  server: 94.156.232.254
+  server: 185.103.101.70
   port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf6.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf6.rumedia-cdn.com
-- name: 🇩🇪 德国 (Germany) 241 - chefdon
-  type: vless
-  server: 5.175.236.6
-  port: 2096
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -3270,7 +2018,21 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 242 - chefdon
+- name: 🇩🇪 德国 (Germany) 150 - chefdon
+  type: vless
+  server: 139.162.173.169
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 151 - chefdon
   type: vless
   server: 94.156.232.254
   port: 443
@@ -3284,7 +2046,566 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf6.rumedia-cdn.com
-- name: 🇩🇪 德国 (Germany) 243 - chefdon
+- name: 🇩🇪 德国 (Germany) 152 - chefdon
+  type: vless
+  server: 91.107.179.8
+  port: 15003
+  uuid: 69d8dc73-20ff-4241-bdd8-a9d6d07553b6
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 153 - chefdon
+  type: vless
+  server: 64.188.106.195
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 154 - chefdon
+  type: vless
+  server: 144.31.159.91
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 155 - chefdon
+  type: vless
+  server: 162.248.166.205
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 156 - chefdon
+  type: vless
+  server: 91.107.154.19
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 91.107.154.19
+- name: 🇩🇪 德国 (Germany) 157 - chefdon
+  type: vless
+  server: 84.22.148.114
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 158 - chefdon
+  type: vless
+  server: 84.22.150.185
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 159 - chefdon
+  type: vless
+  server: 91.107.190.175
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 91.107.190.175
+- name: 🇩🇪 德国 (Germany) 160 - chefdon
+  type: vless
+  server: 144.31.192.63
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 161 - chefdon
+  type: vless
+  server: 45.9.63.164
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 162 - chefdon
+  type: vless
+  server: 147.90.229.176
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 163 - chefdon
+  type: vless
+  server: 64.227.117.91
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 164 - chefdon
+  type: vless
+  server: 45.136.228.113
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 165 - chefdon
+  type: vless
+  server: 195.133.67.160
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 166 - chefdon
+  type: vless
+  server: 172.67.158.34
+  port: 443
+  uuid: 07821f66-cdb7-4c70-9de6-e230cffac470
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/Li1khIHH3DNItJyzraemsPBQvu
+    headers:
+      Host: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
+- name: 🇩🇪 德国 (Germany) 167 - chefdon
+  type: vless
+  server: 165.22.80.22
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 168 - chefdon
+  type: vless
+  server: 155.117.234.131
+  port: 42638
+  uuid: 40fa5575-7649-428d-8859-2426dd69056c
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 169 - chefdon
+  type: vless
+  server: 95.181.162.221
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 170 - chefdon
+  type: vless
+  server: 217.110.20.141
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 171 - chefdon
+  type: vless
+  server: 62.60.250.200
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 172 - chefdon
+  type: vless
+  server: 144.31.168.189
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 173 - chefdon
+  type: vless
+  server: 159.223.18.82
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 174 - chefdon
+  type: vless
+  server: 77.110.120.45
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 175 - chefdon
+  type: vless
+  server: 91.103.140.112
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 176 - chefdon
+  type: vless
+  server: 147.45.73.177
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 177 - chefdon
+  type: vless
+  server: 89.22.227.190
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 178 - chefdon
+  type: vless
+  server: 13.140.28.247
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 179 - chefdon
+  type: vless
+  server: 213.165.34.40
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 180 - chefdon
+  type: vless
+  server: 172.67.130.187
+  port: 2053
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: FaNs.livErpoOl.qZZ.io
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZXlpMnFWRURmWkp5ZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: fans.liverpool.qzz.io
+- name: 🇩🇪 德国 (Germany) 181 - chefdon
+  type: vless
+  server: 57.129.41.68
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 182 - chefdon
+  type: vless
+  server: 46.101.70.188
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 183 - chefdon
+  type: vless
+  server: 164.92.240.12
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 184 - chefdon
+  type: vless
+  server: 147.90.229.234
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 185 - chefdon
+  type: vless
+  server: 161.35.221.176
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 186 - chefdon
+  type: vless
+  server: 138.124.53.254
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 187 - chefdon
+  type: vless
+  server: 94.156.232.254
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf6.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf6.rumedia-cdn.com
+- name: 🇩🇪 德国 (Germany) 188 - chefdon
+  type: vless
+  server: 91.186.217.94
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 189 - chefdon
+  type: vless
+  server: 206.81.17.2
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 190 - chefdon
+  type: vless
+  server: 80.85.241.70
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 191 - chefdon
+  type: vless
+  server: 141.95.41.46
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 192 - chefdon
+  type: vless
+  server: 57.129.41.216
+  port: 80
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-Germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 193 - chefdon
   type: vless
   server: 91.107.190.63
   port: 8080
@@ -3297,7 +2618,35 @@ proxies:
     path: /
     headers:
       Host: 91.107.190.63
-- name: 🇩🇪 德国 (Germany) 244 - chefdon
+- name: 🇩🇪 德国 (Germany) 194 - chefdon
+  type: vless
+  server: 172.67.140.37
+  port: 443
+  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/ERYN0G44hia16zhR
+    headers:
+      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+- name: 🇩🇪 德国 (Germany) 195 - chefdon
+  type: vless
+  server: 147.45.79.77
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇪 德国 (Germany) 196 - chefdon
   type: vless
   server: 188.114.97.1
   port: 2053
@@ -3311,9 +2660,9 @@ proxies:
     path: /
     headers:
       Host: bold-term-4edd.mbigspot.workers.dev
-- name: 🇩🇪 德国 (Germany) 245 - chefdon
+- name: 🇩🇪 德国 (Germany) 197 - chefdon
   type: vless
-  server: 192.46.239.226
+  server: 72.144.41.99
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3325,49 +2674,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 246 - chefdon
+- name: 🇩🇪 德国 (Germany) 198 - chefdon
   type: vless
-  server: 91.107.190.63
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: 91.107.190.63
-- name: 🇩🇪 德国 (Germany) 247 - chefdon
-  type: vless
-  server: 163.8.195.241
-  port: 2087
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /29c8fed7ca22
-    headers:
-      Host: 163.8.195.241
-- name: 🇩🇪 德国 (Germany) 248 - chefdon
-  type: vless
-  server: 104.21.22.180
-  port: 443
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: auto-scale-238b2b.infra-core-1630dd.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
-    headers:
-      Host: auto-scale-238b2b.infra-core-1630dd.workers.dev
-- name: 🇩🇪 德国 (Germany) 249 - chefdon
-  type: vless
-  server: 77.110.100.6
+  server: 2.27.98.35
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3379,22 +2688,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 250 - chefdon
+- name: 🇩🇪 德国 (Germany) 199 - chefdon
   type: vless
-  server: 104.21.39.30
-  port: 80
-  uuid: 7201b2cd-0675-4c1a-9c76-07ca14ffcf08
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiTEwyZVI5T3BYZDBxTzhPRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: 6crihfknlqjdu3yuzco9phspq86dbp6q.christanmoccasin.workers.dev
-- name: 🇩🇪 德国 (Germany) 251 - chefdon
-  type: vless
-  server: 38.180.165.83
+  server: 104.248.132.134
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3406,24 +2702,10 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 252 - chefdon
+- name: 🇩🇪 德国 (Germany) 200 - chefdon
   type: vless
-  server: 94.156.232.254
-  port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf6.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf6.rumedia-cdn.com
-- name: 🇩🇪 德国 (Germany) 253 - chefdon
-  type: vless
-  server: 13.140.28.46
-  port: 443
+  server: 77.221.143.197
+  port: 2096
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -3434,76 +2716,32 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 254 - chefdon
+- name: 🇩🇪 德国 (Germany) 201 - chefdon
   type: vless
-  server: 212.43.159.42
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 255 - chefdon
-  type: vless
-  server: 77.110.98.136
+  server: 172.67.215.39
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 256 - chefdon
-  type: vless
-  server: 89.167.28.25
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇪 德国 (Germany) 257 - chefdon
-  type: vless
-  server: 104.21.94.81
-  port: 2053
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
+  servername: muddy-math-c1fc.tmpnriqueau89.workers.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: index.arcane509.workers.dev
-- name: 🇩🇪 德国 (Germany) 258 - chefdon
+      Host: muddy-math-c1fc.tmpnriqueau89.workers.dev
+- name: 🇩🇪 德国 (Germany) 202 - chefdon
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
+  server: 93.152.217.41
+  port: 40443
+  uuid: 969bcce0-de8a-4b02-8cf8-d00d2d2ca7a5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: auto-scale-238b2b.infra-core-1630dd.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
-    headers:
-      Host: auto-scale-238b2b.infra-core-1630dd.workers.dev
+  reality-opts:
+    public-key: VG-FwQBMFzPcemJ_JqtkbO-2WKLmQp2h0CmAj-DfLkA
+  servername: deepl.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -3711,62 +2949,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 200 - chefdon
   - 🇩🇪 德国 (Germany) 201 - chefdon
   - 🇩🇪 德国 (Germany) 202 - chefdon
-  - 🇩🇪 德国 (Germany) 203 - chefdon
-  - 🇩🇪 德国 (Germany) 204 - chefdon
-  - 🇩🇪 德国 (Germany) 205 - chefdon
-  - 🇩🇪 德国 (Germany) 206 - chefdon
-  - 🇩🇪 德国 (Germany) 207 - chefdon
-  - 🇩🇪 德国 (Germany) 208 - chefdon
-  - 🇩🇪 德国 (Germany) 209 - chefdon
-  - 🇩🇪 德国 (Germany) 210 - chefdon
-  - 🇩🇪 德国 (Germany) 211 - chefdon
-  - 🇩🇪 德国 (Germany) 212 - chefdon
-  - 🇩🇪 德国 (Germany) 213 - chefdon
-  - 🇩🇪 德国 (Germany) 214 - chefdon
-  - 🇩🇪 德国 (Germany) 215 - chefdon
-  - 🇩🇪 德国 (Germany) 216 - chefdon
-  - 🇩🇪 德国 (Germany) 217 - chefdon
-  - 🇩🇪 德国 (Germany) 218 - chefdon
-  - 🇩🇪 德国 (Germany) 219 - chefdon
-  - 🇩🇪 德国 (Germany) 220 - chefdon
-  - 🇩🇪 德国 (Germany) 221 - chefdon
-  - 🇩🇪 德国 (Germany) 222 - chefdon
-  - 🇩🇪 德国 (Germany) 223 - chefdon
-  - 🇩🇪 德国 (Germany) 224 - chefdon
-  - 🇩🇪 德国 (Germany) 225 - chefdon
-  - 🇩🇪 德国 (Germany) 226 - chefdon
-  - 🇩🇪 德国 (Germany) 227 - chefdon
-  - 🇩🇪 德国 (Germany) 228 - chefdon
-  - 🇩🇪 德国 (Germany) 229 - chefdon
-  - 🇩🇪 德国 (Germany) 230 - chefdon
-  - 🇩🇪 德国 (Germany) 231 - chefdon
-  - 🇩🇪 德国 (Germany) 232 - chefdon
-  - 🇩🇪 德国 (Germany) 233 - chefdon
-  - 🇩🇪 德国 (Germany) 234 - chefdon
-  - 🇩🇪 德国 (Germany) 235 - chefdon
-  - 🇩🇪 德国 (Germany) 236 - chefdon
-  - 🇩🇪 德国 (Germany) 237 - chefdon
-  - 🇩🇪 德国 (Germany) 238 - chefdon
-  - 🇩🇪 德国 (Germany) 239 - chefdon
-  - 🇩🇪 德国 (Germany) 240 - chefdon
-  - 🇩🇪 德国 (Germany) 241 - chefdon
-  - 🇩🇪 德国 (Germany) 242 - chefdon
-  - 🇩🇪 德国 (Germany) 243 - chefdon
-  - 🇩🇪 德国 (Germany) 244 - chefdon
-  - 🇩🇪 德国 (Germany) 245 - chefdon
-  - 🇩🇪 德国 (Germany) 246 - chefdon
-  - 🇩🇪 德国 (Germany) 247 - chefdon
-  - 🇩🇪 德国 (Germany) 248 - chefdon
-  - 🇩🇪 德国 (Germany) 249 - chefdon
-  - 🇩🇪 德国 (Germany) 250 - chefdon
-  - 🇩🇪 德国 (Germany) 251 - chefdon
-  - 🇩🇪 德国 (Germany) 252 - chefdon
-  - 🇩🇪 德国 (Germany) 253 - chefdon
-  - 🇩🇪 德国 (Germany) 254 - chefdon
-  - 🇩🇪 德国 (Germany) 255 - chefdon
-  - 🇩🇪 德国 (Germany) 256 - chefdon
-  - 🇩🇪 德国 (Germany) 257 - chefdon
-  - 🇩🇪 德国 (Germany) 258 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -3974,61 +3156,5 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 200 - chefdon
   - 🇩🇪 德国 (Germany) 201 - chefdon
   - 🇩🇪 德国 (Germany) 202 - chefdon
-  - 🇩🇪 德国 (Germany) 203 - chefdon
-  - 🇩🇪 德国 (Germany) 204 - chefdon
-  - 🇩🇪 德国 (Germany) 205 - chefdon
-  - 🇩🇪 德国 (Germany) 206 - chefdon
-  - 🇩🇪 德国 (Germany) 207 - chefdon
-  - 🇩🇪 德国 (Germany) 208 - chefdon
-  - 🇩🇪 德国 (Germany) 209 - chefdon
-  - 🇩🇪 德国 (Germany) 210 - chefdon
-  - 🇩🇪 德国 (Germany) 211 - chefdon
-  - 🇩🇪 德国 (Germany) 212 - chefdon
-  - 🇩🇪 德国 (Germany) 213 - chefdon
-  - 🇩🇪 德国 (Germany) 214 - chefdon
-  - 🇩🇪 德国 (Germany) 215 - chefdon
-  - 🇩🇪 德国 (Germany) 216 - chefdon
-  - 🇩🇪 德国 (Germany) 217 - chefdon
-  - 🇩🇪 德国 (Germany) 218 - chefdon
-  - 🇩🇪 德国 (Germany) 219 - chefdon
-  - 🇩🇪 德国 (Germany) 220 - chefdon
-  - 🇩🇪 德国 (Germany) 221 - chefdon
-  - 🇩🇪 德国 (Germany) 222 - chefdon
-  - 🇩🇪 德国 (Germany) 223 - chefdon
-  - 🇩🇪 德国 (Germany) 224 - chefdon
-  - 🇩🇪 德国 (Germany) 225 - chefdon
-  - 🇩🇪 德国 (Germany) 226 - chefdon
-  - 🇩🇪 德国 (Germany) 227 - chefdon
-  - 🇩🇪 德国 (Germany) 228 - chefdon
-  - 🇩🇪 德国 (Germany) 229 - chefdon
-  - 🇩🇪 德国 (Germany) 230 - chefdon
-  - 🇩🇪 德国 (Germany) 231 - chefdon
-  - 🇩🇪 德国 (Germany) 232 - chefdon
-  - 🇩🇪 德国 (Germany) 233 - chefdon
-  - 🇩🇪 德国 (Germany) 234 - chefdon
-  - 🇩🇪 德国 (Germany) 235 - chefdon
-  - 🇩🇪 德国 (Germany) 236 - chefdon
-  - 🇩🇪 德国 (Germany) 237 - chefdon
-  - 🇩🇪 德国 (Germany) 238 - chefdon
-  - 🇩🇪 德国 (Germany) 239 - chefdon
-  - 🇩🇪 德国 (Germany) 240 - chefdon
-  - 🇩🇪 德国 (Germany) 241 - chefdon
-  - 🇩🇪 德国 (Germany) 242 - chefdon
-  - 🇩🇪 德国 (Germany) 243 - chefdon
-  - 🇩🇪 德国 (Germany) 244 - chefdon
-  - 🇩🇪 德国 (Germany) 245 - chefdon
-  - 🇩🇪 德国 (Germany) 246 - chefdon
-  - 🇩🇪 德国 (Germany) 247 - chefdon
-  - 🇩🇪 德国 (Germany) 248 - chefdon
-  - 🇩🇪 德国 (Germany) 249 - chefdon
-  - 🇩🇪 德国 (Germany) 250 - chefdon
-  - 🇩🇪 德国 (Germany) 251 - chefdon
-  - 🇩🇪 德国 (Germany) 252 - chefdon
-  - 🇩🇪 德国 (Germany) 253 - chefdon
-  - 🇩🇪 德国 (Germany) 254 - chefdon
-  - 🇩🇪 德国 (Germany) 255 - chefdon
-  - 🇩🇪 德国 (Germany) 256 - chefdon
-  - 🇩🇪 德国 (Germany) 257 - chefdon
-  - 🇩🇪 德国 (Germany) 258 - chefdon
 rules:
 - MATCH,PROXIES

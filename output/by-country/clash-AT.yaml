@@ -6,7 +6,21 @@ log-level: info
 proxies:
 - name: 🇦🇹 AT 01 - chefdon
   type: vless
-  server: 95.163.176.118
+  server: 185.103.102.251
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 02 - chefdon
+  type: vless
+  server: 62.60.238.145
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -24,11 +38,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇦🇹 AT 01 - chefdon
+  - 🇦🇹 AT 02 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇹 AT 01 - chefdon
+  - 🇦🇹 AT 02 - chefdon
 rules:
 - MATCH,PROXIES

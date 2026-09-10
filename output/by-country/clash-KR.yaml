@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - chefdon
   type: vless
-  server: 20.41.123.20
+  server: 134.185.99.52
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 02 - chefdon
   type: vless
-  server: 64.110.70.64
+  server: 134.185.123.54
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 03 - chefdon
   type: vless
-  server: 47.80.57.116
+  server: 141.164.49.98
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -47,44 +47,13 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 04 - chefdon
-  type: vless
-  server: 43.155.221.27
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 141.164.45.187
+  port: 8000
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 05 - chefdon
-  type: vless
-  server: 134.185.112.134
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 06 - chefdon
-  type: vmess
-  server: 146.56.112.110
-  port: 8888
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 07 - chefdon
   type: vless
   server: 64.176.230.12
   port: 443
@@ -98,9 +67,36 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 06 - chefdon
+  type: vless
+  server: 104.21.56.202
+  port: 8880
+  uuid: fba6d1fd-0dab-428d-ae71-0e64c73a6060
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: morning-wood-0e8a.28-63e.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 07 - chefdon
+  type: vless
+  server: 54.180.141.246
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 08 - chefdon
   type: vless
-  server: 193.122.96.190
+  server: 158.247.240.138
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -114,7 +110,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 09 - chefdon
   type: vless
-  server: 43.131.247.123
+  server: 43.155.221.27
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -128,7 +124,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 10 - chefdon
   type: vless
-  server: 146.56.151.92
+  server: 43.155.202.169
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -142,21 +138,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 11 - chefdon
   type: vless
-  server: 172.66.170.53
-  port: 8880
-  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
+  server: 168.107.14.233
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+    path: /?ed=2048
     headers:
-      Host: summer-hat-ba5c.430.workers.dev
+      Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 12 - chefdon
   type: vless
-  server: 141.164.49.98
-  port: 443
+  server: 146.56.187.1
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -169,8 +166,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 13 - chefdon
   type: vless
-  server: 168.110.112.196
-  port: 8443
+  server: 146.56.151.92
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -183,7 +180,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 14 - chefdon
   type: vless
-  server: 3.35.51.12
+  server: 203.248.94.49
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -197,8 +194,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 15 - chefdon
   type: vless
-  server: 43.108.46.150
-  port: 8443
+  server: 146.56.119.205
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -211,8 +208,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 16 - chefdon
   type: vless
-  server: 130.94.29.155
-  port: 443
+  server: 168.107.17.234
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -225,7 +222,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 17 - chefdon
   type: vless
-  server: 131.186.16.166
+  server: 152.67.208.47
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -239,21 +236,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 18 - chefdon
   type: vless
-  server: 172.64.88.251
-  port: 8880
-  uuid: 7e3cd2f1-0de5-4717-9002-64d8597bc577
+  server: 168.110.112.196
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+    path: /?ed=2048
     headers:
-      Host: dry-credit-fc26.203-d8c.workers.dev
+      Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 19 - chefdon
   type: vless
-  server: 64.176.226.26
-  port: 8443
+  server: 119.205.235.58
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -266,7 +264,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 20 - chefdon
   type: vless
-  server: 168.107.14.233
+  server: 193.122.96.190
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -280,8 +278,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 21 - chefdon
   type: vless
-  server: 168.107.40.4
-  port: 8443
+  server: 152.70.239.74
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -294,21 +292,19 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 22 - chefdon
   type: vless
-  server: 158.247.253.111
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 119.28.161.143
+  port: 443
+  uuid: 1ebb0858-218a-4dee-8746-36a67bc64462
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
+  reality-opts:
+    public-key: pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs
+  servername: apple.com
+  client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 23 - chefdon
   type: vless
-  server: 140.238.5.86
+  server: 64.110.82.71
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -323,13 +319,13 @@ proxies:
 - name: 🇰🇷 韩国 (South Korea) 24 - chefdon
   type: ss
   server: 141.164.45.187
-  port: 8888
+  port: 6679
   cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  password: TEzjfAYq2IjtuoS
   udp: true
 - name: 🇰🇷 韩国 (South Korea) 25 - chefdon
   type: vless
-  server: 193.122.115.184
+  server: 130.94.29.155
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -343,8 +339,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 26 - chefdon
   type: vless
-  server: 158.247.210.172
-  port: 443
+  server: 158.247.253.111
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -357,7 +353,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 27 - chefdon
   type: vless
-  server: 168.110.107.218
+  server: 123.111.169.70
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -370,19 +366,16 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 28 - chefdon
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 141.164.45.187
+  port: 5498
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 29 - chefdon
   type: vless
-  server: 168.110.121.126
-  port: 8443
+  server: 43.155.209.83
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -394,125 +387,6 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 30 - chefdon
-  type: vless
-  server: 146.56.167.171
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 31 - chefdon
-  type: vless
-  server: 146.56.187.1
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 32 - chefdon
-  type: ss
-  server: 141.164.45.187
-  port: 8091
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 33 - chefdon
-  type: vless
-  server: 134.185.114.16
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 34 - chefdon
-  type: vless
-  server: 134.185.99.52
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 35 - chefdon
-  type: vless
-  server: 152.69.229.110
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 36 - chefdon
-  type: vless
-  server: 134.185.123.54
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 37 - chefdon
-  type: vless
-  server: 119.205.235.58
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 38 - chefdon
-  type: vless
-  server: 140.245.65.122
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 39 - chefdon
   type: vless
   server: 43.133.237.158
   port: 8443
@@ -526,9 +400,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 40 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 31 - chefdon
   type: vless
-  server: 146.56.119.205
+  server: 132.145.91.181
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 32 - chefdon
+  type: vless
+  server: 152.69.229.110
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -540,9 +428,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 41 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 33 - chefdon
   type: vless
-  server: 161.118.153.136
+  server: 134.185.112.134
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -554,7 +442,63 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 42 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 34 - chefdon
+  type: vless
+  server: 129.154.197.113
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 35 - chefdon
+  type: vless
+  server: 168.107.40.4
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 36 - chefdon
+  type: vless
+  server: 64.176.226.26
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 37 - chefdon
+  type: vless
+  server: 146.56.115.180
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 38 - chefdon
   type: vless
   server: 158.247.224.240
   port: 443
@@ -568,9 +512,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 43 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 39 - chefdon
   type: vless
-  server: 193.122.119.241
+  server: 172.67.217.240
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🇰🇷 韩国 (South Korea) 40 - chefdon
+  type: vless
+  server: 140.245.65.122
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -582,9 +540,50 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 41 - chefdon
+  type: vless
+  server: 144.24.73.232
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 42 - chefdon
+  type: vless
+  server: 146.56.135.196
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 43 - chefdon
+  type: vless
+  server: 172.64.94.251
+  port: 8880
+  uuid: 9f4b666c-ecf1-49e9-8ab8-9ae2c4f4c613
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: withered-morning-aa51.64-c79.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 44 - chefdon
   type: vless
-  server: 54.180.151.15
+  server: 131.186.16.166
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -597,16 +596,23 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 45 - chefdon
-  type: ss
-  server: 141.164.45.187
-  port: 5001
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  type: vless
+  server: 43.131.247.123
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 46 - chefdon
   type: vless
-  server: 168.107.17.234
-  port: 8443
+  server: 47.80.57.116
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -626,7 +632,7 @@ proxies:
   udp: true
 - name: 🇰🇷 韩国 (South Korea) 48 - chefdon
   type: vless
-  server: 123.111.169.70
+  server: 193.122.119.241
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -640,7 +646,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 49 - chefdon
   type: vless
-  server: 3.37.245.168
+  server: 43.201.2.23
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -654,7 +660,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 50 - chefdon
   type: vless
-  server: 140.238.21.85
+  server: 43.108.46.150
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -668,8 +674,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 51 - chefdon
   type: vless
-  server: 146.56.142.151
-  port: 443
+  server: 168.110.121.126
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -682,7 +688,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 52 - chefdon
   type: vless
-  server: 168.107.0.210
+  server: 140.238.5.86
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -696,8 +702,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 53 - chefdon
   type: vless
-  server: 193.123.236.206
-  port: 443
+  server: 158.247.201.201
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -710,7 +716,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 54 - chefdon
   type: vless
-  server: 134.185.127.173
+  server: 20.41.123.20
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -724,7 +730,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 55 - chefdon
   type: vless
-  server: 146.56.135.196
+  server: 158.247.210.172
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -738,7 +744,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 56 - chefdon
   type: vless
-  server: 141.164.42.2
+  server: 193.123.236.206
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -752,8 +758,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 57 - chefdon
   type: vless
-  server: 64.110.79.66
-  port: 8443
+  server: 141.164.35.4
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -766,7 +772,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 58 - chefdon
   type: vless
-  server: 152.70.254.197
+  server: 130.162.137.247
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -780,22 +786,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 59 - chefdon
   type: vless
-  server: 54.180.141.246
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 172.64.88.251
+  port: 8880
+  uuid: 7e3cd2f1-0de5-4717-9002-64d8597bc577
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: box5.xinwu.de5.net
+      Host: dry-credit-fc26.203-d8c.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 60 - chefdon
   type: vless
-  server: 43.201.2.23
-  port: 443
+  server: 140.238.21.85
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -807,20 +812,6 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 61 - chefdon
-  type: vless
-  server: 43.155.209.83
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 62 - chefdon
   type: vless
   server: 152.70.88.124
   port: 443
@@ -834,63 +825,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 63 - chefdon
-  type: vless
-  server: 146.56.188.74
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 64 - chefdon
-  type: vless
-  server: 131.186.26.94
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 65 - chefdon
-  type: vless
-  server: 158.247.201.201
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 66 - chefdon
-  type: vless
-  server: 43.155.134.179
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 67 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 62 - chefdon
   type: vless
   server: 152.67.198.36
   port: 443
@@ -904,9 +839,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 68 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 63 - chefdon
   type: vless
-  server: 129.154.197.113
+  server: 172.64.53.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇰🇷 韩国 (South Korea) 64 - chefdon
+  type: vless
+  server: 140.238.30.217
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -918,9 +867,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 69 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 65 - chefdon
   type: vless
-  server: 152.67.214.155
+  server: 45.93.31.34
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -932,26 +881,21 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 70 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 66 - chefdon
   type: vless
-  server: 3.34.197.128
-  port: 8686
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  server: 193.122.115.184
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇰🇷 韩国 (South Korea) 71 - chefdon
-  type: ss
-  server: 141.164.45.187
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 72 - chefdon
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 67 - chefdon
   type: vless
   server: 13.124.169.29
   port: 443
@@ -965,9 +909,78 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 68 - chefdon
+  type: vless
+  server: 141.164.42.2
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 69 - chefdon
+  type: vless
+  server: 54.180.151.15
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 70 - chefdon
+  type: vless
+  server: 172.64.88.251
+  port: 8880
+  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: patient-cake-39c7.44-e7a.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 71 - chefdon
+  type: vless
+  server: 132.145.91.135
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 72 - chefdon
+  type: vless
+  server: 146.56.188.74
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 73 - chefdon
   type: vless
-  server: 144.24.73.232
+  server: 158.247.222.168
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -981,18 +994,18 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 74 - chefdon
   type: vless
-  server: 104.18.40.152
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 168.107.56.181
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 75 - chefdon
   type: vless
   server: 129.154.50.72
@@ -1009,66 +1022,19 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 76 - chefdon
   type: vless
-  server: 119.28.161.143
+  server: 146.56.167.171
   port: 443
-  uuid: 1ebb0858-218a-4dee-8746-36a67bc64462
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs
-  servername: apple.com
-  client-fingerprint: chrome
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 77 - chefdon
-  type: vless
-  server: 141.164.35.4
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 78 - chefdon
-  type: ss
-  server: 141.164.45.187
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 79 - chefdon
-  type: vless
-  server: 64.110.82.71
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 80 - chefdon
-  type: vless
-  server: 152.70.239.74
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 81 - chefdon
   type: vless
   server: 140.238.15.158
   port: 443
@@ -1082,23 +1048,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 82 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 78 - chefdon
   type: vless
-  server: 132.145.91.181
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 83 - chefdon
-  type: vless
-  server: 168.107.56.181
+  server: 168.110.107.218
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1110,9 +1062,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 84 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 79 - chefdon
   type: vless
-  server: 152.67.208.47
+  server: 3.37.245.168
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1124,9 +1076,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 85 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 80 - chefdon
   type: vless
-  server: 203.248.94.49
+  server: 134.185.127.173
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1138,35 +1090,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 86 - chefdon
-  type: vless
-  server: 158.247.240.138
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 87 - chefdon
-  type: vless
-  server: 101.33.68.172
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 88 - chefdon
+- name: 🇰🇷 韩国 (South Korea) 81 - chefdon
   type: vless
   server: 152.67.210.234
   port: 443
@@ -1180,10 +1104,101 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 82 - chefdon
+  type: vless
+  server: 146.56.142.151
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 83 - chefdon
+  type: vless
+  server: 134.185.114.16
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 84 - chefdon
+  type: vless
+  server: 152.70.254.197
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 85 - chefdon
+  type: vless
+  server: 131.186.26.94
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 86 - chefdon
+  type: ss
+  server: 141.164.45.187
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 87 - chefdon
+  type: vless
+  server: 168.107.0.210
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇷 韩国 (South Korea) 88 - chefdon
+  type: vless
+  server: 3.35.51.12
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 89 - chefdon
   type: vless
-  server: 146.56.115.180
-  port: 443
+  server: 64.110.79.66
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1196,7 +1211,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 90 - chefdon
   type: vless
-  server: 130.162.137.247
+  server: 104.21.33.59
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇰🇷 韩国 (South Korea) 91 - chefdon
+  type: vless
+  server: 152.67.214.155
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1208,22 +1237,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 91 - chefdon
-  type: vless
-  server: 172.64.88.251
-  port: 8880
-  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: patient-cake-39c7.44-e7a.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 92 - chefdon
   type: vless
-  server: 132.145.91.135
+  server: 64.110.70.64
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1236,8 +1252,15 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 93 - chefdon
+  type: ss
+  server: 141.164.45.187
+  port: 6697
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 94 - chefdon
   type: vless
-  server: 140.238.30.217
+  server: 43.155.208.254
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1249,19 +1272,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 94 - chefdon
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 95 - chefdon
   type: vless
-  server: 45.93.31.34
+  server: 161.118.153.136
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1274,54 +1287,6 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇰🇷 韩国 (South Korea) 96 - chefdon
-  type: vless
-  server: 158.247.222.168
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇰🇷 韩国 (South Korea) 97 - chefdon
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 98 - chefdon
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 99 - chefdon
-  type: vless
-  server: 130.94.29.111
-  port: 2087
-  uuid: 84da6391-1539-4583-a3d9-d6efd796b4d6
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /e17586a75123
-    headers:
-      Host: 130.94.29.111
-- name: 🇰🇷 韩国 (South Korea) 100 - chefdon
   type: vless
   server: 130.94.29.111
   port: 2087
@@ -1435,10 +1400,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 94 - chefdon
   - 🇰🇷 韩国 (South Korea) 95 - chefdon
   - 🇰🇷 韩国 (South Korea) 96 - chefdon
-  - 🇰🇷 韩国 (South Korea) 97 - chefdon
-  - 🇰🇷 韩国 (South Korea) 98 - chefdon
-  - 🇰🇷 韩国 (South Korea) 99 - chefdon
-  - 🇰🇷 韩国 (South Korea) 100 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1540,9 +1501,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 94 - chefdon
   - 🇰🇷 韩国 (South Korea) 95 - chefdon
   - 🇰🇷 韩国 (South Korea) 96 - chefdon
-  - 🇰🇷 韩国 (South Korea) 97 - chefdon
-  - 🇰🇷 韩国 (South Korea) 98 - chefdon
-  - 🇰🇷 韩国 (South Korea) 99 - chefdon
-  - 🇰🇷 韩国 (South Korea) 100 - chefdon
 rules:
 - MATCH,PROXIES
