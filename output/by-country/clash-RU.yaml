@@ -6,29 +6,28 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - chefdon
   type: ss
-  server: 46.17.42.166
-  port: 10661
-  cipher: aes-256-gcm
-  password: 6b39ae3234dfd68b
+  server: 138.124.68.88
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: Y2ZlN
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 02 - chefdon
   type: vless
-  server: 80.66.78.207
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 212.67.9.113
+  port: 2200
+  uuid: 2aa7f4b1-e859-46d0-b8ac-8587811ab7b1
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /v1
     headers:
-      Host: box5.xinwu.de5.net
+      Host: 212.67.9.113
 - name: 🇷🇺 俄罗斯 (Russia) 03 - chefdon
   type: vless
-  server: 89.19.214.134
-  port: 443
+  server: 141.98.235.196
+  port: 2087
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -40,41 +39,6 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇷🇺 俄罗斯 (Russia) 04 - chefdon
-  type: vless
-  server: 89.169.141.85
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 05 - chefdon
-  type: ss
-  server: 138.124.68.88
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: Y2ZlN
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 06 - chefdon
-  type: vless
-  server: 178.20.208.255
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 07 - chefdon
   type: vless
   server: 46.8.200.91
   port: 443
@@ -88,10 +52,10 @@ proxies:
     path: /casc
     headers:
       Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 08 - chefdon
+- name: 🇷🇺 俄罗斯 (Russia) 05 - chefdon
   type: vless
-  server: 94.228.160.154
-  port: 2053
+  server: 80.66.78.207
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -102,6 +66,62 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇷🇺 俄罗斯 (Russia) 06 - chefdon
+  type: vless
+  server: 89.169.141.85
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇷🇺 俄罗斯 (Russia) 07 - chefdon
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: /63vp7pdl1GXaTpa6kkWd2+3tq3/szSAWueVKo26xM8=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 08 - chefdon
+  type: vless
+  server: 104.128.141.187
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇷🇺 俄罗斯 (Russia) 09 - chefdon
+  type: vless
+  server: 80.66.78.190
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇷🇺 俄罗斯 (Russia) 10 - chefdon
+  type: ss
+  server: 46.17.42.166
+  port: 10661
+  cipher: aes-256-gcm
+  password: 6b39ae3234dfd68b
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -115,6 +135,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 07 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 08 - chefdon
+  - 🇷🇺 俄罗斯 (Russia) 09 - chefdon
+  - 🇷🇺 俄罗斯 (Russia) 10 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -128,5 +150,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 07 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 08 - chefdon
+  - 🇷🇺 俄罗斯 (Russia) 09 - chefdon
+  - 🇷🇺 俄罗斯 (Russia) 10 - chefdon
 rules:
 - MATCH,PROXIES
