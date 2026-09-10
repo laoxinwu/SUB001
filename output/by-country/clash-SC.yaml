@@ -5,22 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - chefdon
-  type: vless
-  server: 196.196.5.28
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: vmess
+  server: 156.226.183.181
+  port: 54321
+  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇸🇨 SC 02 - chefdon
   type: vless
-  server: 154.81.37.31
+  server: 196.196.5.26
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -34,7 +30,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇨 SC 03 - chefdon
   type: vless
-  server: 156.226.168.206
+  server: 156.239.252.201
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -66,20 +62,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇨 SC 06 - chefdon
-  type: vless
-  server: 45.192.242.145
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -90,7 +72,6 @@ proxy-groups:
   - 🇸🇨 SC 03 - chefdon
   - 🇸🇨 SC 04 - chefdon
   - 🇸🇨 SC 05 - chefdon
-  - 🇸🇨 SC 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -101,6 +82,5 @@ proxy-groups:
   - 🇸🇨 SC 03 - chefdon
   - 🇸🇨 SC 04 - chefdon
   - 🇸🇨 SC 05 - chefdon
-  - 🇸🇨 SC 06 - chefdon
 rules:
 - MATCH,PROXIES

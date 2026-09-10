@@ -18,33 +18,17 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇺🇦 UA 02 - chefdon
-  type: vless
-  server: 87.76.190.244
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇺🇦 UA 01 - chefdon
-  - 🇺🇦 UA 02 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇺🇦 UA 01 - chefdon
-  - 🇺🇦 UA 02 - chefdon
 rules:
 - MATCH,PROXIES

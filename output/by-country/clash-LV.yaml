@@ -6,18 +6,17 @@ log-level: info
 proxies:
 - name: 🇱🇻 LV 01 - chefdon
   type: vless
-  server: 31.56.197.196
+  server: 89.36.161.222
   port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: laoye.in-gect.fun
 - name: 🇱🇻 LV 02 - chefdon
   type: vless
   server: 89.36.161.222
@@ -44,45 +43,6 @@ proxies:
     path: /
     headers:
       Host: 89.36.161.222
-- name: 🇱🇻 LV 04 - chefdon
-  type: vless
-  server: 89.36.161.222
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: laoye.in-gect.fun
-- name: 🇱🇻 LV 05 - chefdon
-  type: vless
-  server: 89.36.161.222
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 89.36.161.222
-- name: 🇱🇻 LV 06 - chefdon
-  type: vless
-  server: 89.36.161.222
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: laoye.in-gect.fun
 proxy-groups:
 - name: PROXIES
   type: select
@@ -91,9 +51,6 @@ proxy-groups:
   - 🇱🇻 LV 01 - chefdon
   - 🇱🇻 LV 02 - chefdon
   - 🇱🇻 LV 03 - chefdon
-  - 🇱🇻 LV 04 - chefdon
-  - 🇱🇻 LV 05 - chefdon
-  - 🇱🇻 LV 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -102,8 +59,5 @@ proxy-groups:
   - 🇱🇻 LV 01 - chefdon
   - 🇱🇻 LV 02 - chefdon
   - 🇱🇻 LV 03 - chefdon
-  - 🇱🇻 LV 04 - chefdon
-  - 🇱🇻 LV 05 - chefdon
-  - 🇱🇻 LV 06 - chefdon
 rules:
 - MATCH,PROXIES
