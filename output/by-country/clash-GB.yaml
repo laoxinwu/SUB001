@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - chefdon
   type: vless
-  server: 165.227.229.213
+  server: 185.248.86.218
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -19,29 +19,15 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 02 - chefdon
-  type: vless
-  server: 91.193.59.255
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇬🇧 英国 (United Kingdom) 03 - chefdon
   type: ss
-  server: 149.102.149.207
+  server: 149.102.132.184
   port: 443
   cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
+  password: g5h5jleTRSyO3Rk4
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 04 - chefdon
+- name: 🇬🇧 英国 (United Kingdom) 03 - chefdon
   type: vless
-  server: 167.99.93.13
+  server: 77.68.16.137
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -53,10 +39,17 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 04 - chefdon
+  type: ss
+  server: 141.98.101.181
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
 - name: 🇬🇧 英国 (United Kingdom) 05 - chefdon
   type: vless
-  server: 212.108.83.140
-  port: 2087
+  server: 46.101.95.29
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -69,8 +62,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 06 - chefdon
   type: vless
-  server: 91.193.58.252
-  port: 2053
+  server: 170.101.106.144
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -83,7 +76,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 07 - chefdon
   type: vless
-  server: 91.193.59.151
+  server: 138.68.130.235
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -97,56 +90,52 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 08 - chefdon
   type: vless
-  server: 129.121.95.159
+  server: 45.152.64.16
   port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 129.121.95.159
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /connect
+    path: /?ed=2048
     headers:
-      Host: 129.121.95.159
+      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 09 - chefdon
   type: vless
-  server: 91.193.58.98
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 51.38.70.192
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: random
 - name: 🇬🇧 英国 (United Kingdom) 10 - chefdon
+  type: ss
+  server: 149.102.149.207
+  port: 443
+  cipher: aes-256-gcm
+  password: LXchLsIwtCeUAUgu
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 11 - chefdon
   type: vless
-  server: 81.102.249.85
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 46.250.240.80
+  port: 2053
+  uuid: 7dc2737e-1155-42f6-aec4-6b2b001001ae
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇬🇧 英国 (United Kingdom) 11 - chefdon
-  type: ss
-  server: 51.77.225.200
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: zRZNBszYyWo5
-  udp: true
+  reality-opts:
+    public-key: AttEUIEavqeVE5oz4_AxJPrcwx3IgcFElW2OoF8qTAg
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇬🇧 英国 (United Kingdom) 12 - chefdon
   type: vless
-  server: 165.232.108.151
+  server: 139.59.177.252
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -159,32 +148,15 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 13 - chefdon
-  type: vless
-  server: 51.89.194.151
-  port: 2053
-  uuid: a8444f42-8aa2-4ef2-8755-2b0d82415fc6
+  type: ss
+  server: 149.102.149.207
+  port: 80
+  cipher: aes-256-gcm
+  password: LXchLsIwtCeUAUgu
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: T10K4VspJ7ZIptzXTqFL0k-lgV2a8ekf7RedogymJzo
-  servername: www.cloudflare.com
-  client-fingerprint: random
 - name: 🇬🇧 英国 (United Kingdom) 14 - chefdon
   type: vless
-  server: 78.129.208.44
-  port: 421
-  uuid: a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg
-  servername: chistomat.dry.care
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 15 - chefdon
-  type: vless
-  server: 51.241.130.139
+  server: 78.129.155.37
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -196,10 +168,24 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 15 - chefdon
+  type: vless
+  server: fcs013.getdcz.me
+  port: 443
+  uuid: f081b5e2-f3a0-4ef5-833b-1ea59e0797b6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fcs013.getdcz.me
+  network: ws
+  ws-opts:
+    path: /6d2fed050b30
+    headers:
+      Host: fcs013.getdcz.me
 - name: 🇬🇧 英国 (United Kingdom) 16 - chefdon
   type: vless
-  server: 194.147.88.46
-  port: 443
+  server: 194.60.86.243
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -211,48 +197,50 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 17 - chefdon
-  type: ss
-  server: 149.102.132.184
+  type: vless
+  server: 64.227.40.56
   port: 443
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 18 - chefdon
   type: vless
-  server: 46.250.250.149
-  port: 2053
-  uuid: 59bf58d9-ddaf-42cd-a0ca-db3559ad8714
+  server: 144.126.199.79
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: eUjgCl7-ujbXq11kaSLe-8q1LJJfSueB5Vkh24wKgk8
-  servername: www.apple.com
-  client-fingerprint: firefox
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 19 - chefdon
   type: vless
-  server: 167.172.63.237
+  server: 129.121.95.159
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: 129.121.95.159
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /connect
     headers:
-      Host: box5.xinwu.de5.net
+      Host: 129.121.95.159
 - name: 🇬🇧 英国 (United Kingdom) 20 - chefdon
-  type: ss
-  server: 51.38.71.51
-  port: 2083
-  cipher: 2022-blake3-aes-256-gcm
-  password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho=
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 21 - chefdon
   type: vless
-  server: 138.68.158.110
+  server: 178.62.32.248
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -264,10 +252,20 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 21 - chefdon
+  type: vmess
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇬🇧 英国 (United Kingdom) 22 - chefdon
   type: vless
-  server: 45.152.67.18
-  port: 443
+  server: 51.68.219.187
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -279,31 +277,37 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 23 - chefdon
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 24 - chefdon
   type: vless
-  server: 51.38.70.192
+  server: 45.152.65.100
   port: 443
-  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
-  servername: play.google.com
-  client-fingerprint: random
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 24 - chefdon
+  type: vless
+  server: 178.62.33.207
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 25 - chefdon
   type: vless
-  server: 91.193.59.194
-  port: 8443
+  server: 91.193.58.44
+  port: 2087
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -316,7 +320,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 26 - chefdon
   type: vless
-  server: 159.65.51.105
+  server: 159.65.24.221
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -330,21 +334,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 27 - chefdon
   type: vless
-  server: 206.245.166.128
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 45.130.125.126
+  port: 443
+  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: box5.xinwu.de5.net
+      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
 - name: 🇬🇧 英国 (United Kingdom) 28 - chefdon
   type: vless
-  server: 178.79.149.5
+  server: 51.38.73.235
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -358,21 +362,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 29 - chefdon
   type: vless
-  server: 159.65.93.241
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 172.67.155.231
+  port: 2053
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: INDEX.Arcane509.Workers.DEV
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: index.arcane509.workers.dev
 - name: 🇬🇧 英国 (United Kingdom) 30 - chefdon
   type: vless
-  server: 172.237.120.201
+  server: 167.172.61.249
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -385,20 +389,18 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 31 - chefdon
-  type: vless
-  server: 46.250.240.80
-  port: 2053
-  uuid: 7dc2737e-1155-42f6-aec4-6b2b001001ae
+  type: vmess
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: AttEUIEavqeVE5oz4_AxJPrcwx3IgcFElW2OoF8qTAg
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
 - name: 🇬🇧 英国 (United Kingdom) 32 - chefdon
   type: vless
-  server: 143.110.175.42
+  server: 178.62.15.190
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -411,15 +413,8 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 33 - chefdon
-  type: ss
-  server: 149.102.149.207
-  port: 80
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 34 - chefdon
   type: vless
-  server: 143.110.160.185
+  server: 188.166.150.159
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -431,9 +426,22 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 34 - chefdon
+  type: vless
+  server: 57.129.132.223
+  port: 80
+  uuid: 9e20b04d-5a81-4e16-b421-01e502f0aac6
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: google.com
 - name: 🇬🇧 英国 (United Kingdom) 35 - chefdon
   type: vless
-  server: 18.171.163.34
+  server: 188.166.169.50
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -447,22 +455,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 36 - chefdon
   type: vless
-  server: 57.128.177.198
+  server: 129.121.95.159
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: 129.121.95.159
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /connect
     headers:
-      Host: box5.xinwu.de5.net
+      Host: 129.121.95.159
 - name: 🇬🇧 英国 (United Kingdom) 37 - chefdon
   type: vless
-  server: 145.241.230.227
-  port: 2053
+  server: 57.128.182.21
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -475,7 +483,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 38 - chefdon
   type: vless
-  server: 167.99.193.245
+  server: 57.128.179.45
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -489,7 +497,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 39 - chefdon
   type: vless
-  server: 57.128.183.214
+  server: 209.97.134.147
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -503,7 +511,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 40 - chefdon
   type: vless
-  server: 91.193.59.206
+  server: 178.62.109.208
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -517,33 +525,28 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 41 - chefdon
   type: vless
-  server: 91.193.58.82
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 172.67.130.187
+  port: 2053
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: FaNs.livErpoOl.qZZ.io
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /eyJqdW5rIjoiZXlpMnFWRURmWkp5ZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: box5.xinwu.de5.net
+      Host: fans.liverpool.qzz.io
 - name: 🇬🇧 英国 (United Kingdom) 42 - chefdon
-  type: vless
-  server: 46.250.250.149
-  port: 2053
-  uuid: 59bf58d9-ddaf-42cd-a0ca-db3559ad8714
+  type: ss
+  server: 149.102.132.184
+  port: 80
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: eUjgCl7-ujbXq11kaSLe-8q1LJJfSueB5Vkh24wKgk8
-  servername: www.apple.com
-  client-fingerprint: random
 - name: 🇬🇧 英国 (United Kingdom) 43 - chefdon
   type: vless
-  server: 167.99.84.108
+  server: 165.232.43.42
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -557,8 +560,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 44 - chefdon
   type: vless
-  server: 91.193.58.69
-  port: 2087
+  server: 178.62.106.23
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -571,7 +574,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 45 - chefdon
   type: vless
-  server: 165.22.112.72
+  server: 138.68.150.145
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -584,22 +587,27 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 46 - chefdon
-  type: vless
-  server: 91.193.58.88
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: vmess
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 47 - chefdon
   type: vless
-  server: 165.227.237.209
+  server: 186.190.211.188
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 186.190.211.188
+- name: 🇬🇧 英国 (United Kingdom) 48 - chefdon
+  type: vless
+  server: 104.194.143.92
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -611,23 +619,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇬🇧 英国 (United Kingdom) 48 - chefdon
-  type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 129.121.95.159
-  network: ws
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
 - name: 🇬🇧 英国 (United Kingdom) 49 - chefdon
   type: vless
-  server: 82.39.250.126
+  server: 134.209.184.129
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -641,7 +635,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 50 - chefdon
   type: vless
-  server: 51.241.130.204
+  server: 143.110.160.185
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -655,19 +649,31 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 51 - chefdon
   type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  server: 46.250.250.149
+  port: 2053
+  uuid: 59bf58d9-ddaf-42cd-a0ca-db3559ad8714
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 129.121.95.159
+  reality-opts:
+    public-key: eUjgCl7-ujbXq11kaSLe-8q1LJJfSueB5Vkh24wKgk8
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 52 - chefdon
+  type: vless
+  server: 167.99.92.127
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /connect
+    path: /?ed=2048
     headers:
-      Host: 129.121.95.159
-- name: 🇬🇧 英国 (United Kingdom) 52 - chefdon
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 53 - chefdon
   type: vless
   server: 89.106.206.57
   port: 443
@@ -681,21 +687,9 @@ proxies:
     path: /6d2fed050b30
     headers:
       Host: fcs013.getdcz.me
-- name: 🇬🇧 英国 (United Kingdom) 53 - chefdon
-  type: vless
-  server: 51.89.194.151
-  port: 2053
-  uuid: a8444f42-8aa2-4ef2-8755-2b0d82415fc6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: T10K4VspJ7ZIptzXTqFL0k-lgV2a8ekf7RedogymJzo
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 - name: 🇬🇧 英国 (United Kingdom) 54 - chefdon
   type: vless
-  server: 178.62.100.171
+  server: 57.128.179.189
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -709,6 +703,62 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 55 - chefdon
   type: vless
+  server: 129.121.95.159
+  port: 443
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 129.121.95.159
+  network: ws
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
+- name: 🇬🇧 英国 (United Kingdom) 56 - chefdon
+  type: vless
+  server: 91.193.59.12
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 57 - chefdon
+  type: vless
+  server: 194.147.88.46
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 58 - chefdon
+  type: vless
+  server: 161.35.160.245
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 59 - chefdon
+  type: vless
   server: 161.35.46.34
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
@@ -721,63 +771,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇬🇧 英国 (United Kingdom) 56 - chefdon
-  type: vless
-  server: 142.93.47.157
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇬🇧 英国 (United Kingdom) 57 - chefdon
-  type: ss
-  server: 82.38.31.164
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 58 - chefdon
-  type: ss
-  server: 149.102.132.184
-  port: 80
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 59 - chefdon
-  type: vless
-  server: 46.101.81.78
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 60 - chefdon
   type: vless
-  server: 78.129.208.44
-  port: 421
-  uuid: a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18
+  server: 167.172.57.131
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg
-  servername: chistomat.dry.care
-  client-fingerprint: random
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 61 - chefdon
   type: vless
-  server: 167.172.60.77
+  server: 91.193.59.127
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -791,7 +801,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 62 - chefdon
   type: vless
-  server: 178.79.149.139
+  server: 157.245.34.181
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -805,7 +815,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 63 - chefdon
   type: vless
-  server: 54.38.214.128
+  server: 157.245.33.149
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -818,19 +828,23 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 64 - chefdon
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 172.236.15.240
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 65 - chefdon
   type: vless
-  server: 78.141.206.87
-  port: 8443
+  server: 178.62.111.180
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -843,7 +857,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 66 - chefdon
   type: vless
-  server: 178.62.106.23
+  server: 167.99.95.193
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -856,36 +870,29 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 67 - chefdon
-  type: vless
-  server: 159.65.25.165
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 94.156.250.148
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 68 - chefdon
   type: vless
-  server: 198.244.175.104
+  server: 129.121.95.159
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: 129.121.95.159
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /connect
     headers:
-      Host: box5.xinwu.de5.net
+      Host: 129.121.95.159
 - name: 🇬🇧 英国 (United Kingdom) 69 - chefdon
   type: vless
-  server: 194.60.86.88
+  server: 68.183.39.110
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -899,7 +906,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 70 - chefdon
   type: vless
-  server: 104.194.140.26
+  server: 143.110.167.132
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -913,7 +920,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 71 - chefdon
   type: vless
-  server: 18.134.196.127
+  server: 94.72.108.133
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -927,20 +934,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 72 - chefdon
   type: vless
-  server: 57.129.132.223
-  port: 80
-  uuid: 9e20b04d-5a81-4e16-b421-01e502f0aac6
+  server: 159.65.63.161
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /vless/
+    path: /?ed=2048
     headers:
-      Host: google.com
+      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 73 - chefdon
   type: vless
-  server: 130.185.249.139
+  server: 178.62.74.178
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -954,7 +962,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 74 - chefdon
   type: vless
-  server: 165.232.39.213
+  server: 144.126.230.21
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -968,54 +976,19 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 75 - chefdon
   type: vless
-  server: 129.121.95.159
+  server: 165.232.99.206
   port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 129.121.95.159
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /connect
+    path: /?ed=2048
     headers:
-      Host: 129.121.95.159
+      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 76 - chefdon
-  type: vless
-  server: 138.68.147.255
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇬🇧 英国 (United Kingdom) 77 - chefdon
-  type: ss
-  server: 94.156.250.148
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 78 - chefdon
-  type: vless
-  server: 159.65.21.201
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇬🇧 英国 (United Kingdom) 79 - chefdon
   type: vless
   server: 94.237.54.4
   port: 443
@@ -1029,7 +1002,21 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇬🇧 英国 (United Kingdom) 80 - chefdon
+- name: 🇬🇧 英国 (United Kingdom) 77 - chefdon
+  type: vless
+  server: 206.189.115.195
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 78 - chefdon
   type: vmess
   server: 66.163.117.58
   port: 22324
@@ -1039,30 +1026,56 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 81 - chefdon
-  type: ss
-  server: 149.102.149.207
-  port: 443
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 82 - chefdon
+- name: 🇬🇧 英国 (United Kingdom) 79 - chefdon
   type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  server: 46.250.250.149
+  port: 2053
+  uuid: 59bf58d9-ddaf-42cd-a0ca-db3559ad8714
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 129.121.95.159
+  reality-opts:
+    public-key: eUjgCl7-ujbXq11kaSLe-8q1LJJfSueB5Vkh24wKgk8
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇬🇧 英国 (United Kingdom) 80 - chefdon
+  type: ss
+  server: 51.77.225.200
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: zRZNBszYyWo5
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 81 - chefdon
+  type: vless
+  server: 209.97.183.36
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /connect
+    path: /?ed=2048
     headers:
-      Host: 129.121.95.159
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 82 - chefdon
+  type: vless
+  server: 144.126.227.116
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 83 - chefdon
   type: vless
-  server: 91.149.202.142
+  server: 134.122.102.234
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1076,7 +1089,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 84 - chefdon
   type: vless
-  server: 159.65.16.241
+  server: 165.232.44.241
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1090,7 +1103,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 85 - chefdon
   type: vless
-  server: 178.128.34.102
+  server: 138.68.140.118
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1103,15 +1116,22 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 86 - chefdon
-  type: ss
-  server: 141.98.101.181
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  type: vless
+  server: 104.21.64.250
+  port: 2053
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: INDEX.Arcane509.Workers.DEV
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: index.arcane509.workers.dev
 - name: 🇬🇧 英国 (United Kingdom) 87 - chefdon
   type: vless
-  server: 178.128.45.156
+  server: 138.68.147.146
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1125,8 +1145,229 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇧 英国 (United Kingdom) 88 - chefdon
   type: vless
-  server: 149.102.157.131
+  server: 57.129.132.223
+  port: 80
+  uuid: 9e20b04d-5a81-4e16-b421-01e502f0aac6
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: google.com
+- name: 🇬🇧 英国 (United Kingdom) 89 - chefdon
+  type: vless
+  server: 138.68.131.25
   port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 90 - chefdon
+  type: vless
+  server: 172.67.214.25
+  port: 2053
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: INDEX.Arcane509.Workers.DEV
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: index.arcane509.workers.dev
+- name: 🇬🇧 英国 (United Kingdom) 91 - chefdon
+  type: vless
+  server: 185.92.47.93
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 92 - chefdon
+  type: vless
+  server: 178.128.171.159
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 93 - chefdon
+  type: vless
+  server: 138.68.141.216
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 94 - chefdon
+  type: vless
+  server: 194.147.88.43
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 95 - chefdon
+  type: vless
+  server: 51.89.194.151
+  port: 2053
+  uuid: a8444f42-8aa2-4ef2-8755-2b0d82415fc6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: T10K4VspJ7ZIptzXTqFL0k-lgV2a8ekf7RedogymJzo
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇬🇧 英国 (United Kingdom) 96 - chefdon
+  type: vless
+  server: 91.193.59.248
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 97 - chefdon
+  type: vless
+  server: 194.147.88.44
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 98 - chefdon
+  type: vless
+  server: 161.35.165.224
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 99 - chefdon
+  type: vless
+  server: 209.38.240.59
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 100 - chefdon
+  type: vless
+  server: 162.159.153.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+- name: 🇬🇧 英国 (United Kingdom) 101 - chefdon
+  type: vless
+  server: 167.172.52.145
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 102 - chefdon
+  type: vless
+  server: 129.151.70.70
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 103 - chefdon
+  type: vless
+  server: 91.193.59.109
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇬🇧 英国 (United Kingdom) 104 - chefdon
+  type: vless
+  server: 91.193.58.86
+  port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1230,6 +1471,22 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 86 - chefdon
   - 🇬🇧 英国 (United Kingdom) 87 - chefdon
   - 🇬🇧 英国 (United Kingdom) 88 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 89 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 90 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 91 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 92 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 93 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 94 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 95 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 96 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 97 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 98 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 99 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 100 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 101 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 102 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 103 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 104 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1323,5 +1580,21 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 86 - chefdon
   - 🇬🇧 英国 (United Kingdom) 87 - chefdon
   - 🇬🇧 英国 (United Kingdom) 88 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 89 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 90 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 91 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 92 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 93 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 94 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 95 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 96 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 97 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 98 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 99 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 100 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 101 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 102 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 103 - chefdon
+  - 🇬🇧 英国 (United Kingdom) 104 - chefdon
 rules:
 - MATCH,PROXIES
