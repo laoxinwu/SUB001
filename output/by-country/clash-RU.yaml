@@ -5,22 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - chefdon
-  type: vless
-  server: 139.100.225.27
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 138.124.68.88
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: Y2ZlN
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇷🇺 俄罗斯 (Russia) 02 - chefdon
   type: vless
-  server: 87.225.88.81
+  server: 130.49.178.164
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -33,34 +26,6 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇷🇺 俄罗斯 (Russia) 03 - chefdon
-  type: ss
-  server: 195.133.23.200
-  port: 30111
-  cipher: aes-256-gcm
-  password: 81a20429165df87e
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 04 - chefdon
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: /63vp7pdl1GXaTpa6kkWd2+3tq3/szSAWueVKo26xM8=
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 05 - chefdon
-  type: vless
-  server: 5.129.195.172
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 06 - chefdon
   type: vless
   server: 80.66.78.190
   port: 443
@@ -74,6 +39,27 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇷🇺 俄罗斯 (Russia) 04 - chefdon
+  type: vless
+  server: 193.151.108.245
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇷🇺 俄罗斯 (Russia) 05 - chefdon
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: /63vp7pdl1GXaTpa6kkWd2+3tq3/szSAWueVKo26xM8=
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -84,7 +70,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 04 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 05 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -95,6 +80,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 04 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 05 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 06 - chefdon
 rules:
 - MATCH,PROXIES

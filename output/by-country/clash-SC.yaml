@@ -6,20 +6,103 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - chefdon
   type: vless
-  server: 172.64.52.6
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 45.9.117.89
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 02 - chefdon
+  type: vless
+  server: 156.239.245.134
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 03 - chefdon
+  type: vmess
+  server: 156.226.183.181
+  port: 54321
+  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇨 SC 04 - chefdon
+  type: vmess
+  server: 156.226.183.181
+  port: 54321
+  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇨 SC 05 - chefdon
+  type: vless
+  server: 45.129.126.42
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /?ed=2048
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 02 - chefdon
+      Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 06 - chefdon
+  type: vmess
+  server: 156.226.183.181
+  port: 54321
+  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇨 SC 07 - chefdon
   type: vless
-  server: 156.239.252.201
+  server: 45.202.240.235
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 08 - chefdon
+  type: vmess
+  server: 156.226.183.181
+  port: 54321
+  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇨 SC 09 - chefdon
+  type: vless
+  server: 45.141.177.62
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -38,6 +121,13 @@ proxy-groups:
   - AUTO
   - 🇸🇨 SC 01 - chefdon
   - 🇸🇨 SC 02 - chefdon
+  - 🇸🇨 SC 03 - chefdon
+  - 🇸🇨 SC 04 - chefdon
+  - 🇸🇨 SC 05 - chefdon
+  - 🇸🇨 SC 06 - chefdon
+  - 🇸🇨 SC 07 - chefdon
+  - 🇸🇨 SC 08 - chefdon
+  - 🇸🇨 SC 09 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -45,5 +135,12 @@ proxy-groups:
   proxies:
   - 🇸🇨 SC 01 - chefdon
   - 🇸🇨 SC 02 - chefdon
+  - 🇸🇨 SC 03 - chefdon
+  - 🇸🇨 SC 04 - chefdon
+  - 🇸🇨 SC 05 - chefdon
+  - 🇸🇨 SC 06 - chefdon
+  - 🇸🇨 SC 07 - chefdon
+  - 🇸🇨 SC 08 - chefdon
+  - 🇸🇨 SC 09 - chefdon
 rules:
 - MATCH,PROXIES

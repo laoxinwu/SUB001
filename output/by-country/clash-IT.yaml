@@ -5,55 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇹 意大利 (Italy) 01 - chefdon
-  type: ss
-  server: 57.131.48.45
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 02 - chefdon
-  type: vless
-  server: 213.176.119.139
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇮🇹 意大利 (Italy) 03 - chefdon
-  type: vless
-  server: milan.adaspoloandco.com
-  port: 8443
-  uuid: 69ac162b-1643-4acb-9f49-09d8b0fad609
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: milan.adaspoloandco.com
-  network: ws
-  ws-opts:
-    path: /RoBeRt
-    headers:
-      Host: milan.adaspoloandco.com
-- name: 🇮🇹 意大利 (Italy) 04 - chefdon
-  type: vless
-  server: 77.221.143.197
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇮🇹 意大利 (Italy) 05 - chefdon
   type: vless
   server: 204.216.216.23
   port: 10086
@@ -61,9 +12,16 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇮🇹 意大利 (Italy) 06 - chefdon
+- name: 🇮🇹 意大利 (Italy) 02 - chefdon
+  type: ss
+  server: 57.131.48.45
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇮🇹 意大利 (Italy) 03 - chefdon
   type: vless
-  server: 91.184.240.196
+  server: 45.141.177.0
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -75,13 +33,83 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇮🇹 意大利 (Italy) 04 - chefdon
+  type: vless
+  server: 57.131.38.163
+  port: 2053
+  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 05 - chefdon
+  type: ss
+  server: 185.164.175.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 意大利 (Italy) 06 - chefdon
+  type: vless
+  server: 57.131.38.163
+  port: 2053
+  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇮🇹 意大利 (Italy) 07 - chefdon
+  type: vless
+  server: 77.232.143.161
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇮🇹 意大利 (Italy) 08 - chefdon
+  type: vless
+  server: 57.131.32.191
+  port: 80
+  uuid: 1e280316-0408-47c4-b058-05b8f1f17f02
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-italy1.09vpn.com
+- name: 🇮🇹 意大利 (Italy) 09 - chefdon
   type: ss
   server: 57.131.48.45
   port: 8388
   cipher: aes-256-gcm
   password: itzvpn@321
   udp: true
+- name: 🇮🇹 意大利 (Italy) 10 - chefdon
+  type: vless
+  server: 57.131.38.163
+  port: 2053
+  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
+  servername: www.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -94,6 +122,9 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 05 - chefdon
   - 🇮🇹 意大利 (Italy) 06 - chefdon
   - 🇮🇹 意大利 (Italy) 07 - chefdon
+  - 🇮🇹 意大利 (Italy) 08 - chefdon
+  - 🇮🇹 意大利 (Italy) 09 - chefdon
+  - 🇮🇹 意大利 (Italy) 10 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -106,5 +137,8 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 05 - chefdon
   - 🇮🇹 意大利 (Italy) 06 - chefdon
   - 🇮🇹 意大利 (Italy) 07 - chefdon
+  - 🇮🇹 意大利 (Italy) 08 - chefdon
+  - 🇮🇹 意大利 (Italy) 09 - chefdon
+  - 🇮🇹 意大利 (Italy) 10 - chefdon
 rules:
 - MATCH,PROXIES

@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - chefdon
   type: vless
-  server: 167.233.57.52
+  server: 5.75.213.197
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 02 - chefdon
   type: vless
-  server: 91.107.171.251
-  port: 443
+  server: 136.243.86.82
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -34,8 +34,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 03 - chefdon
   type: vless
-  server: 91.107.206.233
-  port: 2053
+  server: 194.87.77.75
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇿 CZ 04 - chefdon
+  type: vless
+  server: 46.4.27.170
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -54,6 +68,7 @@ proxy-groups:
   - 🇨🇿 CZ 01 - chefdon
   - 🇨🇿 CZ 02 - chefdon
   - 🇨🇿 CZ 03 - chefdon
+  - 🇨🇿 CZ 04 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +77,6 @@ proxy-groups:
   - 🇨🇿 CZ 01 - chefdon
   - 🇨🇿 CZ 02 - chefdon
   - 🇨🇿 CZ 03 - chefdon
+  - 🇨🇿 CZ 04 - chefdon
 rules:
 - MATCH,PROXIES
