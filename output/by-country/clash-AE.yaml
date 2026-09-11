@@ -5,8 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - chefdon
+  type: ss
+  server: 194.77.229.56
+  port: 12007
+  cipher: chacha20-ietf-poly1305
+  password: 1ed0af1c413861ff
+  udp: true
+- name: 🇦🇪 阿联酋 (UAE) 02 - chefdon
   type: vless
-  server: 132.243.21.182
+  server: 132.243.24.222
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -18,47 +25,19 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇦🇪 阿联酋 (UAE) 02 - chefdon
+- name: 🇦🇪 阿联酋 (UAE) 03 - chefdon
   type: vless
-  server: 45.130.125.201
-  port: 80
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /sync
+    path: /
     headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - chefdon
-  type: vless
-  server: 185.112.249.201
-  port: 8443
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-socket.tgdaosheng.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=bpb.yousef.isegaro.comfp=chrome
-    headers:
-      Host: web-socket.tgdaosheng.ggff.net
-- name: 🇦🇪 阿联酋 (UAE) 04 - chefdon
-  type: vless
-  server: 153.56.134.10
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -67,7 +46,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - chefdon
   - 🇦🇪 阿联酋 (UAE) 02 - chefdon
   - 🇦🇪 阿联酋 (UAE) 03 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 04 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -76,6 +54,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - chefdon
   - 🇦🇪 阿联酋 (UAE) 02 - chefdon
   - 🇦🇪 阿联酋 (UAE) 03 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 04 - chefdon
 rules:
 - MATCH,PROXIES
