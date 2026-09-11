@@ -6,16 +6,13 @@ log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - chefdon
   type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: e691b034-dfc9-4f22-80aa-6d4f6404a4df
+  server: connect3.nyxserver.ir
+  port: 8444
+  uuid: 0b39a009-2a2a-4035-ba87-cc82894f8e21
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: k5COjpopVNGzEuMb457zCrrZegSdBX-d8bg0G6HDsE4
-  servername: www.apple.com
-  client-fingerprint: firefox
+  servername: connect3.nyxserver.ir
 - name: 🇹🇷 土耳其 (Turkey) 02 - chefdon
   type: vless
   server: 195.162.69.203
@@ -27,43 +24,13 @@ proxies:
   servername: 195-162-69-203.sslip.io
 - name: 🇹🇷 土耳其 (Turkey) 03 - chefdon
   type: vless
-  server: sinavm.soft10.ir
-  port: 443
-  uuid: 69768555-bf07-4127-8ce5-eed7a0d0baba
+  server: app.life-pro.ir
+  port: 8082
+  uuid: 79f98593-6a21-4783-a425-3d5609a79df1
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: sinavm.soft10.ir
-  network: ws
-  ws-opts:
-    path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM
-    headers:
-      Host: sinavm.soft10.ir
 - name: 🇹🇷 土耳其 (Turkey) 04 - chefdon
-  type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: e691b034-dfc9-4f22-80aa-6d4f6404a4df
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k5COjpopVNGzEuMb457zCrrZegSdBX-d8bg0G6HDsE4
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 05 - chefdon
-  type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: e691b034-dfc9-4f22-80aa-6d4f6404a4df
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k5COjpopVNGzEuMb457zCrrZegSdBX-d8bg0G6HDsE4
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 06 - chefdon
   type: vless
   server: connect3.nyxserver.ir
   port: 8444
@@ -72,14 +39,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: connect3.nyxserver.ir
-- name: 🇹🇷 土耳其 (Turkey) 07 - chefdon
-  type: vless
-  server: app.life-pro.ir
-  port: 8082
-  uuid: 79f98593-6a21-4783-a425-3d5609a79df1
-  udp: true
-  tls: false
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -89,9 +48,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - chefdon
   - 🇹🇷 土耳其 (Turkey) 03 - chefdon
   - 🇹🇷 土耳其 (Turkey) 04 - chefdon
-  - 🇹🇷 土耳其 (Turkey) 05 - chefdon
-  - 🇹🇷 土耳其 (Turkey) 06 - chefdon
-  - 🇹🇷 土耳其 (Turkey) 07 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -101,8 +57,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - chefdon
   - 🇹🇷 土耳其 (Turkey) 03 - chefdon
   - 🇹🇷 土耳其 (Turkey) 04 - chefdon
-  - 🇹🇷 土耳其 (Turkey) 05 - chefdon
-  - 🇹🇷 土耳其 (Turkey) 06 - chefdon
-  - 🇹🇷 土耳其 (Turkey) 07 - chefdon
 rules:
 - MATCH,PROXIES

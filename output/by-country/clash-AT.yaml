@@ -5,87 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇹 AT 01 - chefdon
-  type: vless
-  server: 212.113.106.125
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇦🇹 AT 02 - chefdon
-  type: vless
-  server: 85.192.27.171
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇦🇹 AT 03 - chefdon
-  type: vless
-  server: 89.22.236.205
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇦🇹 AT 04 - chefdon
   type: ss
   server: 82.110.60.9
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇦🇹 AT 05 - chefdon
-  type: vless
-  server: 83.147.254.63
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇹 AT 01 - chefdon
-  - 🇦🇹 AT 02 - chefdon
-  - 🇦🇹 AT 03 - chefdon
-  - 🇦🇹 AT 04 - chefdon
-  - 🇦🇹 AT 05 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇹 AT 01 - chefdon
-  - 🇦🇹 AT 02 - chefdon
-  - 🇦🇹 AT 03 - chefdon
-  - 🇦🇹 AT 04 - chefdon
-  - 🇦🇹 AT 05 - chefdon
 rules:
 - MATCH,PROXIES
