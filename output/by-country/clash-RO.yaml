@@ -5,32 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - chefdon
-  type: ss
-  server: 154.46.31.106
+  type: vless
+  server: 5.181.187.58
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-- name: 🇷🇴 RO 02 - chefdon
-  type: ss
-  server: bogging-eyeteeth-fly.freesocks.work
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇷🇴 RO 01 - chefdon
-  - 🇷🇴 RO 02 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇴 RO 01 - chefdon
-  - 🇷🇴 RO 02 - chefdon
 rules:
 - MATCH,PROXIES

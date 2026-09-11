@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - chefdon
   type: vless
-  server: 95.182.94.163
-  port: 8443
+  server: 194.87.27.67
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -20,7 +20,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 02 - chefdon
   type: vless
-  server: 138.199.147.113
+  server: 46.8.96.167
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -34,8 +34,50 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 03 - chefdon
   type: vless
-  server: 136.243.86.90
-  port: 2053
+  server: 167.233.53.223
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇿 CZ 04 - chefdon
+  type: vless
+  server: 167.233.219.2
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇿 CZ 05 - chefdon
+  type: vless
+  server: 91.99.1.38
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇿 CZ 06 - chefdon
+  type: vless
+  server: 188.34.160.180
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -54,6 +96,9 @@ proxy-groups:
   - 🇨🇿 CZ 01 - chefdon
   - 🇨🇿 CZ 02 - chefdon
   - 🇨🇿 CZ 03 - chefdon
+  - 🇨🇿 CZ 04 - chefdon
+  - 🇨🇿 CZ 05 - chefdon
+  - 🇨🇿 CZ 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +107,8 @@ proxy-groups:
   - 🇨🇿 CZ 01 - chefdon
   - 🇨🇿 CZ 02 - chefdon
   - 🇨🇿 CZ 03 - chefdon
+  - 🇨🇿 CZ 04 - chefdon
+  - 🇨🇿 CZ 05 - chefdon
+  - 🇨🇿 CZ 06 - chefdon
 rules:
 - MATCH,PROXIES

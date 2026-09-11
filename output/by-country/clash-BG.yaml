@@ -6,18 +6,13 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - chefdon
   type: vless
-  server: 93.123.13.96
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: neth9.lunariai.ru
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
+  servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 02 - chefdon
   type: vless
   server: 192.145.31.5
