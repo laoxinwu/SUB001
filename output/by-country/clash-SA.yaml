@@ -6,7 +6,33 @@ log-level: info
 proxies:
 - name: 🇸🇦 SA 01 - chefdon
   type: vless
-  server: 213.165.58.15
+  server: 81.208.170.142
+  port: 1500
+  uuid: e332f028-d343-5b44-8016-b3130f39e133
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+  servername: www.ebay.com
+  client-fingerprint: chrome
+- name: 🇸🇦 SA 02 - chefdon
+  type: vless
+  server: 213.165.58.227
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇦 SA 03 - chefdon
+  type: vless
+  server: 213.165.59.108
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -24,11 +50,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇦 SA 01 - chefdon
+  - 🇸🇦 SA 02 - chefdon
+  - 🇸🇦 SA 03 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇦 SA 01 - chefdon
+  - 🇸🇦 SA 02 - chefdon
+  - 🇸🇦 SA 03 - chefdon
 rules:
 - MATCH,PROXIES
