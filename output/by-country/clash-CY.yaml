@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: WFvn-RRJzpt2qV4xwj_R93gDr6dduIjkQKO3De3Y2Hc
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇨🇾 CY 02 - chefdon
   type: vless
   server: 194.76.154.31
@@ -27,20 +27,8 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇨🇾 CY 03 - chefdon
-  type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-  servername: deepl.com
-  client-fingerprint: qq
-- name: 🇨🇾 CY 04 - chefdon
   type: vless
   server: cassiopeia.yokkastars.com
   port: 40443
@@ -50,6 +38,18 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: WFvn-RRJzpt2qV4xwj_R93gDr6dduIjkQKO3De3Y2Hc
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 04 - chefdon
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: chrome
 - name: 🇨🇾 CY 05 - chefdon
@@ -63,7 +63,7 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇨🇾 CY 06 - chefdon
   type: vless
   server: 194.76.154.31
@@ -78,18 +78,6 @@ proxies:
   client-fingerprint: qq
 - name: 🇨🇾 CY 07 - chefdon
   type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-  servername: deepl.com
-  client-fingerprint: random
-- name: 🇨🇾 CY 08 - chefdon
-  type: vless
   server: cassiopeia.yokkastars.com
   port: 40443
   uuid: e4371581-c418-4770-b09a-d630f18290a6
@@ -99,7 +87,16 @@ proxies:
   reality-opts:
     public-key: WFvn-RRJzpt2qV4xwj_R93gDr6dduIjkQKO3De3Y2Hc
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 08 - chefdon
+  type: vless
+  server: 45.9.2.171
+  port: 8443
+  uuid: 167610e4-bcaf-4074-bc2d-0c08dc4ea294
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: torr.wlrus.cfd
 - name: 🇨🇾 CY 09 - chefdon
   type: vless
   server: 194.76.154.31
@@ -111,16 +108,55 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇨🇾 CY 10 - chefdon
   type: vless
-  server: 45.9.2.171
-  port: 8443
-  uuid: 167610e4-bcaf-4074-bc2d-0c08dc4ea294
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: torr.wlrus.cfd
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇨🇾 CY 11 - chefdon
+  type: vless
+  server: cassiopeia.yokkastars.com
+  port: 40443
+  uuid: e4371581-c418-4770-b09a-d630f18290a6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: WFvn-RRJzpt2qV4xwj_R93gDr6dduIjkQKO3De3Y2Hc
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 12 - chefdon
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 13 - chefdon
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
@@ -136,6 +172,9 @@ proxy-groups:
   - 🇨🇾 CY 08 - chefdon
   - 🇨🇾 CY 09 - chefdon
   - 🇨🇾 CY 10 - chefdon
+  - 🇨🇾 CY 11 - chefdon
+  - 🇨🇾 CY 12 - chefdon
+  - 🇨🇾 CY 13 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -151,5 +190,8 @@ proxy-groups:
   - 🇨🇾 CY 08 - chefdon
   - 🇨🇾 CY 09 - chefdon
   - 🇨🇾 CY 10 - chefdon
+  - 🇨🇾 CY 11 - chefdon
+  - 🇨🇾 CY 12 - chefdon
+  - 🇨🇾 CY 13 - chefdon
 rules:
 - MATCH,PROXIES
