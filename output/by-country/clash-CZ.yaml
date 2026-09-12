@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - chefdon
   type: vless
-  server: 46.8.179.79
-  port: 443
+  server: 194.87.222.160
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 02 - chefdon
   type: vless
-  server: 46.4.27.170
-  port: 443
+  server: 46.8.101.232
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -34,8 +34,36 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 03 - chefdon
   type: vless
-  server: 138.201.194.249
-  port: 8443
+  server: 46.8.100.105
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇿 CZ 04 - chefdon
+  type: vless
+  server: 188.245.114.168
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇿 CZ 05 - chefdon
+  type: vless
+  server: 78.46.184.58
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -54,6 +82,8 @@ proxy-groups:
   - 🇨🇿 CZ 01 - chefdon
   - 🇨🇿 CZ 02 - chefdon
   - 🇨🇿 CZ 03 - chefdon
+  - 🇨🇿 CZ 04 - chefdon
+  - 🇨🇿 CZ 05 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +92,7 @@ proxy-groups:
   - 🇨🇿 CZ 01 - chefdon
   - 🇨🇿 CZ 02 - chefdon
   - 🇨🇿 CZ 03 - chefdon
+  - 🇨🇿 CZ 04 - chefdon
+  - 🇨🇿 CZ 05 - chefdon
 rules:
 - MATCH,PROXIES

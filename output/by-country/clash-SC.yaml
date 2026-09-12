@@ -6,46 +6,34 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - chefdon
   type: vless
-  server: 108.162.198.178
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 45.129.126.177
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: box5.xinwu.de5.net
 - name: 🇸🇨 SC 02 - chefdon
   type: vless
-  server: 108.162.198.178
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 45.130.125.201
+  port: 80
+  uuid: dc8a9493-c54a-459e-d060-81a700000001
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /sync
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: nahan-core.netizo09.workers.dev
 - name: 🇸🇨 SC 03 - chefdon
   type: vless
-  server: 108.162.198.178
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 04 - chefdon
-  type: vless
-  server: 172.64.52.6
+  server: 104.18.34.14
   port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -53,85 +41,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 05 - chefdon
-  type: vless
-  server: 162.159.39.218
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
     path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 06 - chefdon
-  type: vless
-  server: 104.18.47.113
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 07 - chefdon
-  type: vless
-  server: 172.64.32.103
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 08 - chefdon
-  type: vless
-  server: 104.18.47.113
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 09 - chefdon
-  type: vless
-  server: 162.159.45.19
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 10 - chefdon
-  type: vless
-  server: 104.18.34.14
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
@@ -142,13 +52,6 @@ proxy-groups:
   - 🇸🇨 SC 01 - chefdon
   - 🇸🇨 SC 02 - chefdon
   - 🇸🇨 SC 03 - chefdon
-  - 🇸🇨 SC 04 - chefdon
-  - 🇸🇨 SC 05 - chefdon
-  - 🇸🇨 SC 06 - chefdon
-  - 🇸🇨 SC 07 - chefdon
-  - 🇸🇨 SC 08 - chefdon
-  - 🇸🇨 SC 09 - chefdon
-  - 🇸🇨 SC 10 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -157,12 +60,5 @@ proxy-groups:
   - 🇸🇨 SC 01 - chefdon
   - 🇸🇨 SC 02 - chefdon
   - 🇸🇨 SC 03 - chefdon
-  - 🇸🇨 SC 04 - chefdon
-  - 🇸🇨 SC 05 - chefdon
-  - 🇸🇨 SC 06 - chefdon
-  - 🇸🇨 SC 07 - chefdon
-  - 🇸🇨 SC 08 - chefdon
-  - 🇸🇨 SC 09 - chefdon
-  - 🇸🇨 SC 10 - chefdon
 rules:
 - MATCH,PROXIES
