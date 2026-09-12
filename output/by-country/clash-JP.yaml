@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - chefdon
   type: vless
-  server: 207.148.95.173
+  server: 156.246.91.88
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -19,18 +19,22 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 02 - chefdon
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 154.83.91.181
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 03 - chefdon
   type: vless
-  server: 45.192.243.42
+  server: 212.135.211.79
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -44,8 +48,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 04 - chefdon
   type: vless
-  server: 212.135.211.79
-  port: 443
+  server: 64.176.38.23
+  port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -58,7 +62,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 05 - chefdon
   type: vless
-  server: 141.147.174.243
+  server: 45.76.97.162
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -72,7 +76,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 06 - chefdon
   type: vless
-  server: 207.148.95.173
+  server: 151.242.164.205
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -85,22 +89,15 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 07 - chefdon
-  type: vless
-  server: 103.85.27.26
+  type: ss
+  server: 84.247.155.196
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 08 - chefdon
   type: vless
-  server: 45.8.115.250
+  server: 5.104.83.202
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -114,7 +111,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 09 - chefdon
   type: vless
-  server: 54.150.43.75
+  server: 198.13.45.210
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -128,7 +125,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 10 - chefdon
   type: vless
-  server: 141.147.162.33
+  server: 156.246.95.216
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -142,7 +139,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 11 - chefdon
   type: vless
-  server: 45.77.130.6
+  server: 66.245.221.194
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -156,7 +153,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 12 - chefdon
   type: vless
-  server: 104.156.239.15
+  server: 91.199.209.182
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -169,16 +166,9 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 13 - chefdon
-  type: ss
-  server: 176.97.73.215
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: ma6zc4JoLRJA
-  udp: true
-- name: 🇯🇵 日本 (Japan) 14 - chefdon
   type: vless
-  server: 45.251.240.125
-  port: 443
+  server: 151.145.67.90
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -189,9 +179,16 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 14 - chefdon
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
 - name: 🇯🇵 日本 (Japan) 15 - chefdon
   type: vless
-  server: 43.133.166.143
+  server: 141.11.139.128
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -205,7 +202,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 16 - chefdon
   type: vless
-  server: 45.192.243.176
+  server: 172.237.6.18
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -219,7 +216,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 17 - chefdon
   type: vless
-  server: 109.61.109.143
+  server: 172.238.19.67
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -233,7 +230,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 18 - chefdon
   type: vless
-  server: 131.186.41.103
+  server: 92.113.124.228
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -247,7 +244,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 19 - chefdon
   type: vless
-  server: 23.176.40.201
+  server: 160.16.103.102
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -261,8 +258,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 20 - chefdon
   type: vless
-  server: 141.147.168.3
-  port: 443
+  server: 14.137.230.82
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -275,8 +272,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 21 - chefdon
   type: vless
-  server: 172.237.6.212
-  port: 443
+  server: 52.192.169.96
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -289,7 +286,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 22 - chefdon
   type: vless
-  server: 198.13.53.115
+  server: 103.27.187.73
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -303,7 +300,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 23 - chefdon
   type: vless
-  server: 64.204.48.62
+  server: 202.182.119.170
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -317,7 +314,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 24 - chefdon
   type: vless
-  server: 103.115.18.54
+  server: 138.2.59.112
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -330,16 +327,23 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 25 - chefdon
-  type: ss
-  server: 84.247.155.196
+  type: vless
+  server: 66.245.219.95
   port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 26 - chefdon
   type: vless
-  server: 43.224.33.225
-  port: 8443
+  server: 104.105.128.153
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -351,19 +355,23 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 27 - chefdon
-  type: vmess
-  server: 168.110.60.104
-  port: 18112
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 155.117.155.115
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 28 - chefdon
   type: vless
-  server: 45.32.28.109
-  port: 443
+  server: 18.179.10.27
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -376,8 +384,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 29 - chefdon
   type: vless
-  server: 74.222.12.84
-  port: 8443
+  server: 103.53.80.24
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -390,22 +398,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 30 - chefdon
   type: vless
-  server: 104.21.33.59
+  server: 152.69.199.75
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /?ed=2048
     headers:
-      Host: jp3.yohototo.top
+      Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 31 - chefdon
   type: vless
-  server: 103.85.25.182
-  port: 2083
+  server: 64.204.49.136
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -418,8 +426,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 32 - chefdon
   type: vless
-  server: 167.179.110.68
-  port: 8443
+  server: 104.156.239.15
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -432,7 +440,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 33 - chefdon
   type: vless
-  server: 92.113.124.228
+  server: 156.231.117.95
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -446,7 +454,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 34 - chefdon
   type: vless
-  server: 45.77.129.201
+  server: 52.194.151.107
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -460,7 +468,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 35 - chefdon
   type: vless
-  server: 92.113.124.253
+  server: 35.78.243.103
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -474,8 +482,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 36 - chefdon
   type: vless
-  server: 156.231.117.95
-  port: 443
+  server: 45.76.222.52
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -488,15 +496,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 37 - chefdon
   type: vless
-  server: 137.220.221.179
+  server: 45.78.58.239
   port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 38 - chefdon
   type: vless
-  server: 202.182.125.218
+  server: 5.226.49.3
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -510,7 +524,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 39 - chefdon
   type: vless
-  server: 141.147.185.63
+  server: 167.179.90.137
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -524,7 +538,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 40 - chefdon
   type: vless
-  server: 172.105.225.6
+  server: 35.78.243.103
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -538,8 +552,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 41 - chefdon
   type: vless
-  server: 158.51.109.51
-  port: 443
+  server: 167.179.110.68
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -552,8 +566,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 42 - chefdon
   type: vless
-  server: 161.33.135.140
-  port: 443
+  server: 151.145.67.90
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -566,7 +580,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 43 - chefdon
   type: vless
-  server: 45.192.201.197
+  server: 167.179.90.137
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -580,7 +594,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 44 - chefdon
   type: vless
-  server: 202.182.106.72
+  server: 87.86.22.186
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -594,7 +608,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 45 - chefdon
   type: vless
-  server: 64.176.60.226
+  server: 54.168.245.61
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -608,7 +622,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 46 - chefdon
   type: vless
-  server: 45.8.115.250
+  server: 45.76.206.46
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -622,7 +636,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 47 - chefdon
   type: vless
-  server: 209.33.174.190
+  server: 64.176.62.21
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -636,7 +650,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 48 - chefdon
   type: vless
-  server: 103.201.130.31
+  server: 45.14.106.147
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -650,7 +664,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 49 - chefdon
   type: vless
-  server: 54.150.43.75
+  server: 45.76.216.46
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -664,7 +678,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 50 - chefdon
   type: vless
-  server: 202.182.125.218
+  server: 45.142.127.210
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -678,7 +692,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 51 - chefdon
   type: vless
-  server: 161.33.15.101
+  server: 151.145.78.30
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -692,7 +706,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 52 - chefdon
   type: vless
-  server: 23.176.40.201
+  server: 54.168.245.61
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -706,7 +720,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 53 - chefdon
   type: vless
-  server: 54.168.111.158
+  server: 104.156.239.15
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -720,29 +734,36 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 54 - chefdon
   type: vless
-  server: 104.21.70.21
+  server: 161.33.29.51
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /?ed=2048
     headers:
-      Host: jp3.yohototo.top
+      Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 55 - chefdon
-  type: ss
-  server: 149.22.87.241
+  type: vless
+  server: 147.79.20.197
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 56 - chefdon
   type: vless
-  server: 172.233.64.181
-  port: 8443
+  server: 96.126.191.250
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -755,7 +776,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 57 - chefdon
   type: vless
-  server: 124.156.215.193
+  server: 45.78.58.239
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -769,7 +790,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 58 - chefdon
   type: vless
-  server: 131.186.41.103
+  server: 156.231.113.69
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -783,7 +804,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 59 - chefdon
   type: vless
-  server: 212.135.211.234
+  server: 176.97.73.228
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -797,7 +818,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 60 - chefdon
   type: vless
-  server: 161.33.135.140
+  server: 168.138.52.221
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -811,7 +832,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 61 - chefdon
   type: vless
-  server: 43.167.9.109
+  server: 45.192.200.136
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -825,21 +846,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 62 - chefdon
   type: vless
-  server: 104.21.70.21
+  server: 156.246.91.88
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /?ed=2048
     headers:
-      Host: jp3.yohototo.top
+      Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 63 - chefdon
   type: vless
-  server: 140.83.50.165
+  server: 45.32.250.130
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -853,7 +874,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 64 - chefdon
   type: vless
-  server: 198.13.59.150
+  server: 5.34.220.84
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -866,15 +887,8 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 65 - chefdon
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 66 - chefdon
   type: vless
-  server: 43.165.191.60
+  server: 64.204.49.221
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -886,10 +900,17 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 66 - chefdon
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
 - name: 🇯🇵 日本 (Japan) 67 - chefdon
   type: vless
-  server: 45.77.21.148
-  port: 443
+  server: 52.192.169.96
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -902,7 +923,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 68 - chefdon
   type: vless
-  server: 43.224.33.216
+  server: 103.194.42.152
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -916,7 +937,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 69 - chefdon
   type: vless
-  server: 43.224.33.216
+  server: 141.147.162.33
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -930,7 +951,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 70 - chefdon
   type: vless
-  server: 103.238.129.20
+  server: 13.231.172.130
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -944,1182 +965,6 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇯🇵 日本 (Japan) 71 - chefdon
   type: vless
-  server: 23.147.232.171
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 72 - chefdon
-  type: vless
-  server: 3.112.219.69
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 73 - chefdon
-  type: vless
-  server: 45.14.106.64
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 74 - chefdon
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 75 - chefdon
-  type: vless
-  server: 45.192.202.199
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 76 - chefdon
-  type: ss
-  server: 149.22.87.241
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 77 - chefdon
-  type: vless
-  server: 54.168.111.158
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 78 - chefdon
-  type: vless
-  server: 124.156.215.193
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 79 - chefdon
-  type: vless
-  server: 168.138.52.221
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 80 - chefdon
-  type: vless
-  server: 202.182.110.147
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 81 - chefdon
-  type: vless
-  server: 103.201.130.31
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 82 - chefdon
-  type: vless
-  server: 161.33.15.101
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 83 - chefdon
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 84 - chefdon
-  type: vless
-  server: 160.16.120.16
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 85 - chefdon
-  type: vless
-  server: 168.138.52.221
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 86 - chefdon
-  type: vless
-  server: 103.150.8.155
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 87 - chefdon
-  type: vless
-  server: 212.135.211.79
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 88 - chefdon
-  type: vless
-  server: 167.179.94.160
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 89 - chefdon
-  type: vless
-  server: 45.32.28.109
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 90 - chefdon
-  type: vless
-  server: 45.202.254.53
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 91 - chefdon
-  type: vmess
-  server: 168.110.60.104
-  port: 18112
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 92 - chefdon
-  type: vless
-  server: 131.143.214.247
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 93 - chefdon
-  type: vless
-  server: 216.238.54.114
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 94 - chefdon
-  type: vless
-  server: 43.167.9.109
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 95 - chefdon
-  type: vless
-  server: 3.112.219.69
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 96 - chefdon
-  type: vless
-  server: 15.168.27.230
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 97 - chefdon
-  type: vless
-  server: 172.233.64.181
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 98 - chefdon
-  type: vless
-  server: 45.192.248.36
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 99 - chefdon
-  type: vless
-  server: 172.238.18.137
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 100 - chefdon
-  type: vless
-  server: 172.237.6.212
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 101 - chefdon
-  type: vless
-  server: 15.168.27.230
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 102 - chefdon
-  type: vless
-  server: 212.135.211.234
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 103 - chefdon
-  type: vless
-  server: 167.179.94.160
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 104 - chefdon
-  type: vless
-  server: 74.222.12.84
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 105 - chefdon
-  type: vless
-  server: 172.237.5.208
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 106 - chefdon
-  type: vless
-  server: 161.33.141.218
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 107 - chefdon
-  type: vless
-  server: 193.123.160.110
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 108 - chefdon
-  type: vless
-  server: 167.179.110.68
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 109 - chefdon
-  type: vless
-  server: 158.51.109.51
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 110 - chefdon
-  type: vless
-  server: 141.147.174.243
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 111 - chefdon
-  type: vless
-  server: 82.108.198.175
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 112 - chefdon
-  type: vless
-  server: 45.251.240.125
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 113 - chefdon
-  type: vless
-  server: 64.176.54.200
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 114 - chefdon
-  type: vless
-  server: 45.192.201.197
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 115 - chefdon
-  type: vless
-  server: 193.123.160.110
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 116 - chefdon
-  type: vless
-  server: 138.3.212.160
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 117 - chefdon
-  type: vless
-  server: 13.114.50.138
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 118 - chefdon
-  type: vless
-  server: 108.160.131.197
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 119 - chefdon
-  type: vless
-  server: 141.11.139.207
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 120 - chefdon
-  type: vless
-  server: 141.11.139.207
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 121 - chefdon
-  type: vless
-  server: 138.3.209.71
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 122 - chefdon
-  type: vless
-  server: 85.113.70.10
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 123 - chefdon
-  type: vless
-  server: 52.196.63.84
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 124 - chefdon
-  type: vmess
-  server: 172.111.146.64
-  port: 80
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 172.111.146.64
-- name: 🇯🇵 日本 (Japan) 125 - chefdon
-  type: vless
-  server: 45.77.11.68
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 126 - chefdon
-  type: vless
-  server: 82.108.198.175
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 127 - chefdon
-  type: vless
-  server: 45.192.248.36
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 128 - chefdon
-  type: ss
-  server: 176.97.73.215
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: ma6zc4JoLRJA
-  udp: true
-- name: 🇯🇵 日本 (Japan) 129 - chefdon
-  type: vless
-  server: 45.77.130.6
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 130 - chefdon
-  type: vless
-  server: 45.77.21.148
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 131 - chefdon
-  type: vless
-  server: 43.133.166.143
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 132 - chefdon
-  type: vless
-  server: 141.147.185.63
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 133 - chefdon
-  type: vmess
-  server: 155.248.176.44
-  port: 55216
-  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 134 - chefdon
-  type: vless
-  server: 160.251.209.140
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 135 - chefdon
-  type: vless
-  server: 168.138.46.67
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 136 - chefdon
-  type: vless
-  server: 202.182.106.72
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 137 - chefdon
-  type: vless
-  server: 131.143.214.247
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 138 - chefdon
-  type: vless
-  server: 13.114.50.138
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 139 - chefdon
-  type: vless
-  server: 92.113.124.253
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 140 - chefdon
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 141 - chefdon
-  type: vless
-  server: 172.237.5.76
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 142 - chefdon
-  type: vless
-  server: 69.8.128.163
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 143 - chefdon
-  type: vless
-  server: 45.202.255.219
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 144 - chefdon
-  type: vless
-  server: 198.13.59.150
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 145 - chefdon
-  type: vless
-  server: 13.113.187.222
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 146 - chefdon
-  type: vless
-  server: 64.204.48.62
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 147 - chefdon
-  type: vless
-  server: 69.8.128.163
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 148 - chefdon
-  type: vless
-  server: 64.176.54.200
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 149 - chefdon
-  type: vless
-  server: 5.34.220.81
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 150 - chefdon
-  type: vless
-  server: 45.14.106.64
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 151 - chefdon
-  type: vless
-  server: 52.196.63.84
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 152 - chefdon
-  type: vless
-  server: 160.16.209.61
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 153 - chefdon
-  type: vless
-  server: 172.105.225.6
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 154 - chefdon
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 155 - chefdon
-  type: vless
-  server: 45.192.202.199
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 156 - chefdon
-  type: vless
-  server: 109.61.109.143
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 157 - chefdon
-  type: vless
-  server: 45.143.235.138
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 158 - chefdon
-  type: vless
   server: 162.159.254.3
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -2132,9 +977,9 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 159 - chefdon
+- name: 🇯🇵 日本 (Japan) 72 - chefdon
   type: vless
-  server: 172.237.5.76
+  server: 156.246.95.216
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2146,409 +991,17 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 160 - chefdon
-  type: vless
-  server: 168.138.46.67
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 161 - chefdon
-  type: vless
-  server: 103.85.25.182
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 162 - chefdon
-  type: vless
-  server: 141.147.182.70
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 163 - chefdon
-  type: vless
-  server: 160.16.120.16
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 164 - chefdon
-  type: vless
-  server: 45.32.56.242
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 165 - chefdon
-  type: vless
-  server: 45.77.129.201
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 166 - chefdon
-  type: vless
-  server: 172.238.18.137
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 167 - chefdon
-  type: vless
-  server: 138.3.209.71
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 168 - chefdon
-  type: vless
-  server: 103.150.8.155
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 169 - chefdon
-  type: vless
-  server: 160.16.209.61
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 170 - chefdon
-  type: vless
-  server: 104.238.149.30
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 171 - chefdon
-  type: vless
-  server: 43.224.33.225
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 172 - chefdon
-  type: vless
-  server: 45.32.56.242
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 173 - chefdon
-  type: vless
-  server: 198.13.53.115
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 174 - chefdon
-  type: vless
-  server: 141.147.182.70
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 175 - chefdon
-  type: vless
-  server: 64.176.60.226
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 176 - chefdon
-  type: vless
-  server: 45.202.255.219
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 177 - chefdon
-  type: vless
-  server: 45.77.180.114
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 178 - chefdon
-  type: vless
-  server: 82.108.198.121
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 179 - chefdon
+- name: 🇯🇵 日本 (Japan) 73 - chefdon
   type: vmess
-  server: 155.248.176.44
-  port: 55216
-  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 180 - chefdon
-  type: vless
-  server: 64.204.48.24
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 181 - chefdon
-  type: vless
-  server: 103.85.27.26
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 182 - chefdon
-  type: vless
-  server: 160.251.209.140
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 183 - chefdon
-  type: vless
-  server: 209.33.174.190
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 184 - chefdon
-  type: vless
-  server: 202.182.110.147
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 185 - chefdon
-  type: vless
-  server: 82.108.198.121
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 186 - chefdon
-  type: vless
-  server: 198.13.45.210
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 187 - chefdon
-  type: vless
-  server: 104.238.149.30
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 188 - chefdon
-  type: vless
-  server: 198.13.45.210
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 189 - chefdon
+- name: 🇯🇵 日本 (Japan) 74 - chefdon
   type: vless
   server: 141.147.162.33
   port: 443
@@ -2562,44 +1015,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 190 - chefdon
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 191 - chefdon
+- name: 🇯🇵 日本 (Japan) 75 - chefdon
   type: vless
-  server: 216.238.54.114
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 192 - chefdon
-  type: vless
-  server: 23.147.232.171
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 193 - chefdon
-  type: vless
-  server: 5.34.220.81
+  server: 69.8.128.163
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2611,9 +1029,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 194 - chefdon
+- name: 🇯🇵 日本 (Japan) 76 - chefdon
   type: vless
-  server: 45.77.11.68
+  server: 66.245.219.95
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2625,9 +1043,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 195 - chefdon
+- name: 🇯🇵 日本 (Japan) 77 - chefdon
   type: vless
-  server: 108.160.131.197
+  server: 156.246.90.21
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2639,9 +1057,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 196 - chefdon
+- name: 🇯🇵 日本 (Japan) 78 - chefdon
   type: vless
-  server: 141.147.152.9
+  server: 104.21.70.21
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 79 - chefdon
+  type: vless
+  server: 13.231.172.130
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2653,9 +1085,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 197 - chefdon
+- name: 🇯🇵 日本 (Japan) 80 - chefdon
   type: vless
-  server: 45.192.243.42
+  server: 156.246.90.21
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2667,23 +1099,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 198 - chefdon
+- name: 🇯🇵 日本 (Japan) 81 - chefdon
   type: vless
-  server: 64.204.48.24
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 199 - chefdon
-  type: vless
-  server: 156.231.117.95
+  server: 2.27.134.42
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2695,9 +1113,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 200 - chefdon
+- name: 🇯🇵 日本 (Japan) 82 - chefdon
   type: vless
-  server: 13.113.187.222
+  server: 151.241.129.79
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2709,10 +1127,10 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 201 - chefdon
+- name: 🇯🇵 日本 (Japan) 83 - chefdon
   type: vless
-  server: 161.33.141.218
-  port: 8443
+  server: 150.230.212.247
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -2723,7 +1141,43 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 202 - chefdon
+- name: 🇯🇵 日本 (Japan) 84 - chefdon
+  type: vless
+  server: 23.27.169.196
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 85 - chefdon
+  type: vless
+  server: 141.147.168.3
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 86 - chefdon
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 87 - chefdon
   type: vless
   server: 103.115.18.54
   port: 443
@@ -2737,9 +1191,1480 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇯🇵 日本 (Japan) 203 - chefdon
+- name: 🇯🇵 日本 (Japan) 88 - chefdon
   type: vless
-  server: 103.238.129.20
+  server: 45.142.125.61
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 89 - chefdon
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 90 - chefdon
+  type: vless
+  server: 207.148.99.230
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 91 - chefdon
+  type: vless
+  server: 178.239.117.56
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 92 - chefdon
+  type: vless
+  server: 156.231.113.69
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 93 - chefdon
+  type: vless
+  server: 151.241.129.79
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 94 - chefdon
+  type: vless
+  server: 45.32.56.242
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 95 - chefdon
+  type: vless
+  server: 64.176.44.23
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 96 - chefdon
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 97 - chefdon
+  type: vless
+  server: 45.143.234.55
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 98 - chefdon
+  type: vless
+  server: 18.179.10.27
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 99 - chefdon
+  type: vless
+  server: 103.53.80.24
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 100 - chefdon
+  type: vless
+  server: 154.83.91.181
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 101 - chefdon
+  type: vless
+  server: 45.76.222.52
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 102 - chefdon
+  type: vless
+  server: 202.182.110.147
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 103 - chefdon
+  type: vless
+  server: 160.16.209.61
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 104 - chefdon
+  type: vless
+  server: 45.76.97.162
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 105 - chefdon
+  type: ss
+  server: 176.97.73.215
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: ma6zc4JoLRJA
+  udp: true
+- name: 🇯🇵 日本 (Japan) 106 - chefdon
+  type: vless
+  server: 14.137.230.82
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 107 - chefdon
+  type: vless
+  server: 2.27.134.42
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 108 - chefdon
+  type: vless
+  server: 147.79.20.197
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 109 - chefdon
+  type: vless
+  server: 45.128.210.188
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 110 - chefdon
+  type: vmess
+  server: 155.248.176.44
+  port: 55216
+  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 111 - chefdon
+  type: vless
+  server: 207.65.189.9
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 112 - chefdon
+  type: vless
+  server: 82.22.26.141
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 113 - chefdon
+  type: vless
+  server: 103.47.186.31
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 114 - chefdon
+  type: vless
+  server: 151.145.78.30
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 115 - chefdon
+  type: vless
+  server: 66.42.41.35
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 116 - chefdon
+  type: vless
+  server: 45.192.206.184
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 117 - chefdon
+  type: vless
+  server: 45.251.240.125
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 118 - chefdon
+  type: vless
+  server: 152.69.199.75
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 119 - chefdon
+  type: vless
+  server: 45.192.206.184
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 120 - chefdon
+  type: vless
+  server: 207.65.189.9
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 121 - chefdon
+  type: vless
+  server: 34.104.218.57
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 122 - chefdon
+  type: vless
+  server: 45.142.125.61
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 123 - chefdon
+  type: vless
+  server: 87.86.22.186
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 124 - chefdon
+  type: vless
+  server: 92.113.124.228
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 125 - chefdon
+  type: vless
+  server: 104.105.128.153
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 126 - chefdon
+  type: vless
+  server: 66.42.41.35
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 127 - chefdon
+  type: vless
+  server: 45.192.200.136
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 128 - chefdon
+  type: vless
+  server: 96.126.191.218
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 129 - chefdon
+  type: vless
+  server: 45.32.56.242
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 130 - chefdon
+  type: vless
+  server: 178.239.117.56
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 131 - chefdon
+  type: vless
+  server: 154.83.93.208
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 132 - chefdon
+  type: vless
+  server: 64.176.54.102
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 133 - chefdon
+  type: vless
+  server: 45.192.200.180
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 134 - chefdon
+  type: vless
+  server: 45.8.173.217
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 135 - chefdon
+  type: vless
+  server: 80.96.156.58
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 136 - chefdon
+  type: vless
+  server: 154.83.93.208
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 137 - chefdon
+  type: vless
+  server: 172.67.156.147
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 138 - chefdon
+  type: vless
+  server: 202.182.110.147
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 139 - chefdon
+  type: vless
+  server: 54.168.111.158
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 140 - chefdon
+  type: vless
+  server: 45.14.106.176
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 141 - chefdon
+  type: vless
+  server: 45.76.216.46
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 142 - chefdon
+  type: vless
+  server: 64.176.44.23
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 143 - chefdon
+  type: vless
+  server: 141.147.174.243
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 144 - chefdon
+  type: vless
+  server: 5.34.220.81
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 145 - chefdon
+  type: vmess
+  server: 155.248.176.44
+  port: 55216
+  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 146 - chefdon
+  type: vless
+  server: 103.47.186.31
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 147 - chefdon
+  type: vless
+  server: 64.204.49.136
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 148 - chefdon
+  type: vless
+  server: 45.142.127.210
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 149 - chefdon
+  type: vless
+  server: 156.231.117.95
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 150 - chefdon
+  type: vless
+  server: 155.117.155.115
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 151 - chefdon
+  type: vless
+  server: 172.238.19.67
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 152 - chefdon
+  type: vless
+  server: 5.226.49.3
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 153 - chefdon
+  type: vless
+  server: 198.13.45.210
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 154 - chefdon
+  type: vless
+  server: 80.96.156.58
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 155 - chefdon
+  type: vless
+  server: 45.128.210.188
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 156 - chefdon
+  type: vless
+  server: 160.16.209.61
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 157 - chefdon
+  type: vless
+  server: 207.148.90.139
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 158 - chefdon
+  type: vless
+  server: 138.2.52.152
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 159 - chefdon
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 160 - chefdon
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 161 - chefdon
+  type: vless
+  server: 172.233.91.71
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 162 - chefdon
+  type: vless
+  server: 202.182.119.170
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 163 - chefdon
+  type: vless
+  server: 150.230.212.247
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 164 - chefdon
+  type: vless
+  server: 161.33.29.51
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 165 - chefdon
+  type: vmess
+  server: 155.248.176.44
+  port: 55216
+  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 166 - chefdon
+  type: vless
+  server: 212.135.211.79
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 167 - chefdon
+  type: vless
+  server: 45.251.240.125
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 168 - chefdon
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 169 - chefdon
+  type: vless
+  server: 45.32.250.130
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 170 - chefdon
+  type: vless
+  server: 172.233.91.71
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 171 - chefdon
+  type: vless
+  server: 96.126.191.218
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 172 - chefdon
+  type: vless
+  server: 52.194.191.128
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 173 - chefdon
+  type: vmess
+  server: 155.248.176.44
+  port: 55216
+  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 174 - chefdon
+  type: vless
+  server: 45.192.200.180
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 175 - chefdon
+  type: vless
+  server: 52.194.151.107
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 176 - chefdon
+  type: vless
+  server: 160.251.204.134
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 177 - chefdon
+  type: vless
+  server: 45.76.206.46
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 178 - chefdon
+  type: vless
+  server: 141.11.139.128
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 179 - chefdon
+  type: vless
+  server: 126.78.133.130
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 180 - chefdon
+  type: vless
+  server: 141.147.168.3
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 181 - chefdon
+  type: ss
+  server: 185.141.219.167
+  port: 8388
+  cipher: aes-256-gcm
+  password: BHRwNRhwqUtDzeRT
+  udp: true
+- name: 🇯🇵 日本 (Japan) 182 - chefdon
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 183 - chefdon
+  type: vless
+  server: 126.78.133.130
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 184 - chefdon
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 185 - chefdon
+  type: vless
+  server: 64.204.49.221
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 186 - chefdon
+  type: vless
+  server: 103.115.18.54
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 187 - chefdon
+  type: vless
+  server: 5.34.220.81
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 188 - chefdon
+  type: vless
+  server: 168.138.52.221
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 189 - chefdon
+  type: vless
+  server: 45.14.106.176
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 190 - chefdon
+  type: vless
+  server: 45.14.106.147
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 191 - chefdon
+  type: vless
+  server: 160.16.103.102
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 192 - chefdon
+  type: vless
+  server: 64.176.54.102
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 193 - chefdon
+  type: vless
+  server: 207.148.90.139
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 194 - chefdon
+  type: vless
+  server: 138.2.52.152
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 195 - chefdon
+  type: vless
+  server: 167.179.110.68
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 196 - chefdon
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 197 - chefdon
+  type: vless
+  server: 103.27.187.73
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇯🇵 日本 (Japan) 198 - chefdon
+  type: vless
+  server: 54.168.111.158
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2954,11 +2879,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 196 - chefdon
   - 🇯🇵 日本 (Japan) 197 - chefdon
   - 🇯🇵 日本 (Japan) 198 - chefdon
-  - 🇯🇵 日本 (Japan) 199 - chefdon
-  - 🇯🇵 日本 (Japan) 200 - chefdon
-  - 🇯🇵 日本 (Japan) 201 - chefdon
-  - 🇯🇵 日本 (Japan) 202 - chefdon
-  - 🇯🇵 日本 (Japan) 203 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -3162,10 +3082,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 196 - chefdon
   - 🇯🇵 日本 (Japan) 197 - chefdon
   - 🇯🇵 日本 (Japan) 198 - chefdon
-  - 🇯🇵 日本 (Japan) 199 - chefdon
-  - 🇯🇵 日本 (Japan) 200 - chefdon
-  - 🇯🇵 日本 (Japan) 201 - chefdon
-  - 🇯🇵 日本 (Japan) 202 - chefdon
-  - 🇯🇵 日本 (Japan) 203 - chefdon
 rules:
 - MATCH,PROXIES

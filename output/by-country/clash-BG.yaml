@@ -6,13 +6,18 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - chefdon
   type: vless
-  server: 192.145.31.5
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  server: 91.99.222.109
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth9.lunariai.ru
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇧🇬 BG 02 - chefdon
   type: vless
   server: 192.145.31.5
@@ -42,15 +47,6 @@ proxies:
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 05 - chefdon
   type: vless
-  server: neth9.lunariai.ru
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 06 - chefdon
-  type: vless
   server: 192.145.31.5
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
@@ -68,7 +64,6 @@ proxy-groups:
   - 🇧🇬 BG 03 - chefdon
   - 🇧🇬 BG 04 - chefdon
   - 🇧🇬 BG 05 - chefdon
-  - 🇧🇬 BG 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -79,6 +74,5 @@ proxy-groups:
   - 🇧🇬 BG 03 - chefdon
   - 🇧🇬 BG 04 - chefdon
   - 🇧🇬 BG 05 - chefdon
-  - 🇧🇬 BG 06 - chefdon
 rules:
 - MATCH,PROXIES

@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇦 UA 01 - chefdon
+- name: 🇮🇶 IQ 01 - chefdon
   type: vless
-  server: 193.41.4.37
+  server: 178.17.48.78
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -23,12 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇦 UA 01 - chefdon
+  - 🇮🇶 IQ 01 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇦 UA 01 - chefdon
+  - 🇮🇶 IQ 01 - chefdon
 rules:
 - MATCH,PROXIES

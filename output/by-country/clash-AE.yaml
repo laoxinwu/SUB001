@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - chefdon
   type: vless
-  server: 165.154.241.192
-  port: 443
+  server: 89.125.105.152
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -20,21 +20,19 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇦🇪 阿联酋 (UAE) 02 - chefdon
   type: vless
-  server: 185.173.144.194
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 31.58.181.88
+  port: 8443
+  uuid: 863ce48d-6b5e-4682-b5d7-0c9b43895841
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 03 - chefdon
   type: vless
-  server: 89.125.146.169
+  server: 31.57.196.40
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -48,22 +46,32 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇦🇪 阿联酋 (UAE) 04 - chefdon
   type: vless
-  server: 31.57.196.139
+  server: 31.58.181.88
   port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: fa34a94b-f304-4290-bd94-a83cc2ce21be
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: edge
 - name: 🇦🇪 阿联酋 (UAE) 05 - chefdon
   type: vless
-  server: 157.228.153.7
-  port: 443
+  server: 31.58.181.88
+  port: 8443
+  uuid: ab3a17ae-4d4f-45ff-a05f-4d27b7f97838
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 06 - chefdon
+  type: vless
+  server: 132.243.23.188
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -84,6 +92,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - chefdon
   - 🇦🇪 阿联酋 (UAE) 04 - chefdon
   - 🇦🇪 阿联酋 (UAE) 05 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -94,5 +103,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - chefdon
   - 🇦🇪 阿联酋 (UAE) 04 - chefdon
   - 🇦🇪 阿联酋 (UAE) 05 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 06 - chefdon
 rules:
 - MATCH,PROXIES
