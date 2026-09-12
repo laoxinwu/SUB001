@@ -4,23 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇨 SC 01 - chefdon
+- name: 🇸🇦 SA 01 - chefdon
   type: vless
-  server: 156.226.169.122
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇨 SC 02 - chefdon
-  type: vless
-  server: 45.192.242.145
+  server: 213.165.55.130
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -37,14 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇸🇨 SC 01 - chefdon
-  - 🇸🇨 SC 02 - chefdon
+  - 🇸🇦 SA 01 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇨 SC 01 - chefdon
-  - 🇸🇨 SC 02 - chefdon
+  - 🇸🇦 SA 01 - chefdon
 rules:
 - MATCH,PROXIES

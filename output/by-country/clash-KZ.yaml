@@ -13,6 +13,20 @@ proxies:
   udp: true
 - name: 🇰🇿 KZ 02 - chefdon
   type: vless
+  server: 37.140.243.173
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇰🇿 KZ 03 - chefdon
+  type: vless
   server: 111.88.143.139
   port: 51940
   uuid: 03464802-b517-404b-b15c-7750ffc5e78f
@@ -30,6 +44,7 @@ proxy-groups:
   - AUTO
   - 🇰🇿 KZ 01 - chefdon
   - 🇰🇿 KZ 02 - chefdon
+  - 🇰🇿 KZ 03 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -37,5 +52,6 @@ proxy-groups:
   proxies:
   - 🇰🇿 KZ 01 - chefdon
   - 🇰🇿 KZ 02 - chefdon
+  - 🇰🇿 KZ 03 - chefdon
 rules:
 - MATCH,PROXIES
