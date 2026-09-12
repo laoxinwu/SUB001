@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇬🇷 GR 01 - chefdon
   type: vless
-  server: 83.147.222.59
+  server: 83.147.192.104
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇷 GR 02 - chefdon
   type: vless
-  server: 178.253.31.210
+  server: 83.147.216.8
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇷 GR 03 - chefdon
   type: vless
-  server: 83.147.192.112
+  server: 91.186.211.230
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇷 GR 04 - chefdon
   type: vless
-  server: 91.186.223.49
+  server: 83.147.216.34
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -62,63 +62,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇬🇷 GR 05 - chefdon
   type: vless
-  server: 178.253.31.232
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇬🇷 GR 06 - chefdon
-  type: vless
-  server: 94.241.174.229
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇬🇷 GR 07 - chefdon
-  type: vless
-  server: 83.147.194.147
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇬🇷 GR 08 - chefdon
-  type: vless
-  server: 91.186.217.16
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇬🇷 GR 09 - chefdon
-  type: vless
-  server: 178.253.16.60
+  server: 91.186.212.237
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -140,10 +84,6 @@ proxy-groups:
   - 🇬🇷 GR 03 - chefdon
   - 🇬🇷 GR 04 - chefdon
   - 🇬🇷 GR 05 - chefdon
-  - 🇬🇷 GR 06 - chefdon
-  - 🇬🇷 GR 07 - chefdon
-  - 🇬🇷 GR 08 - chefdon
-  - 🇬🇷 GR 09 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -154,9 +94,5 @@ proxy-groups:
   - 🇬🇷 GR 03 - chefdon
   - 🇬🇷 GR 04 - chefdon
   - 🇬🇷 GR 05 - chefdon
-  - 🇬🇷 GR 06 - chefdon
-  - 🇬🇷 GR 07 - chefdon
-  - 🇬🇷 GR 08 - chefdon
-  - 🇬🇷 GR 09 - chefdon
 rules:
 - MATCH,PROXIES
