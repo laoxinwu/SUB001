@@ -6,19 +6,20 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - chefdon
   type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - chefdon
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -31,34 +32,34 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - chefdon
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 153.56.133.70
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: uae.unixzone.us
+      Host: box5.xinwu.de5.net
 - name: 🇦🇪 阿联酋 (UAE) 04 - chefdon
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 05 - chefdon
   type: vless
-  server: 103.85.113.232
-  port: 2053
+  server: 132.243.23.59
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -71,7 +72,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇦🇪 阿联酋 (UAE) 06 - chefdon
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -84,34 +85,45 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 07 - chefdon
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 31.58.181.88
+  port: 8443
+  uuid: 863ce48d-6b5e-4682-b5d7-0c9b43895841
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 08 - chefdon
   type: vless
-  server: 104.128.131.94
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 31.58.181.88
+  port: 8443
+  uuid: 98983e4e-31df-4061-bc86-1d6ade4b551b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 09 - chefdon
   type: vless
-  server: 135.136.177.137
+  server: 217.60.249.168
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇪 阿联酋 (UAE) 10 - chefdon
+  type: vless
+  server: 200.180.163.38
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -123,6 +135,32 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇦🇪 阿联酋 (UAE) 11 - chefdon
+  type: vless
+  server: 151.242.120.8
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇪 阿联酋 (UAE) 12 - chefdon
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 3e930211-9887-4ec3-969a-c2e7a8837da2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -137,6 +175,9 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 07 - chefdon
   - 🇦🇪 阿联酋 (UAE) 08 - chefdon
   - 🇦🇪 阿联酋 (UAE) 09 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 10 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 11 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 12 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -151,5 +192,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 07 - chefdon
   - 🇦🇪 阿联酋 (UAE) 08 - chefdon
   - 🇦🇪 阿联酋 (UAE) 09 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 10 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 11 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 12 - chefdon
 rules:
 - MATCH,PROXIES

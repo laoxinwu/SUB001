@@ -4,22 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇨 SC 01 - chefdon
+- name: 🇧🇿 BZ 01 - chefdon
   type: vless
-  server: 172.64.154.8
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 02 - chefdon
-  type: vless
-  server: 156.226.168.252
+  server: 202.181.177.116
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -36,14 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇸🇨 SC 01 - chefdon
-  - 🇸🇨 SC 02 - chefdon
+  - 🇧🇿 BZ 01 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇨 SC 01 - chefdon
-  - 🇸🇨 SC 02 - chefdon
+  - 🇧🇿 BZ 01 - chefdon
 rules:
 - MATCH,PROXIES

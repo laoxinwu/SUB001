@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇬 VG 01 - chefdon
+- name: 🇮🇪 IE 01 - chefdon
   type: vless
-  server: 194.36.177.177
+  server: 64.226.111.98
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -18,9 +18,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇻🇬 VG 02 - chefdon
+- name: 🇮🇪 IE 02 - chefdon
   type: vless
-  server: 194.36.177.197
+  server: 57.128.181.219
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -37,14 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇻🇬 VG 01 - chefdon
-  - 🇻🇬 VG 02 - chefdon
+  - 🇮🇪 IE 01 - chefdon
+  - 🇮🇪 IE 02 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇬 VG 01 - chefdon
-  - 🇻🇬 VG 02 - chefdon
+  - 🇮🇪 IE 01 - chefdon
+  - 🇮🇪 IE 02 - chefdon
 rules:
 - MATCH,PROXIES
