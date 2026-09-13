@@ -11,17 +11,113 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 🇦🇹 AT 02 - chefdon
+  type: vless
+  server: 109.120.155.164
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 03 - chefdon
+  type: vless
+  server: 77.110.97.158
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 04 - chefdon
+  type: vless
+  server: 95.163.176.118
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 05 - chefdon
+  type: vless
+  server: 147.45.75.26
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 06 - chefdon
+  type: vless
+  server: 62.60.250.200
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 07 - chefdon
+  type: vless
+  server: 91.184.240.196
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇹 AT 01 - chefdon
+  - 🇦🇹 AT 02 - chefdon
+  - 🇦🇹 AT 03 - chefdon
+  - 🇦🇹 AT 04 - chefdon
+  - 🇦🇹 AT 05 - chefdon
+  - 🇦🇹 AT 06 - chefdon
+  - 🇦🇹 AT 07 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇹 AT 01 - chefdon
+  - 🇦🇹 AT 02 - chefdon
+  - 🇦🇹 AT 03 - chefdon
+  - 🇦🇹 AT 04 - chefdon
+  - 🇦🇹 AT 05 - chefdon
+  - 🇦🇹 AT 06 - chefdon
+  - 🇦🇹 AT 07 - chefdon
 rules:
 - MATCH,PROXIES
