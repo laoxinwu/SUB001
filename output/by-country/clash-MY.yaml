@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇲🇾 MY 01 - chefdon
   type: vless
-  server: 149.33.30.122
-  port: 443
+  server: 101.99.76.88
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -31,6 +31,19 @@ proxies:
     path: /db55c40bbc75
     headers:
       Host: 38.60.168.98
+- name: 🇲🇾 MY 03 - chefdon
+  type: vless
+  server: 38.60.168.98
+  port: 2087
+  uuid: 8a346b7c-5b95-4845-affa-0e5d9929e9ae
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /db55c40bbc75
+    headers:
+      Host: 38.60.168.98
 proxy-groups:
 - name: PROXIES
   type: select
@@ -38,6 +51,7 @@ proxy-groups:
   - AUTO
   - 🇲🇾 MY 01 - chefdon
   - 🇲🇾 MY 02 - chefdon
+  - 🇲🇾 MY 03 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -45,5 +59,6 @@ proxy-groups:
   proxies:
   - 🇲🇾 MY 01 - chefdon
   - 🇲🇾 MY 02 - chefdon
+  - 🇲🇾 MY 03 - chefdon
 rules:
 - MATCH,PROXIES
