@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇦🇹 AT 01 - chefdon
   type: vless
-  server: 77.232.143.161
+  server: 185.125.101.97
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇦🇹 AT 02 - chefdon
   type: vless
-  server: 77.110.97.158
+  server: 83.147.254.14
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -33,23 +33,16 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇦🇹 AT 03 - chefdon
-  type: vless
-  server: 82.117.84.74
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 82.110.60.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇦🇹 AT 04 - chefdon
   type: vless
-  server: 85.192.27.171
-  port: 2053
+  server: 83.147.254.245
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -62,7 +55,19 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇦🇹 AT 05 - chefdon
   type: vless
-  server: 147.45.71.56
+  server: 152.53.1.40
+  port: 443
+  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+  servername: at.quattro-tech.ru
+  client-fingerprint: random
+- name: 🇦🇹 AT 06 - chefdon
+  type: vless
+  server: 147.45.75.26
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -74,13 +79,88 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇦🇹 AT 06 - chefdon
-  type: ss
-  server: 82.110.60.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇹 AT 07 - chefdon
+  type: vless
+  server: 109.120.133.26
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 08 - chefdon
+  type: vless
+  server: 95.163.153.198
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 09 - chefdon
+  type: vless
+  server: 212.113.106.125
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 10 - chefdon
+  type: vless
+  server: 45.80.229.48
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 11 - chefdon
+  type: vless
+  server: 46.226.165.199
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇹 AT 12 - chefdon
+  type: vless
+  server: 152.53.1.40
+  port: 443
+  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+  servername: at.quattro-tech.ru
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -92,6 +172,12 @@ proxy-groups:
   - 🇦🇹 AT 04 - chefdon
   - 🇦🇹 AT 05 - chefdon
   - 🇦🇹 AT 06 - chefdon
+  - 🇦🇹 AT 07 - chefdon
+  - 🇦🇹 AT 08 - chefdon
+  - 🇦🇹 AT 09 - chefdon
+  - 🇦🇹 AT 10 - chefdon
+  - 🇦🇹 AT 11 - chefdon
+  - 🇦🇹 AT 12 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -103,5 +189,11 @@ proxy-groups:
   - 🇦🇹 AT 04 - chefdon
   - 🇦🇹 AT 05 - chefdon
   - 🇦🇹 AT 06 - chefdon
+  - 🇦🇹 AT 07 - chefdon
+  - 🇦🇹 AT 08 - chefdon
+  - 🇦🇹 AT 09 - chefdon
+  - 🇦🇹 AT 10 - chefdon
+  - 🇦🇹 AT 11 - chefdon
+  - 🇦🇹 AT 12 - chefdon
 rules:
 - MATCH,PROXIES

@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇶 IQ 01 - chefdon
+- name: 🇰🇿 KZ 01 - chefdon
   type: vless
-  server: 178.17.48.240
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 45.192.224.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: vms.lifetime17.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇶 IQ 01 - chefdon
+  - 🇰🇿 KZ 01 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇶 IQ 01 - chefdon
+  - 🇰🇿 KZ 01 - chefdon
 rules:
 - MATCH,PROXIES

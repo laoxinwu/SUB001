@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - chefdon
   type: vless
-  server: 148.251.148.186
-  port: 443
+  server: 178.104.190.133
+  port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -20,33 +20,18 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 02 - chefdon
   type: vless
-  server: 46.8.218.8
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: codecanyon.net
+  port: 8880
+  uuid: 1cae67cd-9f09-4c59-94e6-998ed0346c44
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: box5.xinwu.de5.net
+      Host: lingering-lab-91a6.54-8c3.workers.dev
 - name: 🇨🇿 CZ 03 - chefdon
-  type: vless
-  server: 91.107.191.96
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇿 CZ 04 - chefdon
   type: vless
   server: 95.182.95.75
   port: 443
@@ -60,6 +45,46 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇨🇿 CZ 04 - chefdon
+  type: vless
+  server: 167.233.120.184
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇨🇿 CZ 05 - chefdon
+  type: vless
+  server: 172.64.158.146
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇿 CZ 06 - chefdon
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: f2f4e2dc-3e7b-402f-a461-b48acc6aa310
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoid2JBOTRVclNMOVdBSVQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    headers:
+      Host: steep-bonus-8e6a.amirhon1376.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +94,8 @@ proxy-groups:
   - 🇨🇿 CZ 02 - chefdon
   - 🇨🇿 CZ 03 - chefdon
   - 🇨🇿 CZ 04 - chefdon
+  - 🇨🇿 CZ 05 - chefdon
+  - 🇨🇿 CZ 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +105,7 @@ proxy-groups:
   - 🇨🇿 CZ 02 - chefdon
   - 🇨🇿 CZ 03 - chefdon
   - 🇨🇿 CZ 04 - chefdon
+  - 🇨🇿 CZ 05 - chefdon
+  - 🇨🇿 CZ 06 - chefdon
 rules:
 - MATCH,PROXIES
