@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇩🇰 DK 01 - chefdon
   type: vless
-  server: 89.127.201.202
+  server: 138.124.96.173
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -19,15 +19,99 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇩🇰 DK 02 - chefdon
+  type: vless
+  server: 45.14.246.20
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇰 DK 03 - chefdon
+  type: vless
+  server: 158.179.206.143
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇰 DK 04 - chefdon
+  type: vless
+  server: 217.179.49.153
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇰 DK 05 - chefdon
+  type: vless
+  server: 144.31.255.156
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇰 DK 06 - chefdon
+  type: vless
+  server: 43.245.225.45
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇰 DK 07 - chefdon
+  type: vless
+  server: 78.17.85.111
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇩🇰 DK 08 - chefdon
   type: ss
   server: 38.180.214.110
   port: 5600
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: 🇩🇰 DK 03 - chefdon
+- name: 🇩🇰 DK 09 - chefdon
   type: vless
-  server: 185.21.11.91
+  server: 64.188.81.49
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -47,6 +131,12 @@ proxy-groups:
   - 🇩🇰 DK 01 - chefdon
   - 🇩🇰 DK 02 - chefdon
   - 🇩🇰 DK 03 - chefdon
+  - 🇩🇰 DK 04 - chefdon
+  - 🇩🇰 DK 05 - chefdon
+  - 🇩🇰 DK 06 - chefdon
+  - 🇩🇰 DK 07 - chefdon
+  - 🇩🇰 DK 08 - chefdon
+  - 🇩🇰 DK 09 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,5 +145,11 @@ proxy-groups:
   - 🇩🇰 DK 01 - chefdon
   - 🇩🇰 DK 02 - chefdon
   - 🇩🇰 DK 03 - chefdon
+  - 🇩🇰 DK 04 - chefdon
+  - 🇩🇰 DK 05 - chefdon
+  - 🇩🇰 DK 06 - chefdon
+  - 🇩🇰 DK 07 - chefdon
+  - 🇩🇰 DK 08 - chefdon
+  - 🇩🇰 DK 09 - chefdon
 rules:
 - MATCH,PROXIES

@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - chefdon
   type: vless
-  server: 103.85.25.182
-  port: 2083
+  server: 119.45.225.117
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -20,35 +20,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇳 CN 02 - chefdon
   type: vless
-  server: 118.25.185.127
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇳 CN 03 - chefdon
-  type: vless
-  server: 103.115.64.205
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇳 CN 04 - chefdon
-  type: vless
-  server: 103.242.133.57
+  server: 103.118.254.37
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -67,8 +39,6 @@ proxy-groups:
   - AUTO
   - 🇨🇳 CN 01 - chefdon
   - 🇨🇳 CN 02 - chefdon
-  - 🇨🇳 CN 03 - chefdon
-  - 🇨🇳 CN 04 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -76,7 +46,5 @@ proxy-groups:
   proxies:
   - 🇨🇳 CN 01 - chefdon
   - 🇨🇳 CN 02 - chefdon
-  - 🇨🇳 CN 03 - chefdon
-  - 🇨🇳 CN 04 - chefdon
 rules:
 - MATCH,PROXIES
