@@ -5,22 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - chefdon
-  type: vless
-  server: 217.60.240.190
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: bogging-eyeteeth-fly.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇷🇴 RO 02 - chefdon
+  type: ss
+  server: 154.46.31.106
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  udp: true
+- name: 🇷🇴 RO 03 - chefdon
   type: vless
-  server: 82.27.2.82
+  server: 45.142.141.242
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -32,6 +32,19 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇷🇴 RO 04 - chefdon
+  type: vless
+  server: 45.12.30.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime28.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +52,8 @@ proxy-groups:
   - AUTO
   - 🇷🇴 RO 01 - chefdon
   - 🇷🇴 RO 02 - chefdon
+  - 🇷🇴 RO 03 - chefdon
+  - 🇷🇴 RO 04 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +61,7 @@ proxy-groups:
   proxies:
   - 🇷🇴 RO 01 - chefdon
   - 🇷🇴 RO 02 - chefdon
+  - 🇷🇴 RO 03 - chefdon
+  - 🇷🇴 RO 04 - chefdon
 rules:
 - MATCH,PROXIES

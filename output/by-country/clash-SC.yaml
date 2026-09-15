@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - chefdon
   type: vless
-  server: 45.203.220.181
-  port: 8443
+  server: 195.66.24.131
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -18,17 +18,81 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 02 - chefdon
+  type: vless
+  server: 172.64.80.1
+  port: 443
+  uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: summer-meadow-af5b.woowoorrrkk.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: summer-meadow-af5b.woowoorrrkk.workers.dev
+- name: 🇸🇨 SC 03 - chefdon
+  type: vless
+  server: 104.21.238.93
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-44890b90d17e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: afzoybehu2ws.vtzv4xe1un6s.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/44890b90d17e/loc-0
+    headers:
+      Host: afzoybehu2ws.vtzv4xe1un6s.workers.dev
+- name: 🇸🇨 SC 04 - chefdon
+  type: vless
+  server: 45.129.124.59
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 05 - chefdon
+  type: vless
+  server: 45.130.125.73
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-aug8yr.app-f1qsy1.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-aug8yr.app-f1qsy1.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - chefdon
+  - 🇸🇨 SC 02 - chefdon
+  - 🇸🇨 SC 03 - chefdon
+  - 🇸🇨 SC 04 - chefdon
+  - 🇸🇨 SC 05 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - chefdon
+  - 🇸🇨 SC 02 - chefdon
+  - 🇸🇨 SC 03 - chefdon
+  - 🇸🇨 SC 04 - chefdon
+  - 🇸🇨 SC 05 - chefdon
 rules:
 - MATCH,PROXIES
