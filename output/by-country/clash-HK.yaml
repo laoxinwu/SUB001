@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - chefdon
   type: vless
-  server: 45.8.186.20
+  server: 23.147.172.135
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - chefdon
   type: vless
-  server: 96.9.228.241
+  server: 45.149.186.133
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -34,8 +34,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - chefdon
   type: vless
-  server: 167.148.203.107
-  port: 443
+  server: 45.221.115.25
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -48,7 +48,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - chefdon
   type: vless
-  server: 166.88.11.105
+  server: 207.57.132.107
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
   type: vless
-  server: 136.0.54.169
+  server: 151.243.229.150
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
   type: vless
-  server: 45.145.229.223
+  server: 156.224.77.87
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -90,7 +90,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
   type: vless
-  server: 154.16.10.93
+  server: 207.57.132.107
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -104,8 +104,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
   type: vless
-  server: 95.182.95.178
-  port: 443
+  server: 151.245.90.96
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -118,7 +118,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
   type: vless
-  server: 151.242.125.29
+  server: 45.39.199.233
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -132,7 +132,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 10 - chefdon
   type: vless
-  server: 195.58.144.77
+  server: 207.56.137.174
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -146,7 +146,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 11 - chefdon
   type: vless
-  server: 2.27.109.236
+  server: 38.207.184.202
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -160,7 +160,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 12 - chefdon
   type: vless
-  server: 103.97.201.65
+  server: 141.11.238.183
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -174,21 +174,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 13 - chefdon
   type: vless
-  server: 82.27.116.56
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 14 - chefdon
-  type: vless
-  server: 96.9.228.207
+  server: 156.224.79.83
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -200,9 +186,25 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - chefdon
+  type: vmess
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wwafj5lhl6bi8au9.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: wwafj5lhl6bi8au9.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 15 - chefdon
   type: vless
-  server: 91.213.174.82
+  server: 103.190.232.236
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -216,7 +218,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 16 - chefdon
   type: vless
-  server: 178.83.207.31
+  server: 91.149.237.61
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -230,7 +232,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 17 - chefdon
   type: vless
-  server: 47.239.4.246
+  server: 155.117.224.127
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -244,8 +246,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 18 - chefdon
   type: vless
-  server: 68.64.179.129
-  port: 443
+  server: 45.207.156.69
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -258,7 +260,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 19 - chefdon
   type: vless
-  server: 42.200.231.108
+  server: 161.117.181.127
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -272,8 +274,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 20 - chefdon
   type: vless
-  server: 45.38.42.216
-  port: 443
+  server: 64.120.121.89
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -286,7 +288,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 21 - chefdon
   type: vless
-  server: 103.219.192.72
+  server: 172.93.188.25
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -300,8 +302,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 22 - chefdon
   type: vless
-  server: 175.29.23.114
-  port: 443
+  server: 129.211.188.184
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -314,8 +316,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 23 - chefdon
   type: vless
-  server: 167.148.203.71
-  port: 443
+  server: 154.3.35.193
+  port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -327,188 +329,6 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 24 - chefdon
-  type: vless
-  server: 216.23.87.50
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 25 - chefdon
-  type: vless
-  server: 23.27.96.145
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 26 - chefdon
-  type: vless
-  server: 156.226.168.252
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 27 - chefdon
-  type: vless
-  server: 175.29.23.87
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 28 - chefdon
-  type: vless
-  server: 23.156.153.40
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 29 - chefdon
-  type: vless
-  server: 16.163.174.115
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 30 - chefdon
-  type: vless
-  server: 185.155.235.58
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 31 - chefdon
-  type: vless
-  server: 47.239.4.246
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 32 - chefdon
-  type: vless
-  server: 38.207.177.125
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 33 - chefdon
-  type: vless
-  server: 151.243.229.150
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 34 - chefdon
-  type: vless
-  server: 82.27.116.181
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 35 - chefdon
-  type: vless
-  server: 91.213.186.189
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 36 - chefdon
-  type: vless
-  server: 23.141.12.134
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 37 - chefdon
   type: vless
   server: 38.207.133.99
   port: 443
@@ -522,9 +342,191 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 25 - chefdon
+  type: vless
+  server: 129.211.188.184
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 26 - chefdon
+  type: vless
+  server: 38.207.133.99
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 27 - chefdon
+  type: vless
+  server: 136.0.54.169
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 28 - chefdon
+  type: vless
+  server: 207.57.122.127
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 29 - chefdon
+  type: vless
+  server: 175.29.23.179
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 30 - chefdon
+  type: vless
+  server: 68.64.183.37
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 31 - chefdon
+  type: vless
+  server: 45.38.42.216
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 32 - chefdon
+  type: vless
+  server: 185.155.235.235
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 33 - chefdon
+  type: vless
+  server: 103.242.2.181
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 34 - chefdon
+  type: vless
+  server: 195.58.144.77
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 35 - chefdon
+  type: vless
+  server: 216.23.87.50
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 36 - chefdon
+  type: vless
+  server: 175.29.23.179
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 37 - chefdon
+  type: vless
+  server: 68.64.182.205
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 38 - chefdon
   type: vless
-  server: 68.64.182.79
+  server: 45.207.156.146
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -538,7 +540,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 39 - chefdon
   type: vless
-  server: 122.10.119.252
+  server: 43.161.254.71
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -551,22 +553,24 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 40 - chefdon
-  type: vless
-  server: 43.132.231.159
+  type: vmess
+  server: 47.242.79.198
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: ejOMsxPtP19APyGL.v.3dns.vip
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /ws-vmess
     headers:
-      Host: box5.xinwu.de5.net
+      Host: ejOMsxPtP19APyGL.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 41 - chefdon
   type: vless
-  server: 151.245.90.160
+  server: 202.61.72.129
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -579,20 +583,19 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 42 - chefdon
-  type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 195.58.144.77
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: ''
+      Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 43 - chefdon
   type: vless
   server: 2.27.174.68
@@ -609,7 +612,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 44 - chefdon
   type: vless
-  server: 45.39.190.155
+  server: 82.27.116.182
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -623,8 +626,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 45 - chefdon
   type: vless
-  server: 85.121.51.14
-  port: 2083
+  server: 43.132.234.175
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -637,7 +640,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 46 - chefdon
   type: vless
-  server: 219.76.13.181
+  server: 156.224.76.187
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -651,7 +654,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 47 - chefdon
   type: vless
-  server: 166.88.11.105
+  server: 45.149.186.154
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -665,7 +668,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 48 - chefdon
   type: vless
-  server: 43.168.16.112
+  server: 103.242.2.181
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -679,7 +682,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 49 - chefdon
   type: vless
-  server: 2.27.109.236
+  server: 178.83.206.250
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -693,7 +696,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 50 - chefdon
   type: vless
-  server: 122.10.119.252
+  server: 68.64.182.74
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -707,7 +710,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 51 - chefdon
   type: vless
-  server: 216.23.84.115
+  server: 185.155.235.58
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -721,7 +724,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 52 - chefdon
   type: vless
-  server: 8.210.29.68
+  server: 207.57.122.127
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -735,7 +738,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 53 - chefdon
   type: vless
-  server: 91.213.186.64
+  server: 103.190.232.236
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -749,7 +752,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 54 - chefdon
   type: vless
-  server: 202.61.72.83
+  server: 95.182.95.178
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -763,7 +766,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 55 - chefdon
   type: vless
-  server: 136.0.54.169
+  server: 82.27.116.182
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -777,7 +780,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 56 - chefdon
   type: vless
-  server: 208.66.229.158
+  server: 185.155.235.235
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -791,7 +794,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 57 - chefdon
   type: vless
-  server: 175.29.23.87
+  server: 45.39.190.155
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -805,7 +808,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 58 - chefdon
   type: vless
-  server: 206.237.31.197
+  server: 45.207.156.146
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -819,7 +822,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 59 - chefdon
   type: vless
-  server: 149.104.29.237
+  server: 103.192.179.132
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -833,7 +836,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 60 - chefdon
   type: vless
-  server: 175.29.23.138
+  server: 45.149.186.133
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -847,8 +850,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 61 - chefdon
   type: vless
-  server: 96.9.228.207
-  port: 443
+  server: 2.27.132.160
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -861,7 +864,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 62 - chefdon
   type: vless
-  server: 103.143.81.250
+  server: 139.28.169.72
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -875,7 +878,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 63 - chefdon
   type: vless
-  server: 219.76.13.169
+  server: 2.27.174.68
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -889,7 +892,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 64 - chefdon
   type: vless
-  server: 45.39.190.155
+  server: 207.57.131.117
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -903,7 +906,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 65 - chefdon
   type: vless
-  server: 207.56.137.174
+  server: 103.97.201.65
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -917,7 +920,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 66 - chefdon
   type: vless
-  server: 45.38.42.216
+  server: 45.192.204.72
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -931,8 +934,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 67 - chefdon
   type: vless
-  server: 103.244.90.20
-  port: 8443
+  server: 38.207.179.77
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -945,8 +948,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 68 - chefdon
   type: vless
-  server: 124.156.202.172
-  port: 443
+  server: 38.207.177.125
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -959,7 +962,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 69 - chefdon
   type: vless
-  server: 45.8.186.20
+  server: 161.117.181.127
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -973,7 +976,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 70 - chefdon
   type: vless
-  server: 2.27.109.62
+  server: 68.64.178.184
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -987,7 +990,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 71 - chefdon
   type: vless
-  server: 38.207.177.204
+  server: 2.27.132.136
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1001,8 +1004,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 72 - chefdon
   type: vless
-  server: nrt.xxxxxxxx.nyc.mn
-  port: 443
+  server: 82.27.116.56
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1015,7 +1018,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 73 - chefdon
   type: vless
-  server: 45.145.229.223
+  server: 151.243.229.150
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1029,21 +1032,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 74 - chefdon
   type: vless
-  server: www.wto.org
+  server: 151.245.90.160
   port: 443
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hk.152568.xyz
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
+    path: /?ed=2048
     headers:
-      Host: hk.152568.xyz
+      Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 75 - chefdon
   type: vless
-  server: 205.189.160.50
+  server: 47.239.4.246
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1057,7 +1060,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 76 - chefdon
   type: vless
-  server: 23.147.172.135
+  server: 45.202.248.172
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1071,7 +1074,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 77 - chefdon
   type: vless
-  server: 195.58.144.77
+  server: 213.176.92.60
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1085,8 +1088,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 78 - chefdon
   type: vless
-  server: 91.213.186.189
-  port: 443
+  server: 23.133.52.10
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1099,7 +1102,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 79 - chefdon
   type: vless
-  server: 38.147.172.53
+  server: 156.224.79.247
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1113,7 +1116,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 80 - chefdon
   type: vless
-  server: 103.219.192.72
+  server: 219.76.13.169
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1127,7 +1130,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 81 - chefdon
   type: vless
-  server: 209.33.166.49
+  server: 103.192.179.132
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1141,7 +1144,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 82 - chefdon
   type: vless
-  server: 141.11.238.183
+  server: 43.230.9.121
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1155,7 +1158,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 83 - chefdon
   type: vless
-  server: 219.76.13.177
+  server: 82.27.11.11
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1169,21 +1172,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 84 - chefdon
   type: vless
-  server: 142.54.23.15
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 85 - chefdon
-  type: vless
-  server: 185.92.47.93
+  server: 82.27.116.181
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1195,9 +1184,24 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 85 - chefdon
+  type: vmess
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
 - name: 🇭🇰 中国香港 (Hong Kong) 86 - chefdon
   type: vless
-  server: 175.29.23.114
+  server: 209.33.161.104
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1211,7 +1215,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 87 - chefdon
   type: vless
-  server: 91.213.186.64
+  server: 68.64.183.37
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1225,8 +1229,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 88 - chefdon
   type: vless
-  server: 149.104.29.237
-  port: 443
+  server: 82.27.116.56
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1239,7 +1243,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 89 - chefdon
   type: vless
-  server: 207.57.131.171
+  server: 38.207.184.202
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1253,8 +1257,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 90 - chefdon
   type: vless
-  server: 85.121.51.14
-  port: 2083
+  server: 45.192.204.72
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1267,7 +1271,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 91 - chefdon
   type: vless
-  server: 96.9.228.216
+  server: 85.121.244.201
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1281,7 +1285,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 92 - chefdon
   type: vless
-  server: 43.230.9.121
+  server: 45.192.247.155
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1295,7 +1299,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 93 - chefdon
   type: vless
-  server: 141.11.90.160
+  server: 96.9.228.207
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1309,8 +1313,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 94 - chefdon
   type: vless
-  server: 38.207.185.28
-  port: 443
+  server: 23.133.52.10
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1323,7 +1327,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 95 - chefdon
   type: vless
-  server: 202.61.72.83
+  server: 45.39.190.155
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1337,7 +1341,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 96 - chefdon
   type: vless
-  server: 103.97.201.65
+  server: 149.104.29.237
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1351,8 +1355,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 97 - chefdon
   type: vless
-  server: 216.23.87.170
-  port: 443
+  server: 103.224.80.7
+  port: 2087
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1365,7 +1369,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 98 - chefdon
   type: vless
-  server: 2.27.109.62
+  server: 45.192.247.155
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1379,7 +1383,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 99 - chefdon
   type: vless
-  server: 95.182.95.41
+  server: 45.144.137.68
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1393,7 +1397,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 100 - chefdon
   type: vless
-  server: 178.83.206.250
+  server: 207.57.124.108
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1407,7 +1411,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 101 - chefdon
   type: vless
-  server: 95.182.95.41
+  server: 185.155.235.58
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1421,7 +1425,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 102 - chefdon
   type: vless
-  server: 206.237.31.197
+  server: 175.29.23.34
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1435,7 +1439,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 103 - chefdon
   type: vless
-  server: 185.155.235.58
+  server: 156.226.169.122
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1449,7 +1453,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 104 - chefdon
   type: vless
-  server: 141.11.90.160
+  server: 167.148.203.107
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1463,8 +1467,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 105 - chefdon
   type: vless
-  server: 23.175.201.2
-  port: 8443
+  server: 172.93.188.25
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1477,7 +1481,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 106 - chefdon
   type: vless
-  server: 85.121.245.35
+  server: 185.132.125.163
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1491,7 +1495,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 107 - chefdon
   type: vless
-  server: 45.145.228.222
+  server: 103.97.201.65
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1505,8 +1509,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 108 - chefdon
   type: vless
-  server: 103.253.42.37
-  port: 8443
+  server: 149.104.24.132
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1519,7 +1523,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 109 - chefdon
   type: vless
-  server: 38.147.172.53
+  server: 101.96.234.244
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1533,7 +1537,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 110 - chefdon
   type: vless
-  server: 167.148.203.71
+  server: 156.224.77.87
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1561,7 +1565,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 112 - chefdon
   type: vless
-  server: 45.207.156.204
+  server: 38.207.174.111
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1575,7 +1579,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 113 - chefdon
   type: vless
-  server: 209.33.161.104
+  server: 2.27.109.62
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1589,7 +1593,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 114 - chefdon
   type: vless
-  server: 166.88.61.187
+  server: nrt.xxxxxxxx.nyc.mn
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1603,7 +1607,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 115 - chefdon
   type: vless
-  server: 155.117.82.92
+  server: 42.200.173.201
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1617,7 +1621,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 116 - chefdon
   type: vless
-  server: 193.134.211.209
+  server: 103.213.4.77
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1631,8 +1635,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 117 - chefdon
   type: vless
-  server: 91.213.174.82
-  port: 443
+  server: 154.3.35.193
+  port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1645,8 +1649,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 118 - chefdon
   type: vless
-  server: 45.192.247.199
-  port: 443
+  server: 103.171.34.48
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1659,8 +1663,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 119 - chefdon
   type: vless
-  server: 68.64.183.37
-  port: 443
+  server: 103.224.80.7
+  port: 2087
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1673,8 +1677,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 120 - chefdon
   type: vless
-  server: 23.156.153.40
-  port: 443
+  server: 151.245.90.96
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1687,7 +1691,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 121 - chefdon
   type: vless
-  server: 45.207.156.204
+  server: 45.39.199.233
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1701,8 +1705,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 122 - chefdon
   type: vless
-  server: 45.133.73.41
-  port: 443
+  server: 45.38.60.153
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1714,22 +1718,24 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 123 - chefdon
-  type: vless
-  server: 154.16.10.45
+  type: vmess
+  server: 93ucrn4i0pffuabk.v.3dns.vip
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: ''
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /ws-vmess
     headers:
-      Host: box5.xinwu.de5.net
+      Host: ''
 - name: 🇭🇰 中国香港 (Hong Kong) 124 - chefdon
   type: vless
-  server: 23.147.172.135
+  server: 166.88.55.224
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1743,8 +1749,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 125 - chefdon
   type: vless
-  server: 23.27.96.145
-  port: 443
+  server: 45.38.60.153
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1757,7 +1763,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 126 - chefdon
   type: vless
-  server: 216.235.248.57
+  server: 68.64.182.205
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1771,8 +1777,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 127 - chefdon
   type: vless
-  server: 103.242.2.214
-  port: 8443
+  server: 43.230.9.121
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1785,8 +1791,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 128 - chefdon
   type: vless
-  server: 82.27.116.181
-  port: 443
+  server: 116.49.177.246
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1799,7 +1805,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 129 - chefdon
   type: vless
-  server: 85.121.245.35
+  server: 95.182.95.178
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1813,7 +1819,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 130 - chefdon
   type: vless
-  server: 23.175.201.2
+  server: 149.104.24.57
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1827,8 +1833,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 131 - chefdon
   type: vless
-  server: 175.29.23.138
-  port: 443
+  server: 103.171.34.48
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1841,8 +1847,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 132 - chefdon
   type: vless
-  server: 46.8.101.232
-  port: 8443
+  server: 103.213.4.77
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1855,7 +1861,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 133 - chefdon
   type: vless
-  server: 216.235.248.57
+  server: 151.245.90.160
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1869,7 +1875,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 134 - chefdon
   type: vless
-  server: 185.92.47.93
+  server: 206.237.31.197
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1883,7 +1889,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 135 - chefdon
   type: vless
-  server: 68.64.182.79
+  server: 42.200.173.201
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1897,7 +1903,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 136 - chefdon
   type: vless
-  server: 207.57.131.171
+  server: nrtcfdns.zone.id
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1911,7 +1917,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 137 - chefdon
   type: vless
-  server: 38.207.184.202
+  server: 149.104.29.237
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1925,7 +1931,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 138 - chefdon
   type: vless
-  server: 43.168.16.112
+  server: 167.148.203.71
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1939,8 +1945,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 139 - chefdon
   type: vless
-  server: 178.83.206.250
-  port: 443
+  server: 45.207.156.69
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1952,538 +1958,6 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 140 - chefdon
-  type: vless
-  server: 96.9.228.241
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 141 - chefdon
-  type: vless
-  server: 149.104.31.208
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 142 - chefdon
-  type: vless
-  server: 43.132.231.159
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 143 - chefdon
-  type: vless
-  server: 2.27.132.136
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 144 - chefdon
-  type: vless
-  server: 166.88.61.187
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 145 - chefdon
-  type: vless
-  server: 149.104.6.78
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 146 - chefdon
-  type: vless
-  server: 175.29.23.179
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 147 - chefdon
-  type: vless
-  server: 103.213.4.57
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 148 - chefdon
-  type: vless
-  server: 151.242.125.29
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 149 - chefdon
-  type: vless
-  server: 43.247.134.129
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 150 - chefdon
-  type: vless
-  server: 103.106.229.173
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 151 - chefdon
-  type: vless
-  server: 43.161.254.71
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 152 - chefdon
-  type: vless
-  server: 45.152.64.16
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 153 - chefdon
-  type: vless
-  server: 103.213.4.57
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 154 - chefdon
-  type: vless
-  server: 143.198.80.220
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 155 - chefdon
-  type: vless
-  server: 91.213.186.115
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 156 - chefdon
-  type: vless
-  server: 8.210.29.68
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 157 - chefdon
-  type: vless
-  server: 38.207.133.99
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 158 - chefdon
-  type: vless
-  server: 46.8.101.232
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 159 - chefdon
-  type: vless
-  server: 175.29.23.179
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 160 - chefdon
-  type: vless
-  server: 205.189.160.50
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 161 - chefdon
-  type: vless
-  server: 154.84.154.37
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 162 - chefdon
-  type: vless
-  server: 151.243.229.150
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 163 - chefdon
-  type: vless
-  server: 16.163.174.115
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 164 - chefdon
-  type: vless
-  server: 219.76.13.177
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 165 - chefdon
-  type: vless
-  server: 38.207.184.202
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 166 - chefdon
-  type: vless
-  server: 154.16.10.93
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 167 - chefdon
-  type: vless
-  server: 38.207.185.28
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 168 - chefdon
-  type: vless
-  server: 219.76.13.169
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 169 - chefdon
-  type: vless
-  server: 2.27.132.136
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 170 - chefdon
-  type: vless
-  server: 167.148.203.107
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 171 - chefdon
-  type: vless
-  server: nrtcfdns.zone.id
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 172 - chefdon
-  type: vless
-  server: 193.134.211.209
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 173 - chefdon
-  type: vless
-  server: 103.143.81.250
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 174 - chefdon
-  type: vless
-  server: 154.16.10.45
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 175 - chefdon
-  type: vless
-  server: 2.27.174.68
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 176 - chefdon
-  type: vless
-  server: 43.161.254.71
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 177 - chefdon
-  type: vless
-  server: 155.117.82.92
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 178 - chefdon
   type: vless
   server: 96.9.228.216
   port: 443
@@ -2497,9 +1971,543 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 141 - chefdon
+  type: vless
+  server: 45.38.42.216
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 142 - chefdon
+  type: vless
+  server: 45.221.115.170
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 143 - chefdon
+  type: vless
+  server: 167.148.203.71
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 144 - chefdon
+  type: vless
+  server: 166.88.55.224
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 145 - chefdon
+  type: vless
+  server: 178.83.206.250
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 146 - chefdon
+  type: vless
+  server: 68.64.182.74
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 147 - chefdon
+  type: vless
+  server: 103.193.172.196
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 148 - chefdon
+  type: vless
+  server: 2.27.109.62
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 149 - chefdon
+  type: vless
+  server: 45.202.248.172
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 150 - chefdon
+  type: vless
+  server: 185.132.125.163
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 151 - chefdon
+  type: vless
+  server: 209.33.161.104
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 152 - chefdon
+  type: vless
+  server: 103.193.172.196
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 153 - chefdon
+  type: vless
+  server: 219.76.13.169
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 154 - chefdon
+  type: vless
+  server: 136.0.54.169
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 155 - chefdon
+  type: vless
+  server: 38.207.185.28
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 156 - chefdon
+  type: vless
+  server: 155.117.224.127
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 157 - chefdon
+  type: vless
+  server: 47.239.4.246
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 158 - chefdon
+  type: vless
+  server: 96.9.228.216
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 159 - chefdon
+  type: vless
+  server: 156.226.169.122
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 160 - chefdon
+  type: vless
+  server: 38.207.185.28
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 161 - chefdon
+  type: vless
+  server: 43.247.135.181
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 162 - chefdon
+  type: vless
+  server: 82.27.116.181
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 163 - chefdon
+  type: vless
+  server: 206.237.19.237
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 164 - chefdon
+  type: vless
+  server: 156.224.79.247
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 165 - chefdon
+  type: vless
+  server: 103.143.81.178
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 166 - chefdon
+  type: vmess
+  server: 8.218.184.4
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 167 - chefdon
+  type: vless
+  server: 167.148.203.107
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 168 - chefdon
+  type: vless
+  server: 38.207.178.173
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 169 - chefdon
+  type: vless
+  server: 116.49.177.246
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 170 - chefdon
+  type: vless
+  server: 139.28.169.72
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 171 - chefdon
+  type: vless
+  server: 85.121.244.201
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 172 - chefdon
+  type: vless
+  server: 45.192.247.199
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 173 - chefdon
+  type: vless
+  server: 23.147.172.135
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 174 - chefdon
+  type: vless
+  server: 45.221.115.170
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 175 - chefdon
+  type: vless
+  server: 206.237.31.197
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 176 - chefdon
+  type: vless
+  server: 43.247.135.181
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 177 - chefdon
+  type: vless
+  server: 156.224.76.187
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 178 - chefdon
+  type: vless
+  server: 82.27.11.11
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 179 - chefdon
   type: vless
-  server: 45.152.64.16
+  server: 206.237.19.237
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2513,7 +2521,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 180 - chefdon
   type: vless
-  server: 209.33.166.49
+  server: 45.149.186.154
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2527,7 +2535,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 181 - chefdon
   type: vless
-  server: 38.207.176.130
+  server: 156.224.79.83
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2541,8 +2549,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 182 - chefdon
   type: vless
-  server: 103.244.90.20
-  port: 8443
+  server: 103.143.81.178
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -2554,6 +2562,50 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇭🇰 中国香港 (Hong Kong) 183 - chefdon
+  type: vless
+  server: 68.64.178.184
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 184 - chefdon
+  type: vmess
+  server: 47.86.107.119
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 185 - chefdon
+  type: vless
+  server: 38.207.177.113
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 186 - chefdon
   type: vless
   server: 38.207.177.125
   port: 8443
@@ -2567,23 +2619,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 184 - chefdon
+- name: 🇭🇰 中国香港 (Hong Kong) 187 - chefdon
   type: vless
-  server: 219.76.13.181
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇭🇰 中国香港 (Hong Kong) 185 - chefdon
-  type: vless
-  server: 91.213.186.115
+  server: 91.149.237.61
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2785,6 +2823,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 183 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 184 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 185 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 186 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 187 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -2975,5 +3015,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 183 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 184 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 185 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 186 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 187 - chefdon
 rules:
 - MATCH,PROXIES
