@@ -4,10 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇿 BZ 01 - chefdon
+- name: 🇮🇪 IE 01 - chefdon
   type: vless
-  server: 202.181.177.8
-  port: 8443
+  server: 162.159.160.112
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -18,17 +18,26 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇮🇪 IE 02 - chefdon
+  type: ss
+  server: 20.107.184.151
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: zziXHDOFXc4qRjoj
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇿 BZ 01 - chefdon
+  - 🇮🇪 IE 01 - chefdon
+  - 🇮🇪 IE 02 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇿 BZ 01 - chefdon
+  - 🇮🇪 IE 01 - chefdon
+  - 🇮🇪 IE 02 - chefdon
 rules:
 - MATCH,PROXIES
