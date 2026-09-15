@@ -6,57 +6,33 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - chefdon
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 103.71.23.75
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: uae.unixzone.us
+      Host: box5.xinwu.de5.net
 - name: 🇦🇪 阿联酋 (UAE) 02 - chefdon
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 132.243.25.208
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: uae.unixzone.us
+      Host: box5.xinwu.de5.net
 - name: 🇦🇪 阿联酋 (UAE) 03 - chefdon
-  type: vless
-  server: cdn.snobvpn.online
-  port: 80
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /snob-ws
-    headers:
-      Host: cdn.snobvpn.online
-- name: 🇦🇪 阿联酋 (UAE) 04 - chefdon
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - chefdon
   type: vless
   server: 89.125.147.199
   port: 443
@@ -68,20 +44,7 @@ proxies:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
   client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 07 - chefdon
+- name: 🇦🇪 阿联酋 (UAE) 04 - chefdon
   type: vless
   server: 165.154.241.192
   port: 443
@@ -95,60 +58,19 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇦🇪 阿联酋 (UAE) 08 - chefdon
+- name: 🇦🇪 阿联酋 (UAE) 05 - chefdon
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 1423f399-74d3-4d99-90b9-bc7cae1af706
+  server: 89.125.147.199
+  port: 443
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
   client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 09 - chefdon
-  type: vless
-  server: 45.130.125.201
-  port: 80
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 10 - chefdon
-  type: vless
-  server: 162.159.152.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: rayan-007.maxima.dpdns.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.maxima.dpdns.org
-- name: 🇦🇪 阿联酋 (UAE) 11 - chefdon
-  type: vless
-  server: 153.56.134.47
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇦🇪 阿联酋 (UAE) 12 - chefdon
+- name: 🇦🇪 阿联酋 (UAE) 06 - chefdon
   type: vless
   server: 89.125.147.199
   port: 443
@@ -171,12 +93,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - chefdon
   - 🇦🇪 阿联酋 (UAE) 05 - chefdon
   - 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 07 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 08 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 09 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 10 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 11 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 12 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -188,11 +104,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - chefdon
   - 🇦🇪 阿联酋 (UAE) 05 - chefdon
   - 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 07 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 08 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 09 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 10 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 11 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 12 - chefdon
 rules:
 - MATCH,PROXIES
