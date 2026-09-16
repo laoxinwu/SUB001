@@ -6,21 +6,21 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - chefdon
   type: vless
-  server: 108.165.233.223
+  server: 93.123.13.88
   port: 443
-  uuid: 2388e166-3890-33ae-f77e-efac00000001
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: netlivpn4813.ddhshhshs.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    path: /?ed=2048
     headers:
-      Host: netlivpn4813.ddhshhshs.workers.dev
+      Host: box5.xinwu.de5.net
 - name: 🇧🇬 BG 02 - chefdon
   type: vless
-  server: neth9.lunariai.ru
+  server: 192.145.31.5
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -45,15 +45,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: neth9.lunariai.ru
-- name: 🇧🇬 BG 05 - chefdon
-  type: vless
-  server: 192.145.31.5
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: neth9.lunariai.ru
 proxy-groups:
 - name: PROXIES
   type: select
@@ -63,7 +54,6 @@ proxy-groups:
   - 🇧🇬 BG 02 - chefdon
   - 🇧🇬 BG 03 - chefdon
   - 🇧🇬 BG 04 - chefdon
-  - 🇧🇬 BG 05 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -73,6 +63,5 @@ proxy-groups:
   - 🇧🇬 BG 02 - chefdon
   - 🇧🇬 BG 03 - chefdon
   - 🇧🇬 BG 04 - chefdon
-  - 🇧🇬 BG 05 - chefdon
 rules:
 - MATCH,PROXIES
