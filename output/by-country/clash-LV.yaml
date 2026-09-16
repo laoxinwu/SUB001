@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇱🇻 LV 01 - chefdon
   type: vless
-  server: 185.82.127.6
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇱🇻 LV 02 - chefdon
-  type: vless
   server: atomic-prase23893.my-vm.work
   port: 8088
   uuid: tmp_user
@@ -31,9 +17,23 @@ proxies:
     path: /api
     headers:
       Host: queuev4.vk.com
+- name: 🇱🇻 LV 02 - chefdon
+  type: vless
+  server: 31.56.197.196
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇱🇻 LV 03 - chefdon
   type: vless
-  server: 185.82.126.217
+  server: 185.82.126.184
   port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
