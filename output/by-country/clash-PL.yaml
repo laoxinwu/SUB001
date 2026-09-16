@@ -5,19 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - chefdon
-  type: vless
-  server: 217.154.237.115
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: ss
+  server: 178.95.176.16
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: rSeYcig_XBy8q3k33NpK3A
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇵🇱 PL 02 - chefdon
   type: ss
   server: 194.61.121.93
