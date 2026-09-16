@@ -6,10 +6,10 @@ log-level: info
 proxies:
 - name: 🇮🇹 意大利 (Italy) 01 - chefdon
   type: ss
-  server: 57.131.48.45
-  port: 8388
+  server: 185.164.175.81
+  port: 19999
   cipher: aes-256-gcm
-  password: itzvpn@321
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 (Italy) 02 - chefdon
   type: ss
@@ -20,14 +20,14 @@ proxies:
   udp: true
 - name: 🇮🇹 意大利 (Italy) 03 - chefdon
   type: ss
-  server: 185.164.175.81
-  port: 19999
+  server: 57.131.48.45
+  port: 8388
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  password: itzvpn@321
   udp: true
 - name: 🇮🇹 意大利 (Italy) 04 - chefdon
   type: vless
-  server: 92.246.137.103
+  server: 77.232.143.161
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -47,6 +47,20 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 06 - chefdon
+  type: vless
+  server: 91.186.218.54
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,6 +71,7 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 03 - chefdon
   - 🇮🇹 意大利 (Italy) 04 - chefdon
   - 🇮🇹 意大利 (Italy) 05 - chefdon
+  - 🇮🇹 意大利 (Italy) 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -67,5 +82,6 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 03 - chefdon
   - 🇮🇹 意大利 (Italy) 04 - chefdon
   - 🇮🇹 意大利 (Italy) 05 - chefdon
+  - 🇮🇹 意大利 (Italy) 06 - chefdon
 rules:
 - MATCH,PROXIES
