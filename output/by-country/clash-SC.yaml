@@ -6,35 +6,8 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - chefdon
   type: vless
-  server: 156.226.175.115
+  server: 45.129.126.177
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇨 SC 02 - chefdon
-  type: vless
-  server: 45.130.125.201
-  port: 80
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇸🇨 SC 03 - chefdon
-  type: vless
-  server: 156.232.9.90
-  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -51,15 +24,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - chefdon
-  - 🇸🇨 SC 02 - chefdon
-  - 🇸🇨 SC 03 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - chefdon
-  - 🇸🇨 SC 02 - chefdon
-  - 🇸🇨 SC 03 - chefdon
 rules:
 - MATCH,PROXIES

@@ -6,22 +6,22 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - chefdon
   type: vless
-  server: 104.19.147.179
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 172.67.156.147
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /tyxyws
     headers:
-      Host: box5.xinwu.de5.net
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 02 - chefdon
   type: vless
-  server: 104.18.33.19
-  port: 8443
+  server: 104.16.159.212
+  port: 2096
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -34,8 +34,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 03 - chefdon
   type: vless
-  server: 172.64.146.211
-  port: 2096
+  server: 172.64.52.175
+  port: 8443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -48,32 +48,47 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 04 - chefdon
   type: vless
-  server: 188.114.97.6
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.17.212.44
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 05 - chefdon
+  type: vless
+  server: 172.64.53.140
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 05 - chefdon
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 06 - chefdon
   type: vless
-  server: 188.114.96.6
+  server: 104.16.151.78
   port: 443
-  uuid: a592b4ac-e209-4a13-3cef-539600000005
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 0404.infinityconfig5.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /sync
+    path: /?ed=2048
     headers:
-      Host: 0404.infinityconfig5.workers.dev
-- name: 🌐 其他地区 (Other) 06 - chefdon
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 07 - chefdon
   type: vless
   server: 172.64.52.175
   port: 2087
@@ -87,24 +102,10 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 07 - chefdon
-  type: vless
-  server: 104.18.38.47
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 08 - chefdon
   type: vless
-  server: 104.19.152.172
-  port: 443
+  server: 104.19.146.183
+  port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -117,7 +118,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 09 - chefdon
   type: vless
-  server: 8.35.211.31
+  server: 172.67.78.61
   port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -131,19 +132,31 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 10 - chefdon
   type: vless
-  server: 104.19.214.146
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 162.159.45.19
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 11 - chefdon
+  type: vless
+  server: 172.64.154.8
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 12 - chefdon
   type: vless
   server: 172.64.146.211
   port: 2087
@@ -157,24 +170,10 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 12 - chefdon
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/103.101.153.32:443
-    headers:
-      Host: nuclear.us.kg
 - name: 🌐 其他地区 (Other) 13 - chefdon
   type: vless
-  server: 104.17.152.25
-  port: 443
+  server: 104.16.246.179
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -187,36 +186,36 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 14 - chefdon
   type: vless
-  server: 172.64.149.209
+  server: 104.18.42.54
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 15 - chefdon
   type: vless
-  server: 172.67.205.153
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  server: 104.16.245.19
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 6-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    path: /?ed=2048
     headers:
-      Host: 6-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 16 - chefdon
   type: vless
-  server: cf.877774.xyz
-  port: 443
+  server: 104.19.35.150
+  port: 2096
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -229,21 +228,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 17 - chefdon
   type: vless
-  server: 172.64.52.173
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.67.213.218
+  port: 2096
+  uuid: e6b59d15-364c-4025-899a-84efa291d651
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: REd-suRf-2007.MatriSkA.wOrkeRs.DeV
   network: ws
   ws-opts:
-    path: /
+    path: /eyJqdW5rIjoiYWNoMkxHaUVYIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: REd-suRf-2007.MatriSkA.wOrkeRs.DeV
 - name: 🌐 其他地区 (Other) 18 - chefdon
   type: vless
-  server: cf.877771.xyz
+  server: 104.17.143.13
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -257,91 +256,62 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 19 - chefdon
   type: vless
-  server: 172.64.53.240
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.17.58.194
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 20 - chefdon
   type: vless
-  server: 104.18.32.47
-  port: 2087
-  uuid: 5a0028f9-c656-cec9-4b61-54678477a408
+  server: 104.19.33.144
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /game
+    path: /?ed=2048
     headers:
-      Host: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 21 - chefdon
   type: vless
-  server: 172.67.132.194
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  server: 172.64.52.6
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 3-m13.AYuttHAya-8.kdNs.FR
   network: ws
   ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
+    path: /?ed=2560security=tls
     headers:
-      Host: 3-m13.AYuttHAya-8.kdNs.FR
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 22 - chefdon
   type: vless
-  server: 104.18.38.47
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /
+    path: /tyxyws
     headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 23 - chefdon
   type: vless
-  server: 104.21.91.76
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-M19.South-aFRIca-onliNE.CCwu.cC
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 7-M19.sOuTH-afRiCa-OnlIne.ccwU.cC
-- name: 🌐 其他地区 (Other) 24 - chefdon
-  type: vless
-  server: 172.64.52.97
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 25 - chefdon
-  type: vless
-  server: 172.64.53.42
+  server: cf.9999669.xyz
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -353,10 +323,38 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 24 - chefdon
+  type: vless
+  server: 104.17.216.152
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 25 - chefdon
+  type: vless
+  server: 104.17.172.120
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 26 - chefdon
   type: vless
-  server: 104.17.209.22
-  port: 2096
+  server: 104.17.105.115
+  port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -369,36 +367,36 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 27 - chefdon
   type: vless
-  server: 172.64.52.68
+  server: 172.64.149.209
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 28 - chefdon
   type: vless
-  server: 172.64.53.42
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.17.124.237
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 29 - chefdon
   type: vless
-  server: 104.17.116.142
-  port: 2087
+  server: 104.17.220.209
+  port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -411,8 +409,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 30 - chefdon
   type: vless
-  server: 172.64.53.215
-  port: 2087
+  server: 104.19.145.233
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 31 - chefdon
+  type: vless
+  server: 104.16.151.21
+  port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -423,38 +435,24 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 31 - chefdon
-  type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: d6828805-5608-44d7-a44b-976d4c3ac2d0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 0LG3u92i0exN577l3Mc637Ycba3.SfgsfgSfGFSGSf-4630.wOrkeRS.dEv
-  network: ws
-  ws-opts:
-    path: /vl/5ibXbgAYxWzwbOtkXJWUtvKMKOYjh?ed
-    headers:
-      Host: 0lg3u92i0exn577l3mc637ycba3.sfgsfgsfgfsgsf-4630.workers.dev
 - name: 🌐 其他地区 (Other) 32 - chefdon
   type: vless
-  server: 104.18.42.163
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.64.79.19
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 33 - chefdon
   type: vless
-  server: 104.17.54.68
-  port: 2096
+  server: 104.16.158.67
+  port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -467,35 +465,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 34 - chefdon
   type: vless
-  server: 104.21.3.206
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 6-m13.0943E131-87f4-4b7f-Bc60-9D984cC0ADa2.KdnS.FR
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 6-m13.0943e131-87F4-4B7f-bc60-9D984cC0Ada2.KdnS.Fr
-- name: 🌐 其他地区 (Other) 35 - chefdon
-  type: vless
-  server: 172.64.52.68
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 36 - chefdon
-  type: vless
-  server: 172.64.52.97
+  server: 104.16.151.21
   port: 2096
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -507,10 +477,38 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 35 - chefdon
+  type: vless
+  server: 104.16.253.166
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 36 - chefdon
+  type: vless
+  server: 104.17.156.232
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 37 - chefdon
   type: vless
-  server: 104.19.148.213
-  port: 8443
+  server: 104.17.103.197
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -523,50 +521,119 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 38 - chefdon
   type: vless
-  server: 172.64.52.68
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.17.147.238
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 39 - chefdon
   type: vless
-  server: 104.17.176.9
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 8.35.211.236
+  port: 443
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: kkkk-bq7.pages.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: kkkk-bq7.pages.dev
 - name: 🌐 其他地区 (Other) 40 - chefdon
   type: vless
-  server: 172.64.52.24
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.17.105.136
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 41 - chefdon
   type: vless
-  server: 104.17.3.81
-  port: 2087
+  server: 104.17.123.131
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 42 - chefdon
+  type: vless
+  server: 104.17.22.123
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 43 - chefdon
+  type: vless
+  server: 162.159.24.131
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 44 - chefdon
+  type: vless
+  server: 172.64.153.3
+  port: 443
+  uuid: 8779033b-a16a-4a7b-8767-d1980008d82a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 38973b0f.69lover.site
+  network: ws
+  ws-opts:
+    path: /api/v2/e9182405fa1a6489/stream
+    headers:
+      Host: 38973b0f.69lover.site
+- name: 🌐 其他地区 (Other) 45 - chefdon
+  type: vless
+  server: 104.16.111.193
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🌐 其他地区 (Other) 46 - chefdon
+  type: vless
+  server: 172.64.146.211
+  port: 2083
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -577,94 +644,24 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 42 - chefdon
-  type: vless
-  server: 172.67.134.13
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2-m13-StATiC-csS.XcV.CcwU.Cc
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 2-m13-STaTiC-csS.xcV.cCwu.CC
-- name: 🌐 其他地区 (Other) 43 - chefdon
-  type: vless
-  server: 104.21.48.184
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 9-m13.1b9390a5-6209-45Bd-bA0E-057eBB2641C3.KdnS.Fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 9-m13.1b9390a5-6209-45BD-bA0E-057eBB2641c3.KDNs.fr
-- name: 🌐 其他地区 (Other) 44 - chefdon
-  type: vless
-  server: 104.17.214.30
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 45 - chefdon
-  type: vless
-  server: 104.18.33.140
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 46 - chefdon
-  type: vless
-  server: 104.18.33.251
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 47 - chefdon
   type: vless
-  server: 104.17.123.237
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 172.64.146.211
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 48 - chefdon
   type: vless
-  server: 104.18.33.147
-  port: 2083
+  server: 104.17.165.219
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -677,22 +674,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 49 - chefdon
   type: vless
-  server: 172.67.148.163
-  port: 443
-  uuid: 682d30e4-3dfc-49f2-a017-9049119e3497
+  server: 8.39.125.140
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: free.server7peekconfig.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiRm5kaUkxZVFtRVJBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
+    path: /?ed=2048
     headers:
-      Host: free.server7peekconfig.workers.dev
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 50 - chefdon
   type: vless
-  server: 104.17.118.186
-  port: 2083
+  server: 104.18.33.58
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -705,77 +702,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 51 - chefdon
   type: vless
-  server: 172.64.149.209
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 52 - chefdon
-  type: vless
-  server: 188.114.97.6
-  port: 2086
-  uuid: 7a629a11-b75a-4889-957d-dc0987a73a19
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoieVMzbmVFWlBsd3prIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed
-    headers:
-      Host: jimifree.jimshofree1.workers.dev
-- name: 🌐 其他地区 (Other) 53 - chefdon
-  type: vless
-  server: 104.19.214.98
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 54 - chefdon
-  type: vless
-  server: 172.67.158.193
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3-m13.AYUtTHaYa-XX.kdnS.fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 3-M13.aYUTThaYA-XX.KDNS.fR
-- name: 🌐 其他地区 (Other) 55 - chefdon
-  type: vless
-  server: 172.64.145.166
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 56 - chefdon
-  type: vless
-  server: 172.66.170.34
-  port: 443
+  server: 8.35.211.83
+  port: 2096
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -786,24 +714,94 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 57 - chefdon
+- name: 🌐 其他地区 (Other) 52 - chefdon
   type: vless
-  server: 104.16.111.193
-  port: 443
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  server: 104.17.165.58
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vip.868068.xyz
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /?ed=2048
     headers:
-      Host: vip.868068.xyz
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 53 - chefdon
+  type: vless
+  server: 104.17.109.161
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 54 - chefdon
+  type: vless
+  server: 172.64.53.140
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 55 - chefdon
+  type: vless
+  server: 104.17.18.239
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 56 - chefdon
+  type: vless
+  server: 172.64.52.175
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 57 - chefdon
+  type: vless
+  server: 104.16.249.143
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 58 - chefdon
   type: vless
-  server: 104.17.148.230
-  port: 2083
+  server: 172.64.79.45
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -816,8 +814,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 59 - chefdon
   type: vless
-  server: 104.18.33.184
-  port: 443
+  server: 104.17.108.171
+  port: 2096
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -830,8 +828,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 60 - chefdon
   type: vless
-  server: 8.35.211.246
-  port: 8443
+  server: 172.67.78.28
+  port: 2096
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -844,62 +842,62 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 61 - chefdon
   type: vless
-  server: 104.18.40.152
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 62 - chefdon
-  type: vless
-  server: 172.64.146.211
+  server: 172.64.145.93
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 62 - chefdon
+  type: vless
+  server: 104.17.155.156
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 63 - chefdon
   type: vless
-  server: 104.18.34.14
-  port: 80
+  server: 104.16.145.239
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 64 - chefdon
+  type: vless
+  server: 172.64.229.2
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 64 - chefdon
-  type: vless
-  server: 104.18.42.54
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 65 - chefdon
   type: vless
-  server: 104.18.38.47
+  server: 172.64.52.230
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -913,35 +911,35 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 66 - chefdon
   type: vless
-  server: 104.18.42.163
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.19.145.206
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 67 - chefdon
   type: vless
-  server: 172.64.146.211
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.67.68.227
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 68 - chefdon
   type: vless
-  server: 104.17.176.84
+  server: 172.67.74.63
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -955,22 +953,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 69 - chefdon
   type: vless
-  server: 104.16.150.246
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 70 - chefdon
-  type: vless
-  server: 8.35.211.23
-  port: 2087
+  server: 104.17.20.197
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -981,52 +965,64 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 70 - chefdon
+  type: vless
+  server: 104.18.34.14
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 71 - chefdon
   type: vless
-  server: 188.114.96.2
-  port: 2096
-  uuid: 8d82944e-17b9-473f-a456-dec9a6e21471
+  server: 104.17.181.180
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: peekconfig.peekconf1.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoidnlSRWhQQ3ZCNGZRNHVYMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ%3D%3D
+    path: /?ed=2048
     headers:
-      Host: peekconfig.peekconf1.workers.dev
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 72 - chefdon
   type: vless
-  server: 172.64.145.94
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  server: 162.159.24.131
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
-      Host: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 73 - chefdon
   type: vless
-  server: 104.19.214.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 172.67.154.230
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: 6-m20.b8b57933-52ee-4a3d-9ef1-be3e98e94f9b.kdns.fr
   network: ws
   ws-opts:
-    path: /
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: 6-m20.b8b57933-52ee-4a3d-9ef1-be3e98e94f9b.kdns.fr
 - name: 🌐 其他地区 (Other) 74 - chefdon
   type: vless
-  server: 172.66.151.101
-  port: 443
+  server: 104.16.152.140
+  port: 2087
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1039,36 +1035,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 75 - chefdon
   type: vless
-  server: 172.67.184.123
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 0-m13.35C73e3F-b0ae-4Ae0-b41F-62DFD753A988.KdNs.Fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 0-m13.35c73e3f-b0aE-4AE0-B41f-62dFd753A988.kdNS.fr
-- name: 🌐 其他地区 (Other) 76 - chefdon
-  type: vless
-  server: 104.18.42.163
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 77 - chefdon
-  type: vless
-  server: 172.64.144.66
-  port: 2087
+  server: 172.64.149.209
+  port: 8443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -1079,10 +1047,38 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 76 - chefdon
+  type: vless
+  server: 8.39.125.81
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 77 - chefdon
+  type: vless
+  server: 172.64.145.166
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🌐 其他地区 (Other) 78 - chefdon
   type: vless
-  server: 104.16.248.9
-  port: 443
+  server: 104.26.15.159
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1095,36 +1091,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 79 - chefdon
   type: vless
-  server: 104.18.42.54
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 80 - chefdon
-  type: vless
-  server: 172.64.52.24
+  server: 104.18.33.190
   port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 81 - chefdon
-  type: vless
-  server: 104.19.150.192
-  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1135,10 +1103,38 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 80 - chefdon
+  type: vless
+  server: 8.39.125.61
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 81 - chefdon
+  type: vless
+  server: cf6.danfeng.eu.org
+  port: 2087
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vip.868068.xyz
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: vip.868068.xyz
 - name: 🌐 其他地区 (Other) 82 - chefdon
   type: vless
-  server: 104.17.168.88
-  port: 2083
+  server: 8.39.125.72
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1151,22 +1147,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 83 - chefdon
   type: vless
-  server: 8.39.125.12
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 108.162.198.178
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 84 - chefdon
   type: vless
-  server: cf.0sm.com
-  port: 443
+  server: 104.17.172.73
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1179,158 +1174,75 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 85 - chefdon
   type: vless
-  server: 104.25.30.10
+  server: fn.130519.xyz
   port: 443
-  uuid: 807cd1e0-f4ce-4785-b7a3-cde0c1614b8d
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: de14.69lover.my
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /api/v2/6c316c769ad6853c/stream
+    path: /?ed=2048
     headers:
-      Host: de14.69lover.my
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 86 - chefdon
   type: vless
-  server: 172.64.146.211
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.17.18.152
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 87 - chefdon
   type: vless
-  server: 104.16.150.108
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.17.181.22
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 88 - chefdon
   type: vless
-  server: 172.64.53.240
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.17.17.95
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 89 - chefdon
   type: vless
-  server: 172.64.147.104
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 104.17.214.248
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: box5.xinwu.de5.net
 - name: 🌐 其他地区 (Other) 90 - chefdon
-  type: vless
-  server: www.speedtest.net
-  port: 2086
-  uuid: bba14c1d-f08c-4c9a-ac87-cf85d38d8aff
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiRGtvTEVIeGU4cXFaTVVZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
-    headers:
-      Host: tight-thunder-ce8e.hamid-r-aliakbari1379-0f0.workers.dev
-- name: 🌐 其他地区 (Other) 91 - chefdon
-  type: vless
-  server: 104.19.214.146
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 92 - chefdon
-  type: vless
-  server: 104.18.40.152
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 93 - chefdon
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 5da16620-0386-4da3-a252-12a6380ed1a6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: server3.pegibol940.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiUHRlMEpuSzRFY1EyeUUwIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0=
-    headers:
-      Host: server3.pegibol940.workers.dev
-- name: 🌐 其他地区 (Other) 94 - chefdon
-  type: vless
-  server: 172.64.149.209
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 95 - chefdon
-  type: vless
-  server: 104.21.69.218
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-m20.cd6b506e-5a88-4c5d-9e11-906f39613c04.kdns.fr
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 7-m20.cd6b506e-5a88-4c5d-9e11-906f39613c04.kdns.fr
-- name: 🌐 其他地区 (Other) 96 - chefdon
   type: vless
   server: 8.6.112.6
   port: 2087
@@ -1344,9 +1256,9 @@ proxies:
     path: /
     headers:
       Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 97 - chefdon
+- name: 🌐 其他地区 (Other) 91 - chefdon
   type: vless
-  server: 104.19.33.134
+  server: 104.19.149.195
   port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1358,65 +1270,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 98 - chefdon
+- name: 🌐 其他地区 (Other) 92 - chefdon
   type: vless
-  server: 172.64.53.42
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 99 - chefdon
-  type: vless
-  server: 172.64.53.60
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 100 - chefdon
-  type: vless
-  server: 104.19.214.97
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 101 - chefdon
-  type: vless
-  server: 104.17.215.135
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 102 - chefdon
-  type: vless
-  server: 104.16.245.95
+  server: 104.17.162.39
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1428,134 +1284,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 103 - chefdon
+- name: 🌐 其他地区 (Other) 93 - chefdon
   type: vless
-  server: 104.17.98.252
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 104 - chefdon
-  type: vless
-  server: 104.21.39.137
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 5-M19.ikL.Ccwu.cc
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 5-M19.IKL.cCWU.cc
-- name: 🌐 其他地区 (Other) 105 - chefdon
-  type: vless
-  server: 104.17.24.148
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 106 - chefdon
-  type: vless
-  server: 172.64.53.215
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 107 - chefdon
-  type: vless
-  server: 172.64.53.194
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 108 - chefdon
-  type: vless
-  server: 172.64.52.60
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 109 - chefdon
-  type: vless
-  server: 8.39.125.216
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 110 - chefdon
-  type: vless
-  server: 172.64.52.97
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 111 - chefdon
-  type: vless
-  server: 104.21.4.10
-  port: 2086
-  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
-    headers:
-      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
-- name: 🌐 其他地区 (Other) 112 - chefdon
-  type: vless
-  server: 8.35.211.69
+  server: 104.17.221.225
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1567,301 +1298,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 113 - chefdon
-  type: vless
-  server: 104.18.38.47
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 114 - chefdon
-  type: vless
-  server: 104.16.148.238
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 115 - chefdon
-  type: vless
-  server: 172.64.53.227
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 116 - chefdon
-  type: vless
-  server: 104.18.42.163
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 117 - chefdon
-  type: vless
-  server: 172.67.136.91
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 9-m19.alBAnIa.ccwU.cC
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 9-m19.ALbaNia.ccwu.cc
-- name: 🌐 其他地区 (Other) 118 - chefdon
-  type: vless
-  server: 104.18.33.197
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 119 - chefdon
-  type: vless
-  server: 172.64.53.215
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 120 - chefdon
-  type: vless
-  server: 104.19.149.39
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 121 - chefdon
-  type: vless
-  server: 172.64.53.87
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 122 - chefdon
-  type: vless
-  server: 104.19.32.166
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 123 - chefdon
-  type: vless
-  server: 172.64.147.104
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 124 - chefdon
-  type: vless
-  server: 172.64.53.215
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 125 - chefdon
-  type: vless
-  server: 172.64.52.60
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 126 - chefdon
-  type: vless
-  server: 172.64.52.182
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 127 - chefdon
-  type: vless
-  server: 104.18.42.163
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 128 - chefdon
-  type: vless
-  server: 172.67.155.189
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8-M13.1B9390A5-6209-45bD-ba0E-057EBb2641C3.Kdns.fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 8-M13.1B9390a5-6209-45Bd-ba0E-057EBb2641c3.KDns.Fr
-- name: 🌐 其他地区 (Other) 129 - chefdon
-  type: vless
-  server: 172.64.53.194
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 130 - chefdon
-  type: vless
-  server: 104.19.151.6
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 131 - chefdon
-  type: vless
-  server: 104.21.5.245
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4-M13-sTatic-csS.Xcv.cCWU.CC
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 4-M13-sTatic-csS.Xcv.cCWU.CC
-- name: 🌐 其他地区 (Other) 132 - chefdon
-  type: vless
-  server: 104.16.147.188
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 133 - chefdon
-  type: vless
-  server: 172.67.185.142
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 7-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
-- name: 🌐 其他地区 (Other) 134 - chefdon
+- name: 🌐 其他地区 (Other) 94 - chefdon
   type: vless
   server: 172.67.176.60
   port: 443
@@ -1875,1734 +1312,7 @@ proxies:
     path: /CjBjB9sn5pCvaSwScc
     headers:
       Host: 3-m19.south-afriCa.Ccwu.Cc
-- name: 🌐 其他地区 (Other) 135 - chefdon
-  type: vless
-  server: 104.17.59.108
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 136 - chefdon
-  type: vless
-  server: 104.16.150.7
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 137 - chefdon
-  type: vless
-  server: 172.67.202.63
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1-m13.286bF07B-D934-42d2-918f-a749478cf4BF.kdNs.FR
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 1-M13.286bf07b-D934-42D2-918f-a749478CF4bf.KDns.fR
-- name: 🌐 其他地区 (Other) 138 - chefdon
-  type: vless
-  server: 172.64.52.182
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 139 - chefdon
-  type: vless
-  server: 104.17.26.165
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 140 - chefdon
-  type: vless
-  server: 104.16.150.130
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 141 - chefdon
-  type: vless
-  server: 104.20.28.233
-  port: 80
-  uuid: e081da45-9fae-4687-9376-f9a6a0dbbe83
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /id-amz
-    headers:
-      Host: e33xr.qzz.io
-- name: 🌐 其他地区 (Other) 142 - chefdon
-  type: vless
-  server: 104.18.40.152
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 143 - chefdon
-  type: vless
-  server: 104.17.188.148
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 144 - chefdon
-  type: vless
-  server: 104.19.34.56
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 145 - chefdon
-  type: vless
-  server: 172.64.52.30
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 146 - chefdon
-  type: vless
-  server: 104.19.45.195
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 147 - chefdon
-  type: vless
-  server: 172.64.53.194
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 148 - chefdon
-  type: vless
-  server: 172.64.146.211
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 149 - chefdon
-  type: vless
-  server: 172.64.53.42
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 150 - chefdon
-  type: vless
-  server: 172.67.76.215
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 151 - chefdon
-  type: vless
-  server: 172.64.52.175
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 152 - chefdon
-  type: vless
-  server: 172.64.145.202
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 153 - chefdon
-  type: vless
-  server: 172.64.52.30
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 154 - chefdon
-  type: vless
-  server: 104.21.92.9
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 9-M13.35C73e3f-b0AE-4Ae0-b41F-62dFD753A988.KDnS.Fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 9-M13.35c73E3F-B0aE-4Ae0-b41F-62dfD753a988.kDns.FR
-- name: 🌐 其他地区 (Other) 155 - chefdon
-  type: vless
-  server: 104.19.215.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 156 - chefdon
-  type: vless
-  server: 172.64.53.227
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 157 - chefdon
-  type: vless
-  server: 104.17.117.150
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 158 - chefdon
-  type: vless
-  server: mfa.gov.ua
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 159 - chefdon
-  type: vless
-  server: 104.26.2.192
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 160 - chefdon
-  type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: d6828805-5608-44d7-a44b-976d4c3ac2d0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 0LG3u92i0exN577l3Mc637Ycba3.SfgsfgSfGFSGSf-4630.wOrkeRS.dEv
-  network: ws
-  ws-opts:
-    path: /vl/5ibXbgAYxWzwbOtkXJWUtvKMKOYjh?ed
-    headers:
-      Host: 0lg3u92i0exn577l3mc637ycba3.sfgsfgsfgfsgsf-4630.workers.dev
-- name: 🌐 其他地区 (Other) 161 - chefdon
-  type: vless
-  server: 104.18.39.218
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 162 - chefdon
-  type: vless
-  server: 172.64.52.173
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 163 - chefdon
-  type: vless
-  server: 190.93.245.176
-  port: 443
-  uuid: 7493883f-6047-46a7-8d95-f59e137ffaec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: auto-749388.rohawmk.workers.dev
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI?ed=2560
-    headers:
-      Host: auto-749388.rohawmk.workers.dev
-- name: 🌐 其他地区 (Other) 164 - chefdon
-  type: vless
-  server: 104.17.188.220
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 165 - chefdon
-  type: vless
-  server: 188.114.97.6
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 166 - chefdon
-  type: vless
-  server: 104.21.16.216
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2-m19.Oman-LInE.KdnS.fR
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 2-M19.oman-liNe.Kdns.Fr
-- name: 🌐 其他地区 (Other) 167 - chefdon
-  type: vless
-  server: 104.18.33.180
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 168 - chefdon
-  type: vless
-  server: 172.67.71.195
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 169 - chefdon
-  type: vless
-  server: 104.21.21.151
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4-m13.18f6A5d8-1d18-4649-9D3D-97C46E3aA3eC.KDNS.fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 4-m13.18F6a5D8-1D18-4649-9D3d-97C46e3aa3ec.kDNs.Fr
-- name: 🌐 其他地区 (Other) 170 - chefdon
-  type: vless
-  server: 104.21.39.176
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 5-m13.AYutThAyA.kDnS.FR
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 5-M13.AyuTThAyA.KdNS.FR
-- name: 🌐 其他地区 (Other) 171 - chefdon
-  type: vless
-  server: cf3.danfeng.eu.org
-  port: 8443
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vip.868068.xyz
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: vip.868068.xyz
-- name: 🌐 其他地区 (Other) 172 - chefdon
-  type: vless
-  server: 104.17.113.14
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 173 - chefdon
-  type: vless
-  server: 8.34.70.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: 🌐 其他地区 (Other) 174 - chefdon
-  type: vless
-  server: 172.64.144.66
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 175 - chefdon
-  type: vless
-  server: 104.16.150.7
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 176 - chefdon
-  type: vless
-  server: 104.18.42.54
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 177 - chefdon
-  type: vless
-  server: 172.64.52.182
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 178 - chefdon
-  type: vless
-  server: 172.64.53.74
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 179 - chefdon
-  type: vless
-  server: 104.17.226.173
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 180 - chefdon
-  type: vless
-  server: 172.66.151.94
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 181 - chefdon
-  type: vless
-  server: 172.67.170.204
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3-M19.iKL.cCwu.cC
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 3-m19.IKl.CcWu.CC
-- name: 🌐 其他地区 (Other) 182 - chefdon
-  type: vless
-  server: 104.16.150.108
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 183 - chefdon
-  type: vless
-  server: 104.25.248.101
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 184 - chefdon
-  type: vless
-  server: 104.16.150.108
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 185 - chefdon
-  type: vless
-  server: 104.18.33.230
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 186 - chefdon
-  type: vless
-  server: 8.39.125.33
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 187 - chefdon
-  type: vless
-  server: 104.19.55.123
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 188 - chefdon
-  type: vless
-  server: 172.64.52.60
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 189 - chefdon
-  type: vless
-  server: 104.16.151.21
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 190 - chefdon
-  type: vless
-  server: 104.17.52.28
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 191 - chefdon
-  type: vless
-  server: 172.64.53.140
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 192 - chefdon
-  type: vless
-  server: 104.19.145.147
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 193 - chefdon
-  type: vless
-  server: 104.19.55.18
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 194 - chefdon
-  type: vless
-  server: 172.64.145.166
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 195 - chefdon
-  type: vless
-  server: 104.16.150.108
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 196 - chefdon
-  type: vless
-  server: 8.39.125.116
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 197 - chefdon
-  type: vless
-  server: 172.64.52.30
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 198 - chefdon
-  type: vless
-  server: 104.17.27.193
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 199 - chefdon
-  type: vless
-  server: 104.17.108.116
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 200 - chefdon
-  type: vless
-  server: 172.67.200.222
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2-m13.4b49F101-6328-41c6-953d-00CeB79b58ac.KDnS.Fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 2-M13.4B49f101-6328-41C6-953d-00Ceb79B58aC.KDnS.FR
-- name: 🌐 其他地区 (Other) 201 - chefdon
-  type: vless
-  server: 104.27.52.69
-  port: 443
-  uuid: 73796e63-0000-4000-8000-000000000000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: icy-pine-5efc.aoigjojowfie123.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: icy-pine-5efc.aoigjojowfie123.workers.dev
-- name: 🌐 其他地区 (Other) 202 - chefdon
-  type: vless
-  server: 172.67.118.45
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 203 - chefdon
-  type: vless
-  server: 8.39.125.211
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 204 - chefdon
-  type: vless
-  server: 104.19.215.97
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 205 - chefdon
-  type: vless
-  server: 104.26.8.156
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 206 - chefdon
-  type: vless
-  server: 104.18.33.168
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 207 - chefdon
-  type: vless
-  server: 104.26.6.79
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 208 - chefdon
-  type: vless
-  server: 172.67.178.166
-  port: 443
-  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-m13.2243867c-5Fee-4b94-803F-85790942D471.Kdns.Fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 7-M13.2243867C-5Fee-4b94-803F-85790942D471.KDNS.fR
-- name: 🌐 其他地区 (Other) 209 - chefdon
-  type: vless
-  server: 104.19.150.179
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 210 - chefdon
-  type: vless
-  server: 172.67.133.136
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-M13.1332afdC-0737-4BB1-8CA8-eE4f0cD20BC6.Kdns.FR
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 7-M13.1332AfDc-0737-4bb1-8Ca8-Ee4f0cd20BC6.kdNS.FR
-- name: 🌐 其他地区 (Other) 211 - chefdon
-  type: vless
-  server: 104.19.214.98
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 212 - chefdon
-  type: vless
-  server: 172.64.53.194
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 213 - chefdon
-  type: vless
-  server: 8.39.125.153
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 214 - chefdon
-  type: vless
-  server: 172.67.65.214
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 215 - chefdon
-  type: vless
-  server: 172.64.52.173
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 216 - chefdon
-  type: vless
-  server: 104.19.214.98
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 217 - chefdon
-  type: vless
-  server: 172.64.53.42
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 218 - chefdon
-  type: vless
-  server: 172.64.53.215
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 219 - chefdon
-  type: vless
-  server: 104.19.147.226
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 220 - chefdon
-  type: vless
-  server: 104.17.215.132
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 221 - chefdon
-  type: vless
-  server: 104.21.54.140
-  port: 443
-  uuid: d9f94532-c4d4-4f94-ba23-6eb6d35bfc7d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: small-scene-f215.amiralizarefast1.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZW5GMjJSRmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
-    headers:
-      Host: small-scene-f215.amiralizarefast1.workers.dev
-- name: 🌐 其他地区 (Other) 222 - chefdon
-  type: vless
-  server: 104.19.32.120
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 223 - chefdon
-  type: vless
-  server: 104.17.106.161
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 224 - chefdon
-  type: vless
-  server: 172.64.52.30
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 225 - chefdon
-  type: vless
-  server: muddy-shadow-8905.qara-atayi-1.workers.dev
-  port: 2086
-  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
-    headers:
-      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
-- name: 🌐 其他地区 (Other) 226 - chefdon
-  type: vless
-  server: 172.67.148.254
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1-m20.d3579eb3-e5cb-497b-82f8-c353614250e0.kdns.fr
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 1-m20.d3579eb3-e5cb-497b-82f8-c353614250e0.kdns.fr
-- name: 🌐 其他地区 (Other) 227 - chefdon
-  type: vless
-  server: 104.21.8.136
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 6-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 6-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
-- name: 🌐 其他地区 (Other) 228 - chefdon
-  type: vless
-  server: 172.64.52.60
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 229 - chefdon
-  type: vless
-  server: 172.64.145.202
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 230 - chefdon
-  type: vless
-  server: 104.16.151.21
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 231 - chefdon
-  type: vless
-  server: o.server5peekconfig.workers.dev
-  port: 443
-  uuid: 04cb9c0f-363c-4bf8-a195-2cb8bd43b02a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: O.seRVer5peEKCOnFIG.WOrKers.dEV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiSU9LdXp3R1p6IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed
-    headers:
-      Host: o.server5peekconfig.workers.dev
-- name: 🌐 其他地区 (Other) 232 - chefdon
-  type: vless
-  server: 104.19.214.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 233 - chefdon
-  type: vless
-  server: 104.17.213.184
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 234 - chefdon
-  type: vless
-  server: 104.16.145.177
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 235 - chefdon
-  type: vless
-  server: 172.67.165.125
-  port: 443
-  uuid: e48e4049-58bb-4355-9a9a-433b9524d928
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: z8Z7LoVOPd53iz6ivD2m.FixinG00PonviP.woRkers.DEV
-  network: ws
-  ws-opts:
-    path: /vl/Fx1O4r0oHuQMNuKFQzcoV2yl31?ed
-    headers:
-      Host: z8z7lovopd53iz6ivd2m.fixing00ponvip.workers.dev
-- name: 🌐 其他地区 (Other) 236 - chefdon
-  type: vless
-  server: 104.20.28.233
-  port: 80
-  uuid: e081da45-9fae-4687-9376-f9a6a0dbbe83
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /id-amz
-    headers:
-      Host: e33xr.qzz.io
-- name: 🌐 其他地区 (Other) 237 - chefdon
-  type: vless
-  server: 172.64.145.93
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 238 - chefdon
-  type: vless
-  server: 172.66.149.243
-  port: 8443
-  uuid: ededaf7e-ad86-40bc-b837-b1403c56f311
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: baZYepC.AMINRAZAvI1384.WoRkERS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoid2tkV0g2R3kxYlNTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
-    headers:
-      Host: bazyepc.aminrazavi1384.workers.dev
-- name: 🌐 其他地区 (Other) 239 - chefdon
-  type: vless
-  server: 104.17.108.23
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 240 - chefdon
-  type: vless
-  server: 172.64.52.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 241 - chefdon
-  type: vless
-  server: 108.162.198.178
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 242 - chefdon
-  type: vless
-  server: 104.18.42.163
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 243 - chefdon
-  type: vless
-  server: 162.159.48.32
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 244 - chefdon
-  type: vless
-  server: 104.18.40.152
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 245 - chefdon
-  type: vless
-  server: 104.21.37.195
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3-M19.fGh.cCwU.cC
-  network: ws
-  ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 3-m19.fGH.ccWU.cc
-- name: 🌐 其他地区 (Other) 246 - chefdon
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 247 - chefdon
-  type: vless
-  server: test.ghwhdr51.workers.dev
-  port: 443
-  uuid: b8875d59-7568-4041-829a-cc6c82b70022
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: test.ghwhdr51.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: test.ghwhdr51.workers.dev
-- name: 🌐 其他地区 (Other) 248 - chefdon
-  type: vless
-  server: 172.64.53.74
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 249 - chefdon
-  type: vless
-  server: 104.18.42.163
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 250 - chefdon
-  type: vless
-  server: 104.19.32.29
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 251 - chefdon
-  type: vless
-  server: 104.17.187.67
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 252 - chefdon
-  type: vless
-  server: 172.64.52.230
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 253 - chefdon
-  type: vless
-  server: 172.64.42.85
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 254 - chefdon
-  type: vless
-  server: 172.64.52.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 255 - chefdon
-  type: vless
-  server: 172.64.144.66
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 256 - chefdon
-  type: vless
-  server: 104.18.33.39
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 257 - chefdon
-  type: vless
-  server: 8.35.211.22
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 258 - chefdon
-  type: vless
-  server: 8.39.125.109
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 259 - chefdon
+- name: 🌐 其他地区 (Other) 95 - chefdon
   type: vless
   server: 104.19.214.98
   port: 2087
@@ -3616,653 +1326,9 @@ proxies:
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 260 - chefdon
+- name: 🌐 其他地区 (Other) 96 - chefdon
   type: vless
-  server: 104.19.51.65
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 261 - chefdon
-  type: vless
-  server: 172.67.223.223
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 1-m20.d3b454d2-cba8-4b62-8d16-189d13194e3a.kdns.fr
-- name: 🌐 其他地区 (Other) 262 - chefdon
-  type: vless
-  server: 172.64.145.166
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 263 - chefdon
-  type: vless
-  server: 104.21.27.112
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8-M16.PatTAya-8.kdnS.fR
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 8-m16.paTtAya-8.kdns.FR
-- name: 🌐 其他地区 (Other) 264 - chefdon
-  type: vless
-  server: 104.16.150.130
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 265 - chefdon
-  type: vless
-  server: 172.64.52.173
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 266 - chefdon
-  type: vless
-  server: 172.64.52.175
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 267 - chefdon
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 268 - chefdon
-  type: vless
-  server: 172.64.53.194
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 269 - chefdon
-  type: vless
-  server: 172.64.146.211
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 270 - chefdon
-  type: vless
-  server: 172.64.145.93
-  port: 2083
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 271 - chefdon
-  type: vless
-  server: 172.67.179.82
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 0-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
-  network: ws
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 0-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
-- name: 🌐 其他地区 (Other) 272 - chefdon
-  type: vless
-  server: 172.64.53.215
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 273 - chefdon
-  type: vless
-  server: 104.21.81.114
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-d536262105ae
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ez-30c541.aliminaie277.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/d536262105ae
-    headers:
-      Host: ez-30c541.aliminaie277.workers.dev
-- name: 🌐 其他地区 (Other) 274 - chefdon
-  type: vless
-  server: 172.64.53.240
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 275 - chefdon
-  type: vless
-  server: 172.64.145.93
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 276 - chefdon
-  type: vless
-  server: 172.64.145.202
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 277 - chefdon
-  type: vless
-  server: 104.19.50.96
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 278 - chefdon
-  type: vless
-  server: 104.17.187.32
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 279 - chefdon
-  type: vless
-  server: 104.18.42.54
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 280 - chefdon
-  type: vless
-  server: 104.18.33.174
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 281 - chefdon
-  type: vless
-  server: 172.64.53.140
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 282 - chefdon
-  type: vless
-  server: 104.19.150.16
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 283 - chefdon
-  type: vless
-  server: 104.19.215.97
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 284 - chefdon
-  type: vless
-  server: 172.64.53.60
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 285 - chefdon
-  type: vless
-  server: 104.19.145.142
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 286 - chefdon
-  type: vless
-  server: 104.19.215.97
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 287 - chefdon
-  type: vless
-  server: 104.16.151.21
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 288 - chefdon
-  type: vless
-  server: 104.16.242.51
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 289 - chefdon
-  type: vless
-  server: 172.64.145.202
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 290 - chefdon
-  type: vless
-  server: 172.64.52.175
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 291 - chefdon
-  type: vless
-  server: 104.16.150.142
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 292 - chefdon
-  type: vless
-  server: 104.17.173.251
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 293 - chefdon
-  type: vless
-  server: 104.17.153.137
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 294 - chefdon
-  type: vless
-  server: 104.19.50.243
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 295 - chefdon
-  type: vless
-  server: 172.66.172.140
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 296 - chefdon
-  type: vless
-  server: 172.64.53.227
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 297 - chefdon
-  type: vless
-  server: 104.16.151.21
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 298 - chefdon
-  type: vless
-  server: 172.64.147.104
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 299 - chefdon
-  type: vless
-  server: 172.67.165.199
-  port: 443
-  uuid: af65ce20-7129-4ee3-b957-67120aaa382c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-app-1r4mk.app-qzhgjw.workers.dev
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-1r4mk.app-qzhgjw.workers.dev
-- name: 🌐 其他地区 (Other) 300 - chefdon
-  type: vless
-  server: 104.17.189.198
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 301 - chefdon
-  type: vless
-  server: 104.17.50.154
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 302 - chefdon
-  type: vless
-  server: 104.17.216.165
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 303 - chefdon
-  type: vless
-  server: 172.64.52.230
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 304 - chefdon
-  type: vless
-  server: 104.19.214.97
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 305 - chefdon
-  type: vless
-  server: 172.64.145.202
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 306 - chefdon
-  type: vless
-  server: 162.159.48.32
+  server: 172.64.229.2
   port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -4273,23 +1339,92 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 307 - chefdon
+- name: 🌐 其他地区 (Other) 97 - chefdon
   type: vless
-  server: 172.67.153.110
+  server: cf.877774.xyz
   port: 443
-  uuid: 63f1ce15-1a88-4698-8a0e-59b85d75e607
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: free.server11peekconfig.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiNDIxWGNPNW5CQXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
+    path: /?ed=2048
     headers:
-      Host: free.server11peekconfig.workers.dev
-- name: 🌐 其他地区 (Other) 308 - chefdon
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 98 - chefdon
   type: vless
-  server: 104.17.151.181
+  server: 104.19.145.226
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 99 - chefdon
+  type: vless
+  server: 104.17.152.133
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 100 - chefdon
+  type: vless
+  server: 104.17.155.10
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 101 - chefdon
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🌐 其他地区 (Other) 102 - chefdon
+  type: vless
+  server: 108.162.198.178
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 103 - chefdon
+  type: vless
+  server: 104.19.144.60
   port: 2083
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -4301,10 +1436,10 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 309 - chefdon
+- name: 🌐 其他地区 (Other) 104 - chefdon
   type: vless
-  server: 104.17.51.171
-  port: 8443
+  server: 104.17.213.7
+  port: 2096
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -4315,10 +1450,10 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 310 - chefdon
+- name: 🌐 其他地区 (Other) 105 - chefdon
   type: vless
-  server: 104.18.33.147
-  port: 8443
+  server: 104.18.33.20
+  port: 2087
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -4329,93 +1464,37 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 311 - chefdon
+- name: 🌐 其他地区 (Other) 106 - chefdon
   type: vless
-  server: 172.64.52.97
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 312 - chefdon
-  type: vless
-  server: 172.64.52.230
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 313 - chefdon
-  type: vless
-  server: 172.67.189.79
+  server: bestcf.030101.xyz
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-d536262105ae
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ez-30c541.aliminaie277.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/d536262105ae
+    path: /?ed=2048
     headers:
-      Host: ez-30c541.aliminaie277.workers.dev
-- name: 🌐 其他地区 (Other) 314 - chefdon
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 107 - chefdon
   type: vless
-  server: 172.64.52.68
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 8.35.211.236
+  port: 443
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 315 - chefdon
-  type: vless
-  server: 172.64.147.104
-  port: 2053
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: kkkk-83j.pages.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 316 - chefdon
+      Host: kkkk-83j.pages.dev
+- name: 🌐 其他地区 (Other) 108 - chefdon
   type: vless
-  server: 172.64.147.104
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 317 - chefdon
-  type: vless
-  server: 172.64.145.166
+  server: 104.16.150.130
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -4427,232 +1506,9 @@ proxies:
     path: /fp=chrome
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 318 - chefdon
+- name: 🌐 其他地区 (Other) 109 - chefdon
   type: vless
-  server: 104.18.33.36
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 319 - chefdon
-  type: vless
-  server: 172.67.69.139
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 320 - chefdon
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 321 - chefdon
-  type: vless
-  server: 172.64.145.93
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 322 - chefdon
-  type: vless
-  server: 172.64.147.104
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 323 - chefdon
-  type: vless
-  server: 172.64.150.248
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
-- name: 🌐 其他地区 (Other) 324 - chefdon
-  type: vless
-  server: 172.64.53.74
-  port: 2096
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 325 - chefdon
-  type: vless
-  server: 104.17.190.54
-  port: 2083
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 326 - chefdon
-  type: vless
-  server: 104.19.52.177
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 327 - chefdon
-  type: vless
-  server: 104.17.20.229
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 328 - chefdon
-  type: vless
-  server: 104.17.122.249
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 329 - chefdon
-  type: vless
-  server: 172.64.53.194
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🌐 其他地区 (Other) 330 - chefdon
-  type: vless
-  server: 104.18.33.85
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 331 - chefdon
-  type: vless
-  server: 104.17.18.52
-  port: 2087
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 332 - chefdon
-  type: vless
-  server: 104.17.105.175
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 333 - chefdon
-  type: vless
-  server: 104.18.34.14
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 334 - chefdon
-  type: vless
-  server: 8.35.211.191
+  server: 104.17.17.168
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -4664,9 +1520,275 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🌐 其他地区 (Other) 335 - chefdon
+- name: 🌐 其他地区 (Other) 110 - chefdon
   type: vless
-  server: 172.64.149.209
+  server: 104.17.149.64
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 111 - chefdon
+  type: vless
+  server: 104.18.42.163
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 112 - chefdon
+  type: vless
+  server: 104.17.148.168
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 113 - chefdon
+  type: vless
+  server: 104.17.112.160
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 114 - chefdon
+  type: vless
+  server: 104.17.158.226
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 115 - chefdon
+  type: vless
+  server: 172.66.152.147
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 116 - chefdon
+  type: vless
+  server: 104.17.16.206
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 117 - chefdon
+  type: vless
+  server: 104.18.33.155
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 118 - chefdon
+  type: vless
+  server: 172.67.64.110
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 119 - chefdon
+  type: vless
+  server: 104.17.101.221
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 120 - chefdon
+  type: vless
+  server: 104.16.144.6
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 121 - chefdon
+  type: vless
+  server: 8.39.125.150
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 122 - chefdon
+  type: vless
+  server: 104.19.48.232
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 123 - chefdon
+  type: vless
+  server: 104.17.216.63
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 124 - chefdon
+  type: vless
+  server: 104.17.144.85
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 125 - chefdon
+  type: vless
+  server: 104.17.147.248
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 126 - chefdon
+  type: vless
+  server: 104.16.154.179
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 127 - chefdon
+  type: vless
+  server: 104.17.62.218
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 128 - chefdon
+  type: vless
+  server: 104.17.25.94
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 129 - chefdon
+  type: vless
+  server: 172.64.145.166
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -4678,6 +1800,270 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 130 - chefdon
+  type: vless
+  server: 172.64.52.68
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 131 - chefdon
+  type: vless
+  server: 104.17.187.55
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 132 - chefdon
+  type: vless
+  server: 104.17.149.215
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 133 - chefdon
+  type: vless
+  server: 104.16.151.21
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 134 - chefdon
+  type: vless
+  server: 172.67.75.99
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 135 - chefdon
+  type: vless
+  server: 104.17.157.241
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 136 - chefdon
+  type: vless
+  server: 104.26.5.129
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 137 - chefdon
+  type: vless
+  server: 104.19.147.120
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 138 - chefdon
+  type: vless
+  server: 162.159.0.169
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 139 - chefdon
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🌐 其他地区 (Other) 140 - chefdon
+  type: vless
+  server: 172.64.146.64
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 141 - chefdon
+  type: vless
+  server: 104.19.147.73
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 142 - chefdon
+  type: vless
+  server: 104.18.39.218
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 143 - chefdon
+  type: vless
+  server: 104.26.12.200
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 144 - chefdon
+  type: vless
+  server: 104.18.33.79
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 145 - chefdon
+  type: vless
+  server: 8.39.125.104
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 146 - chefdon
+  type: vless
+  server: 104.17.98.131
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🌐 其他地区 (Other) 147 - chefdon
+  type: vless
+  server: 104.19.215.97
+  port: 2083
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🌐 其他地区 (Other) 148 - chefdon
+  type: vless
+  server: 104.17.210.77
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -4831,193 +2217,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 146 - chefdon
   - 🌐 其他地区 (Other) 147 - chefdon
   - 🌐 其他地区 (Other) 148 - chefdon
-  - 🌐 其他地区 (Other) 149 - chefdon
-  - 🌐 其他地区 (Other) 150 - chefdon
-  - 🌐 其他地区 (Other) 151 - chefdon
-  - 🌐 其他地区 (Other) 152 - chefdon
-  - 🌐 其他地区 (Other) 153 - chefdon
-  - 🌐 其他地区 (Other) 154 - chefdon
-  - 🌐 其他地区 (Other) 155 - chefdon
-  - 🌐 其他地区 (Other) 156 - chefdon
-  - 🌐 其他地区 (Other) 157 - chefdon
-  - 🌐 其他地区 (Other) 158 - chefdon
-  - 🌐 其他地区 (Other) 159 - chefdon
-  - 🌐 其他地区 (Other) 160 - chefdon
-  - 🌐 其他地区 (Other) 161 - chefdon
-  - 🌐 其他地区 (Other) 162 - chefdon
-  - 🌐 其他地区 (Other) 163 - chefdon
-  - 🌐 其他地区 (Other) 164 - chefdon
-  - 🌐 其他地区 (Other) 165 - chefdon
-  - 🌐 其他地区 (Other) 166 - chefdon
-  - 🌐 其他地区 (Other) 167 - chefdon
-  - 🌐 其他地区 (Other) 168 - chefdon
-  - 🌐 其他地区 (Other) 169 - chefdon
-  - 🌐 其他地区 (Other) 170 - chefdon
-  - 🌐 其他地区 (Other) 171 - chefdon
-  - 🌐 其他地区 (Other) 172 - chefdon
-  - 🌐 其他地区 (Other) 173 - chefdon
-  - 🌐 其他地区 (Other) 174 - chefdon
-  - 🌐 其他地区 (Other) 175 - chefdon
-  - 🌐 其他地区 (Other) 176 - chefdon
-  - 🌐 其他地区 (Other) 177 - chefdon
-  - 🌐 其他地区 (Other) 178 - chefdon
-  - 🌐 其他地区 (Other) 179 - chefdon
-  - 🌐 其他地区 (Other) 180 - chefdon
-  - 🌐 其他地区 (Other) 181 - chefdon
-  - 🌐 其他地区 (Other) 182 - chefdon
-  - 🌐 其他地区 (Other) 183 - chefdon
-  - 🌐 其他地区 (Other) 184 - chefdon
-  - 🌐 其他地区 (Other) 185 - chefdon
-  - 🌐 其他地区 (Other) 186 - chefdon
-  - 🌐 其他地区 (Other) 187 - chefdon
-  - 🌐 其他地区 (Other) 188 - chefdon
-  - 🌐 其他地区 (Other) 189 - chefdon
-  - 🌐 其他地区 (Other) 190 - chefdon
-  - 🌐 其他地区 (Other) 191 - chefdon
-  - 🌐 其他地区 (Other) 192 - chefdon
-  - 🌐 其他地区 (Other) 193 - chefdon
-  - 🌐 其他地区 (Other) 194 - chefdon
-  - 🌐 其他地区 (Other) 195 - chefdon
-  - 🌐 其他地区 (Other) 196 - chefdon
-  - 🌐 其他地区 (Other) 197 - chefdon
-  - 🌐 其他地区 (Other) 198 - chefdon
-  - 🌐 其他地区 (Other) 199 - chefdon
-  - 🌐 其他地区 (Other) 200 - chefdon
-  - 🌐 其他地区 (Other) 201 - chefdon
-  - 🌐 其他地区 (Other) 202 - chefdon
-  - 🌐 其他地区 (Other) 203 - chefdon
-  - 🌐 其他地区 (Other) 204 - chefdon
-  - 🌐 其他地区 (Other) 205 - chefdon
-  - 🌐 其他地区 (Other) 206 - chefdon
-  - 🌐 其他地区 (Other) 207 - chefdon
-  - 🌐 其他地区 (Other) 208 - chefdon
-  - 🌐 其他地区 (Other) 209 - chefdon
-  - 🌐 其他地区 (Other) 210 - chefdon
-  - 🌐 其他地区 (Other) 211 - chefdon
-  - 🌐 其他地区 (Other) 212 - chefdon
-  - 🌐 其他地区 (Other) 213 - chefdon
-  - 🌐 其他地区 (Other) 214 - chefdon
-  - 🌐 其他地区 (Other) 215 - chefdon
-  - 🌐 其他地区 (Other) 216 - chefdon
-  - 🌐 其他地区 (Other) 217 - chefdon
-  - 🌐 其他地区 (Other) 218 - chefdon
-  - 🌐 其他地区 (Other) 219 - chefdon
-  - 🌐 其他地区 (Other) 220 - chefdon
-  - 🌐 其他地区 (Other) 221 - chefdon
-  - 🌐 其他地区 (Other) 222 - chefdon
-  - 🌐 其他地区 (Other) 223 - chefdon
-  - 🌐 其他地区 (Other) 224 - chefdon
-  - 🌐 其他地区 (Other) 225 - chefdon
-  - 🌐 其他地区 (Other) 226 - chefdon
-  - 🌐 其他地区 (Other) 227 - chefdon
-  - 🌐 其他地区 (Other) 228 - chefdon
-  - 🌐 其他地区 (Other) 229 - chefdon
-  - 🌐 其他地区 (Other) 230 - chefdon
-  - 🌐 其他地区 (Other) 231 - chefdon
-  - 🌐 其他地区 (Other) 232 - chefdon
-  - 🌐 其他地区 (Other) 233 - chefdon
-  - 🌐 其他地区 (Other) 234 - chefdon
-  - 🌐 其他地区 (Other) 235 - chefdon
-  - 🌐 其他地区 (Other) 236 - chefdon
-  - 🌐 其他地区 (Other) 237 - chefdon
-  - 🌐 其他地区 (Other) 238 - chefdon
-  - 🌐 其他地区 (Other) 239 - chefdon
-  - 🌐 其他地区 (Other) 240 - chefdon
-  - 🌐 其他地区 (Other) 241 - chefdon
-  - 🌐 其他地区 (Other) 242 - chefdon
-  - 🌐 其他地区 (Other) 243 - chefdon
-  - 🌐 其他地区 (Other) 244 - chefdon
-  - 🌐 其他地区 (Other) 245 - chefdon
-  - 🌐 其他地区 (Other) 246 - chefdon
-  - 🌐 其他地区 (Other) 247 - chefdon
-  - 🌐 其他地区 (Other) 248 - chefdon
-  - 🌐 其他地区 (Other) 249 - chefdon
-  - 🌐 其他地区 (Other) 250 - chefdon
-  - 🌐 其他地区 (Other) 251 - chefdon
-  - 🌐 其他地区 (Other) 252 - chefdon
-  - 🌐 其他地区 (Other) 253 - chefdon
-  - 🌐 其他地区 (Other) 254 - chefdon
-  - 🌐 其他地区 (Other) 255 - chefdon
-  - 🌐 其他地区 (Other) 256 - chefdon
-  - 🌐 其他地区 (Other) 257 - chefdon
-  - 🌐 其他地区 (Other) 258 - chefdon
-  - 🌐 其他地区 (Other) 259 - chefdon
-  - 🌐 其他地区 (Other) 260 - chefdon
-  - 🌐 其他地区 (Other) 261 - chefdon
-  - 🌐 其他地区 (Other) 262 - chefdon
-  - 🌐 其他地区 (Other) 263 - chefdon
-  - 🌐 其他地区 (Other) 264 - chefdon
-  - 🌐 其他地区 (Other) 265 - chefdon
-  - 🌐 其他地区 (Other) 266 - chefdon
-  - 🌐 其他地区 (Other) 267 - chefdon
-  - 🌐 其他地区 (Other) 268 - chefdon
-  - 🌐 其他地区 (Other) 269 - chefdon
-  - 🌐 其他地区 (Other) 270 - chefdon
-  - 🌐 其他地区 (Other) 271 - chefdon
-  - 🌐 其他地区 (Other) 272 - chefdon
-  - 🌐 其他地区 (Other) 273 - chefdon
-  - 🌐 其他地区 (Other) 274 - chefdon
-  - 🌐 其他地区 (Other) 275 - chefdon
-  - 🌐 其他地区 (Other) 276 - chefdon
-  - 🌐 其他地区 (Other) 277 - chefdon
-  - 🌐 其他地区 (Other) 278 - chefdon
-  - 🌐 其他地区 (Other) 279 - chefdon
-  - 🌐 其他地区 (Other) 280 - chefdon
-  - 🌐 其他地区 (Other) 281 - chefdon
-  - 🌐 其他地区 (Other) 282 - chefdon
-  - 🌐 其他地区 (Other) 283 - chefdon
-  - 🌐 其他地区 (Other) 284 - chefdon
-  - 🌐 其他地区 (Other) 285 - chefdon
-  - 🌐 其他地区 (Other) 286 - chefdon
-  - 🌐 其他地区 (Other) 287 - chefdon
-  - 🌐 其他地区 (Other) 288 - chefdon
-  - 🌐 其他地区 (Other) 289 - chefdon
-  - 🌐 其他地区 (Other) 290 - chefdon
-  - 🌐 其他地区 (Other) 291 - chefdon
-  - 🌐 其他地区 (Other) 292 - chefdon
-  - 🌐 其他地区 (Other) 293 - chefdon
-  - 🌐 其他地区 (Other) 294 - chefdon
-  - 🌐 其他地区 (Other) 295 - chefdon
-  - 🌐 其他地区 (Other) 296 - chefdon
-  - 🌐 其他地区 (Other) 297 - chefdon
-  - 🌐 其他地区 (Other) 298 - chefdon
-  - 🌐 其他地区 (Other) 299 - chefdon
-  - 🌐 其他地区 (Other) 300 - chefdon
-  - 🌐 其他地区 (Other) 301 - chefdon
-  - 🌐 其他地区 (Other) 302 - chefdon
-  - 🌐 其他地区 (Other) 303 - chefdon
-  - 🌐 其他地区 (Other) 304 - chefdon
-  - 🌐 其他地区 (Other) 305 - chefdon
-  - 🌐 其他地区 (Other) 306 - chefdon
-  - 🌐 其他地区 (Other) 307 - chefdon
-  - 🌐 其他地区 (Other) 308 - chefdon
-  - 🌐 其他地区 (Other) 309 - chefdon
-  - 🌐 其他地区 (Other) 310 - chefdon
-  - 🌐 其他地区 (Other) 311 - chefdon
-  - 🌐 其他地区 (Other) 312 - chefdon
-  - 🌐 其他地区 (Other) 313 - chefdon
-  - 🌐 其他地区 (Other) 314 - chefdon
-  - 🌐 其他地区 (Other) 315 - chefdon
-  - 🌐 其他地区 (Other) 316 - chefdon
-  - 🌐 其他地区 (Other) 317 - chefdon
-  - 🌐 其他地区 (Other) 318 - chefdon
-  - 🌐 其他地区 (Other) 319 - chefdon
-  - 🌐 其他地区 (Other) 320 - chefdon
-  - 🌐 其他地区 (Other) 321 - chefdon
-  - 🌐 其他地区 (Other) 322 - chefdon
-  - 🌐 其他地区 (Other) 323 - chefdon
-  - 🌐 其他地区 (Other) 324 - chefdon
-  - 🌐 其他地区 (Other) 325 - chefdon
-  - 🌐 其他地区 (Other) 326 - chefdon
-  - 🌐 其他地区 (Other) 327 - chefdon
-  - 🌐 其他地区 (Other) 328 - chefdon
-  - 🌐 其他地区 (Other) 329 - chefdon
-  - 🌐 其他地区 (Other) 330 - chefdon
-  - 🌐 其他地区 (Other) 331 - chefdon
-  - 🌐 其他地区 (Other) 332 - chefdon
-  - 🌐 其他地区 (Other) 333 - chefdon
-  - 🌐 其他地区 (Other) 334 - chefdon
-  - 🌐 其他地区 (Other) 335 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -5171,192 +2370,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 146 - chefdon
   - 🌐 其他地区 (Other) 147 - chefdon
   - 🌐 其他地区 (Other) 148 - chefdon
-  - 🌐 其他地区 (Other) 149 - chefdon
-  - 🌐 其他地区 (Other) 150 - chefdon
-  - 🌐 其他地区 (Other) 151 - chefdon
-  - 🌐 其他地区 (Other) 152 - chefdon
-  - 🌐 其他地区 (Other) 153 - chefdon
-  - 🌐 其他地区 (Other) 154 - chefdon
-  - 🌐 其他地区 (Other) 155 - chefdon
-  - 🌐 其他地区 (Other) 156 - chefdon
-  - 🌐 其他地区 (Other) 157 - chefdon
-  - 🌐 其他地区 (Other) 158 - chefdon
-  - 🌐 其他地区 (Other) 159 - chefdon
-  - 🌐 其他地区 (Other) 160 - chefdon
-  - 🌐 其他地区 (Other) 161 - chefdon
-  - 🌐 其他地区 (Other) 162 - chefdon
-  - 🌐 其他地区 (Other) 163 - chefdon
-  - 🌐 其他地区 (Other) 164 - chefdon
-  - 🌐 其他地区 (Other) 165 - chefdon
-  - 🌐 其他地区 (Other) 166 - chefdon
-  - 🌐 其他地区 (Other) 167 - chefdon
-  - 🌐 其他地区 (Other) 168 - chefdon
-  - 🌐 其他地区 (Other) 169 - chefdon
-  - 🌐 其他地区 (Other) 170 - chefdon
-  - 🌐 其他地区 (Other) 171 - chefdon
-  - 🌐 其他地区 (Other) 172 - chefdon
-  - 🌐 其他地区 (Other) 173 - chefdon
-  - 🌐 其他地区 (Other) 174 - chefdon
-  - 🌐 其他地区 (Other) 175 - chefdon
-  - 🌐 其他地区 (Other) 176 - chefdon
-  - 🌐 其他地区 (Other) 177 - chefdon
-  - 🌐 其他地区 (Other) 178 - chefdon
-  - 🌐 其他地区 (Other) 179 - chefdon
-  - 🌐 其他地区 (Other) 180 - chefdon
-  - 🌐 其他地区 (Other) 181 - chefdon
-  - 🌐 其他地区 (Other) 182 - chefdon
-  - 🌐 其他地区 (Other) 183 - chefdon
-  - 🌐 其他地区 (Other) 184 - chefdon
-  - 🌐 其他地区 (Other) 185 - chefdon
-  - 🌐 其他地区 (Other) 186 - chefdon
-  - 🌐 其他地区 (Other) 187 - chefdon
-  - 🌐 其他地区 (Other) 188 - chefdon
-  - 🌐 其他地区 (Other) 189 - chefdon
-  - 🌐 其他地区 (Other) 190 - chefdon
-  - 🌐 其他地区 (Other) 191 - chefdon
-  - 🌐 其他地区 (Other) 192 - chefdon
-  - 🌐 其他地区 (Other) 193 - chefdon
-  - 🌐 其他地区 (Other) 194 - chefdon
-  - 🌐 其他地区 (Other) 195 - chefdon
-  - 🌐 其他地区 (Other) 196 - chefdon
-  - 🌐 其他地区 (Other) 197 - chefdon
-  - 🌐 其他地区 (Other) 198 - chefdon
-  - 🌐 其他地区 (Other) 199 - chefdon
-  - 🌐 其他地区 (Other) 200 - chefdon
-  - 🌐 其他地区 (Other) 201 - chefdon
-  - 🌐 其他地区 (Other) 202 - chefdon
-  - 🌐 其他地区 (Other) 203 - chefdon
-  - 🌐 其他地区 (Other) 204 - chefdon
-  - 🌐 其他地区 (Other) 205 - chefdon
-  - 🌐 其他地区 (Other) 206 - chefdon
-  - 🌐 其他地区 (Other) 207 - chefdon
-  - 🌐 其他地区 (Other) 208 - chefdon
-  - 🌐 其他地区 (Other) 209 - chefdon
-  - 🌐 其他地区 (Other) 210 - chefdon
-  - 🌐 其他地区 (Other) 211 - chefdon
-  - 🌐 其他地区 (Other) 212 - chefdon
-  - 🌐 其他地区 (Other) 213 - chefdon
-  - 🌐 其他地区 (Other) 214 - chefdon
-  - 🌐 其他地区 (Other) 215 - chefdon
-  - 🌐 其他地区 (Other) 216 - chefdon
-  - 🌐 其他地区 (Other) 217 - chefdon
-  - 🌐 其他地区 (Other) 218 - chefdon
-  - 🌐 其他地区 (Other) 219 - chefdon
-  - 🌐 其他地区 (Other) 220 - chefdon
-  - 🌐 其他地区 (Other) 221 - chefdon
-  - 🌐 其他地区 (Other) 222 - chefdon
-  - 🌐 其他地区 (Other) 223 - chefdon
-  - 🌐 其他地区 (Other) 224 - chefdon
-  - 🌐 其他地区 (Other) 225 - chefdon
-  - 🌐 其他地区 (Other) 226 - chefdon
-  - 🌐 其他地区 (Other) 227 - chefdon
-  - 🌐 其他地区 (Other) 228 - chefdon
-  - 🌐 其他地区 (Other) 229 - chefdon
-  - 🌐 其他地区 (Other) 230 - chefdon
-  - 🌐 其他地区 (Other) 231 - chefdon
-  - 🌐 其他地区 (Other) 232 - chefdon
-  - 🌐 其他地区 (Other) 233 - chefdon
-  - 🌐 其他地区 (Other) 234 - chefdon
-  - 🌐 其他地区 (Other) 235 - chefdon
-  - 🌐 其他地区 (Other) 236 - chefdon
-  - 🌐 其他地区 (Other) 237 - chefdon
-  - 🌐 其他地区 (Other) 238 - chefdon
-  - 🌐 其他地区 (Other) 239 - chefdon
-  - 🌐 其他地区 (Other) 240 - chefdon
-  - 🌐 其他地区 (Other) 241 - chefdon
-  - 🌐 其他地区 (Other) 242 - chefdon
-  - 🌐 其他地区 (Other) 243 - chefdon
-  - 🌐 其他地区 (Other) 244 - chefdon
-  - 🌐 其他地区 (Other) 245 - chefdon
-  - 🌐 其他地区 (Other) 246 - chefdon
-  - 🌐 其他地区 (Other) 247 - chefdon
-  - 🌐 其他地区 (Other) 248 - chefdon
-  - 🌐 其他地区 (Other) 249 - chefdon
-  - 🌐 其他地区 (Other) 250 - chefdon
-  - 🌐 其他地区 (Other) 251 - chefdon
-  - 🌐 其他地区 (Other) 252 - chefdon
-  - 🌐 其他地区 (Other) 253 - chefdon
-  - 🌐 其他地区 (Other) 254 - chefdon
-  - 🌐 其他地区 (Other) 255 - chefdon
-  - 🌐 其他地区 (Other) 256 - chefdon
-  - 🌐 其他地区 (Other) 257 - chefdon
-  - 🌐 其他地区 (Other) 258 - chefdon
-  - 🌐 其他地区 (Other) 259 - chefdon
-  - 🌐 其他地区 (Other) 260 - chefdon
-  - 🌐 其他地区 (Other) 261 - chefdon
-  - 🌐 其他地区 (Other) 262 - chefdon
-  - 🌐 其他地区 (Other) 263 - chefdon
-  - 🌐 其他地区 (Other) 264 - chefdon
-  - 🌐 其他地区 (Other) 265 - chefdon
-  - 🌐 其他地区 (Other) 266 - chefdon
-  - 🌐 其他地区 (Other) 267 - chefdon
-  - 🌐 其他地区 (Other) 268 - chefdon
-  - 🌐 其他地区 (Other) 269 - chefdon
-  - 🌐 其他地区 (Other) 270 - chefdon
-  - 🌐 其他地区 (Other) 271 - chefdon
-  - 🌐 其他地区 (Other) 272 - chefdon
-  - 🌐 其他地区 (Other) 273 - chefdon
-  - 🌐 其他地区 (Other) 274 - chefdon
-  - 🌐 其他地区 (Other) 275 - chefdon
-  - 🌐 其他地区 (Other) 276 - chefdon
-  - 🌐 其他地区 (Other) 277 - chefdon
-  - 🌐 其他地区 (Other) 278 - chefdon
-  - 🌐 其他地区 (Other) 279 - chefdon
-  - 🌐 其他地区 (Other) 280 - chefdon
-  - 🌐 其他地区 (Other) 281 - chefdon
-  - 🌐 其他地区 (Other) 282 - chefdon
-  - 🌐 其他地区 (Other) 283 - chefdon
-  - 🌐 其他地区 (Other) 284 - chefdon
-  - 🌐 其他地区 (Other) 285 - chefdon
-  - 🌐 其他地区 (Other) 286 - chefdon
-  - 🌐 其他地区 (Other) 287 - chefdon
-  - 🌐 其他地区 (Other) 288 - chefdon
-  - 🌐 其他地区 (Other) 289 - chefdon
-  - 🌐 其他地区 (Other) 290 - chefdon
-  - 🌐 其他地区 (Other) 291 - chefdon
-  - 🌐 其他地区 (Other) 292 - chefdon
-  - 🌐 其他地区 (Other) 293 - chefdon
-  - 🌐 其他地区 (Other) 294 - chefdon
-  - 🌐 其他地区 (Other) 295 - chefdon
-  - 🌐 其他地区 (Other) 296 - chefdon
-  - 🌐 其他地区 (Other) 297 - chefdon
-  - 🌐 其他地区 (Other) 298 - chefdon
-  - 🌐 其他地区 (Other) 299 - chefdon
-  - 🌐 其他地区 (Other) 300 - chefdon
-  - 🌐 其他地区 (Other) 301 - chefdon
-  - 🌐 其他地区 (Other) 302 - chefdon
-  - 🌐 其他地区 (Other) 303 - chefdon
-  - 🌐 其他地区 (Other) 304 - chefdon
-  - 🌐 其他地区 (Other) 305 - chefdon
-  - 🌐 其他地区 (Other) 306 - chefdon
-  - 🌐 其他地区 (Other) 307 - chefdon
-  - 🌐 其他地区 (Other) 308 - chefdon
-  - 🌐 其他地区 (Other) 309 - chefdon
-  - 🌐 其他地区 (Other) 310 - chefdon
-  - 🌐 其他地区 (Other) 311 - chefdon
-  - 🌐 其他地区 (Other) 312 - chefdon
-  - 🌐 其他地区 (Other) 313 - chefdon
-  - 🌐 其他地区 (Other) 314 - chefdon
-  - 🌐 其他地区 (Other) 315 - chefdon
-  - 🌐 其他地区 (Other) 316 - chefdon
-  - 🌐 其他地区 (Other) 317 - chefdon
-  - 🌐 其他地区 (Other) 318 - chefdon
-  - 🌐 其他地区 (Other) 319 - chefdon
-  - 🌐 其他地区 (Other) 320 - chefdon
-  - 🌐 其他地区 (Other) 321 - chefdon
-  - 🌐 其他地区 (Other) 322 - chefdon
-  - 🌐 其他地区 (Other) 323 - chefdon
-  - 🌐 其他地区 (Other) 324 - chefdon
-  - 🌐 其他地区 (Other) 325 - chefdon
-  - 🌐 其他地区 (Other) 326 - chefdon
-  - 🌐 其他地区 (Other) 327 - chefdon
-  - 🌐 其他地区 (Other) 328 - chefdon
-  - 🌐 其他地区 (Other) 329 - chefdon
-  - 🌐 其他地区 (Other) 330 - chefdon
-  - 🌐 其他地区 (Other) 331 - chefdon
-  - 🌐 其他地区 (Other) 332 - chefdon
-  - 🌐 其他地区 (Other) 333 - chefdon
-  - 🌐 其他地区 (Other) 334 - chefdon
-  - 🌐 其他地区 (Other) 335 - chefdon
 rules:
 - MATCH,PROXIES
