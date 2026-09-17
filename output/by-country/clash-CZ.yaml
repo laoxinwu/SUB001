@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - chefdon
   type: vless
-  server: 138.199.147.113
-  port: 443
+  server: 136.243.86.79
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -20,7 +20,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 02 - chefdon
   type: vless
-  server: 195.85.23.217
+  server: 195.85.23.88
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 03 - chefdon
   type: vless
-  server: 178.105.14.134
+  server: 88.99.87.249
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -48,20 +48,6 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 04 - chefdon
   type: vless
-  server: 142.132.176.167
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇿 CZ 05 - chefdon
-  type: vless
   server: 195.85.23.45
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
@@ -74,23 +60,37 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 06 - chefdon
+- name: 🇨🇿 CZ 05 - chefdon
   type: vless
-  server: 195.85.23.248
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  server: 136.243.86.81
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: box5.xinwu.de5.net
+- name: 🇨🇿 CZ 06 - chefdon
+  type: vless
+  server: 136.243.86.74
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 07 - chefdon
   type: vless
-  server: 195.85.23.219
+  server: 195.85.23.29
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -104,18 +104,18 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 08 - chefdon
   type: vless
-  server: 195.85.23.111
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  server: 5.75.235.115
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 09 - chefdon
   type: vless
   server: 195.85.23.75
@@ -132,21 +132,21 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 10 - chefdon
   type: vless
-  server: 194.58.39.198
+  server: 195.85.23.47
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 11 - chefdon
   type: vless
-  server: 195.85.23.29
+  server: 195.85.23.252
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -160,7 +160,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 12 - chefdon
   type: vless
-  server: 195.85.23.47
+  server: 195.85.23.219
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -174,35 +174,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 13 - chefdon
   type: vless
-  server: 88.198.149.98
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇿 CZ 14 - chefdon
-  type: vless
-  server: 136.243.86.93
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇨🇿 CZ 15 - chefdon
-  type: vless
-  server: 195.85.23.88
+  server: 195.85.23.217
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -214,9 +186,23 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 16 - chefdon
+- name: 🇨🇿 CZ 14 - chefdon
   type: vless
-  server: 195.85.23.252
+  server: 195.85.23.248
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 15 - chefdon
+  type: vless
+  server: 195.85.23.111
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -248,7 +234,6 @@ proxy-groups:
   - 🇨🇿 CZ 13 - chefdon
   - 🇨🇿 CZ 14 - chefdon
   - 🇨🇿 CZ 15 - chefdon
-  - 🇨🇿 CZ 16 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -269,6 +254,5 @@ proxy-groups:
   - 🇨🇿 CZ 13 - chefdon
   - 🇨🇿 CZ 14 - chefdon
   - 🇨🇿 CZ 15 - chefdon
-  - 🇨🇿 CZ 16 - chefdon
 rules:
 - MATCH,PROXIES

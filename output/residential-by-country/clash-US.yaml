@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - chefdon
-  type: ss
-  server: 23.252.104.131
-  port: 54321
-  cipher: aes-256-gcm
-  password: Proxy2024
-  udp: true
-- name: 🇺🇸 美国 (United States) 02 (家宽) - chefdon
   type: vless
   server: 172.64.42.85
   port: 80
@@ -30,13 +23,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - chefdon
-  - 🇺🇸 美国 (United States) 02 (家宽) - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - chefdon
-  - 🇺🇸 美国 (United States) 02 (家宽) - chefdon
 rules:
 - MATCH,PROXIES
