@@ -6,6 +6,15 @@ log-level: info
 proxies:
 - name: 🇪🇪 EE 01 - chefdon
   type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 02 - chefdon
+  type: vless
   server: 64.188.82.141
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
@@ -18,15 +27,6 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇪🇪 EE 02 - chefdon
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
 proxy-groups:
 - name: PROXIES
   type: select

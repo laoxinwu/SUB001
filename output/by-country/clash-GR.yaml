@@ -4,23 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇰 DK 01 - chefdon
+- name: 🇬🇷 GR 01 - chefdon
   type: vless
-  server: 84.32.217.120
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇩🇰 DK 02 - chefdon
-  type: vless
-  server: 89.125.76.229
+  server: 83.147.192.112
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -32,9 +18,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇩🇰 DK 03 - chefdon
+- name: 🇬🇷 GR 02 - chefdon
   type: vless
-  server: 185.82.126.37
+  server: 91.186.219.82
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -51,16 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇩🇰 DK 01 - chefdon
-  - 🇩🇰 DK 02 - chefdon
-  - 🇩🇰 DK 03 - chefdon
+  - 🇬🇷 GR 01 - chefdon
+  - 🇬🇷 GR 02 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇰 DK 01 - chefdon
-  - 🇩🇰 DK 02 - chefdon
-  - 🇩🇰 DK 03 - chefdon
+  - 🇬🇷 GR 01 - chefdon
+  - 🇬🇷 GR 02 - chefdon
 rules:
 - MATCH,PROXIES

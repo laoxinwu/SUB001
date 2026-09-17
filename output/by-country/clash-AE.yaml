@@ -6,17 +6,18 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - chefdon
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 135.136.181.113
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: uae.unixzone.us
+      Host: box5.xinwu.de5.net
 - name: 🇦🇪 阿联酋 (UAE) 02 - chefdon
   type: vless
   server: uae.unixzone.us
@@ -32,7 +33,21 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - chefdon
   type: vless
-  server: 84.235.244.108
+  server: 151.242.120.8
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇦🇪 阿联酋 (UAE) 04 - chefdon
+  type: vless
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -43,18 +58,6 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - chefdon
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 05 - chefdon
   type: vless
   server: 89.125.147.199
@@ -66,8 +69,21 @@ proxies:
   reality-opts:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 06 - chefdon
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 07 - chefdon
   type: vless
   server: 31.57.196.14
   port: 8443
@@ -81,20 +97,32 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇦🇪 阿联酋 (UAE) 07 - chefdon
+- name: 🇦🇪 阿联酋 (UAE) 08 - chefdon
   type: vless
-  server: apicdn.4subnodes.com
+  server: 132.243.24.252
   port: 443
-  uuid: 1f959100-a98b-47fb-84fa-359246dc458a
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: apicdn.4subnodes.com
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /apiv1/esa1-asda2jcvnbpseflkn-kjweksad
+    path: /?ed=2048
     headers:
-      Host: apicdn.4subnodes.com
+      Host: box5.xinwu.de5.net
+- name: 🇦🇪 阿联酋 (UAE) 09 - chefdon
+  type: vless
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -107,6 +135,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - chefdon
   - 🇦🇪 阿联酋 (UAE) 06 - chefdon
   - 🇦🇪 阿联酋 (UAE) 07 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 08 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 09 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -119,5 +149,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - chefdon
   - 🇦🇪 阿联酋 (UAE) 06 - chefdon
   - 🇦🇪 阿联酋 (UAE) 07 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 08 - chefdon
+  - 🇦🇪 阿联酋 (UAE) 09 - chefdon
 rules:
 - MATCH,PROXIES
