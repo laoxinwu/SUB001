@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - chefdon
-  type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 02 - chefdon
   type: vmess
   server: 149.88.23.202
   port: 18000
@@ -28,9 +14,23 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 02 - chefdon
+  type: vless
+  server: 129.212.237.187
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 03 - chefdon
   type: vless
-  server: 50.7.21.117
+  server: 168.144.103.195
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -44,7 +44,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 04 - chefdon
   type: vless
-  server: 51.79.157.158
+  server: 152.42.196.47
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -58,8 +58,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 05 - chefdon
   type: vless
-  server: 167.172.75.2
-  port: 443
+  server: 43.133.42.56
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -71,842 +71,6 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 06 - chefdon
-  type: vless
-  server: 152.42.247.235
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 07 - chefdon
-  type: vless
-  server: 23.111.15.31
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 08 - chefdon
-  type: vless
-  server: 165.232.161.8
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 09 - chefdon
-  type: vless
-  server: 8.219.155.125
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 10 - chefdon
-  type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 11 - chefdon
-  type: vless
-  server: 129.212.232.171
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 12 - chefdon
-  type: vless
-  server: 43.134.104.39
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 13 - chefdon
-  type: vless
-  server: 152.42.235.119
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 14 - chefdon
-  type: vless
-  server: 43.173.160.14
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 15 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 16 - chefdon
-  type: vless
-  server: 45.77.241.190
-  port: 8441
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /act/company/intro
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 17 - chefdon
-  type: vless
-  server: 51.79.156.240
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 18 - chefdon
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 19 - chefdon
-  type: vless
-  server: 152.42.175.157
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 20 - chefdon
-  type: vless
-  server: 140.245.104.189
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 21 - chefdon
-  type: vless
-  server: 154.26.128.147
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 22 - chefdon
-  type: vless
-  server: 178.128.86.3
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 23 - chefdon
-  type: vless
-  server: 178.128.99.226
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 24 - chefdon
-  type: vless
-  server: 143.198.203.199
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 25 - chefdon
-  type: vless
-  server: 141.193.213.20
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 26 - chefdon
-  type: vless
-  server: 207.148.127.157
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 27 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 28 - chefdon
-  type: vless
-  server: 207.148.77.84
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 29 - chefdon
-  type: vless
-  server: 77.83.241.97
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 30 - chefdon
-  type: vless
-  server: 209.97.165.213
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 31 - chefdon
-  type: vless
-  server: 129.212.225.217
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 32 - chefdon
-  type: vless
-  server: 217.15.166.78
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 33 - chefdon
-  type: vless
-  server: 96.9.211.91
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 34 - chefdon
-  type: vless
-  server: 15.235.212.159
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 35 - chefdon
-  type: vless
-  server: 43.134.104.39
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 36 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 37 - chefdon
-  type: vless
-  server: 146.190.97.53
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 38 - chefdon
-  type: vless
-  server: 164.52.2.99
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 39 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 40 - chefdon
-  type: vless
-  server: 157.245.50.181
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 41 - chefdon
-  type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 42 - chefdon
-  type: vless
-  server: 46.250.231.61
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 43 - chefdon
-  type: vless
-  server: 51.79.156.240
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 44 - chefdon
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 45 - chefdon
-  type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shalana.xyz
-  network: ws
-  ws-opts:
-    path: /shalana
-    headers:
-      Host: shalana.xyz
-- name: 🇸🇬 新加坡 (Singapore) 46 - chefdon
-  type: vless
-  server: 139.180.216.198
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 47 - chefdon
-  type: vless
-  server: 43.160.254.163
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 48 - chefdon
-  type: vless
-  server: 45.127.34.59
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 49 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 50 - chefdon
-  type: vless
-  server: 152.42.212.65
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 51 - chefdon
-  type: vless
-  server: 207.148.79.171
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 52 - chefdon
-  type: vless
-  server: 194.127.192.165
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 53 - chefdon
-  type: vless
-  server: 43.160.254.163
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 54 - chefdon
-  type: vless
-  server: 46.250.231.61
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 55 - chefdon
-  type: vless
-  server: 45.77.241.190
-  port: 8441
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /act/company/intro
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 56 - chefdon
-  type: vless
-  server: 167.99.69.85
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 57 - chefdon
-  type: vless
-  server: 45.76.158.201
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 58 - chefdon
-  type: vless
-  server: 168.144.102.226
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 59 - chefdon
-  type: vless
-  server: 165.245.176.192
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 60 - chefdon
-  type: vless
-  server: 103.137.22.71
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /register?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 61 - chefdon
-  type: vless
-  server: 188.166.250.155
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 62 - chefdon
-  type: vless
-  server: 139.59.102.170
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 63 - chefdon
-  type: vless
-  server: 128.199.82.20
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 64 - chefdon
-  type: vless
-  server: 178.128.114.149
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 65 - chefdon
-  type: vless
-  server: 140.245.38.33
-  port: 2096
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /class/season
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 66 - chefdon
-  type: vless
-  server: 206.206.77.6
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 67 - chefdon
-  type: vless
-  server: 188.166.190.246
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 68 - chefdon
   type: vless
   server: 146.190.100.44
   port: 443
@@ -920,9 +84,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 69 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 07 - chefdon
   type: vless
-  server: 159.223.88.166
+  server: 157.245.144.174
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -934,9 +98,23 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 70 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 08 - chefdon
   type: vless
-  server: 195.85.19.136
+  server: 140.245.38.33
+  port: 2096
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /class/season
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇸🇬 新加坡 (Singapore) 09 - chefdon
+  type: vless
+  server: 157.245.155.10
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -948,9 +126,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 71 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 10 - chefdon
   type: vless
-  server: 43.160.203.174
+  server: 166.108.238.41
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -962,19 +140,35 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 72 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 73 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 11 - chefdon
   type: vless
-  server: 178.128.114.149
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 12 - chefdon
+  type: vless
+  server: 132.243.238.192
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 13 - chefdon
+  type: vless
+  server: 165.245.184.76
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -986,45 +180,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 74 - chefdon
-  type: vless
-  server: 157.230.255.59
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 75 - chefdon
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 76 - chefdon
-  type: vless
-  server: 149.28.159.87
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 77 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 14 - chefdon
   type: vless
   server: 139.59.115.7
   port: 443
@@ -1038,107 +194,21 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 78 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 15 - chefdon
   type: vless
-  server: 178.128.86.3
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 79 - chefdon
-  type: vless
-  server: 43.156.92.214
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 80 - chefdon
-  type: vless
-  server: 104.248.158.149
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 81 - chefdon
-  type: vless
-  server: 209.97.163.209
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 82 - chefdon
-  type: vless
-  server: 104.248.158.149
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 83 - chefdon
-  type: vless
-  server: 51.79.157.158
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 84 - chefdon
-  type: vless
-  server: 217.15.167.34
+  server: 217.217.254.126
   port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 85 - chefdon
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 16 - chefdon
   type: vless
-  server: 129.212.239.183
+  server: 168.138.165.174
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1150,21 +220,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 86 - chefdon
-  type: vless
-  server: 157.230.32.24
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 87 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 17 - chefdon
   type: vless
   server: 43.156.92.214
   port: 443
@@ -1178,9 +234,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 88 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 18 - chefdon
   type: vless
-  server: 45.87.92.220
+  server: 18.138.34.221
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1192,7 +248,251 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 89 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 19 - chefdon
+  type: vless
+  server: 94.237.66.99
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 20 - chefdon
+  type: vless
+  server: 43.160.220.86
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 21 - chefdon
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 22 - chefdon
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 23 - chefdon
+  type: vless
+  server: 146.190.102.51
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 24 - chefdon
+  type: vless
+  server: 104.16.10.235
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 25 - chefdon
+  type: vless
+  server: 104.21.70.228
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 26 - chefdon
+  type: vless
+  server: 167.71.220.89
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 27 - chefdon
+  type: vless
+  server: 43.160.241.223
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 28 - chefdon
+  type: vless
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 29 - chefdon
+  type: vless
+  server: 168.138.165.174
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 30 - chefdon
+  type: vless
+  server: 172.237.81.164
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 31 - chefdon
+  type: vless
+  server: 104.16.10.100
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 32 - chefdon
+  type: vless
+  server: 168.144.109.68
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 33 - chefdon
+  type: vless
+  server: 43.160.254.163
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 34 - chefdon
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 35 - chefdon
+  type: vless
+  server: 157.245.155.10
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 36 - chefdon
+  type: vless
+  server: 152.42.187.83
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 37 - chefdon
   type: vless
   server: 159.89.203.141
   port: 443
@@ -1206,7 +506,286 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 90 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 38 - chefdon
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 39 - chefdon
+  type: vless
+  server: 134.209.102.229
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 40 - chefdon
+  type: vless
+  server: 168.144.103.195
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 41 - chefdon
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 42 - chefdon
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 43 - chefdon
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 44 - chefdon
+  type: vless
+  server: 152.42.198.52
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 45 - chefdon
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 46 - chefdon
+  type: vless
+  server: 43.156.142.191
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 47 - chefdon
+  type: vless
+  server: 104.16.10.100
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 48 - chefdon
+  type: vless
+  server: 185.115.207.141
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 49 - chefdon
+  type: vless
+  server: 167.71.195.238
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 50 - chefdon
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 51 - chefdon
+  type: vless
+  server: 149.28.159.222
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 52 - chefdon
+  type: vless
+  server: 162.128.72.114
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 53 - chefdon
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 54 - chefdon
+  type: vless
+  server: 172.236.140.241
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 55 - chefdon
+  type: vless
+  server: 51.79.157.158
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 56 - chefdon
+  type: vless
+  server: 116.251.216.23
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 57 - chefdon
+  type: vless
+  server: 140.245.103.72
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 58 - chefdon
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 59 - chefdon
+  type: vless
+  server: 89.34.227.245
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 60 - chefdon
   type: vless
   server: 217.217.254.126
   port: 2053
@@ -1217,10 +796,392 @@ proxies:
   reality-opts:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 61 - chefdon
+  type: vless
+  server: 129.212.237.187
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 62 - chefdon
+  type: vless
+  server: 172.67.145.21
+  port: 443
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: INDEX.Arcane509.Workers.DEV
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: index.arcane509.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 63 - chefdon
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 64 - chefdon
+  type: vless
+  server: 162.159.156.214
+  port: 8880
+  uuid: 8991a496-1baa-486f-9948-ffe44e68c072
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: soft-band-8da6.426.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 65 - chefdon
+  type: vless
+  server: 104.16.111.193
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 66 - chefdon
+  type: vless
+  server: 203.55.176.10
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 67 - chefdon
+  type: vless
+  server: 165.245.181.71
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 68 - chefdon
+  type: vless
+  server: 38.181.52.16
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 69 - chefdon
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 70 - chefdon
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 71 - chefdon
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 72 - chefdon
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 73 - chefdon
+  type: vless
+  server: 160.187.141.61
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 74 - chefdon
+  type: vless
+  server: 139.59.101.96
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 75 - chefdon
+  type: vless
+  server: 152.42.161.156
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 76 - chefdon
+  type: vless
+  server: 152.42.199.134
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 77 - chefdon
+  type: vless
+  server: 54.255.175.251
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 78 - chefdon
+  type: vless
+  server: 103.195.191.240
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 79 - chefdon
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 80 - chefdon
+  type: vless
+  server: 43.156.2.91
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 81 - chefdon
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 82 - chefdon
+  type: vless
+  server: 18.138.34.221
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 83 - chefdon
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 84 - chefdon
+  type: vless
+  server: 170.114.46.6
+  port: 80
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 85 - chefdon
+  type: vless
+  server: 43.160.238.73
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 86 - chefdon
+  type: vless
+  server: 167.99.71.38
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 87 - chefdon
+  type: vless
+  server: 5.223.70.20
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 88 - chefdon
+  type: vless
+  server: 84.247.149.192
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 89 - chefdon
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 90 - chefdon
+  type: vless
+  server: 139.180.135.10
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 91 - chefdon
   type: vless
-  server: 52.221.53.171
+  server: 162.4.173.177
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1234,35 +1195,34 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 92 - chefdon
   type: vless
-  server: 159.65.10.227
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 170.114.45.6
+  port: 80
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 93 - chefdon
   type: vless
-  server: 167.71.198.82
+  server: 141.193.213.21
   port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: u.srilankangrill.online
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 94 - chefdon
   type: vless
-  server: 149.28.153.207
+  server: 3.1.187.169
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1276,8 +1236,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 95 - chefdon
   type: vless
-  server: 54.169.146.255
-  port: 443
+  server: 5.34.176.72
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1289,19 +1249,23 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 96 - chefdon
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 165.22.104.36
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 97 - chefdon
   type: vless
-  server: 172.104.59.228
-  port: 8443
+  server: 129.212.229.72
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1314,31 +1278,35 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 98 - chefdon
   type: vless
-  server: 47.131.189.221
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 140.245.38.33
+  port: 2096
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /class/season
     headers:
-      Host: box5.xinwu.de5.net
+      Host: cdn8848.776676.xyz
 - name: 🇸🇬 新加坡 (Singapore) 99 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 104.16.10.116
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 100 - chefdon
   type: vless
-  server: 157.230.255.59
+  server: 152.42.198.190
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1352,7 +1320,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 101 - chefdon
   type: vless
-  server: 157.245.50.181
+  server: 217.216.36.66
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1366,8 +1334,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 102 - chefdon
   type: vless
-  server: 45.92.158.145
-  port: 8443
+  server: 68.183.183.54
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1380,7 +1348,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 103 - chefdon
   type: vless
-  server: 160.191.77.52
+  server: 161.118.210.121
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1393,18 +1361,22 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 104 - chefdon
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 43.160.241.223
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 105 - chefdon
   type: vless
-  server: 165.245.184.76
+  server: 43.156.116.194
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1417,23 +1389,19 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 106 - chefdon
-  type: vless
-  server: 43.173.160.14
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 107 - chefdon
   type: vless
-  server: 217.15.167.34
-  port: 2053
+  server: 207.148.70.252
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1446,8 +1414,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 108 - chefdon
   type: vless
-  server: 138.2.76.34
-  port: 443
+  server: 161.118.227.139
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1460,7 +1428,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 109 - chefdon
   type: vless
-  server: 185.229.222.122
+  server: 43.175.131.30
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1474,61 +1442,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 110 - chefdon
   type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  server: 45.76.176.85
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 111 - chefdon
-  type: vless
-  server: 139.180.220.87
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 112 - chefdon
-  type: vless
-  server: 15.235.212.159
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 113 - chefdon
-  type: vless
-  server: 188.166.233.86
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 114 - chefdon
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -1536,10 +1464,48 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 112 - chefdon
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 113 - chefdon
+  type: vless
+  server: 141.193.213.20
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 114 - chefdon
+  type: vless
+  server: 43.156.92.214
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 115 - chefdon
   type: vless
-  server: 185.229.222.122
-  port: 443
+  server: 103.106.229.173
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1551,18 +1517,22 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 116 - chefdon
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 129.212.229.72
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 117 - chefdon
   type: vless
-  server: 167.172.65.175
+  server: 43.168.16.112
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1576,8 +1546,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 118 - chefdon
   type: vless
-  server: 45.127.34.59
-  port: 8443
+  server: 45.77.39.192
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1590,8 +1560,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 119 - chefdon
   type: vless
-  server: 146.190.97.53
-  port: 443
+  server: 157.245.54.118
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1604,8 +1574,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 120 - chefdon
   type: vless
-  server: 138.2.66.236
-  port: 443
+  server: 188.239.21.47
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1618,7 +1588,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 121 - chefdon
   type: vless
-  server: 165.245.184.76
+  server: 43.156.181.203
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1631,18 +1601,22 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 122 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 139.180.135.10
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 123 - chefdon
   type: vless
-  server: 156.244.57.227
+  server: 165.232.161.8
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1656,7 +1630,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 124 - chefdon
   type: vless
-  server: 194.127.192.179
+  server: 82.47.245.2
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1670,7 +1644,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 125 - chefdon
   type: vless
-  server: 149.28.153.207
+  server: 143.198.203.199
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1684,8 +1658,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 126 - chefdon
   type: vless
-  server: 172.104.59.228
-  port: 8443
+  server: 167.172.67.51
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1698,7 +1672,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 127 - chefdon
   type: vless
-  server: 174.138.24.13
+  server: 165.22.104.36
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1712,21 +1686,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 128 - chefdon
   type: vless
-  server: 159.223.79.119
+  server: 103.137.22.71
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /register?ed=2560fp=chrome
     headers:
-      Host: box5.xinwu.de5.net
+      Host: cdn8848.776676.xyz
 - name: 🇸🇬 新加坡 (Singapore) 129 - chefdon
   type: vless
-  server: 206.206.77.6
+  server: 5.223.70.20
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1739,9 +1713,19 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 130 - chefdon
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 131 - chefdon
   type: vless
-  server: 167.172.65.175
-  port: 443
+  server: 203.55.176.10
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1752,24 +1736,10 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 131 - chefdon
-  type: vless
-  server: 68.64.179.129
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /code?ed=2560fp=chrome
-    headers:
-      Host: cdn8848.776676.xyz
 - name: 🇸🇬 新加坡 (Singapore) 132 - chefdon
   type: vless
-  server: 45.76.158.201
-  port: 8443
+  server: 43.156.181.203
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1782,20 +1752,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 133 - chefdon
   type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🇸🇬 新加坡 (Singapore) 134 - chefdon
   type: vless
-  server: 207.148.77.84
-  port: 8443
+  server: 160.187.141.61
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -1808,7 +1779,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 135 - chefdon
   type: vless
-  server: 13.212.207.124
+  server: 139.59.115.36
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1822,7 +1793,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 136 - chefdon
   type: vless
-  server: 128.199.82.20
+  server: 165.245.181.74
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1836,7 +1807,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 137 - chefdon
   type: vless
-  server: 157.245.151.248
+  server: 104.16.10.198
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 138 - chefdon
+  type: vless
+  server: 18.139.143.168
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1848,33 +1833,21 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 138 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 139 - chefdon
   type: vless
-  server: 103.137.22.71
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /register?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 140 - chefdon
   type: vless
-  server: 172.236.130.18
+  server: 94.237.65.232
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1888,7 +1861,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 141 - chefdon
   type: vless
-  server: 209.97.163.209
+  server: 161.118.210.121
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1902,21 +1875,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 142 - chefdon
   type: vless
-  server: 68.64.179.129
+  server: 3.1.187.169
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /code?ed=2560
+    path: /?ed=2048
     headers:
-      Host: cdn8848.776676.xyz
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 143 - chefdon
   type: vless
-  server: 134.209.108.21
+  server: 217.216.36.66
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1930,7 +1903,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 144 - chefdon
   type: vless
-  server: 160.191.77.52
+  server: 168.144.102.226
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1943,22 +1916,18 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 145 - chefdon
-  type: vless
-  server: 149.28.159.87
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 146 - chefdon
   type: vless
-  server: 157.230.32.24
+  server: 129.212.229.240
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1972,7 +1941,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 147 - chefdon
   type: vless
-  server: 203.55.176.251
+  server: 152.42.199.134
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -1986,22 +1955,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 148 - chefdon
   type: vless
-  server: 54.169.146.255
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 141.193.213.20
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: u.srilankangrill.online
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 149 - chefdon
   type: vless
-  server: 167.71.198.82
-  port: 8443
+  server: 152.42.187.83
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -2014,7 +1983,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 150 - chefdon
   type: vless
-  server: 203.55.176.251
+  server: 152.42.161.156
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2028,22 +1997,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 151 - chefdon
   type: vless
-  server: 174.138.24.13
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 47.250.212.59
+  port: 2053
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: mia12.pages.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /TG:@MiaChatChannel
     headers:
-      Host: box5.xinwu.de5.net
+      Host: mia12.pages.dev
 - name: 🇸🇬 新加坡 (Singapore) 152 - chefdon
   type: vless
-  server: 178.128.99.226
-  port: 443
+  server: 152.42.198.52
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -2055,40 +2024,50 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 153 - chefdon
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 154 - chefdon
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 155 - chefdon
   type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  server: 104.248.152.221
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 154 - chefdon
+  type: vless
+  server: 5.199.166.152
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 155 - chefdon
+  type: vless
+  server: 185.81.29.47
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 156 - chefdon
   type: vless
-  server: 23.111.15.31
+  server: 188.166.247.45
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2102,7 +2081,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 157 - chefdon
   type: vless
-  server: 140.245.104.189
+  server: 172.237.81.164
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2116,7 +2095,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 158 - chefdon
   type: vless
-  server: 161.118.244.3
+  server: 185.115.207.141
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2140,8 +2119,8 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 160 - chefdon
   type: vless
-  server: 165.232.161.8
-  port: 443
+  server: 161.118.227.139
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -2154,7 +2133,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 161 - chefdon
   type: vless
-  server: 103.195.191.118
+  server: 172.236.140.241
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2168,22 +2147,20 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 162 - chefdon
   type: vless
-  server: 5.223.52.82
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇸🇬 新加坡 (Singapore) 163 - chefdon
   type: vless
-  server: 77.83.241.97
-  port: 443
+  server: 188.239.21.47
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -2196,8 +2173,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 164 - chefdon
   type: vless
-  server: 45.92.158.145
-  port: 8443
+  server: 129.212.239.59
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -2210,7 +2187,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 165 - chefdon
   type: vless
-  server: 43.160.203.174
+  server: 103.72.62.113
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2224,7 +2201,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 166 - chefdon
   type: vless
-  server: 103.195.191.118
+  server: 152.42.237.192
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2238,7 +2215,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 167 - chefdon
   type: vless
-  server: 168.144.102.226
+  server: 168.144.97.250
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2251,18 +2228,22 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 168 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 188.166.247.45
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 169 - chefdon
   type: vless
-  server: 45.87.92.220
+  server: 68.183.183.54
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2276,7 +2257,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 170 - chefdon
   type: vless
-  server: 165.245.181.74
+  server: 43.160.254.163
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2290,21 +2271,20 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 171 - chefdon
   type: vless
-  server: 188.166.250.155
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 104.24.152.211
+  port: 8880
+  uuid: a7b8b48e-1000-46f5-a974-f6606d94f3b4
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: box5.xinwu.de5.net
+      Host: misty-hill-4b94.146-c18.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 172 - chefdon
   type: vless
-  server: 162.4.173.148
+  server: 134.209.102.229
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2318,7 +2298,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 173 - chefdon
   type: vless
-  server: 209.97.165.213
+  server: 43.156.142.191
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2332,7 +2312,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 174 - chefdon
   type: vless
-  server: 207.148.127.157
+  server: 116.251.216.12
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2346,7 +2326,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 175 - chefdon
   type: vless
-  server: 129.212.225.217
+  server: 89.34.227.245
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2360,21 +2340,45 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 176 - chefdon
   type: vless
-  server: 139.59.115.7
+  server: 45.130.125.126
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: box5.xinwu.de5.net
+      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
 - name: 🇸🇬 新加坡 (Singapore) 177 - chefdon
   type: vless
-  server: 168.144.33.100
+  server: 45.77.241.190
+  port: 8441
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /act/company/intro
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇸🇬 新加坡 (Singapore) 178 - chefdon
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 179 - chefdon
+  type: vless
+  server: 139.59.101.96
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2386,37 +2390,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 178 - chefdon
-  type: vless
-  server: 140.245.38.33
-  port: 2096
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /class/season?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 179 - chefdon
-  type: vless
-  server: 140.245.38.33
-  port: 2096
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /class/season
-    headers:
-      Host: cdn8848.776676.xyz
 - name: 🇸🇬 新加坡 (Singapore) 180 - chefdon
   type: vless
-  server: 143.198.219.131
+  server: 167.71.195.238
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2430,7 +2406,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 181 - chefdon
   type: vless
-  server: 43.156.116.194
+  server: 45.202.247.152
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /jump.html/star?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇸🇬 新加坡 (Singapore) 182 - chefdon
+  type: vless
+  server: 129.212.236.5
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2442,20 +2432,10 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 182 - chefdon
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 183 - chefdon
   type: vless
-  server: 157.245.151.248
-  port: 443
+  server: 5.34.176.72
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -2468,35 +2448,48 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 184 - chefdon
   type: vless
-  server: 152.42.187.83
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 188.114.97.6
+  port: 2096
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: shalana.xyz
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /shalana
     headers:
-      Host: box5.xinwu.de5.net
+      Host: shalana.xyz
 - name: 🇸🇬 新加坡 (Singapore) 185 - chefdon
   type: vless
-  server: 50.7.21.117
+  server: 8.222.84.103
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /member/discount
     headers:
-      Host: box5.xinwu.de5.net
+      Host: cdn8848.776676.xyz
 - name: 🇸🇬 新加坡 (Singapore) 186 - chefdon
   type: vless
-  server: 134.185.93.231
+  server: support.zoom.us
+  port: 80
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 187 - chefdon
+  type: vless
+  server: 20.6.12.145
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2508,21 +2501,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 187 - chefdon
-  type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 188 - chefdon
   type: vless
-  server: 167.172.75.2
+  server: 154.26.128.147
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2546,256 +2527,19 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 190 - chefdon
   type: vless
-  server: 165.245.181.72
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 140.245.38.33
+  port: 2096
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /class/season?ed=2560
     headers:
-      Host: box5.xinwu.de5.net
+      Host: cdn8848.776676.xyz
 - name: 🇸🇬 新加坡 (Singapore) 191 - chefdon
-  type: vless
-  server: 152.42.175.157
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 192 - chefdon
-  type: vless
-  server: 143.198.219.131
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 193 - chefdon
-  type: vless
-  server: 103.72.62.113
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 194 - chefdon
-  type: vless
-  server: 129.212.239.183
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 195 - chefdon
-  type: vless
-  server: 143.198.203.199
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 196 - chefdon
-  type: vless
-  server: 138.2.76.34
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 197 - chefdon
-  type: vless
-  server: 207.148.79.171
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 198 - chefdon
-  type: vless
-  server: 152.42.187.83
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 199 - chefdon
-  type: vless
-  server: 13.212.207.124
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 200 - chefdon
-  type: vless
-  server: 152.42.212.65
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 201 - chefdon
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 202 - chefdon
-  type: vless
-  server: 161.118.244.3
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 203 - chefdon
-  type: vless
-  server: 159.223.88.166
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 204 - chefdon
-  type: ss
-  server: 194.233.74.160
-  port: 2342
-  cipher: chacha20-ietf-poly1305
-  password: XV4bvaJIWoxl3IYEC1e6W7
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 205 - chefdon
-  type: vless
-  server: 52.221.53.171
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 206 - chefdon
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 207 - chefdon
-  type: vless
-  server: 162.4.173.148
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 208 - chefdon
-  type: vless
-  server: 134.209.108.21
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 209 - chefdon
   type: vless
   server: 165.245.176.192
   port: 443
@@ -2809,9 +2553,246 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 192 - chefdon
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 193 - chefdon
+  type: vless
+  server: 154.26.128.147
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 194 - chefdon
+  type: vless
+  server: 167.172.67.51
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 195 - chefdon
+  type: vless
+  server: 20.6.12.145
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 196 - chefdon
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 197 - chefdon
+  type: vless
+  server: 5.34.176.76
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 198 - chefdon
+  type: vless
+  server: 168.144.97.250
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 199 - chefdon
+  type: ss
+  server: 194.233.74.160
+  port: 2342
+  cipher: chacha20-ietf-poly1305
+  password: XV4bvaJIWoxl3IYEC1e6W7
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 200 - chefdon
+  type: vless
+  server: 104.16.10.191
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 201 - chefdon
+  type: vless
+  server: 82.47.245.2
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 202 - chefdon
+  type: vless
+  server: 116.251.216.23
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 203 - chefdon
+  type: vless
+  server: 18.139.143.168
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 204 - chefdon
+  type: vless
+  server: 140.245.103.72
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 205 - chefdon
+  type: vless
+  server: 51.79.157.158
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 206 - chefdon
+  type: vless
+  server: 54.255.175.251
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 207 - chefdon
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 208 - chefdon
+  type: vless
+  server: 104.21.5.75
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 209 - chefdon
+  type: vless
+  server: 165.245.181.71
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 210 - chefdon
   type: vless
-  server: 157.230.244.86
+  server: 143.198.203.199
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2825,21 +2806,20 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 211 - chefdon
   type: vless
-  server: 159.65.10.227
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 172.66.214.247
+  port: 8880
+  uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: box5.xinwu.de5.net
+      Host: sweet-sun-c70f.317-ba5.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 212 - chefdon
   type: vless
-  server: 45.194.18.109
+  server: 149.28.159.222
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2853,21 +2833,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 213 - chefdon
   type: vless
-  server: 43.156.116.194
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: u.srilankangrill.online
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 214 - chefdon
   type: vless
-  server: 168.144.33.100
+  server: 166.108.238.41
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2880,25 +2860,36 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 215 - chefdon
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 141.193.213.20
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 216 - chefdon
-  type: ss
-  server: 167.150.100.115
-  port: 27755
-  cipher: 2022-blake3-aes-256-gcm
-  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
+  type: vless
+  server: 139.59.115.7
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 217 - chefdon
   type: vless
-  server: 146.190.100.44
+  server: 5.199.166.152
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2912,7 +2903,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 218 - chefdon
   type: vless
-  server: 45.194.18.109
+  server: 167.71.220.89
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2926,7 +2917,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 219 - chefdon
   type: vless
-  server: 157.230.244.86
+  server: 172.105.121.230
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2940,8 +2931,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 220 - chefdon
   type: vless
-  server: 188.166.233.86
-  port: 443
+  server: 45.77.39.192
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -2953,22 +2944,18 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 221 - chefdon
-  type: vless
-  server: 194.127.192.165
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 222 - chefdon
   type: vless
-  server: 152.42.235.119
+  server: 165.232.161.8
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -2982,21 +2969,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 223 - chefdon
   type: vless
-  server: 68.64.179.129
+  server: 103.72.62.113
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /code?ed=2560
+    path: /?ed=2048
     headers:
-      Host: cdn8848.776676.xyz
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 224 - chefdon
   type: vless
-  server: 138.2.66.236
+  server: 129.212.239.59
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3010,7 +2997,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 225 - chefdon
   type: vless
-  server: 159.89.203.141
+  server: 5.223.51.2
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3024,7 +3011,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 226 - chefdon
   type: vless
-  server: 139.180.216.198
+  server: 94.237.66.99
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3038,7 +3025,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 227 - chefdon
   type: vless
-  server: 217.15.166.78
+  server: 207.148.70.252
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3052,21 +3039,20 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 228 - chefdon
   type: vless
-  server: 134.185.93.231
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: support.zoom.us
+  port: 80
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 229 - chefdon
   type: vless
-  server: 5.223.52.82
+  server: 146.190.100.44
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3079,18 +3065,35 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 230 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 172.66.140.62
+  port: 8880
+  uuid: 160ca353-676d-4b7f-a041-0289e388b865
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: proud-cloud-7bdd.208-a52.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 231 - chefdon
   type: vless
-  server: 195.85.19.136
+  server: 141.193.213.20
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 232 - chefdon
+  type: vless
+  server: 84.247.149.192
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3102,19 +3105,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 232 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 233 - chefdon
   type: vless
-  server: 103.72.62.113
+  server: 146.190.97.53
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3127,18 +3120,22 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 234 - chefdon
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 45.76.176.85
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 235 - chefdon
   type: vless
-  server: 164.52.2.99
+  server: 159.89.203.141
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3152,7 +3149,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇬 新加坡 (Singapore) 236 - chefdon
   type: vless
-  server: 172.236.130.18
+  server: 104.16.10.10
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 237 - chefdon
+  type: vless
+  server: 43.156.2.91
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -3164,7 +3175,280 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇸🇬 新加坡 (Singapore) 237 - chefdon
+- name: 🇸🇬 新加坡 (Singapore) 238 - chefdon
+  type: vless
+  server: 45.202.247.152
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /jump.html/star?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇸🇬 新加坡 (Singapore) 239 - chefdon
+  type: vless
+  server: 43.159.4.80
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /episode/files?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇸🇬 新加坡 (Singapore) 240 - chefdon
+  type: vless
+  server: 165.245.184.76
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 241 - chefdon
+  type: vless
+  server: 162.128.72.114
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 242 - chefdon
+  type: vless
+  server: 165.245.181.74
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 243 - chefdon
+  type: vless
+  server: 207.148.77.84
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 244 - chefdon
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 245 - chefdon
+  type: vless
+  server: 43.160.220.86
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 246 - chefdon
+  type: vless
+  server: 104.248.152.221
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 247 - chefdon
+  type: vless
+  server: 104.16.10.233
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 248 - chefdon
+  type: vless
+  server: 5.223.51.2
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 249 - chefdon
+  type: vless
+  server: 172.105.121.230
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 250 - chefdon
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 251 - chefdon
+  type: vless
+  server: 129.212.229.240
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 252 - chefdon
+  type: vless
+  server: 172.66.214.247
+  port: 8880
+  uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: sweet-sun-c70f.317-ba5.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 253 - chefdon
+  type: vless
+  server: 207.148.77.84
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 254 - chefdon
+  type: vless
+  server: 43.160.238.73
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 255 - chefdon
+  type: vless
+  server: 104.16.10.199
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 256 - chefdon
+  type: vless
+  server: 94.237.65.232
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 257 - chefdon
+  type: vless
+  server: 47.250.212.59
+  port: 443
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mia11.pages.dev
+  network: ws
+  ws-opts:
+    path: /TG:@MiaChatChannel
+    headers:
+      Host: mia11.pages.dev
+- name: 🇸🇬 新加坡 (Singapore) 258 - chefdon
   type: vless
   server: 103.137.22.71
   port: 443
@@ -3176,6 +3460,111 @@ proxies:
   network: ws
   ws-opts:
     path: /register?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇸🇬 新加坡 (Singapore) 259 - chefdon
+  type: vless
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 260 - chefdon
+  type: vless
+  server: 185.81.29.47
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 261 - chefdon
+  type: vless
+  server: 43.156.116.194
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 262 - chefdon
+  type: vless
+  server: 157.245.144.174
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇬 新加坡 (Singapore) 263 - chefdon
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬 新加坡 (Singapore) 264 - chefdon
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 265 - chefdon
+  type: vless
+  server: 104.17.148.22
+  port: 443
+  uuid: 0432902e-6604-40cd-bbd0-57ab4e5d909f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bPB-4dc4958B.hXjkcgHcHv.woRkeRs.deV
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiOENNZnB6WTgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    headers:
+      Host: bpb-4dc4958b.hxjkcghchv.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 266 - chefdon
+  type: vless
+  server: 8.222.84.103
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /member/discount
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -3420,6 +3809,35 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 235 - chefdon
   - 🇸🇬 新加坡 (Singapore) 236 - chefdon
   - 🇸🇬 新加坡 (Singapore) 237 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 238 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 239 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 240 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 241 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 242 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 243 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 244 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 245 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 246 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 247 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 248 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 249 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 250 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 251 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 252 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 253 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 254 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 255 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 256 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 257 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 258 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 259 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 260 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 261 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 262 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 263 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 264 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 265 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 266 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -3662,5 +4080,34 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 235 - chefdon
   - 🇸🇬 新加坡 (Singapore) 236 - chefdon
   - 🇸🇬 新加坡 (Singapore) 237 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 238 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 239 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 240 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 241 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 242 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 243 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 244 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 245 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 246 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 247 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 248 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 249 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 250 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 251 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 252 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 253 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 254 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 255 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 256 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 257 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 258 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 259 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 260 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 261 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 262 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 263 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 264 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 265 - chefdon
+  - 🇸🇬 新加坡 (Singapore) 266 - chefdon
 rules:
 - MATCH,PROXIES

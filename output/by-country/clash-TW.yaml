@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - chefdon
   type: vless
-  server: 141.11.87.48
+  server: 151.242.188.152
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - chefdon
   type: vless
-  server: 151.242.189.48
-  port: 8443
+  server: 140.235.39.19
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -34,7 +34,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - chefdon
   type: vless
-  server: 43.213.230.249
+  server: 142.249.60.51
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 04 - chefdon
   type: vless
-  server: 45.207.159.187
+  server: 83.147.13.193
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 05 - chefdon
   type: vless
-  server: 154.40.60.193
+  server: 83.147.12.252
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -76,8 +76,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 06 - chefdon
   type: vless
-  server: 151.242.189.40
-  port: 443
+  server: 78.105.183.11
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -90,252 +90,19 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 07 - chefdon
   type: vless
-  server: 140.235.39.162
+  server: 60.248.219.53
   port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: ty986gfazs.cainiaohub.xyz
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: box5.xinwu.de5.net
+      Host: 60.248.219.53
 - name: 🇹🇼 中国台湾 (Taiwan) 08 - chefdon
-  type: vless
-  server: 151.242.189.162
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 09 - chefdon
-  type: vless
-  server: 114.32.9.249
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 10 - chefdon
-  type: ss
-  server: r3mrcg00129437x.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-- name: 🇹🇼 中国台湾 (Taiwan) 11 - chefdon
-  type: vless
-  server: 103.137.22.71
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 12 - chefdon
-  type: vless
-  server: 83.147.12.20
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 13 - chefdon
-  type: vless
-  server: 83.147.13.193
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 14 - chefdon
-  type: vless
-  server: 78.105.183.40
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 15 - chefdon
-  type: vless
-  server: 151.242.188.152
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 16 - chefdon
-  type: vless
-  server: 85.237.207.126
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 17 - chefdon
-  type: vless
-  server: 213.210.4.48
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 18 - chefdon
-  type: vless
-  server: 83.147.15.86
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 19 - chefdon
-  type: vmess
-  server: 82259754d625.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 20 - chefdon
-  type: vless
-  server: 188.253.6.249
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 21 - chefdon
-  type: vless
-  server: 83.147.13.193
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 22 - chefdon
-  type: vless
-  server: 140.235.38.206
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 23 - chefdon
-  type: vless
-  server: 178.83.206.103
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 24 - chefdon
-  type: vless
-  server: 83.147.12.252
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 25 - chefdon
   type: vless
   server: 151.242.189.184
   port: 443
@@ -349,10 +116,10 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 26 - chefdon
+- name: 🇹🇼 中国台湾 (Taiwan) 09 - chefdon
   type: vless
-  server: 47.76.171.37
-  port: 8443
+  server: 130.94.36.232
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -363,7 +130,114 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 27 - chefdon
+- name: 🇹🇼 中国台湾 (Taiwan) 10 - chefdon
+  type: vless
+  server: 114.32.9.249
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 11 - chefdon
+  type: vless
+  server: 151.242.189.40
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 12 - chefdon
+  type: vless
+  server: 188.253.6.249
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 13 - chefdon
+  type: vless
+  server: 103.137.22.71
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 14 - chefdon
+  type: vless
+  server: 141.11.87.48
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 15 - chefdon
+  type: vless
+  server: 213.210.4.48
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 16 - chefdon
+  type: vmess
+  server: 82259754d625.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 82259754d625.oylfmxz.cn
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 82259754d625.oylfmxz.cn
+- name: 🇹🇼 中国台湾 (Taiwan) 17 - chefdon
+  type: ss
+  server: r3mrcg001286ek2.cybervena.com
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  udp: true
+- name: 🇹🇼 中国台湾 (Taiwan) 18 - chefdon
   type: vless
   server: 151.242.189.162
   port: 443
@@ -377,25 +251,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 28 - chefdon
-  type: vmess
-  server: 82259754d625.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 29 - chefdon
+- name: 🇹🇼 中国台湾 (Taiwan) 19 - chefdon
   type: vless
-  server: 23.146.248.149
+  server: 83.147.13.193
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -407,7 +265,49 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 30 - chefdon
+- name: 🇹🇼 中国台湾 (Taiwan) 20 - chefdon
+  type: vless
+  server: 140.235.39.162
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 21 - chefdon
+  type: vless
+  server: 154.40.60.193
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 22 - chefdon
+  type: vless
+  server: 83.147.15.253
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 23 - chefdon
   type: vless
   server: 140.235.38.47
   port: 443
@@ -421,6 +321,97 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 24 - chefdon
+  type: vless
+  server: 140.235.38.206
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 25 - chefdon
+  type: vless
+  server: 151.242.188.249
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 26 - chefdon
+  type: vless
+  server: 83.147.15.253
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 27 - chefdon
+  type: vless
+  server: 45.207.159.187
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 28 - chefdon
+  type: vless
+  server: 103.137.22.71
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 29 - chefdon
+  type: vless
+  server: 142.249.60.51
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 30 - chefdon
+  type: ss
+  server: R3MRCG00129437X.cybervena.com
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  udp: true
 - name: 🇹🇼 中国台湾 (Taiwan) 31 - chefdon
   type: vless
   server: 151.242.188.209
@@ -437,7 +428,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 32 - chefdon
   type: vless
-  server: 83.147.12.20
+  server: 140.235.39.162
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -451,7 +442,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 33 - chefdon
   type: vless
-  server: 140.235.39.19
+  server: 82.152.91.210
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -465,7 +456,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 34 - chefdon
   type: vless
-  server: 151.242.188.249
+  server: 151.242.189.162
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -479,6 +470,61 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 35 - chefdon
   type: vless
+  server: 60.248.219.78
+  port: 443
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+- name: 🇹🇼 中国台湾 (Taiwan) 36 - chefdon
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 37 - chefdon
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 38 - chefdon
+  type: vless
+  server: 83.147.12.252
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 39 - chefdon
+  type: ss
+  server: r3mrcg00129437x.cybervena.com
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  udp: true
+- name: 🇹🇼 中国台湾 (Taiwan) 40 - chefdon
+  type: vless
   server: 82.152.91.210
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
@@ -491,9 +537,39 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 36 - chefdon
+- name: 🇹🇼 中国台湾 (Taiwan) 41 - chefdon
+  type: vmess
+  server: 7dba81fc3a0b.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇹🇼 中国台湾 (Taiwan) 42 - chefdon
   type: vless
-  server: 45.207.159.187
+  server: 60.248.219.78
+  port: 443
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: 60.248.219.78
+- name: 🇹🇼 中国台湾 (Taiwan) 43 - chefdon
+  type: vless
+  server: 130.94.36.232
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -505,7 +581,79 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 37 - chefdon
+- name: 🇹🇼 中国台湾 (Taiwan) 44 - chefdon
+  type: vless
+  server: 43.213.230.249
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 45 - chefdon
+  type: vmess
+  server: 7dba81fc3a0b.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇹🇼 中国台湾 (Taiwan) 46 - chefdon
+  type: vless
+  server: 213.210.4.48
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 47 - chefdon
+  type: vless
+  server: 151.242.189.48
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 48 - chefdon
+  type: vless
+  server: 83.147.15.86
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 49 - chefdon
   type: vmess
   server: 82259754d625.oylfmxz.cn
   port: 443
@@ -521,23 +669,9 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🇹🇼 中国台湾 (Taiwan) 38 - chefdon
+- name: 🇹🇼 中国台湾 (Taiwan) 50 - chefdon
   type: vless
-  server: 78.105.183.11
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 39 - chefdon
-  type: vless
-  server: 188.253.6.249
+  server: 45.207.159.187
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -549,7 +683,63 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 40 - chefdon
+- name: 🇹🇼 中国台湾 (Taiwan) 51 - chefdon
+  type: vless
+  server: 154.40.60.193
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 52 - chefdon
+  type: vless
+  server: 85.237.207.126
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 53 - chefdon
+  type: vless
+  server: 151.242.189.48
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 54 - chefdon
+  type: vless
+  server: 43.213.230.249
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 55 - chefdon
   type: vmess
   server: 82259754d625.oylfmxz.cn
   port: 443
@@ -565,219 +755,9 @@ proxies:
     path: /
     headers:
       Host: 82259754d625.oylfmxz.cn
-- name: 🇹🇼 中国台湾 (Taiwan) 41 - chefdon
-  type: vless
-  server: 213.210.4.48
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 42 - chefdon
-  type: vless
-  server: 140.235.38.78
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 43 - chefdon
-  type: vless
-  server: 60.248.219.53
-  port: 443
-  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: 60.248.219.53
-- name: 🇹🇼 中国台湾 (Taiwan) 44 - chefdon
-  type: vless
-  server: 103.118.42.190
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 45 - chefdon
-  type: vless
-  server: 151.242.189.48
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 46 - chefdon
-  type: vless
-  server: 60.248.219.52
-  port: 443
-  uuid: f265b49a-70a3-407a-b17b-e45dfb9f255c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: 60.248.219.52
-- name: 🇹🇼 中国台湾 (Taiwan) 47 - chefdon
-  type: vless
-  server: 151.242.189.184
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 48 - chefdon
-  type: vless
-  server: 151.242.188.209
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 49 - chefdon
-  type: vless
-  server: 60.248.219.78
-  port: 443
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: 60.248.219.78
-- name: 🇹🇼 中国台湾 (Taiwan) 50 - chefdon
-  type: vless
-  server: 151.242.189.40
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 51 - chefdon
-  type: vless
-  server: 130.94.36.232
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 52 - chefdon
-  type: vless
-  server: 140.235.39.162
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 53 - chefdon
-  type: vless
-  server: 43.213.230.249
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 54 - chefdon
-  type: vless
-  server: 78.105.183.11
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇹🇼 中国台湾 (Taiwan) 55 - chefdon
-  type: vless
-  server: 151.242.188.249
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 56 - chefdon
   type: vless
-  server: 83.147.15.86
+  server: 83.147.12.20
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -790,22 +770,18 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 57 - chefdon
-  type: vless
-  server: 154.40.60.193
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 58 - chefdon
   type: vless
-  server: 140.235.38.47
+  server: 83.147.12.20
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -819,7 +795,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 59 - chefdon
   type: vless
-  server: 82.152.91.210
+  server: 207.56.137.174
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -833,7 +809,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 60 - chefdon
   type: vless
-  server: 83.147.12.252
+  server: 140.235.38.206
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -847,7 +823,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 61 - chefdon
   type: vless
-  server: 83.147.15.253
+  server: 85.237.207.126
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -861,7 +837,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 62 - chefdon
   type: vless
-  server: 85.237.207.126
+  server: 114.32.9.249
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -875,9 +851,137 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇹🇼 中国台湾 (Taiwan) 63 - chefdon
   type: vless
-  server: 60.248.219.78
+  server: 140.235.38.47
   port: 443
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 64 - chefdon
+  type: vless
+  server: 23.146.248.149
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 65 - chefdon
+  type: vmess
+  server: 82259754d625.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇹🇼 中国台湾 (Taiwan) 66 - chefdon
+  type: vless
+  server: 140.235.39.19
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 67 - chefdon
+  type: vless
+  server: 47.83.14.42
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 68 - chefdon
+  type: vless
+  server: 151.242.189.184
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 69 - chefdon
+  type: vless
+  server: 47.83.14.42
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 70 - chefdon
+  type: vless
+  server: 78.105.183.40
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 71 - chefdon
+  type: vless
+  server: 78.105.183.40
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 72 - chefdon
+  type: vless
+  server: 60.248.219.52
+  port: 443
+  uuid: f265b49a-70a3-407a-b17b-e45dfb9f255c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -886,8 +990,36 @@ proxies:
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: ty986gfazs.cainiaohub.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 64 - chefdon
+      Host: 60.248.219.52
+- name: 🇹🇼 中国台湾 (Taiwan) 73 - chefdon
+  type: vless
+  server: 23.146.248.149
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 74 - chefdon
+  type: vless
+  server: 151.242.188.209
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇹🇼 中国台湾 (Taiwan) 75 - chefdon
   type: vmess
   server: 165.154.195.38
   port: 35034
@@ -897,7 +1029,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 65 - chefdon
+- name: 🇹🇼 中国台湾 (Taiwan) 76 - chefdon
   type: vmess
   server: 165.154.195.38
   port: 35034
@@ -907,27 +1039,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 66 - chefdon
-  type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 67 - chefdon
-  type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 68 - chefdon
+- name: 🇹🇼 中国台湾 (Taiwan) 77 - chefdon
   type: vmess
   server: 165.154.195.38
   port: 35034
@@ -1010,6 +1122,15 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 66 - chefdon
   - 🇹🇼 中国台湾 (Taiwan) 67 - chefdon
   - 🇹🇼 中国台湾 (Taiwan) 68 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 69 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 70 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 71 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 72 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 73 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 74 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 75 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 76 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 77 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1083,5 +1204,14 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 66 - chefdon
   - 🇹🇼 中国台湾 (Taiwan) 67 - chefdon
   - 🇹🇼 中国台湾 (Taiwan) 68 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 69 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 70 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 71 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 72 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 73 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 74 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 75 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 76 - chefdon
+  - 🇹🇼 中国台湾 (Taiwan) 77 - chefdon
 rules:
 - MATCH,PROXIES

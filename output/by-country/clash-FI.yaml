@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - chefdon
   type: vless
-  server: 45.9.74.189
+  server: 65.109.133.131
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 02 - chefdon
   type: vless
-  server: 157.180.76.49
+  server: 37.27.41.93
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 03 - chefdon
   type: vless
-  server: 81.177.214.13
+  server: 194.67.200.203
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -48,8 +48,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 04 - chefdon
   type: vless
-  server: 65.109.59.167
-  port: 2083
+  server: 31.76.226.229
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -62,8 +62,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 05 - chefdon
   type: vless
-  server: 138.124.0.222
-  port: 8443
+  server: 212.147.249.250
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -76,7 +76,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 06 - chefdon
   type: vless
-  server: 95.81.126.119
+  server: 89.167.48.29
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -90,8 +90,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 07 - chefdon
   type: vless
-  server: 185.246.191.168
-  port: 2053
+  server: 157.180.69.33
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -104,17 +104,22 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 08 - chefdon
   type: vless
-  server: 95.85.250.107
+  server: 130.49.178.104
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
   servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 09 - chefdon
   type: vless
-  server: 91.217.76.147
-  port: 8443
+  server: 62.238.24.80
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -127,7 +132,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 10 - chefdon
   type: vless
-  server: 46.62.224.214
+  server: 206.245.133.239
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -141,21 +146,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 11 - chefdon
   type: vless
-  server: 94.156.116.92
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 104.18.38.47
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: ?ed=2560
     headers:
-      Host: box5.xinwu.de5.net
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 12 - chefdon
   type: vless
-  server: 94.237.8.239
+  server: 103.85.114.144
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -169,8 +174,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 13 - chefdon
   type: vless
-  server: 95.85.250.107
-  port: 8443
+  server: 95.81.112.188
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -183,7 +188,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 14 - chefdon
   type: vless
-  server: 65.21.63.225
+  server: 185.246.191.235
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -197,7 +202,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 15 - chefdon
   type: vless
-  server: 95.216.141.171
+  server: 2.27.30.188
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -211,7 +216,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 16 - chefdon
   type: vless
-  server: 204.168.135.142
+  server: 82.25.185.97
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -225,8 +230,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 17 - chefdon
   type: vless
-  server: 150.241.86.74
-  port: 2053
+  server: 84.22.150.185
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -238,174 +243,6 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 18 - chefdon
-  type: vless
-  server: 135.181.95.131
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 19 - chefdon
-  type: vless
-  server: 83.219.97.75
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 20 - chefdon
-  type: vless
-  server: a2.arshia-nova.ir
-  port: 443
-  uuid: bd5bbbac-adc3-4b23-d3ac-8506694c0ef9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 21 - chefdon
-  type: vless
-  server: 204.168.158.118
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 22 - chefdon
-  type: vless
-  server: 185.246.191.25
-  port: 2096
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 23 - chefdon
-  type: vless
-  server: 144.31.182.64
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 24 - chefdon
-  type: vless
-  server: 213.21.252.238
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 25 - chefdon
-  type: vless
-  server: 81.27.106.235
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 26 - chefdon
-  type: vless
-  server: 82.40.57.175
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 27 - chefdon
-  type: vless
-  server: 89.125.87.69
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 28 - chefdon
-  type: vless
-  server: 78.17.39.165
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 29 - chefdon
-  type: vless
-  server: 178.17.53.10
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇫🇮 FI 30 - chefdon
   type: vless
   server: 151.101.56.6
   port: 443
@@ -419,9 +256,177 @@ proxies:
     path: /?RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS
     headers:
       Host: c12.com
+- name: 🇫🇮 FI 19 - chefdon
+  type: vless
+  server: 65.108.245.196
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 20 - chefdon
+  type: vless
+  server: 77.110.120.16
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 21 - chefdon
+  type: vless
+  server: 185.246.191.222
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 22 - chefdon
+  type: vless
+  server: 104.18.42.54
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 23 - chefdon
+  type: vless
+  server: 193.124.180.188
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 24 - chefdon
+  type: vless
+  server: 83.219.97.151
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 25 - chefdon
+  type: vless
+  server: 212.147.224.250
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 26 - chefdon
+  type: vless
+  server: 95.216.156.62
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 27 - chefdon
+  type: vless
+  server: 212.147.236.121
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 28 - chefdon
+  type: vless
+  server: 79.141.175.246
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 29 - chefdon
+  type: vless
+  server: 46.62.146.121
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 30 - chefdon
+  type: vless
+  server: 82.25.185.242
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 31 - chefdon
   type: vless
-  server: 37.27.220.64
+  server: 176.125.254.216
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -435,8 +440,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 32 - chefdon
   type: vless
-  server: 95.216.168.240
-  port: 8443
+  server: 204.168.245.135
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -449,7 +454,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 33 - chefdon
   type: vless
-  server: 31.76.103.246
+  server: 141.0.184.108
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -463,7 +468,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 34 - chefdon
   type: vless
-  server: 185.117.119.146
+  server: 144.31.182.64
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -477,8 +482,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 35 - chefdon
   type: vless
-  server: 65.21.16.186
-  port: 443
+  server: 185.82.127.6
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -491,7 +496,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 36 - chefdon
   type: vless
-  server: 65.109.183.106
+  server: 89.167.44.3
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -505,7 +510,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 37 - chefdon
   type: vless
-  server: 38.244.139.13
+  server: 144.31.212.58
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -519,8 +524,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 38 - chefdon
   type: vless
-  server: 138.124.118.76
-  port: 8443
+  server: 65.109.243.126
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -533,7 +538,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 39 - chefdon
   type: vless
-  server: 93.152.207.174
+  server: 78.17.111.46
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -547,7 +552,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 40 - chefdon
   type: vless
-  server: 89.167.109.28
+  server: 185.58.207.112
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -561,7 +566,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 41 - chefdon
   type: vless
-  server: 46.62.170.189
+  server: 135.181.24.30
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -575,8 +580,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 42 - chefdon
   type: vless
-  server: 89.125.39.136
-  port: 8443
+  server: 157.180.73.43
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -589,7 +594,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 43 - chefdon
   type: vless
-  server: 185.202.207.165
+  server: 62.60.237.142
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -603,7 +608,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 44 - chefdon
   type: vless
-  server: 2.26.136.184
+  server: 95.214.9.167
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -617,7 +622,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 45 - chefdon
   type: vless
-  server: 2.27.48.97
+  server: 144.31.99.87
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -631,7 +636,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 46 - chefdon
   type: vless
-  server: 46.243.1.205
+  server: 46.62.160.244
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -645,7 +650,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 47 - chefdon
   type: vless
-  server: 79.137.206.85
+  server: 2.26.9.217
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -659,7 +664,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 48 - chefdon
   type: vless
-  server: 204.168.219.115
+  server: 62.60.252.83
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -673,7 +678,231 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇫🇮 FI 49 - chefdon
   type: vless
-  server: 87.251.16.237
+  server: 157.180.76.49
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 50 - chefdon
+  type: vless
+  server: 193.84.2.32
+  port: 2083
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 51 - chefdon
+  type: vless
+  server: 95.214.8.42
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 52 - chefdon
+  type: vless
+  server: 185.246.191.196
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 53 - chefdon
+  type: vless
+  server: 62.238.27.47
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 54 - chefdon
+  type: vless
+  server: a2.arshia-nova.ir
+  port: 443
+  uuid: bd5bbbac-adc3-4b23-d3ac-8506694c0ef9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+- name: 🇫🇮 FI 55 - chefdon
+  type: vless
+  server: 23.164.240.48
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 56 - chefdon
+  type: vless
+  server: 185.230.190.29
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 57 - chefdon
+  type: vless
+  server: 144.31.7.200
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 58 - chefdon
+  type: vless
+  server: 89.167.90.92
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 59 - chefdon
+  type: vless
+  server: 62.238.12.74
+  port: 2096
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 60 - chefdon
+  type: vless
+  server: 212.192.223.7
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 61 - chefdon
+  type: vless
+  server: 82.181.193.246
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 62 - chefdon
+  type: vless
+  server: 141.0.184.183
+  port: 2087
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 63 - chefdon
+  type: vless
+  server: 213.165.59.126
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 64 - chefdon
+  type: vless
+  server: 185.82.126.64
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇮 FI 65 - chefdon
+  type: vless
+  server: 109.120.184.98
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -739,6 +968,22 @@ proxy-groups:
   - 🇫🇮 FI 47 - chefdon
   - 🇫🇮 FI 48 - chefdon
   - 🇫🇮 FI 49 - chefdon
+  - 🇫🇮 FI 50 - chefdon
+  - 🇫🇮 FI 51 - chefdon
+  - 🇫🇮 FI 52 - chefdon
+  - 🇫🇮 FI 53 - chefdon
+  - 🇫🇮 FI 54 - chefdon
+  - 🇫🇮 FI 55 - chefdon
+  - 🇫🇮 FI 56 - chefdon
+  - 🇫🇮 FI 57 - chefdon
+  - 🇫🇮 FI 58 - chefdon
+  - 🇫🇮 FI 59 - chefdon
+  - 🇫🇮 FI 60 - chefdon
+  - 🇫🇮 FI 61 - chefdon
+  - 🇫🇮 FI 62 - chefdon
+  - 🇫🇮 FI 63 - chefdon
+  - 🇫🇮 FI 64 - chefdon
+  - 🇫🇮 FI 65 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -793,5 +1038,21 @@ proxy-groups:
   - 🇫🇮 FI 47 - chefdon
   - 🇫🇮 FI 48 - chefdon
   - 🇫🇮 FI 49 - chefdon
+  - 🇫🇮 FI 50 - chefdon
+  - 🇫🇮 FI 51 - chefdon
+  - 🇫🇮 FI 52 - chefdon
+  - 🇫🇮 FI 53 - chefdon
+  - 🇫🇮 FI 54 - chefdon
+  - 🇫🇮 FI 55 - chefdon
+  - 🇫🇮 FI 56 - chefdon
+  - 🇫🇮 FI 57 - chefdon
+  - 🇫🇮 FI 58 - chefdon
+  - 🇫🇮 FI 59 - chefdon
+  - 🇫🇮 FI 60 - chefdon
+  - 🇫🇮 FI 61 - chefdon
+  - 🇫🇮 FI 62 - chefdon
+  - 🇫🇮 FI 63 - chefdon
+  - 🇫🇮 FI 64 - chefdon
+  - 🇫🇮 FI 65 - chefdon
 rules:
 - MATCH,PROXIES
