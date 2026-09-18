@@ -5,17 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - chefdon
-  type: vless
-  server: 13.37.81.71
-  port: 22224
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  type: ss
+  server: 51.255.13.232
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: BqnqToih0PbU
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇫🇷 法国 (France) 02 - chefdon
   type: vless
-  server: 178.104.145.65
-  port: 443
+  server: 178.104.116.19
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -27,6 +26,20 @@ proxies:
     headers:
       Host: box5.xinwu.de5.net
 - name: 🇫🇷 法国 (France) 03 - chefdon
+  type: vless
+  server: 89.169.32.235
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇷 法国 (France) 04 - chefdon
   type: vless
   server: 46.225.50.249
   port: 443
@@ -40,24 +53,21 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇫🇷 法国 (France) 04 - chefdon
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+- name: 🇫🇷 法国 (France) 05 - chefdon
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 05 - chefdon
+  servername: ''
+- name: 🇫🇷 法国 (France) 06 - chefdon
   type: vless
-  server: 46.225.82.231
-  port: 8443
+  server: 178.104.145.65
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -68,9 +78,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇫🇷 法国 (France) 06 - chefdon
+- name: 🇫🇷 法国 (France) 07 - chefdon
   type: vless
-  server: 149.202.58.99
+  server: 158.180.231.216
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
@@ -82,9 +92,37 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇫🇷 法国 (France) 07 - chefdon
+- name: 🇫🇷 法国 (France) 08 - chefdon
   type: vless
-  server: 57.128.183.59
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 09 - chefdon
+  type: vless
+  server: 46.225.187.178
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇷 法国 (France) 10 - chefdon
+  type: vless
+  server: 138.124.78.178
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -96,7 +134,35 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇫🇷 法国 (France) 08 - chefdon
+- name: 🇫🇷 法国 (France) 11 - chefdon
+  type: vless
+  server: 46.225.136.91
+  port: 2053
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇷 法国 (France) 12 - chefdon
+  type: vless
+  server: 178.104.164.45
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇫🇷 法国 (France) 13 - chefdon
   type: vless
   server: 178.105.137.225
   port: 443
@@ -110,69 +176,87 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
-- name: 🇫🇷 法国 (France) 09 - chefdon
-  type: vless
-  server: 199.232.78.170
-  port: 443
-  uuid: XpnTeam-1
+- name: 🇫🇷 法国 (France) 14 - chefdon
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇫🇷 法国 (France) 10 - chefdon
+  servername: ''
+- name: 🇫🇷 法国 (France) 15 - chefdon
   type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-2
+  server: 51.68.219.187
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ssl.fastly.com
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇫🇷 法国 (France) 11 - chefdon
+      Host: box5.xinwu.de5.net
+- name: 🇫🇷 法国 (France) 16 - chefdon
   type: vless
-  server: 141.11.202.123
+  server: 18.193.131.26
   port: 443
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: notls.lukongtou.eu.org
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: notls.lukongtou.eu.org
-- name: 🇫🇷 法国 (France) 12 - chefdon
+      Host: box5.xinwu.de5.net
+- name: 🇫🇷 法国 (France) 17 - chefdon
   type: vless
-  server: 104.18.31.37
+  server: 94.130.72.184
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5bc7860646e4
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: qzz0a4eou1ms.mlm-792d0942.workers.dev
+  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/5bc7860646e4
+    path: /?ed=2048
     headers:
-      Host: qzz0a4eou1ms.mlm-792d0942.workers.dev
-- name: 🇫🇷 法国 (France) 13 - chefdon
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
+      Host: box5.xinwu.de5.net
+- name: 🇫🇷 法国 (France) 18 - chefdon
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 19 - chefdon
+  type: vless
+  server: 46.225.82.231
+  port: 8443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -191,6 +275,12 @@ proxy-groups:
   - 🇫🇷 法国 (France) 11 - chefdon
   - 🇫🇷 法国 (France) 12 - chefdon
   - 🇫🇷 法国 (France) 13 - chefdon
+  - 🇫🇷 法国 (France) 14 - chefdon
+  - 🇫🇷 法国 (France) 15 - chefdon
+  - 🇫🇷 法国 (France) 16 - chefdon
+  - 🇫🇷 法国 (France) 17 - chefdon
+  - 🇫🇷 法国 (France) 18 - chefdon
+  - 🇫🇷 法国 (France) 19 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -209,5 +299,11 @@ proxy-groups:
   - 🇫🇷 法国 (France) 11 - chefdon
   - 🇫🇷 法国 (France) 12 - chefdon
   - 🇫🇷 法国 (France) 13 - chefdon
+  - 🇫🇷 法国 (France) 14 - chefdon
+  - 🇫🇷 法国 (France) 15 - chefdon
+  - 🇫🇷 法国 (France) 16 - chefdon
+  - 🇫🇷 法国 (France) 17 - chefdon
+  - 🇫🇷 法国 (France) 18 - chefdon
+  - 🇫🇷 法国 (France) 19 - chefdon
 rules:
 - MATCH,PROXIES

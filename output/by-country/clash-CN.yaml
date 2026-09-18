@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇸 IS 01 - chefdon
+- name: 🇨🇳 CN 01 - chefdon
   type: vless
-  server: 188.241.54.90
+  server: 119.45.225.117
   port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -23,12 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇸 IS 01 - chefdon
+  - 🇨🇳 CN 01 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇸 IS 01 - chefdon
+  - 🇨🇳 CN 01 - chefdon
 rules:
 - MATCH,PROXIES
