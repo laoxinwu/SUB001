@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - chefdon
   type: vless
-  server: 195.85.23.219
+  server: 195.85.23.111
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 02 - chefdon
   type: vless
-  server: 136.243.86.74
+  server: 136.243.86.81
   port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -34,8 +34,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 03 - chefdon
   type: vless
-  server: 91.107.171.119
-  port: 8443
+  server: 95.182.95.178
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -48,7 +48,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 04 - chefdon
   type: vless
-  server: 136.243.86.79
+  server: 136.243.86.74
   port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -76,18 +76,18 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇿 CZ 06 - chefdon
   type: vless
-  server: 136.243.86.81
-  port: 2053
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 195.85.23.88
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: box5.xinwu.de5.net
+      Host: nb.lovecf.ggff.net
 proxy-groups:
 - name: PROXIES
   type: select
