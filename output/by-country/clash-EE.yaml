@@ -15,18 +15,18 @@ proxies:
   servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 02 - chefdon
   type: vless
-  server: 64.188.82.141
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 45.80.108.123
+  port: 443
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
+  servername: notls.lukongtou.eu.org
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: notls.lukongtou.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
