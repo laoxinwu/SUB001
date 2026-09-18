@@ -20,8 +20,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇭 CH 02 - chefdon
   type: vless
-  server: 138.124.244.145
-  port: 443
+  server: 138.124.86.149
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -48,16 +48,18 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇨🇭 CH 04 - chefdon
   type: vless
-  server: 94.26.35.139
-  port: 25720
-  uuid: be83425f-74c5-4b03-9c4b-20aa16322698
+  server: 138.124.244.145
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: OueudVX2rTpyeEb2bNW3Jx3WtgSX4zFERs6yt8Szv0E
-  servername: www.samsung.com
-  client-fingerprint: firefox
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
