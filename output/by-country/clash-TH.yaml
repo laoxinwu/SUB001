@@ -15,8 +15,46 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
 - name: 🇹🇭 TH 02 - chefdon
+  type: vless
+  server: 104.18.26.90
+  port: 443
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray.simspeedup.com
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
+- name: 🇹🇭 TH 03 - chefdon
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇹🇭 TH 04 - chefdon
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇹🇭 TH 05 - chefdon
   type: vless
   server: 34.15.162.1
   port: 443
@@ -28,7 +66,31 @@ proxies:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
   client-fingerprint: qq
-- name: 🇹🇭 TH 03 - chefdon
+- name: 🇹🇭 TH 06 - chefdon
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇹🇭 TH 07 - chefdon
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇹🇭 TH 08 - chefdon
   type: vless
   server: 43.133.110.81
   port: 443
@@ -42,7 +104,7 @@ proxies:
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇹🇭 TH 04 - chefdon
+- name: 🇹🇭 TH 09 - chefdon
   type: vless
   server: 34.15.162.1
   port: 443
@@ -53,32 +115,8 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇹🇭 TH 05 - chefdon
-  type: vless
-  server: 34.15.162.1
-  port: 443
-  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇹🇭 TH 06 - chefdon
-  type: vless
-  server: 34.15.162.1
-  port: 443
-  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇹🇭 TH 07 - chefdon
+  client-fingerprint: edge
+- name: 🇹🇭 TH 10 - chefdon
   type: vless
   server: 103.86.49.57
   port: 80
@@ -91,7 +129,7 @@ proxies:
     path: /ws
     headers:
       Host: aIs.SpEeDtEsT.nEt
-- name: 🇹🇭 TH 08 - chefdon
+- name: 🇹🇭 TH 11 - chefdon
   type: vmess
   server: 118.193.57.167
   port: 49667
@@ -119,6 +157,9 @@ proxy-groups:
   - 🇹🇭 TH 06 - chefdon
   - 🇹🇭 TH 07 - chefdon
   - 🇹🇭 TH 08 - chefdon
+  - 🇹🇭 TH 09 - chefdon
+  - 🇹🇭 TH 10 - chefdon
+  - 🇹🇭 TH 11 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -132,5 +173,8 @@ proxy-groups:
   - 🇹🇭 TH 06 - chefdon
   - 🇹🇭 TH 07 - chefdon
   - 🇹🇭 TH 08 - chefdon
+  - 🇹🇭 TH 09 - chefdon
+  - 🇹🇭 TH 10 - chefdon
+  - 🇹🇭 TH 11 - chefdon
 rules:
 - MATCH,PROXIES

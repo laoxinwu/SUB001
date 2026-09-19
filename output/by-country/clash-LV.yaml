@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇱🇻 LV 01 - chefdon
   type: vless
-  server: 185.82.126.206
+  server: 185.82.126.247
   port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -20,8 +20,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇱🇻 LV 02 - chefdon
   type: vless
-  server: 185.82.126.37
-  port: 443
+  server: 185.82.126.217
+  port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -34,7 +34,7 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇱🇻 LV 03 - chefdon
   type: vless
-  server: 185.82.126.247
+  server: 185.82.126.185
   port: 2053
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -48,8 +48,8 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇱🇻 LV 04 - chefdon
   type: vless
-  server: 185.82.126.217
-  port: 2053
+  server: 185.82.126.37
+  port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -74,6 +74,19 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box5.xinwu.de5.net
+- name: 🇱🇻 LV 06 - chefdon
+  type: vless
+  server: atomic-prase23893.my-vm.work
+  port: 8088
+  uuid: f7c74a35-1da0-5097-9fa7-a20735610ac1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api
+    headers:
+      Host: queuev4.vk.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -84,6 +97,7 @@ proxy-groups:
   - 🇱🇻 LV 03 - chefdon
   - 🇱🇻 LV 04 - chefdon
   - 🇱🇻 LV 05 - chefdon
+  - 🇱🇻 LV 06 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -94,5 +108,6 @@ proxy-groups:
   - 🇱🇻 LV 03 - chefdon
   - 🇱🇻 LV 04 - chefdon
   - 🇱🇻 LV 05 - chefdon
+  - 🇱🇻 LV 06 - chefdon
 rules:
 - MATCH,PROXIES
