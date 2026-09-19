@@ -4,20 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇾 MY 01 - chefdon
-  type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇲🇾 MY 02 - chefdon
+- name: 🇮🇸 IS 01 - chefdon
   type: vless
-  server: 202.61.72.83
-  port: 443
+  server: 188.241.54.90
+  port: 8443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
   tls: true
@@ -33,14 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇲🇾 MY 01 - chefdon
-  - 🇲🇾 MY 02 - chefdon
+  - 🇮🇸 IS 01 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇾 MY 01 - chefdon
-  - 🇲🇾 MY 02 - chefdon
+  - 🇮🇸 IS 01 - chefdon
 rules:
 - MATCH,PROXIES
