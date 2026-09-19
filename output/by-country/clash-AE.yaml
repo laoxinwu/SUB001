@@ -32,7 +32,7 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - chefdon
   type: vless
-  server: 151.243.208.197
+  server: 135.136.181.113
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -46,56 +46,17 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇦🇪 阿联酋 (UAE) 04 - chefdon
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: cdn.snobvpn.online
+  port: 80
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /snob-ws
     headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - chefdon
-  type: vless
-  server: 151.246.240.8
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 07 - chefdon
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: firefox
+      Host: cdn.snobvpn.online
 proxy-groups:
 - name: PROXIES
   type: select
@@ -105,9 +66,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - chefdon
   - 🇦🇪 阿联酋 (UAE) 03 - chefdon
   - 🇦🇪 阿联酋 (UAE) 04 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 05 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 07 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -117,8 +75,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - chefdon
   - 🇦🇪 阿联酋 (UAE) 03 - chefdon
   - 🇦🇪 阿联酋 (UAE) 04 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 05 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 07 - chefdon
 rules:
 - MATCH,PROXIES

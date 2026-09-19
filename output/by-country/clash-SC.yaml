@@ -6,32 +6,30 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - chefdon
   type: vless
-  server: 45.192.204.72
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 45.130.125.201
+  port: 80
+  uuid: dc8a9493-c54a-459e-d060-81a700000001
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /sync
     headers:
-      Host: box5.xinwu.de5.net
+      Host: nahan-core.netizo09.workers.dev
 - name: 🇸🇨 SC 02 - chefdon
   type: vless
-  server: 196.196.5.28
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  server: 154.197.75.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: box5.xinwu.de5.net
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: box5.xinwu.de5.net
+      Host: vms.lifetime37.workers.dev
 - name: 🇸🇨 SC 03 - chefdon
   type: vless
   server: 156.226.169.122
@@ -48,7 +46,21 @@ proxies:
       Host: box5.xinwu.de5.net
 - name: 🇸🇨 SC 04 - chefdon
   type: vless
-  server: 196.196.5.26
+  server: 156.239.245.134
+  port: 443
+  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box5.xinwu.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box5.xinwu.de5.net
+- name: 🇸🇨 SC 05 - chefdon
+  type: vless
+  server: 45.192.204.72
   port: 443
   uuid: d910aab9-5317-4147-9a55-b7376fa71d11
   udp: true
@@ -69,6 +81,7 @@ proxy-groups:
   - 🇸🇨 SC 02 - chefdon
   - 🇸🇨 SC 03 - chefdon
   - 🇸🇨 SC 04 - chefdon
+  - 🇸🇨 SC 05 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +91,6 @@ proxy-groups:
   - 🇸🇨 SC 02 - chefdon
   - 🇸🇨 SC 03 - chefdon
   - 🇸🇨 SC 04 - chefdon
+  - 🇸🇨 SC 05 - chefdon
 rules:
 - MATCH,PROXIES
