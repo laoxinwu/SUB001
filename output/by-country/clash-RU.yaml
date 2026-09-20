@@ -6,164 +6,6 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - chefdon
   type: vless
-  server: 94.228.160.90
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 02 - chefdon
-  type: vless
-  server: 104.18.39.218
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 03 - chefdon
-  type: vless
-  server: 65.109.12.58
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 04 - chefdon
-  type: vless
-  server: 141.98.87.145
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 05 - chefdon
-  type: vless
-  server: 92.51.46.42
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 06 - chefdon
-  type: vless
-  server: 172.64.158.146
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 07 - chefdon
-  type: vless
-  server: 80.66.78.207
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 08 - chefdon
-  type: vless
-  server: 162.159.0.169
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 09 - chefdon
-  type: vless
-  server: 90.156.168.199
-  port: 8443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 10 - chefdon
-  type: vless
-  server: 5.183.253.112
-  port: 443
-  uuid: d910aab9-5317-4147-9a55-b7376fa71d11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box5.xinwu.de5.net
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box5.xinwu.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 11 - chefdon
-  type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /casc
-    headers:
-      Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 12 - chefdon
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: 5dLyPJpSV+QyXFRj+S0dt6xFKHxtcXEkRO/TzJGzryU=
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 13 - chefdon
-  type: vless
   server: 46.8.200.91
   port: 443
   uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
@@ -176,6 +18,13 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf3.rumedia-cdn.com
+- name: 🇷🇺 俄罗斯 (Russia) 02 - chefdon
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: 5dLyPJpSV+QyXFRj+S0dt6xFKHxtcXEkRO/TzJGzryU=
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -183,17 +32,6 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 02 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 03 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 04 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 05 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 06 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 07 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 08 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 09 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 10 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 11 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 12 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 13 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -201,16 +39,5 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 02 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 03 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 04 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 05 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 06 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 07 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 08 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 09 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 10 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 11 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 12 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 13 - chefdon
 rules:
 - MATCH,PROXIES
