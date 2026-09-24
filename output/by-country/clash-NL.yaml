@@ -5,361 +5,154 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇱 荷兰 (Netherlands) 01 - chefdon
-  type: ss
-  server: 82.38.31.176
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  type: vless
+  server: 151.242.2.81
+  port: 443
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf9.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf9.rumedia-cdn.com
 - name: 🇳🇱 荷兰 (Netherlands) 02 - chefdon
-  type: ss
-  server: 193.29.139.212
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 03 - chefdon
-  type: ss
-  server: 82.38.31.155
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 04 - chefdon
-  type: ss
-  server: 193.29.139.168
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 05 - chefdon
-  type: ss
-  server: 82.38.31.82
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 06 - chefdon
-  type: ss
-  server: 82.38.31.181
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 07 - chefdon
-  type: ss
-  server: 193.29.139.147
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 08 - chefdon
-  type: vless
-  server: 162.159.152.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: rayan-007.maxima.dpdns.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.maxima.dpdns.org
-- name: 🇳🇱 荷兰 (Netherlands) 09 - chefdon
-  type: ss
-  server: 193.29.139.225
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 10 - chefdon
-  type: ss
-  server: 82.38.31.212
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 11 - chefdon
-  type: ss
-  server: 193.29.139.204
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 12 - chefdon
-  type: ss
-  server: 82.38.31.184
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 13 - chefdon
-  type: vless
-  server: 172.67.199.62
-  port: 443
-  uuid: 9fa6d846-5961-8e0e-ce27-77de00000000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fancy-wind-799d.cloudneryacc.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: fancy-wind-799d.cloudneryacc.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 14 - chefdon
-  type: ss
-  server: 193.29.139.151
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 15 - chefdon
-  type: ss
-  server: 82.38.31.186
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 16 - chefdon
-  type: ss
-  server: 82.38.31.49
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 17 - chefdon
-  type: ss
-  server: 82.38.31.194
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 18 - chefdon
-  type: ss
-  server: 82.38.31.179
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 19 - chefdon
-  type: ss
-  server: 82.38.31.13
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 20 - chefdon
-  type: ss
-  server: 82.38.31.39
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 21 - chefdon
-  type: ss
-  server: 82.38.31.217
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 22 - chefdon
-  type: ss
-  server: 193.29.139.234
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 23 - chefdon
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 24 - chefdon
-  type: ss
-  server: 82.38.31.47
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 25 - chefdon
-  type: vless
-  server: 104.17.148.22
-  port: 443
-  uuid: 2db92da9-8ffb-491b-81d6-6e8d50876020
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bpB-01c11365.HJdBcvDbKV.WORKErS.dEV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiWlFRWlMwRDdLakVqMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: bpb-01c11365.hjdbcvdbkv.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 26 - chefdon
-  type: vless
-  server: 172.66.44.124
-  port: 8443
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-- name: 🇳🇱 荷兰 (Netherlands) 27 - chefdon
-  type: ss
-  server: 82.38.31.206
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 28 - chefdon
-  type: ss
-  server: 158.173.20.208
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 29 - chefdon
-  type: ss
-  server: 82.38.31.198
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 30 - chefdon
-  type: vless
-  server: 31.76.76.28
-  port: 443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 31.76.76.28
-- name: 🇳🇱 荷兰 (Netherlands) 31 - chefdon
-  type: ss
-  server: 108.181.58.239
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 32 - chefdon
-  type: vless
-  server: 172.67.157.183
-  port: 443
-  uuid: 401d950d-4f5c-45c7-bf44-8b69acf35f6f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7x70yyvT7eQOtx-IQ9N3RJT1xn1jwkh9.asDFsAFdsAF.WORkerS.Dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiR2xWQ1FCQzYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-    headers:
-      Host: 7x70yyvt7eqotx-iq9n3rjt1xn1jwkh9.asdfsafdsaf.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 33 - chefdon
-  type: ss
-  server: 84.235.182.137
-  port: 45819
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Oj6nvZM67OoEgh50XMRW3kn4+Rvgk+xQy6Lj8WCOC8s=
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 34 - chefdon
-  type: ss
-  server: 193.123.39.109
-  port: 45819
-  cipher: 2022-blake3-chacha20-poly1305
-  password: t0Ao+u9a5WcyKcSJOhC2R1IXIKxEcBD411OI3G5YicI=
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 35 - chefdon
-  type: vless
-  server: 172.67.155.222
-  port: 443
-  uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 36 - chefdon
-  type: ss
-  server: 82.38.31.149
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 37 - chefdon
-  type: vless
-  server: 31.76.76.28
-  port: 443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 31.76.76.28
-- name: 🇳🇱 荷兰 (Netherlands) 38 - chefdon
-  type: ss
-  server: 82.38.31.66
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 39 - chefdon
-  type: ss
-  server: 193.29.139.235
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 40 - chefdon
-  type: ss
-  server: 82.38.31.201
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 41 - chefdon
   type: ss
   server: 82.38.31.205
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 42 - chefdon
-  type: vless
-  server: 104.21.37.9
+- name: 🇳🇱 荷兰 (Netherlands) 03 - chefdon
+  type: ss
+  server: 82.38.31.49
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 04 - chefdon
+  type: ss
+  server: 82.38.31.192
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 05 - chefdon
+  type: ss
+  server: 82.38.31.162
   port: 443
-  uuid: 89c5493f-9485-85e5-c43f-df0600000000
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 06 - chefdon
+  type: ss
+  server: 193.29.139.151
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 07 - chefdon
+  type: ss
+  server: 82.38.31.176
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 08 - chefdon
+  type: ss
+  server: 108.181.126.122
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 09 - chefdon
+  type: ss
+  server: 82.38.31.16
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 10 - chefdon
+  type: ss
+  server: 82.38.31.179
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 11 - chefdon
+  type: ss
+  server: 193.29.139.147
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 12 - chefdon
+  type: vless
+  server: 31.76.76.28
+  port: 443
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 31.76.76.28
+- name: 🇳🇱 荷兰 (Netherlands) 13 - chefdon
+  type: vless
+  server: 31.76.76.28
+  port: 8443
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nameless-moon-7c4d.shafmrhjlos23.workers.dev
-  network: ws
-  ws-opts:
-    path: /vasl
-    headers:
-      Host: nameless-moon-7c4d.shafmrhjlos23.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 43 - chefdon
+  servername: neth4.lckdwn.ru
+- name: 🇳🇱 荷兰 (Netherlands) 14 - chefdon
+  type: ss
+  server: 82.38.31.218
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 15 - chefdon
+  type: ss
+  server: 82.38.31.214
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 16 - chefdon
+  type: ss
+  server: 193.29.139.235
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 17 - chefdon
+  type: ss
+  server: 82.38.31.193
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 18 - chefdon
+  type: ss
+  server: 193.29.139.225
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 19 - chefdon
+  type: ss
+  server: 158.173.20.208
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 20 - chefdon
   type: vless
   server: 85.17.145.65
   port: 12068
@@ -372,224 +165,117 @@ proxies:
     path: /
     headers:
       Host: mypanel.unixzone.us
-- name: 🇳🇱 荷兰 (Netherlands) 44 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 21 - chefdon
   type: ss
-  server: 82.38.31.35
+  server: 82.38.31.203
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 22 - chefdon
+  type: ss
+  server: 108.181.58.239
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 23 - chefdon
+  type: ss
+  server: 82.38.31.61
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 45 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 24 - chefdon
   type: ss
-  server: 193.123.39.109
-  port: 45819
-  cipher: 2022-blake3-chacha20-poly1305
-  password: t0Ao+u9a5WcyKcSJOhC2R1IXIKxEcBD411OI3G5YicI=
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 46 - chefdon
-  type: ss
-  server: 193.29.139.202
+  server: 82.38.31.7
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 47 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 25 - chefdon
   type: ss
-  server: 82.38.31.16
+  server: 82.38.31.155
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 48 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 26 - chefdon
   type: ss
-  server: 82.38.31.42
+  server: 82.38.31.2
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 49 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 27 - chefdon
   type: ss
-  server: 193.29.139.234
+  server: 82.38.31.180
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 50 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 28 - chefdon
   type: ss
   server: 108.181.126.122
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: CJmTCCx7Ltud
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 51 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 29 - chefdon
   type: ss
-  server: 158.173.20.208
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 52 - chefdon
-  type: ss
-  server: 82.38.31.9
+  server: 193.29.139.168
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 53 - chefdon
-  type: ss
-  server: 82.38.31.213
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 54 - chefdon
-  type: vless
-  server: 104.21.14.42
+- name: 🇳🇱 荷兰 (Netherlands) 30 - chefdon
+  type: vmess
+  server: 139.64.166.25
   port: 443
-  uuid: 401d950d-4f5c-45c7-bf44-8b69acf35f6f
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 7x70yyvT7eQOtx-IQ9N3RJT1xn1jwkh9.asDFsAFdsAF.WORkerS.Dev
+  servername: pahobac.org
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiR2xWQ1FCQzYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    path: /linkvws
     headers:
-      Host: 7x70yyvt7eqotx-iq9n3rjt1xn1jwkh9.asdfsafdsaf.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 55 - chefdon
-  type: vless
-  server: 151.242.2.81
+      Host: pahobac.org
+- name: 🇳🇱 荷兰 (Netherlands) 31 - chefdon
+  type: vmess
+  server: 139.64.166.25
   port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cf9.rumedia-cdn.com
+  servername: ''
   network: ws
   ws-opts:
-    path: /cdn/v3/live
+    path: /linkvws
     headers:
-      Host: cf9.rumedia-cdn.com
-- name: 🇳🇱 荷兰 (Netherlands) 56 - chefdon
-  type: ss
-  server: 158.178.152.134
-  port: 45819
-  cipher: 2022-blake3-chacha20-poly1305
-  password: B42Hkgm6hhfa8w/QlpWkrpFaMqvXXEZM/55ueNNww7g=
+      Host: ''
+- name: 🇳🇱 荷兰 (Netherlands) 32 - chefdon
+  type: vmess
+  server: 151.243.173.119
+  port: 33736
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  alterId: 0
+  cipher: auto
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 57 - chefdon
-  type: ss
-  server: 82.38.31.218
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 58 - chefdon
-  type: vless
-  server: 104.21.22.180
-  port: 443
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
-  udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: aUTo-sCALe-238B2B.infRa-CorE-1630dd.wORKerS.DEv
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
+    path: /vmess-ws
     headers:
-      Host: aUto-scaLe-238B2B.inFra-coRE-1630dD.WorKerS.DeV
-- name: 🇳🇱 荷兰 (Netherlands) 59 - chefdon
-  type: vless
-  server: 172.67.131.112
-  port: 443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 60 - chefdon
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf9.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-- name: 🇳🇱 荷兰 (Netherlands) 61 - chefdon
-  type: ss
-  server: 82.38.31.156
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 62 - chefdon
-  type: ss
-  server: 82.38.31.207
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 63 - chefdon
-  type: vless
-  server: 151.242.2.81
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf9.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf9.rumedia-cdn.com
-- name: 🇳🇱 荷兰 (Netherlands) 64 - chefdon
-  type: ss
-  server: 82.38.31.162
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 65 - chefdon
-  type: ss
-  server: 82.38.31.191
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 66 - chefdon
-  type: vless
-  server: 188.114.97.8
-  port: 8443
-  uuid: 9c63fd59-f9ee-446e-97ec-0bf2de21ed7b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: dRy-GLITTer-ef10.gFRYubCdrYujVRtH.WorkErS.DEV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: dry-glitter-ef10.gfryubcdryujvrth.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 67 - chefdon
-  type: ss
-  server: 193.29.139.179
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 68 - chefdon
+      Host: 151.243.173.119
+- name: 🇳🇱 荷兰 (Netherlands) 33 - chefdon
   type: vmess
   server: 151.243.173.119
   port: 33736
@@ -604,126 +290,82 @@ proxies:
     path: /vmess-ws
     headers:
       Host: ''
-- name: 🇳🇱 荷兰 (Netherlands) 69 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 34 - chefdon
   type: ss
-  server: 82.38.31.175
+  server: 82.38.31.42
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 70 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 35 - chefdon
   type: ss
-  server: 82.38.31.174
+  server: 82.38.31.47
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 71 - chefdon
-  type: vless
-  server: 45.130.125.126
-  port: 443
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-- name: 🇳🇱 荷兰 (Netherlands) 72 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 36 - chefdon
   type: ss
-  server: 82.38.31.11
+  server: 82.38.31.18
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 73 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 37 - chefdon
   type: ss
-  server: 82.38.31.164
+  server: 193.29.139.212
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 38 - chefdon
+  type: vless
+  server: 78.111.89.171
   port: 443
+  uuid: 0370b162-baff-4757-86cc-cce4bf07f6f1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 39 - chefdon
+  type: ss
+  server: 82.38.31.9
+  port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 74 - chefdon
-  type: vless
-  server: 104.21.50.18
-  port: 443
-  uuid: 9fa6d846-5961-8e0e-ce27-77de00000000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fancy-wind-799d.cloudneryacc.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: fancy-wind-799d.cloudneryacc.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 75 - chefdon
-  type: vless
-  server: 104.25.178.92
-  port: 443
-  uuid: d9abc6e3-83bf-4c28-ae68-72465e2abe39
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ikT-KKC25F27k-3Tehr8MC.ADE-1007.WOrKErS.DEV
-  network: ws
-  ws-opts:
-    path: /vl/xQhNe7rLrdM0emZlaW5LMsNwcoIgnT?ed=2560
-    headers:
-      Host: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 76 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 40 - chefdon
   type: ss
-  server: 82.38.31.195
+  server: 82.38.31.13
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 41 - chefdon
+  type: ss
+  server: 82.38.31.198
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 77 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 42 - chefdon
   type: ss
-  server: 82.38.31.182
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 78 - chefdon
-  type: ss
-  server: 82.38.31.17
+  server: 193.29.139.204
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 79 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 43 - chefdon
   type: ss
-  server: 82.38.31.208
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 80 - chefdon
-  type: ss
-  server: 82.38.31.34
+  server: 193.29.139.202
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 81 - chefdon
-  type: vless
-  server: 188.114.97.1
-  port: 2053
-  uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bold-term-4edd.mbigspot.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: bold-term-4edd.mbigspot.workers.dev
-- name: 🇳🇱 荷兰 (Netherlands) 82 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 44 - chefdon
   type: vless
   server: 163.172.214.188
   port: 80
@@ -736,15 +378,187 @@ proxies:
     path: /vless/
     headers:
       Host: SC-TheNetherlands1.09vpn.com
-- name: 🇳🇱 荷兰 (Netherlands) 83 - chefdon
+- name: 🇳🇱 荷兰 (Netherlands) 45 - chefdon
+  type: ss
+  server: 158.173.20.208
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 46 - chefdon
+  type: ss
+  server: 82.38.31.35
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 47 - chefdon
+  type: ss
+  server: 82.38.31.210
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 48 - chefdon
+  type: ss
+  server: 193.29.139.234
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 49 - chefdon
+  type: ss
+  server: 82.38.31.184
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 50 - chefdon
+  type: ss
+  server: 82.38.31.183
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 51 - chefdon
+  type: ss
+  server: 193.29.139.188
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 52 - chefdon
+  type: ss
+  server: 82.38.31.10
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 53 - chefdon
+  type: ss
+  server: 82.38.31.216
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 54 - chefdon
   type: vless
-  server: 31.76.76.28
-  port: 8443
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  server: 104.21.8.201
+  port: 2096
+  uuid: bdc5e450-3e2d-4001-928e-e3bc6cecb249
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: neth4.lckdwn.ru
+  servername: cdn.skyvora.app
+  network: ws
+  ws-opts:
+    path: /hux9duzm54
+    headers:
+      Host: cdn.skyvora.app
+- name: 🇳🇱 荷兰 (Netherlands) 55 - chefdon
+  type: ss
+  server: 82.38.31.26
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 56 - chefdon
+  type: ss
+  server: 82.38.31.186
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 57 - chefdon
+  type: ss
+  server: 82.38.31.175
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 58 - chefdon
+  type: ss
+  server: 82.38.31.174
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 59 - chefdon
+  type: ss
+  server: 82.38.31.3
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 60 - chefdon
+  type: ss
+  server: 82.38.31.36
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 61 - chefdon
+  type: ss
+  server: 108.181.58.239
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 62 - chefdon
+  type: ss
+  server: 82.38.31.181
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 63 - chefdon
+  type: ss
+  server: 193.29.139.234
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 64 - chefdon
+  type: ss
+  server: 82.38.31.215
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 65 - chefdon
+  type: ss
+  server: 82.38.31.189
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 66 - chefdon
+  type: ss
+  server: 82.38.31.200
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 67 - chefdon
+  type: ss
+  server: 82.38.31.149
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 68 - chefdon
+  type: vless
+  server: 31.76.76.28
+  port: 443
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 31.76.76.28
 proxy-groups:
 - name: PROXIES
   type: select
@@ -818,21 +632,6 @@ proxy-groups:
   - 🇳🇱 荷兰 (Netherlands) 66 - chefdon
   - 🇳🇱 荷兰 (Netherlands) 67 - chefdon
   - 🇳🇱 荷兰 (Netherlands) 68 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 69 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 70 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 71 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 72 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 73 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 74 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 75 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 76 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 77 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 78 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 79 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 80 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 81 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 82 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 83 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -906,20 +705,5 @@ proxy-groups:
   - 🇳🇱 荷兰 (Netherlands) 66 - chefdon
   - 🇳🇱 荷兰 (Netherlands) 67 - chefdon
   - 🇳🇱 荷兰 (Netherlands) 68 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 69 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 70 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 71 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 72 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 73 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 74 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 75 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 76 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 77 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 78 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 79 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 80 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 81 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 82 - chefdon
-  - 🇳🇱 荷兰 (Netherlands) 83 - chefdon
 rules:
 - MATCH,PROXIES
