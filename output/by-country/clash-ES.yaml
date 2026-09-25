@@ -25,53 +25,6 @@ proxies:
   udp: true
 - name: 🇪🇸 西班牙 (Spain) 03 - chefdon
   type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 04 - chefdon
-  type: ss
-  server: 140.174.184.5
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 05 - chefdon
-  type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 06 - chefdon
-  type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 07 - chefdon
-  type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 08 - chefdon
-  type: vmess
   server: mygptagent.org
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -86,16 +39,6 @@ proxies:
     path: /linkvws
     headers:
       Host: ''
-- name: 🇪🇸 西班牙 (Spain) 09 - chefdon
-  type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -104,12 +47,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 01 - chefdon
   - 🇪🇸 西班牙 (Spain) 02 - chefdon
   - 🇪🇸 西班牙 (Spain) 03 - chefdon
-  - 🇪🇸 西班牙 (Spain) 04 - chefdon
-  - 🇪🇸 西班牙 (Spain) 05 - chefdon
-  - 🇪🇸 西班牙 (Spain) 06 - chefdon
-  - 🇪🇸 西班牙 (Spain) 07 - chefdon
-  - 🇪🇸 西班牙 (Spain) 08 - chefdon
-  - 🇪🇸 西班牙 (Spain) 09 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -118,11 +55,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 01 - chefdon
   - 🇪🇸 西班牙 (Spain) 02 - chefdon
   - 🇪🇸 西班牙 (Spain) 03 - chefdon
-  - 🇪🇸 西班牙 (Spain) 04 - chefdon
-  - 🇪🇸 西班牙 (Spain) 05 - chefdon
-  - 🇪🇸 西班牙 (Spain) 06 - chefdon
-  - 🇪🇸 西班牙 (Spain) 07 - chefdon
-  - 🇪🇸 西班牙 (Spain) 08 - chefdon
-  - 🇪🇸 西班牙 (Spain) 09 - chefdon
 rules:
 - MATCH,PROXIES
