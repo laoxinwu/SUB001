@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇾 CY 01 - chefdon",
+        "🇨🇾 CY 02 - chefdon",
+        "🇨🇾 CY 03 - chefdon",
+        "🇨🇾 CY 04 - chefdon",
+        "🇨🇾 CY 05 - chefdon"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇾 CY 01 - chefdon",
+        "🇨🇾 CY 02 - chefdon",
+        "🇨🇾 CY 03 - chefdon",
+        "🇨🇾 CY 04 - chefdon",
+        "🇨🇾 CY 05 - chefdon"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
