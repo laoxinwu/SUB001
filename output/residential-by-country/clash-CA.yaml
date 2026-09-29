@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 CZ 01 - chefdon
+- name: 🇨🇦 加拿大 (Canada) 01 (家宽) - chefdon
   type: vless
-  server: 188.114.97.1
-  port: 2053
-  uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
+  server: cloudflare.dev
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bold-term-4edd.mbigspot.workers.dev
+  servername: 77yku.ngw0.4j6.hh.vavava.kdns.fr
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: bold-term-4edd.mbigspot.workers.dev
+      Host: 77yku.ngw0.4j6.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 CZ 01 - chefdon
+  - 🇨🇦 加拿大 (Canada) 01 (家宽) - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 CZ 01 - chefdon
+  - 🇨🇦 加拿大 (Canada) 01 (家宽) - chefdon
 rules:
 - MATCH,PROXIES
