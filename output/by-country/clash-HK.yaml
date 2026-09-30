@@ -6,6 +6,79 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - chefdon
   type: vmess
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - chefdon
+  type: vmess
+  server: 47.243.153.153
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - chefdon
+  type: vmess
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - chefdon
+  type: vless
+  server: 104.16.107.139
+  port: 8880
+  uuid: 24c2a873-4584-4c53-8679-61029682d0bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip
+    headers:
+      Host: soft-thunder-bc22.111-f59.workers.dev
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
+  type: vless
+  server: 172.67.133.170
+  port: 2096
+  uuid: 7c6a566b-4c4a-b8f2-1719-a3096b424141
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: peekconfigg.vipserver1-39d.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: peekconfigg.vipserver1-39d.workers.dev
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
+  type: vmess
   server: 194.99.79.26
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -20,10 +93,10 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - chefdon
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
   type: vless
-  server: 85.149.211.28
-  port: 8443
+  server: 5.223.51.84
+  port: 443
   uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   udp: true
   tls: true
@@ -34,9 +107,53 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
     headers:
       Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - chefdon
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
   type: vmess
-  server: aksai.org
+  server: 47.243.65.243
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
+  type: vless
+  server: 104.18.34.14
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - chefdon
+  type: vmess
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - chefdon
+  type: vmess
+  server: 194.99.79.26
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -44,67 +161,28 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aksai.org
+  servername: ''
   network: ws
   ws-opts:
     path: /linkvws
     headers:
-      Host: aksai.org
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - chefdon
-  type: vless
-  server: 103.71.23.247
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - chefdon
+  type: vmess
+  server: 194.99.79.26
   port: 443
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hk.152568.xyz
+  servername: ''
   network: ws
   ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
+    path: /linkvws
     headers:
-      Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
-  type: vless
-  server: 85.149.211.28
-  port: 8443
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hk.152568.xyz
-  network: ws
-  ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
-    headers:
-      Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
-  type: vless
-  server: champion.xn--kivt58h.lol
-  port: 80
-  uuid: ed2864f9-37b3-4222-8c54-014aedc400a2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ak.mcdonaldshamburgergoodgoodgood.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
-  type: vless
-  server: 103.71.23.247
-  port: 443
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hk.152568.xyz
-  network: ws
-  ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
-    headers:
-      Host: hk.152568.xyz
+      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -117,6 +195,11 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 10 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 11 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 12 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -129,5 +212,10 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 10 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 11 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 12 - chefdon
 rules:
 - MATCH,PROXIES
