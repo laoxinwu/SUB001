@@ -6,23 +6,23 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - chefdon
   type: vmess
-  server: 47.243.153.153
+  server: aksai.org
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  servername: ''
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /linkvws
     headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
+      Host: ''
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - chefdon
   type: vless
-  server: hk.monkora.org
+  server: 27.0.232.36
   port: 443
   uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
   udp: true
@@ -33,15 +33,31 @@ proxies:
   servername: hk.monkora.org
   client-fingerprint: firefox
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - chefdon
+  type: vmess
+  server: 194.99.79.26
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - chefdon
   type: ss
   server: telegramx.khp25.com
   port: 1080
   cipher: chacha20-ietf-poly1305
   password: m5nsedvdczx6x06e
   udp: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - chefdon
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
   type: vmess
-  server: 194.99.79.26
+  server: aksai.org
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -55,22 +71,13 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
   type: ss
   server: telegram.khp25.com
   port: 1080
   cipher: chacha20-ietf-poly1305
   password: pno0e2keji2gsfea
   udp: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
-  type: vless
-  server: 195.58.144.56
-  port: 11907
-  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 195.58.144.56
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
   type: vmess
   server: 194.99.79.26
@@ -87,6 +94,59 @@ proxies:
     path: /linkvws
     headers:
       Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
+  type: vless
+  server: 195.58.144.56
+  port: 11907
+  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 195.58.144.56
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
+  type: vmess
+  server: 8.218.195.61
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - chefdon
+  type: vmess
+  server: 47.243.153.153
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - chefdon
+  type: vless
+  server: hk.monkora.org
+  port: 443
+  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+  servername: hk.monkora.org
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -99,6 +159,10 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 10 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 11 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -111,5 +175,9 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 10 - chefdon
+  - 🇭🇰 中国香港 (Hong Kong) 11 - chefdon
 rules:
 - MATCH,PROXIES
