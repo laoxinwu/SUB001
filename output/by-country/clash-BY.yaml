@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇾 BY 01 - chefdon
   type: vless
-  server: 89.125.96.80
+  server: 89.125.96.88
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -20,7 +20,35 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 02 - chefdon
   type: vless
-  server: 89.125.96.75
+  server: 89.125.96.89
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 03 - chefdon
+  type: vless
+  server: 89.125.96.80
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 04 - chefdon
+  type: vless
+  server: 89.125.96.79
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -39,6 +67,8 @@ proxy-groups:
   - AUTO
   - 🇧🇾 BY 01 - chefdon
   - 🇧🇾 BY 02 - chefdon
+  - 🇧🇾 BY 03 - chefdon
+  - 🇧🇾 BY 04 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +76,7 @@ proxy-groups:
   proxies:
   - 🇧🇾 BY 01 - chefdon
   - 🇧🇾 BY 02 - chefdon
+  - 🇧🇾 BY 03 - chefdon
+  - 🇧🇾 BY 04 - chefdon
 rules:
 - MATCH,PROXIES
