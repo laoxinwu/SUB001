@@ -25,7 +25,43 @@ proxies:
 - name: 🇵🇱 PL 03 - chefdon
   type: vless
   server: 95.85.253.241
+  port: 2053
+  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 95.85.253.241
+- name: 🇵🇱 PL 04 - chefdon
+  type: vless
+  server: 95.85.253.241
   port: 2083
+  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 95.85.253.241
+- name: 🇵🇱 PL 05 - chefdon
+  type: vless
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
+- name: 🇵🇱 PL 06 - chefdon
+  type: vless
+  server: 95.85.253.241
+  port: 2087
+  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 95.85.253.241
+- name: 🇵🇱 PL 07 - chefdon
+  type: vless
+  server: 95.85.253.241
+  port: 2053
   uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
   udp: true
   tls: true
@@ -39,6 +75,10 @@ proxy-groups:
   - 🇵🇱 PL 01 - chefdon
   - 🇵🇱 PL 02 - chefdon
   - 🇵🇱 PL 03 - chefdon
+  - 🇵🇱 PL 04 - chefdon
+  - 🇵🇱 PL 05 - chefdon
+  - 🇵🇱 PL 06 - chefdon
+  - 🇵🇱 PL 07 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -47,5 +87,9 @@ proxy-groups:
   - 🇵🇱 PL 01 - chefdon
   - 🇵🇱 PL 02 - chefdon
   - 🇵🇱 PL 03 - chefdon
+  - 🇵🇱 PL 04 - chefdon
+  - 🇵🇱 PL 05 - chefdon
+  - 🇵🇱 PL 06 - chefdon
+  - 🇵🇱 PL 07 - chefdon
 rules:
 - MATCH,PROXIES
