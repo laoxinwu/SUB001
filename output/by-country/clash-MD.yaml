@@ -1,0 +1,290 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇲🇩 MD 01 - chefdon
+  type: vless
+  server: 185.147.27.128
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 02 - chefdon
+  type: vless
+  server: 185.147.27.105
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 03 - chefdon
+  type: vless
+  server: 185.147.27.131
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 04 - chefdon
+  type: vless
+  server: 185.147.27.68
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 05 - chefdon
+  type: vless
+  server: 87.228.71.197
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 06 - chefdon
+  type: vless
+  server: 185.147.27.215
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 07 - chefdon
+  type: vless
+  server: 45.139.24.28
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 08 - chefdon
+  type: vless
+  server: 87.228.71.195
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 09 - chefdon
+  type: vless
+  server: 185.147.27.115
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 10 - chefdon
+  type: vless
+  server: 185.147.27.116
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 11 - chefdon
+  type: vless
+  server: 185.147.27.100
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 12 - chefdon
+  type: vless
+  server: 185.147.27.196
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 13 - chefdon
+  type: vless
+  server: 87.228.71.196
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 14 - chefdon
+  type: vless
+  server: 185.147.27.216
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 15 - chefdon
+  type: vless
+  server: 185.147.27.130
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 16 - chefdon
+  type: vless
+  server: 87.228.71.198
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 17 - chefdon
+  type: vless
+  server: 185.147.27.217
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇲🇩 MD 01 - chefdon
+  - 🇲🇩 MD 02 - chefdon
+  - 🇲🇩 MD 03 - chefdon
+  - 🇲🇩 MD 04 - chefdon
+  - 🇲🇩 MD 05 - chefdon
+  - 🇲🇩 MD 06 - chefdon
+  - 🇲🇩 MD 07 - chefdon
+  - 🇲🇩 MD 08 - chefdon
+  - 🇲🇩 MD 09 - chefdon
+  - 🇲🇩 MD 10 - chefdon
+  - 🇲🇩 MD 11 - chefdon
+  - 🇲🇩 MD 12 - chefdon
+  - 🇲🇩 MD 13 - chefdon
+  - 🇲🇩 MD 14 - chefdon
+  - 🇲🇩 MD 15 - chefdon
+  - 🇲🇩 MD 16 - chefdon
+  - 🇲🇩 MD 17 - chefdon
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇲🇩 MD 01 - chefdon
+  - 🇲🇩 MD 02 - chefdon
+  - 🇲🇩 MD 03 - chefdon
+  - 🇲🇩 MD 04 - chefdon
+  - 🇲🇩 MD 05 - chefdon
+  - 🇲🇩 MD 06 - chefdon
+  - 🇲🇩 MD 07 - chefdon
+  - 🇲🇩 MD 08 - chefdon
+  - 🇲🇩 MD 09 - chefdon
+  - 🇲🇩 MD 10 - chefdon
+  - 🇲🇩 MD 11 - chefdon
+  - 🇲🇩 MD 12 - chefdon
+  - 🇲🇩 MD 13 - chefdon
+  - 🇲🇩 MD 14 - chefdon
+  - 🇲🇩 MD 15 - chefdon
+  - 🇲🇩 MD 16 - chefdon
+  - 🇲🇩 MD 17 - chefdon
+rules:
+- MATCH,PROXIES
