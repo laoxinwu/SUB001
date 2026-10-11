@@ -43,33 +43,6 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - chefdon
-  type: vless
-  server: 80.240.18.227
-  port: 10051
-  uuid: d161dcf1-fde2-44cc-b08d-d8944895e842
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 05 - chefdon
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -78,8 +51,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - chefdon
   - 🇦🇪 阿联酋 (UAE) 02 - chefdon
   - 🇦🇪 阿联酋 (UAE) 03 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 04 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 05 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -88,7 +59,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - chefdon
   - 🇦🇪 阿联酋 (UAE) 02 - chefdon
   - 🇦🇪 阿联酋 (UAE) 03 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 04 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 05 - chefdon
 rules:
 - MATCH,PROXIES
