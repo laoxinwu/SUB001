@@ -19,7 +19,7 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - chefdon
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -46,17 +46,18 @@ proxies:
       Host: lucasjow.us.ci
 - name: 🇦🇪 阿联酋 (UAE) 04 - chefdon
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 31.57.190.17
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
-      Host: uae.unixzone.us
+      Host: lucasjow.us.ci
 - name: 🇦🇪 阿联酋 (UAE) 05 - chefdon
   type: vless
   server: uae.unixzone.us
@@ -83,31 +84,6 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 07 - chefdon
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 08 - chefdon
-  type: vless
-  server: zordbx861.233874.xyz
-  port: 8888
-  uuid: 46509b23-fe97-45b3-9c89-bd1b2a93bd4e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: vBSBoPYKiB5RZ9_jNPEdLnroJ2M7MKw0c1Rvh6-QmV4
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -119,8 +95,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - chefdon
   - 🇦🇪 阿联酋 (UAE) 05 - chefdon
   - 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 07 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 08 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -132,7 +106,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - chefdon
   - 🇦🇪 阿联酋 (UAE) 05 - chefdon
   - 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 07 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 08 - chefdon
 rules:
 - MATCH,PROXIES
