@@ -18,7 +18,7 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: ''
+      Host: kr02.a0a.xyz
 - name: 🇰🇷 韩国 (South Korea) 02 - chefdon
   type: vless
   server: 34.22.111.30
@@ -59,6 +59,18 @@ proxies:
     headers:
       Host: kr02.a0a.xyz
 - name: 🇰🇷 韩国 (South Korea) 05 - chefdon
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 06 - chefdon
   type: vmess
   server: 132.145.80.230
   port: 80
@@ -72,7 +84,14 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: kr02.a0a.xyz
+      Host: ''
+- name: 🇰🇷 韩国 (South Korea) 07 - chefdon
+  type: ss
+  server: 141.164.45.187
+  port: 8000
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -83,6 +102,8 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 03 - chefdon
   - 🇰🇷 韩国 (South Korea) 04 - chefdon
   - 🇰🇷 韩国 (South Korea) 05 - chefdon
+  - 🇰🇷 韩国 (South Korea) 06 - chefdon
+  - 🇰🇷 韩国 (South Korea) 07 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -93,5 +114,7 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 03 - chefdon
   - 🇰🇷 韩国 (South Korea) 04 - chefdon
   - 🇰🇷 韩国 (South Korea) 05 - chefdon
+  - 🇰🇷 韩国 (South Korea) 06 - chefdon
+  - 🇰🇷 韩国 (South Korea) 07 - chefdon
 rules:
 - MATCH,PROXIES

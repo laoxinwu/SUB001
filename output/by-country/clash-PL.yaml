@@ -31,23 +31,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: pl.flen-vpn.xyz
-- name: 🇵🇱 PL 04 - chefdon
-  type: vless
-  server: milo.rubinaz.xyz
-  port: 8080
-  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 05 - chefdon
-  type: vless
-  server: 2.26.225.89
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -56,8 +39,6 @@ proxy-groups:
   - 🇵🇱 PL 01 - chefdon
   - 🇵🇱 PL 02 - chefdon
   - 🇵🇱 PL 03 - chefdon
-  - 🇵🇱 PL 04 - chefdon
-  - 🇵🇱 PL 05 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -66,7 +47,5 @@ proxy-groups:
   - 🇵🇱 PL 01 - chefdon
   - 🇵🇱 PL 02 - chefdon
   - 🇵🇱 PL 03 - chefdon
-  - 🇵🇱 PL 04 - chefdon
-  - 🇵🇱 PL 05 - chefdon
 rules:
 - MATCH,PROXIES
