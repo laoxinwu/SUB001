@@ -4,25 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇷 IR 01 - chefdon
+- name: 🇧🇪 BE 01 - chefdon
   type: vless
-  server: ir.panel.privatevip.ir
-  port: 448
-  uuid: 72f8cb98-ce2b-4697-93b7-c9766051f321
+  server: 104.21.64.198
+  port: 2086
+  uuid: 73796e63-0000-4000-8000-000000000007
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇷 IR 01 - chefdon
+  - 🇧🇪 BE 01 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇷 IR 01 - chefdon
+  - 🇧🇪 BE 01 - chefdon
 rules:
 - MATCH,PROXIES
