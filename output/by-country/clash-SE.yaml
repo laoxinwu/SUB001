@@ -20,20 +20,21 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🇸🇪 SE 02 - chefdon
   type: vless
-  server: 5.178.109.174
-  port: 14430
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  server: 94.143.231.146
+  port: 443
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: sub.merky.top
   network: ws
   ws-opts:
-    path: /vless
+    path: /merky-connect/de6/
     headers:
-      Host: 5.178.109.174
+      Host: 94.143.231.146
 - name: 🇸🇪 SE 03 - chefdon
   type: vless
-  server: sub.merky.top
+  server: 94.143.231.146
   port: 443
   uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
   udp: true
@@ -47,32 +48,30 @@ proxies:
       Host: sub.merky.top
 - name: 🇸🇪 SE 04 - chefdon
   type: vless
-  server: sub.merky.top
-  port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  server: 5.178.109.174
+  port: 14430
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: sub.merky.top
   network: ws
   ws-opts:
-    path: /merky-connect/de6/
+    path: /vless
     headers:
-      Host: sub.merky.top
+      Host: 5.178.109.174
 - name: 🇸🇪 SE 05 - chefdon
   type: vless
-  server: 94.143.231.146
-  port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  server: 5.178.109.174
+  port: 14430
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: sub.merky.top
   network: ws
   ws-opts:
-    path: /merky-connect/de6/
+    path: /vless
     headers:
-      Host: 94.143.231.146
+      Host: 5.178.109.174
 - name: 🇸🇪 SE 06 - chefdon
   type: vless
   server: sub.merky.top
@@ -89,6 +88,19 @@ proxies:
       Host: sub.merky.top
 - name: 🇸🇪 SE 07 - chefdon
   type: vless
+  server: 5.178.109.174
+  port: 14430
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 SE 08 - chefdon
+  type: vless
   server: 94.143.231.146
   port: 443
   uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
@@ -101,32 +113,6 @@ proxies:
     path: /merky-connect/de6/
     headers:
       Host: sub.merky.top
-- name: 🇸🇪 SE 08 - chefdon
-  type: vless
-  server: 5.178.109.174
-  port: 14430
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
-- name: 🇸🇪 SE 09 - chefdon
-  type: vless
-  server: 5.178.109.174
-  port: 14430
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
 proxy-groups:
 - name: PROXIES
   type: select
@@ -140,7 +126,6 @@ proxy-groups:
   - 🇸🇪 SE 06 - chefdon
   - 🇸🇪 SE 07 - chefdon
   - 🇸🇪 SE 08 - chefdon
-  - 🇸🇪 SE 09 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -154,6 +139,5 @@ proxy-groups:
   - 🇸🇪 SE 06 - chefdon
   - 🇸🇪 SE 07 - chefdon
   - 🇸🇪 SE 08 - chefdon
-  - 🇸🇪 SE 09 - chefdon
 rules:
 - MATCH,PROXIES
