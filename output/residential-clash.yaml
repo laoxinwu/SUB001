@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: safari
+  client-fingerprint: chrome
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - chefdon
   type: vless
   server: 60.248.219.78
@@ -30,35 +30,6 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: ty986gfazs.cainiaohub.xyz
-- name: 🇺🇸 美国 (United States) 03 (家宽) - chefdon
-  type: vless
-  server: xstack.mahanfixe.workers.dev
-  port: 443
-  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xstack.mahanfixe.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xstack.mahanfixe.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - chefdon
-  type: vmess
-  server: 183.109.131.75
-  port: 20086
-  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,8 +37,6 @@ proxy-groups:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - chefdon
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - chefdon
-  - 🇺🇸 美国 (United States) 03 (家宽) - chefdon
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -75,7 +44,5 @@ proxy-groups:
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - chefdon
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - chefdon
-  - 🇺🇸 美国 (United States) 03 (家宽) - chefdon
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - chefdon
 rules:
 - MATCH,PROXIES
