@@ -14,13 +14,12 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 02 - chefdon
   type: vless
-  server: 2.26.225.89
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 03 - chefdon
   type: vless
   server: edge10.cyrionflare.com
@@ -38,6 +37,32 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: pl.flen-vpn.xyz
+- name: 🇵🇱 PL 05 - chefdon
+  type: vless
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
+- name: 🇵🇱 PL 06 - chefdon
+  type: vless
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
+- name: 🇵🇱 PL 07 - chefdon
+  type: vless
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,6 +72,9 @@ proxy-groups:
   - 🇵🇱 PL 02 - chefdon
   - 🇵🇱 PL 03 - chefdon
   - 🇵🇱 PL 04 - chefdon
+  - 🇵🇱 PL 05 - chefdon
+  - 🇵🇱 PL 06 - chefdon
+  - 🇵🇱 PL 07 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -56,5 +84,8 @@ proxy-groups:
   - 🇵🇱 PL 02 - chefdon
   - 🇵🇱 PL 03 - chefdon
   - 🇵🇱 PL 04 - chefdon
+  - 🇵🇱 PL 05 - chefdon
+  - 🇵🇱 PL 06 - chefdon
+  - 🇵🇱 PL 07 - chefdon
 rules:
 - MATCH,PROXIES
