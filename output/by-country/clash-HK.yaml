@@ -7,7 +7,7 @@ proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - chefdon
   type: vless
   server: 526.150333.xyz
-  port: 21004
+  port: 21003
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -19,7 +19,7 @@ proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - chefdon
   type: vless
   server: 526.150333.xyz
-  port: 21003
+  port: 21002
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -39,26 +39,23 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - chefdon
-  type: vmess
-  server: 47.244.120.197
-  port: 36703
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers:
-      Host: google.com
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: ios
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
   type: vless
   server: 526.150333.xyz
-  port: 21001
+  port: 21002
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -66,11 +63,11 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: safari
+  client-fingerprint: firefox
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
   type: vless
   server: 526.150333.xyz
-  port: 21003
+  port: 21002
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -78,11 +75,11 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: safari
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
   type: vless
   server: 526.150333.xyz
-  port: 21002
+  port: 21001
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -90,75 +87,11 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: qq
 - name: 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
   type: vless
   server: 526.150333.xyz
-  port: 21001
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
-  type: vmess
-  server: 47.243.194.125
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - chefdon
-  type: vless
-  server: 526.150333.xyz
   port: 21003
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - chefdon
-  type: vless
-  server: 526.150333.xyz
-  port: 21002
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: ios
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - chefdon
-  type: vless
-  server: 526.150333.xyz
-  port: 21003
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: ios
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - chefdon
-  type: vless
-  server: 526.150333.xyz
-  port: 21001
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -167,31 +100,7 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 14 - chefdon
-  type: vless
-  server: 526.150333.xyz
-  port: 21002
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 15 - chefdon
-  type: vless
-  server: 526.150333.xyz
-  port: 21003
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 16 - chefdon
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
   type: vless
   server: 103.180.20.108
   port: 8443
@@ -204,20 +113,24 @@ proxies:
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: ty986gfazs.cainiaohub.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 17 - chefdon
-  type: vless
-  server: 526.150333.xyz
-  port: 21002
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+      Host: 103.180.20.108
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - chefdon
+  type: vmess
+  server: 47.76.57.83
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: edge
-- name: 🇭🇰 中国香港 (Hong Kong) 18 - chefdon
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - chefdon
   type: vless
   server: 526.150333.xyz
   port: 21003
@@ -228,23 +141,32 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 19 - chefdon
-  type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
+  client-fingerprint: safari
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - chefdon
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 20 - chefdon
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - chefdon
+  type: vless
+  server: 526.150333.xyz
+  port: 21003
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: edge
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - chefdon
   type: vless
   server: 526.150333.xyz
   port: 21001
@@ -256,22 +178,10 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 21 - chefdon
+- name: 🇭🇰 中国香港 (Hong Kong) 15 - chefdon
   type: vless
   server: 526.150333.xyz
-  port: 21002
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 22 - chefdon
-  type: vless
-  server: 526.150333.xyz
-  port: 21003
+  port: 21004
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -280,21 +190,30 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 23 - chefdon
-  type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 16 - chefdon
+  type: vless
+  server: 526.150333.xyz
+  port: 21001
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇭🇰 中国香港 (Hong Kong) 17 - chefdon
+  type: vless
+  server: 526.150333.xyz
+  port: 21001
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -317,12 +236,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 15 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 16 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 17 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 18 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 19 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 20 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 21 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 22 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 23 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -345,11 +258,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 15 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 16 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 17 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 18 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 19 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 20 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 21 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 22 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 23 - chefdon
 rules:
 - MATCH,PROXIES

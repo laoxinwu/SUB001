@@ -11,17 +11,56 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
+- name: 🇷🇴 RO 02 - chefdon
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇷🇴 RO 03 - chefdon
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇷🇴 RO 04 - chefdon
+  type: ss
+  server: 194.68.44.42
+  port: 64546
+  cipher: chacha20-ietf-poly1305
+  password: U83u9OGpvSatIUW7LsWffr
+  udp: true
+- name: 🇷🇴 RO 05 - chefdon
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇷🇴 RO 01 - chefdon
+  - 🇷🇴 RO 02 - chefdon
+  - 🇷🇴 RO 03 - chefdon
+  - 🇷🇴 RO 04 - chefdon
+  - 🇷🇴 RO 05 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇴 RO 01 - chefdon
+  - 🇷🇴 RO 02 - chefdon
+  - 🇷🇴 RO 03 - chefdon
+  - 🇷🇴 RO 04 - chefdon
+  - 🇷🇴 RO 05 - chefdon
 rules:
 - MATCH,PROXIES
