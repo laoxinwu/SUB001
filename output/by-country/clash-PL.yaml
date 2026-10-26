@@ -15,26 +15,22 @@ proxies:
   servername: 2.26.6.1
 - name: 🇵🇱 PL 02 - chefdon
   type: vless
-  server: tr2.soft10.ir
-  port: 2053
-  uuid: 480b4042-f713-43d7-b24b-b4064c97f841
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tr2.soft10.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tr2.soft10.ir
+  servername: 2.26.6.1
 - name: 🇵🇱 PL 03 - chefdon
   type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: 2.26.6.1
 - name: 🇵🇱 PL 04 - chefdon
   type: vless
   server: site.teslamotor.site
@@ -45,13 +41,21 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 05 - chefdon
   type: vless
-  server: 5.22.221.127
-  port: 443
-  uuid: 44dfa3a7-f648-4587-819b-e653c0823f28
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
   tls: false
   skip-cert-verify: true
 - name: 🇵🇱 PL 06 - chefdon
+  type: vless
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 07 - chefdon
   type: vless
   server: 2.26.6.1
   port: 2087
@@ -60,19 +64,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 2.26.6.1
-- name: 🇵🇱 PL 07 - chefdon
-  type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇵🇱 PL 08 - chefdon
   type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
   tls: false
   skip-cert-verify: true
@@ -94,9 +90,26 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 11 - chefdon
   type: vless
-  server: 5.22.221.127
-  port: 443
-  uuid: 44dfa3a7-f648-4587-819b-e653c0823f28
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2.26.6.1
+- name: 🇵🇱 PL 12 - chefdon
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 13 - chefdon
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
   tls: false
   skip-cert-verify: true
@@ -116,6 +129,8 @@ proxy-groups:
   - 🇵🇱 PL 09 - chefdon
   - 🇵🇱 PL 10 - chefdon
   - 🇵🇱 PL 11 - chefdon
+  - 🇵🇱 PL 12 - chefdon
+  - 🇵🇱 PL 13 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -132,5 +147,7 @@ proxy-groups:
   - 🇵🇱 PL 09 - chefdon
   - 🇵🇱 PL 10 - chefdon
   - 🇵🇱 PL 11 - chefdon
+  - 🇵🇱 PL 12 - chefdon
+  - 🇵🇱 PL 13 - chefdon
 rules:
 - MATCH,PROXIES
