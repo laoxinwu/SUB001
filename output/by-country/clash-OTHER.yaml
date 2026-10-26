@@ -6,33 +6,18 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - chefdon
   type: vless
-  server: 8.47.69.60
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  server: 188.114.97.6
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /sg-melbi
     headers:
-      Host: ccc.010304.xyz
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🌐 其他地区 (Other) 02 - chefdon
-  type: vless
-  server: 104.21.219.160
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 03 - chefdon
   type: vless
   server: 104.18.41.190
   port: 443
@@ -46,50 +31,65 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 03 - chefdon
+  type: vless
+  server: 162.159.236.123
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 04 - chefdon
   type: vless
-  server: 104.18.35.86
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 104.19.42.39
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tamoai.ccwu.cc
   network: ws
   ws-opts:
-    path: /fp
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 05 - chefdon
   type: vless
-  server: cf.090227.xyz
+  server: 104.17.50.227
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /tyxyws
     headers:
-      Host: ccc.010304.xyz
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 06 - chefdon
   type: vless
-  server: 104.18.45.38
+  server: 104.17.158.34
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: tamoai.ccwu.cc
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
-      Host: ccc.010304.xyz
+      Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 07 - chefdon
   type: vless
-  server: 104.21.221.158
+  server: 172.64.158.170
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -103,145 +103,33 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 08 - chefdon
   type: vless
-  server: 104.18.45.38
+  server: 104.19.50.221
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: tamoai.ccwu.cc
   network: ws
   ws-opts:
-    path: /fp
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
-      Host: ccc.010304.xyz
+      Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 09 - chefdon
   type: vless
-  server: 172.64.152.241
+  server: 104.17.52.156
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: tamoai.ccwu.cc
   network: ws
   ws-opts:
-    path: /fp=chromefp=chrome
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
-      Host: ccc.010304.xyz
+      Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 10 - chefdon
-  type: vless
-  server: 104.16.10.135
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 11 - chefdon
-  type: vmess
-  server: 104.21.7.133
-  port: 80
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🌐 其他地区 (Other) 12 - chefdon
-  type: vless
-  server: 172.67.155.1
-  port: 443
-  uuid: 00db64cf-4ea8-1a65-b9f6-97ca00000022
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ehsan22r.6l-l-gcxlkszilqjjg5fm4tyjftw9sv.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: ehsan22r.6l-l-gcxlkszilqjjg5fm4tyjftw9sv.workers.dev
-- name: 🌐 其他地区 (Other) 13 - chefdon
-  type: vless
-  server: 104.16.0.1
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 14 - chefdon
-  type: vless
-  server: 104.16.111.202
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 15 - chefdon
-  type: vless
-  server: 104.18.0.181
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 16 - chefdon
-  type: vless
-  server: 104.16.111.102
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 17 - chefdon
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 18 - chefdon
   type: vless
   server: 172.64.146.66
   port: 443
@@ -255,51 +143,22 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 19 - chefdon
+- name: 🌐 其他地区 (Other) 11 - chefdon
   type: vless
-  server: 104.21.221.158
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /fp
     headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 20 - chefdon
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 12 - chefdon
   type: vless
-  server: ccc.010304.xyz
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 21 - chefdon
-  type: vless
-  server: 104.21.91.49
-  port: 443
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vpn.cintaku.qzz.io
-  network: ws
-  ws-opts:
-    path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
-- name: 🌐 其他地区 (Other) 22 - chefdon
-  type: vless
-  server: 188.114.98.0
+  server: 104.24.0.1
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -311,9 +170,35 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 23 - chefdon
+- name: 🌐 其他地区 (Other) 13 - chefdon
   type: vless
-  server: 8.47.69.60
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 14 - chefdon
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 15 - chefdon
+  type: vless
+  server: 172.64.158.170
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -322,12 +207,12 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 24 - chefdon
+- name: 🌐 其他地区 (Other) 16 - chefdon
   type: vless
-  server: cf.090227.xyz
+  server: 104.18.45.38
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -336,10 +221,10 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chromefp=chrome
+    path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 25 - chefdon
+- name: 🌐 其他地区 (Other) 17 - chefdon
   type: vless
   server: 104.18.45.38
   port: 443
@@ -353,21 +238,161 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 26 - chefdon
+- name: 🌐 其他地区 (Other) 18 - chefdon
   type: vless
-  server: 104.16.10.135
+  server: 8.35.211.34
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: a.cwvps.eu.org
+  servername: tamoai.ccwu.cc
   network: ws
   ws-opts:
-    path: /ws#/?----?ed=512
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
-      Host: a.cwvps.eu.org
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 19 - chefdon
+  type: vless
+  server: 104.17.172.92
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 20 - chefdon
+  type: vless
+  server: 172.64.153.116
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 21 - chefdon
+  type: vless
+  server: 172.64.146.204
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 22 - chefdon
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 23 - chefdon
+  type: vless
+  server: 104.19.39.5
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 24 - chefdon
+  type: vless
+  server: 104.17.16.95
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 25 - chefdon
+  type: vless
+  server: 8.47.69.60
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 26 - chefdon
+  type: vless
+  server: 104.26.2.234
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 27 - chefdon
+  type: vless
+  server: 104.18.45.38
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 28 - chefdon
+  type: vless
+  server: 104.17.19.142
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 29 - chefdon
   type: vless
   server: 104.21.221.158
   port: 443
@@ -381,51 +406,23 @@ proxies:
     path: /fp=unsafe
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 28 - chefdon
-  type: vless
-  server: 104.21.219.160
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 29 - chefdon
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
 - name: 🌐 其他地区 (Other) 30 - chefdon
   type: vless
-  server: vl.cocopon.top
-  port: 2053
-  uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
+  server: ccc.010304.xyz
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vl.cocopon.top
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=random
+    path: /fp=chrome
     headers:
-      Host: vl.cocopon.top
+      Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 31 - chefdon
   type: vless
-  server: 172.64.152.241
+  server: 104.21.221.158
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -439,48 +436,35 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 32 - chefdon
   type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 172.64.152.241
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp
+    path: /fp=chrome
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 33 - chefdon
   type: vless
-  server: 172.64.158.170
+  server: 104.19.35.46
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: tamoai.ccwu.cc
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
-      Host: ccc.010304.xyz
+      Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 34 - chefdon
   type: vless
-  server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 35 - chefdon
-  type: vless
-  server: 162.159.254.3
+  server: 104.21.0.87
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -492,6 +476,160 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 35 - chefdon
+  type: vless
+  server: 104.19.147.230
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 36 - chefdon
+  type: vless
+  server: 8.47.69.60
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 37 - chefdon
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 38 - chefdon
+  type: vless
+  server: 104.17.56.124
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 39 - chefdon
+  type: vless
+  server: 104.19.145.193
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 40 - chefdon
+  type: vless
+  server: 104.19.149.231
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 41 - chefdon
+  type: vless
+  server: 104.16.158.109
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 42 - chefdon
+  type: vless
+  server: 104.21.219.160
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 43 - chefdon
+  type: vless
+  server: 104.19.146.104
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 44 - chefdon
+  type: vless
+  server: 104.19.164.155
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 45 - chefdon
+  type: vless
+  server: 104.21.221.158
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -532,6 +670,16 @@ proxy-groups:
   - 🌐 其他地区 (Other) 33 - chefdon
   - 🌐 其他地区 (Other) 34 - chefdon
   - 🌐 其他地区 (Other) 35 - chefdon
+  - 🌐 其他地区 (Other) 36 - chefdon
+  - 🌐 其他地区 (Other) 37 - chefdon
+  - 🌐 其他地区 (Other) 38 - chefdon
+  - 🌐 其他地区 (Other) 39 - chefdon
+  - 🌐 其他地区 (Other) 40 - chefdon
+  - 🌐 其他地区 (Other) 41 - chefdon
+  - 🌐 其他地区 (Other) 42 - chefdon
+  - 🌐 其他地区 (Other) 43 - chefdon
+  - 🌐 其他地区 (Other) 44 - chefdon
+  - 🌐 其他地区 (Other) 45 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -572,5 +720,15 @@ proxy-groups:
   - 🌐 其他地区 (Other) 33 - chefdon
   - 🌐 其他地区 (Other) 34 - chefdon
   - 🌐 其他地区 (Other) 35 - chefdon
+  - 🌐 其他地区 (Other) 36 - chefdon
+  - 🌐 其他地区 (Other) 37 - chefdon
+  - 🌐 其他地区 (Other) 38 - chefdon
+  - 🌐 其他地区 (Other) 39 - chefdon
+  - 🌐 其他地区 (Other) 40 - chefdon
+  - 🌐 其他地区 (Other) 41 - chefdon
+  - 🌐 其他地区 (Other) 42 - chefdon
+  - 🌐 其他地区 (Other) 43 - chefdon
+  - 🌐 其他地区 (Other) 44 - chefdon
+  - 🌐 其他地区 (Other) 45 - chefdon
 rules:
 - MATCH,PROXIES
