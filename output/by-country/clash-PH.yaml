@@ -15,7 +15,7 @@ proxies:
   servername: ph001.zestapp778.com
 - name: 🇵🇭 PH 02 - chefdon
   type: vless
-  server: ph001.zestapp778.com
+  server: 130.94.53.13
   port: 15656
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -24,7 +24,7 @@ proxies:
   servername: ph001.zestapp778.com
 - name: 🇵🇭 PH 03 - chefdon
   type: vless
-  server: ph001.zestapp778.com
+  server: 130.94.53.13
   port: 15656
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -33,7 +33,7 @@ proxies:
   servername: ph001.zestapp778.com
 - name: 🇵🇭 PH 04 - chefdon
   type: vless
-  server: 130.94.53.13
+  server: ph001.zestapp778.com
   port: 15656
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -43,6 +43,42 @@ proxies:
 - name: 🇵🇭 PH 05 - chefdon
   type: vless
   server: 130.94.53.13
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 06 - chefdon
+  type: vless
+  server: 130.94.53.13
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 07 - chefdon
+  type: vless
+  server: ph001.zestapp778.com
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 08 - chefdon
+  type: vless
+  server: ph001.zestapp778.com
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 09 - chefdon
+  type: vless
+  server: ph001.zestapp778.com
   port: 15656
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -59,6 +95,10 @@ proxy-groups:
   - 🇵🇭 PH 03 - chefdon
   - 🇵🇭 PH 04 - chefdon
   - 🇵🇭 PH 05 - chefdon
+  - 🇵🇭 PH 06 - chefdon
+  - 🇵🇭 PH 07 - chefdon
+  - 🇵🇭 PH 08 - chefdon
+  - 🇵🇭 PH 09 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -69,5 +109,9 @@ proxy-groups:
   - 🇵🇭 PH 03 - chefdon
   - 🇵🇭 PH 04 - chefdon
   - 🇵🇭 PH 05 - chefdon
+  - 🇵🇭 PH 06 - chefdon
+  - 🇵🇭 PH 07 - chefdon
+  - 🇵🇭 PH 08 - chefdon
+  - 🇵🇭 PH 09 - chefdon
 rules:
 - MATCH,PROXIES
