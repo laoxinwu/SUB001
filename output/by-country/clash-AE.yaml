@@ -19,18 +19,17 @@ proxies:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 02 - chefdon
   type: vless
-  server: 188.114.96.198
-  port: 443
-  uuid: b15f187e-9b34-437c-8243-8651a8ada76c
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tepar-k4j9.jounet.workers.dev
   network: ws
   ws-opts:
-    path: /stream/DEVCOP/8651a8ada76c/loc-1
+    path: /vless
     headers:
-      Host: tepar-k4j9.jounet.workers.dev
+      Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 03 - chefdon
   type: vless
   server: 95.174.68.188
@@ -59,32 +58,6 @@ proxies:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 05 - chefdon
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  type: vless
-  server: 95.174.68.188
-  port: 14430
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 07 - chefdon
-  type: vless
   server: 95.174.68.188
   port: 14430
   uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
@@ -106,8 +79,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - chefdon
   - 🇦🇪 阿联酋 (UAE) 04 - chefdon
   - 🇦🇪 阿联酋 (UAE) 05 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 07 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -118,7 +89,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - chefdon
   - 🇦🇪 阿联酋 (UAE) 04 - chefdon
   - 🇦🇪 阿联酋 (UAE) 05 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 06 - chefdon
-  - 🇦🇪 阿联酋 (UAE) 07 - chefdon
 rules:
 - MATCH,PROXIES

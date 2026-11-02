@@ -6,47 +6,14 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - chefdon
   type: vless
-  server: 65.109.211.81
-  port: 465
-  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
+  server: 177.3.214.133
+  port: 443
+  uuid: 4023b626-ce42-4a8f-a1c4-93e263118e7c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hw6.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw6.divarkhaghazi.com.
+  servername: planktonmanager.xyz
 - name: 🇫🇮 FI 02 - chefdon
-  type: vless
-  server: hw6.divarkhaghazi.com
-  port: 465
-  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw6.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw6.divarkhaghazi.com.
-- name: 🇫🇮 FI 03 - chefdon
-  type: vless
-  server: 65.109.211.81
-  port: 465
-  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw6.divarkhaghazi.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw6.divarkhaghazi.com.
-- name: 🇫🇮 FI 04 - chefdon
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -59,7 +26,7 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
-- name: 🇫🇮 FI 05 - chefdon
+- name: 🇫🇮 FI 03 - chefdon
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -80,8 +47,6 @@ proxy-groups:
   - 🇫🇮 FI 01 - chefdon
   - 🇫🇮 FI 02 - chefdon
   - 🇫🇮 FI 03 - chefdon
-  - 🇫🇮 FI 04 - chefdon
-  - 🇫🇮 FI 05 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -90,7 +55,5 @@ proxy-groups:
   - 🇫🇮 FI 01 - chefdon
   - 🇫🇮 FI 02 - chefdon
   - 🇫🇮 FI 03 - chefdon
-  - 🇫🇮 FI 04 - chefdon
-  - 🇫🇮 FI 05 - chefdon
 rules:
 - MATCH,PROXIES
