@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - chefdon
   type: vless
-  server: 104.16.10.56
+  server: 104.21.219.160
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -20,33 +20,19 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 02 - chefdon
   type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  server: 104.18.13.229
+  port: 8443
+  uuid: 1753c03f-39c4-4bf2-ae83-38e90c847e8e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: ydyg0908.mynameiszt.eu.org
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /?ed=2560
     headers:
-      Host: jp3.yohototo.top
+      Host: ydyg0908.mynameiszt.eu.org
 - name: 🌐 其他地区 (Other) 03 - chefdon
-  type: vless
-  server: 104.24.0.1
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 04 - chefdon
   type: vless
   server: 162.159.254.3
   port: 443
@@ -60,35 +46,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 05 - chefdon
-  type: vless
-  server: 104.21.219.160
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 06 - chefdon
-  type: vless
-  server: 104.16.111.102
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 07 - chefdon
+- name: 🌐 其他地区 (Other) 04 - chefdon
   type: vless
   server: 172.67.217.240
   port: 443
@@ -102,7 +60,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 08 - chefdon
+- name: 🌐 其他地区 (Other) 05 - chefdon
   type: vless
   server: 104.17.50.227
   port: 443
@@ -116,9 +74,53 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 06 - chefdon
+  type: vmess
+  server: 104.21.91.53
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🌐 其他地区 (Other) 07 - chefdon
+  type: vless
+  server: 104.21.6.186
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 08 - chefdon
+  type: vless
+  server: 104.21.70.228
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 09 - chefdon
   type: vless
-  server: 104.16.10.2
+  server: 172.64.190.13
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -132,7 +134,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 10 - chefdon
   type: vless
-  server: 104.19.48.107
+  server: 104.18.42.98
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -146,7 +148,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 11 - chefdon
   type: vless
-  server: 104.19.48.107
+  server: 104.16.10.56
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -160,7 +162,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 12 - chefdon
   type: vless
-  server: 104.19.33.25
+  server: 104.16.10.185
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -174,7 +176,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 13 - chefdon
   type: vless
-  server: 104.21.70.21
+  server: 104.16.0.1
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -188,7 +190,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 14 - chefdon
   type: vless
-  server: 104.17.210.74
+  server: 104.17.50.53
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -202,7 +204,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 15 - chefdon
   type: vless
-  server: 188.114.97.6
+  server: 104.19.164.155
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -216,7 +218,21 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 16 - chefdon
   type: vless
-  server: 104.21.0.87
+  server: 104.18.12.229
+  port: 8443
+  uuid: 1753c03f-39c4-4bf2-ae83-38e90c847e8e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ydyg0908.mynameiszt.eu.org
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: ydyg0908.mynameiszt.eu.org
+- name: 🌐 其他地区 (Other) 17 - chefdon
+  type: vless
+  server: 104.16.10.104
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -228,9 +244,25 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 17 - chefdon
+- name: 🌐 其他地区 (Other) 18 - chefdon
+  type: vmess
+  server: chatgpt.com
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🌐 其他地区 (Other) 19 - chefdon
   type: vless
-  server: 104.18.42.98
+  server: 104.21.219.160
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -264,6 +296,8 @@ proxy-groups:
   - 🌐 其他地区 (Other) 15 - chefdon
   - 🌐 其他地区 (Other) 16 - chefdon
   - 🌐 其他地区 (Other) 17 - chefdon
+  - 🌐 其他地区 (Other) 18 - chefdon
+  - 🌐 其他地区 (Other) 19 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -286,5 +320,7 @@ proxy-groups:
   - 🌐 其他地区 (Other) 15 - chefdon
   - 🌐 其他地区 (Other) 16 - chefdon
   - 🌐 其他地区 (Other) 17 - chefdon
+  - 🌐 其他地区 (Other) 18 - chefdon
+  - 🌐 其他地区 (Other) 19 - chefdon
 rules:
 - MATCH,PROXIES
