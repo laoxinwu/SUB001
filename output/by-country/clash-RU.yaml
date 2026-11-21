@@ -24,32 +24,18 @@ proxies:
   servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 03 - chefdon
   type: vless
-  server: 185.178.208.167
+  server: 147.45.175.81
   port: 443
-  uuid: ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: unlik.club
+  servername: xsru2.freeddns.org
   network: ws
   ws-opts:
-    path: /static/telemetry/3c9aaef00005/
+    path: /wsru
     headers:
-      Host: tochkacdn.top
-- name: 🇷🇺 俄罗斯 (Russia) 04 - chefdon
-  type: vless
-  server: 185.178.208.167
-  port: 443
-  uuid: ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: unlik.club
-  network: ws
-  ws-opts:
-    path: /static/telemetry/3c9aaef00005/
-    headers:
-      Host: tochkacdn.top
+      Host: xsru2.freeddns.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -58,7 +44,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 02 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 03 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 04 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -67,6 +52,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 02 - chefdon
   - 🇷🇺 俄罗斯 (Russia) 03 - chefdon
-  - 🇷🇺 俄罗斯 (Russia) 04 - chefdon
 rules:
 - MATCH,PROXIES
