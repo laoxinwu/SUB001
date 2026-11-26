@@ -18,7 +18,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 156.245.232.239
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - chefdon
   type: vmess
   server: 47.244.120.197
@@ -36,52 +36,6 @@ proxies:
       Host: 47.244.120.197
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - chefdon
   type: vmess
-  server: 47.86.90.31
-  port: 443
-  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bywxdhirqkjj8xaz.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: bywxdhirqkjj8xaz.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - chefdon
-  type: vmess
-  server: 47.244.120.197
-  port: 23026
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers:
-      Host: 47.244.120.197
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
-  type: vmess
-  server: 47.244.120.197
-  port: 23026
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers:
-      Host: 47.244.120.197
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
-  type: vmess
   server: 47.244.120.197
   port: 36703
   uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
@@ -95,7 +49,7 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - chefdon
   type: vmess
   server: 47.86.90.31
   port: 443
@@ -111,14 +65,30 @@ proxies:
     path: /ws-vmess
     headers:
       Host: bywxdhirqkjj8xaz.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
   type: ss
   server: 213.176.92.148
   port: 40647
   cipher: aes-256-gcm
   password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
   udp: true
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
+  type: vmess
+  server: 47.86.90.31
+  port: 443
+  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bywxdhirqkjj8xaz.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: bywxdhirqkjj8xaz.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
   type: vmess
   server: 47.244.120.197
   port: 44867
@@ -145,8 +115,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -159,7 +127,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 06 - chefdon
   - 🇭🇰 中国香港 (Hong Kong) 07 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 08 - chefdon
-  - 🇭🇰 中国香港 (Hong Kong) 09 - chefdon
 rules:
 - MATCH,PROXIES
